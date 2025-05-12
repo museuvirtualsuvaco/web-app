@@ -1,0 +1,19 @@
+.links-ong{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 1.7rem;
+    color: var(--subtitle-color);
+    text-decoration: underline;
+
+    >i{
+        color: var(--title-color);
+    }
+}
+
+.img-divinas-ong{
+    width: 25%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}

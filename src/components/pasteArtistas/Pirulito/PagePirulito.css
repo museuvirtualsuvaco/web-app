@@ -1,0 +1,55 @@
+.titulo-artista{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: Poppins;
+    color: var(--subtitle-color);
+}
+
+
+#perfil-artista {
+  float: right;  /* Faz a imagem flutuar à direita */
+  margin-left: 20px; /* Adiciona espaço entre a imagem e o texto */
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+
+}
+
+.section-container{
+  .section-title-subtitle{
+    .h2-nome-artista{
+        text-wrap: auto;
+    }
+  }
+}
+
+
+@media (max-width: 1200px){
+  .primeiro-paragrafo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    #perfil-artista{
+      float: none;
+      margin-bottom: 20px;
+    }
+    > p{
+      text-align: left;
+    }
+  }
+}
+
+@media (max-width: 500px){
+  #perfil-artista{
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 414px){
+  #perfil-artista{
+    width: 200px;
+    height: 200px;
+  }
+}

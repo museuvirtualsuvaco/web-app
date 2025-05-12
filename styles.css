@@ -1,0 +1,554 @@
+
+/* carlos @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html{
+  background-color: var(--background-page-color);
+  font-family: var(--font-paragraph)
+}
+
+
+/*Secoes da pagina principal*/
+
+
+
+
+section{
+  display: grid;
+  grid-template-columns: 2.5fr 7fr 2.5fr;
+  margin-top: 2rem;
+
+}
+
+
+.section-container{
+  grid-column: 2/3;
+  
+  p{
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+  
+  }
+
+  .section-title-subtitle {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    
+    h3 {
+      font-family: var(--font-subtitle);
+      color: var(--subtitle-color);
+      width: 100%;
+      letter-spacing: 0.2rem;
+      padding-top: 12px;
+      position: relative;
+      text-align: center;
+      font-size: 0.95vw;
+    }
+    
+    h3::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 10px;
+      width: 100%;
+      height: 1px;
+      background: var(--gradiente-azul-verde);
+      opacity: 20%;
+      flex-grow: 1;
+    }
+    
+    
+
+    >h2{
+      color: var(--title-color);
+      font-family: var(--font-title);
+      width: fit-content;
+      font-size: 3rem;
+      font-weight: 400;
+      white-space: nowrap;
+      font-style: initial;
+    }
+    .not-right{
+      padding-right: 1.5rem;
+    }
+    /* .right {
+      padding-left: 1.5rem;
+    } */
+
+    .projeto-museu{
+      font-size: 3rem;
+      text-align: left;
+      text-wrap: auto;
+    }
+
+    
+
+  }
+  
+
+  
+  .imgs-section-s2{
+    display: flex;
+    justify-content: center;
+
+    .img-container{
+      position: relative;
+      height: fit-content;
+      cursor: pointer;
+      
+      >h3{
+        font-family: "Poppins", sans-serif !important;
+        background-color: var(--background-titulos-imagens);
+        text-align: center;
+        z-index: 1;
+        position: absolute; 
+        top: 50%; 
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 2rem 0;
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: var(--texto-titulos-imagens);
+        width: 100%;
+
+      }
+      
+      >a{img{
+        
+        height: 500px;
+        width: 200px;
+        transition: ease-in-out 0.3s;
+        object-fit: cover;
+        object-position: center;
+      }
+      
+      & > img:hover {
+        width: 300px;
+        height: 500px;
+        object-fit: cover;
+      }
+    
+    
+    }
+      
+      
+      
+      
+    }
+  }
+
+
+  .imgs-section-s3 {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  
+    &:has(.img-container:hover) .img-container:not(:hover) {
+      filter: blur(3px);
+      transition: filter 0.3s linear;
+    }
+  
+    .img-container {
+      position: relative;
+      height: fit-content;
+      cursor: pointer;
+  
+      
+  
+      >a{
+        > img {
+        height: 250px;
+        width: 250px;
+        object-fit: cover;
+        justify-content: center;
+        transition: ease-in-out 0.3s;
+        border-radius: 10px;
+      }
+      
+      > h3 {
+        font-family: "Poppins", sans-serif !important;
+        background-color: var(--background-titulos-imagens);
+        text-align: center;
+        z-index: 1;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 2rem 0;
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: white;
+        width: 100%;
+        transition: ease-in-out 0.3s;
+      }
+    
+
+      &:hover {
+        > img {
+          transform: scale(1.1);
+        }
+  
+        > h3 {
+          transform: translate(-50%, -50%) scale(1.1);
+        }
+      }
+    
+    }
+  
+     
+    }
+  }
+  
+
+  .imgs-section-s4{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding-top: 2rem;
+
+  .img-container{
+    position: relative;
+    height: fit-content;
+    cursor: pointer;
+    
+    >h3{
+      font-family: "Poppins", sans-serif !important;
+      background-color: var(--background-titulos-imagens);
+      text-align: center;
+      z-index: 1;
+      position: absolute;
+      top: 50%; 
+      left: 50%; 
+      transform: translate(-50%, -50%);
+      padding: 2rem 0;
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: var(--texto-titulos-imagens);
+      width: 100%;
+      transition: ease-in-out 0.3s; 
+    }
+    
+    
+   >a{ >img{
+      
+      height: 250px;
+      width: 250px;
+      object-fit: cover;
+      justify-content: center;
+      transition: ease-in-out 0.3s;
+  
+    
+    }
+  
+    &:hover {
+      >img {
+        transform: scale(1.1);
+      }
+  
+  }
+
+   
+
+      >h3 {
+        transform: translate(-50%, -50%) scale(1.1);
+      }
+    }
+  }
+
+  
+
+  
+  }
+}
+
+
+
+.comments-container{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-left: 1rem;
+
+  .comment{
+
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    gap: 1rem;
+    align-items: center;
+    
+
+
+
+    .NAME-DATE{
+      font-family: "Roboto",sans-serif;
+      text-transform: uppercase;
+      color: #0066AF;
+      font-weight: 500;
+      font-size: 1.2rem;
+      
+    }
+    p{
+      grid-column: 2;
+      word-wrap: break-word;
+      word-break: break-word; 
+      white-space: normal; 
+      line-height: 1rem;
+      font-size: 1.1rem;
+    }
+
+    i{
+      grid-column: 1;
+      width: fit-content;
+      border: 4.3px solid #35766a;
+      opacity: 33%;
+      border-radius: 50%;
+      font-size: 2.8rem;
+      color: #35766a;
+      margin-bottom: 2rem;
+
+    }
+    .dashed-line {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      position: relative;
+      width: 50%;
+      height: 0;
+      border-top: 2px dotted #0066AF;
+      transform: translateX(50%);
+      opacity: 30%;
+    }
+
+
+
+  }
+}
+
+#contribute{
+  margin: 2rem 0 3rem 0;
+  border: 1.5px solid #a7c8df;
+  width: fit-content;
+  align-self: center;
+  border-radius: 25px;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  color: var(--title-color);
+  font-size: 1.5rem;
+  font-family: "Poppins";
+  transition: 0.3s ease-in-out;
+  position: relative;
+}
+
+#contribute:hover{
+  background-color: var(--subtitle-color);
+  border: var(--subtitle-color) 1px solid;
+  color: white;
+  box-shadow: 0px 4px 0.2px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+@media(max-width:1200px){
+
+  .section-container{
+  
+    p{
+      font-size: 1.08rem;
+    }
+    .section-title-subtitle{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    >h3{
+      display: none;
+    }
+    
+    >h2{
+      text-align: center;
+      font-size: 2.5rem;
+      position: relative;
+      
+    }
+
+    
+  .not-right{
+    padding: 0px;
+  }
+  .right{
+    padding: 0px;
+  }
+
+  .projeto-museu{
+    font-size: 2rem;
+  }
+}
+  }}
+
+
+@media(max-width:600px){
+    section{
+      
+
+      .section-container{
+        .section-container{
+        }
+
+        .imgs-section-s2 {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          grid-template-rows: repeat(2, auto);
+          .img-container{
+            
+            >a{
+              >h3{
+              font-size: 0.9rem;
+            }
+              >img{
+              height: 300px;
+            }
+
+              & > img:hover {
+              height: 300px;
+              width:auto;
+              object-fit: cover;
+            }
+          }
+
+
+
+          }
+
+        
+       
+      }
+
+      .imgs-section-s3
+        {display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
+        gap: 1rem;}
+  }
+}
+  }
+
+@media(max-width:500px){
+
+  section{
+    grid-template-columns: 1fr 7fr 1fr;
+  }
+
+  .section-container{
+  
+    p{
+      font-size: 1rem;
+      text-wrap: auto;
+      line-height: 1.5rem;
+    }
+    .section-title-subtitle{
+    
+   
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    >h3{
+      display: none;
+    }
+    
+    >h2{
+      text-align: left;
+      font-size: 2rem;
+      position: relative;
+      
+    }
+
+    
+  .not-right{
+    padding: 0px;
+  }
+  .right{
+    padding: 0px;
+  }
+
+  .projeto-museu{
+    text-align: center;
+    text-wrap: wrap;
+  }
+
+
+
+  }}
+
+    section{
+      .section-container{
+        .imgs-section-s2 {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          grid-template-rows: repeat(2, auto);
+          .img-container{
+            >a{
+              >h3{
+              font-size: 0.9rem;
+            }
+              >img{
+              height: 300px;
+            }
+          }
+
+
+        }
+
+        
+       
+      }
+
+      .imgs-section-s3
+        {display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
+        gap: 1rem;}
+  }
+
+    #contribute{
+      font-size: 1rem;
+    }
+
+
+
+}
+
+
+
+
+#contribute{
+  font-size: 1.3rem;
+  margin: 2rem 0 1rem 0 ;
+}
+
+.NAME-DATE{
+  margin-bottom: 10px;
+}
+
+}
+
+.video-section {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  padding-top: 0.5em;
+  margin: 0 auto;
+  overflow: hidden; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-video {
+  width: 100%;  
+  height: auto; 
+  max-height: 100%; 
+  object-fit: contain; 
+}

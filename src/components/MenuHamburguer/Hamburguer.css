@@ -1,0 +1,90 @@
+.iconeMenu{
+    display: none;
+    color: var(--title-color);
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;
+    z-index: 1000;
+    background:white;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.menu-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 998;
+}
+
+.iconeClose{
+    display: none;
+    color: var(--nav-text-color);
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;
+    z-index: 1000;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 250px; 
+    height: 100vh; 
+    background-color: #fff; 
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2); 
+    z-index: 999;  
+    font-family:var(--font-nav);
+    font-weight: bold;
+    font-size: 1.2rem; /*1.2 vw*/
+    padding: 1.5rem;
+}
+
+
+.menu.open {
+    left: 0; 
+}
+
+.menu.open {
+    left: 0; 
+}
+
+.menu ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+}
+
+.menu ul li {
+    margin-bottom: 15px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color:var(--nav-text-color);
+    font-size: 18px;
+}
+
+
+@media (max-width: 500px) {
+    .iconeMenu{
+        padding: 5px;}
+}
+
+@media (max-width: 854px){
+    .iconeMenu{
+        display: block;
+    }
+    .iconeClose{
+        display: block;
+    }
+}
+

@@ -1,0 +1,117 @@
+{
+    "sections":{
+        "1":{
+            "id":"s1",
+            "title":"Sobre o Suvaco",
+            "subtitle":"TUDO SOBRE A CRIAÇÃO DO BLOCO",
+            "link": "SAIBA MAIS",
+            "right": "False",
+            "text": ["Tudo começou no Posto Nove, como diz o samba de 2001 “A Odisseia do Suvaco” de Chacal , Barreto e Nanico.  Em 16 de novembro de 1985, o Jornal do Brasil em matéria de Joaquim Ferreira, noticiava uma confusão protagonizada pelo músico e compositor Jards Macalé ao saber que Jânio Quadros havia vencido as eleições para a prefeitura de São Paulo.  Até hoje não se sabe  a relação entre o “quiprocó” com a decisão de criar um bloco. O fato é que uma galera da Maria Angélica 741, no Jardim Botânico, como o próprio Macalé, o  poeta Xico Chaves, o ator e diretor José Lavigne, o médico João Avelleira, o sociólogo Arnaldo Chaim, a produtora cultural Sylvinha Gardenberg e outros amigos, fundaram um bloco.", 
+            "O ano era 1985, quando o país aos poucos retornava à normalidade democrática, e aos poucos alguns novos blocos retomavam as ruas. O Suvaco, entretanto, não tinha suas raízes profundamente ligadas aos movimentos políticos partidários e nem mesmo ao samba. Era um bloco com forte influência do anárquico Charme da Simpatia, surgido no período de ditadura militar e originário do coletivo Nuvem Cigana, e do carnaval de Olinda, onde parte dos foliões passava o carnaval e de onde viriam compositores de sambas inesquecíveis como Lenine e Bráulio Tavares. O que encantava a turma no carnaval era a ode ao prazer. A festa libertária, tolerante, transgressora. A ironia começava no próprio nome, que teve como padrinho involuntário o ilustre morador Tom Jobim, quando em uma entrevista reclamou do mofo devido a umidade do bairro, dizendo morar no Suvaco do Cristo. Obviamente, o nome rendeu alguns perrengues com a Cúria, mas aos poucos o bloco foi abraçado pelos moradores do bairro e o nome se tornou parte da cultura popular.",         
+            "O Suvaco do Cristo agora caminha para seus 40 carnavais, quando termina sua incrível odisseia, deixando como legado a certeza que contribuiu fortemente para o retorno do carnaval de rua no Rio de Janeiro.",
+            "Evoé meu povo."],
+            
+            "img": {
+                "imgExists" : "False"
+            }
+        },
+        
+        "2":{
+            "id":"s2",
+            "title":"Acervo",
+            "subtitle":"AS MEMÓRIAS DO SUVACO",
+            "link": "VEJA AS NOSSAS FOTOS",
+            "right": "False",
+            "text": null,
+            "img": {
+                "imgExists": "True",
+                "1": {
+                    "name": "",
+                    "path": "img/Screenshot_1.png"
+                },
+                "2": {
+                    "name": "",
+                    "path": "img/Screenshot_14.png"
+                },
+                "3": {
+                    "name": "",
+                    "path": "img/Screenshot_10.png"
+                },
+                "4": {
+                    "name": "",
+                    "path": "img/Screenshot_15.png"
+                },
+                "5": {
+                    "name": "",
+                    "path": "img/Screenshot_9.png"
+                },
+                "6":{
+                    "name":"",
+                    "path":"img/2012 Serpentina de Ouro- Trofeu.jpg"
+                }
+
+            }
+        },
+        "3":{
+            "id":"s3",
+            "title":"Linha do Tempo",
+            "subtitle":"TODAS AS INFORMAÇÕES DE CADA ANO",
+            "link": "VER TODOS OS ANOS",
+            "right": "False",
+            "text": null,
+            "img": {
+                "imgExists": "True",
+                "1": {
+                    "name": "Desfile 1986",
+                    "path": "img/Screenshot_1.png",
+                    "link": "/Ano1986"
+                },
+                "2": {
+                    "name": "EM BREVE",
+                    "path": "img/Screenshot_14.png",
+                    "link": "/"
+                    
+                },
+                "3": {
+                    "name": "EM BREVE",
+                    "path": "img/Screenshot_10.png",
+                    "link": "/"
+                },
+                "4": {
+                    "name": "EM BREVE",
+                    "path": "img/Screenshot_7.png",
+                    "link": "/"
+                }
+
+            }
+        },
+        "4":{
+            "id":"s4",
+            "title":"Divinas Axilas",
+            "subtitle":"A ONG DO SUVACO",
+            "link": "DESCUBRA MAIS",
+            "right": "False",
+            "text": "",
+            
+            "img": {
+                "imgExists" : "True",
+                "1":{
+                    "name":null,
+                    "path":"img/327061573_573006838013992_1583039500011356462_n 1.png"
+                }
+            }
+        },
+        "5":{
+            "id":"s4",
+            "title":"Você com o Suvaco",
+            "subtitle":"MOSTRE O SEU PONTO DE VISTA DO DESFILE",
+            "link": "TODOS OS DEPOIMENTOS",
+            "right": "False",
+            "text": null,
+            
+            "img": {
+                "imgExists" : "False"
+            }
+        }
+    }
+}

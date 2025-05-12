@@ -1,0 +1,42 @@
+:root{
+  
+  /*Fontes*/
+
+  --font-title: "Poppins";
+  --font-subtitle: "Roboto";
+  --font-nav:"Roboto";
+  --font-header:"Poppins";
+  --font-paragraph: "Mulish";
+  --font-comentary-title:"Roboto";
+  --font-footer: "Mulish";
+  --font-acesso-rapido: "Poppins";
+  --font-title-divisorias-timeline:"Poppins";
+  --font-time-player: "Poppins";
+  --font-timeline-artista: "Barlow Condensed";
+
+  --font-ancora-tile-years:"Poppins";
+  --font-title-subdiv-years:"Poppins";
+
+
+  /*Cores*/
+
+  --background-page-color: #F8F8F8;
+  --title-color: #0066AF;
+  --title-divisoria-aberta-color: #0B878F;
+  --nav-text-color: #35766a;
+  --subtitle-color: #3b9ea5;
+  --categoria-selecionada: #8effbdbd;
+  --btn-link-section-color: #0B878F;
+  --btn-link-section-color-hover: #06484d;
+  --comentario-color: #0066AF;
+  --background-titulos-imagens:  rgba(0, 0, 0, 0.55);
+  --texto-titulos-imagens: white;
+  --footer-color: #0066AF;
+  --timeline-artista-color: #0B878F;
+  --timeline-artista--name-color: black;
+  --timeline-title-subdiv-years-color: #0B878F;
+  --gradiente-azul-verde: linear-gradient(to right, #0066AF, #0B878F);
+
+/*A PARTE DA SECAO DE COMENTARIOS AINDA PRECISA SER ALTERADA DENTRO DO ARQUIVO STYLES.CSS*/
+
+}

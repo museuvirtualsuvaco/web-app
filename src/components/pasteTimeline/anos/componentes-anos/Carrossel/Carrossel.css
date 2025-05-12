@@ -1,0 +1,123 @@
+
+
+.flex-carrossel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.display-celular{
+  display: none;
+}
+  
+  .img-artista{
+    min-width: 125px;
+    max-width: 125px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  #artista-funcao{
+    font-family: var(--font-timeline-artista);
+    color: var(--timeline-artista-color);
+    font-size: 1.8rem;
+  
+  }
+  
+  #artista-name{
+    font-family: var(--font-timeline-artista);
+    color: var(--timeline-artista-name-color);
+    font-size: 1.5rem;
+  }
+  
+  .artista{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .arrow{
+    font-size: 2rem;
+  }
+
+  .artista-0{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+
+    >img{
+      width: 125px ;
+    }
+  }
+
+
+  @media (max-width:830px) {
+    .display-desktop{
+      display: none;
+    }
+
+    .artista-0{
+      >img{
+        width: 50%;
+      }
+
+      left: 0%;
+      transform: translateX(0%);
+
+    }
+
+    .display-celular{
+      display: initial
+    }
+
+    .arrow-container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 55px;
+      gap: 200px;
+      margin-bottom: 50px;
+    }
+  }
+  
+@media (max-width:500px) {
+    
+ 
+
+  .img-artista{
+    max-width: 90px;
+    min-width: 90px;
+  }
+
+
+
+  .display-desktop{
+    display: none;
+  }
+   
+
+  .flex-carrossel{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 55px
+  }
+  
+
+  
+  #artista-funcao{
+      font-size: 1.5rem;
+    }
+    #artista-name{
+      font-size: 1.3rem;
+    }
+
+
+  }

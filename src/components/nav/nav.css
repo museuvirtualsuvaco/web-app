@@ -1,0 +1,82 @@
+nav{
+    font-family:var(--font-nav);
+    color: var(--nav-text-color);
+    font-weight: bold;
+    font-size: 1.2rem; /*1.2 vw*/
+    padding: 1.5rem;
+
+> ul {
+    display: flex;
+    gap: 2.5em;
+    justify-content: center;
+    list-style-type: none;
+
+    >li {
+        position: relative;
+        
+        >a::before { /*cria a linha pra usar no hover*/
+            content: "";
+            position: absolute;
+            width: 95%;
+            height: 1.2px;
+            background-color: var(--nav-text-color);
+            visibility: hidden;
+            transform: scaleX(0);
+            transition: all 0.3s ease-in-out 0s;
+            top: 1.4vw;
+            left: 0.1vw;
+        }
+
+        >a:hover::before {
+            visibility: visible;
+            transform: scaleX(1);
+        }
+    }
+
+}
+    
+
+}
+
+@media (max-width:1024px) {
+  
+    nav{
+      font-size: 1rem;
+  
+      > ul {
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+    
+        >li {
+    
+          >a::before {
+            content: "";
+            position: absolute;
+            width: 95%;
+            height: 1.2px;
+            background-color: #35766a;
+            visibility: hidden;
+            transform: scaleX(0);
+            transition: all 0.3s ease-in-out 0s;
+            top: 2vw;
+            left: 0.1vw;
+          }
+    
+          >a:hover::before {
+            visibility: visible;
+            transform: scaleX(1);
+          }
+    
+        }
+    
+      }
+    }
+}
+
+  
+@media (max-width: 854px){
+    nav{
+     display: none;
+    }
+}
