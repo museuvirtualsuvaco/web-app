@@ -1,0 +1,28 @@
+nav {
+    background-color: white;
+}
+
+#nav-icon{
+    margin-left: 7vw;
+    position: absolute;
+}
+nav ul{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 3rem;
+    font-weight: var(--font-weight-link);
+    font-size: 1.10rem;
+}
+
+.li-itens {
+    display: flex;
+    justify-content: center; 
+    flex: 1; 
+    gap: 5rem;
+
+}
+
+.li-itens li{
+    cursor: pointer;
+}

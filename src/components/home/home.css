@@ -1,0 +1,286 @@
+.home-texts {
+    justify-content: space-around;
+    font-size: 18px;
+    line-height: 20px;
+    position: relative;
+    z-index: 100;
+    background-color: white;
+}
+.home-texts p {
+    margin-top: 2rem;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    z-index: 100;
+}
+
+.home-logos {
+    display: flex;
+    gap: 15px;
+    z-index: 100;
+    position: absolute;
+    left: 53vw;
+    justify-content: space-around;
+    align-items: center;
+    transform: scale(0.9);
+    top: 730px;
+
+}
+
+
+
+.home-logos img {
+    height: 200px;
+}
+
+#eba{
+    position: relative;
+    top:-30px
+}
+
+
+.buttons{
+    height: 880px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Gradientes */
+#separador-gradiente-1,
+#separador-gradiente-2 {
+    position: absolute;
+    width: 100vw;
+}
+#separador-gradiente-1 {
+    top: -30vw;
+}
+#separador-gradiente-2 {
+    top: 24vw;
+    rotate: 180deg;
+    z-index: 2;
+}
+
+/* Imagens */
+#projeto-social-img {
+    position: absolute;
+    width: 60%;
+    z-index: 0;
+    background-color: black;
+    z-index: -12;
+    margin-top: 3%;}
+
+
+#projeto-museu-img {
+    position: absolute;
+    width: 60%;
+    object-fit: fill;
+    margin-left: 50%;
+    margin-top:8vw;
+    z-index: -11;
+}
+
+
+.projeto-museu .projeto-social{
+    position: relative;
+    display: flex;
+    width: 50%;
+}
+
+.museu-link {
+    position: absolute;
+    top: 27.5vw;
+    left: 50%;
+    margin-left: 25%;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px 30px;
+    font-size: 2em;
+
+}
+.social-link {
+    position: absolute;
+    top: 27.5vw;
+    margin-left: 25%;
+    width: 50.5%;
+    transform: translate(-50%, -50%);
+    padding: 15px 30px;
+    font-size: 2em;
+
+}
+
+
+
+
+
+
+@media (max-width:1876px){
+ 
+    .home-logos {
+        top: 700px;
+    
+    }
+
+}
+@media (max-width:1850px){
+ 
+    .home-logos {
+        top: 700px;
+        transform: scale(0.8);
+        left: 53vw;
+    }
+
+}
+@media (max-width:1760px){
+ 
+    .home-logos {
+        top: 680px;
+        transform: scale(0.75);
+        left: 53vw;
+    }
+
+}
+@media (max-width:1648px){
+ 
+    .home-logos {
+        top: 645px;
+        transform: scale(0.75);
+        left: 51vw;
+    }
+
+}
+@media (max-width:1570px){
+ 
+    .home-logos {
+        top: 635px;
+        transform: scale(0.68);
+        left: 50vw;
+    }
+
+}
+@media (max-width:1460px){
+ 
+    .home-logos {
+        top: 630px;
+        transform: scale(0.65);
+        left: 49vw;
+    }
+
+}
+@media (max-width:1443px){
+ 
+    .home-logos {
+        top: 615px;
+        transform: scale(0.65);
+        left: 47vw;
+    }
+
+}
+@media (max-width:1350px){
+ 
+    .home-logos {
+        top: 590px;
+        transform: scale(0.65);
+        left: 45vw;
+    }
+
+}
+@media (max-width:1280px){
+ 
+    .home-logos {
+        top: 580px;
+        transform: scale(0.63);
+        left: 44vw;
+    }
+
+}
+@media (max-width:1253px){
+ 
+    .home-logos {
+        top: 570px;
+        transform: scale(0.55);
+        left: 42vw;
+    }
+
+}
+@media (max-width:1210px){
+ 
+    .home-logos {
+        top: 560px;
+        transform: scale(0.55);
+        left: 42vw;
+    }
+
+}
+@media (max-width:1195px){
+ 
+    .home-logos {
+        top: 580px;
+        transform: scale(0.50);
+        left: 42vw;
+    }
+
+}
+
+@media (max-width:1165px){
+ 
+    .home-logos {
+        top: 560px;
+        transform: scale(0.50);
+        left: 42vw;
+    }
+
+}
+@media (max-width:1095px){
+ 
+    .home-logos {
+        top: 557px;
+        transform: scale(0.46);
+        left: 42vw;
+    }
+
+}
+
+@media (max-width:1030px) {
+    .home-logos{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        transform: scale(1);
+        top:0;  
+        left: 50%;
+        transform: translateX(-50%) ;
+        
+    }
+    .home-logos img{
+        width: 150px;
+        height: 150px;
+        margin-top: 25px;
+
+    }
+}
+
+@media (max-width:520px) {
+
+    .home-logos img{
+        width: 125px;
+        width: 125px;
+        
+    }
+
+}
+@media (max-width:420px) {
+
+    .home-logos img{
+        width: 100px;
+        height: 100px;
+        margin-top: 20px;
+    }
+
+    #eba{
+        top:-15px
+    }
+
+}
+
+

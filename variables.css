@@ -1,0 +1,11 @@
+:root{
+    
+    /*FONTES*/
+
+    --header-font:"Poppins", "sans-serif"; /*Aplicada ao título somente*/
+
+    --main-font: "Roboto Flex", "sans-serif";
+    --letter-spacing: -3%; 
+    --font-weight-link: 600;
+
+}

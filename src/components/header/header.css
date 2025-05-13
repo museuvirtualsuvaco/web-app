@@ -1,0 +1,47 @@
+header{
+    position: relative;
+    z-index: 100;
+    overflow-x: hidden;
+}
+
+header img{
+    width: 100%;
+    object-fit: con;
+    z-index: 0;
+}
+
+header h1{
+    font-family: var(--header-font);
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+    z-index: 1; 
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.53);
+    font-size: 5.25vw;
+    letter-spacing: 0;
+}
+
+.header-links{
+    position: absolute;
+    color: white;
+    bottom: 0vw;
+    background-color: rgba(0, 0, 0, 0.68);
+    width: 100vw;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+
+
+}
+
+.header-links a{
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
