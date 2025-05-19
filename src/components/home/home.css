@@ -26,8 +26,6 @@
 
 }
 
-
-
 .home-logos img {
     height: 200px;
 }
@@ -45,8 +43,7 @@
 }
 
 /* Gradientes */
-#separador-gradiente-1,
-#separador-gradiente-2 {
+#separador-gradiente-1, #separador-gradiente-2 {
     position: absolute;
     width: 100vw;
 }
@@ -58,6 +55,29 @@
     rotate: 180deg;
     z-index: 2;
 }
+
+/* Gradientes Mobile*/
+#separador-gradiente-11-mobile, #separador-gradiente-12-mobile{
+    position: absolute;
+    width: 100vw;
+}
+
+#separador-gradiente-11-mobile {
+    top: -33vw;
+}
+#separador-gradiente-12-mobile {
+    top: 40vw;
+    rotate: 180deg;
+    z-index: 2;
+}
+
+#separador-gradiente-21-mobile {
+    position: relative;
+    top: -5vw;
+    
+}
+
+
 
 /* Imagens */
 #projeto-social-img {
@@ -78,6 +98,12 @@
     z-index: -11;
 }
 
+#projeto-museu-img-mobile{
+    position: absolute;
+    z-index: 0;
+    top: 50vw
+}
+
 
 .projeto-museu .projeto-social{
     position: relative;
@@ -96,6 +122,9 @@
     font-size: 2em;
 
 }
+
+
+
 .social-link {
     position: absolute;
     top: 27.5vw;
@@ -107,8 +136,27 @@
 
 }
 
+.projetos-mobile{
+    position: relative;
+    top: -10vw;
+}
 
-
+.social-link-mobile{
+    position: absolute;
+    top: 47vw;
+    margin-left: 0%;
+    width: 100%;
+    padding: 15px 30px;
+    font-size: 2em;
+}
+.museu-link-mobile{
+    position: absolute;
+    top: 107vw;
+    margin-left: 0%;
+    width: 100%;
+    padding: 15px 30px;
+    font-size: 2em;
+}
 
 
 
@@ -258,6 +306,24 @@
         margin-top: 25px;
 
     }
+.museu-link{
+    font-size: 1.5em;
+}
+
+.social-link{
+    font-size: 1.5em;
+}
+
+}
+
+@media (max-width: 610px){
+    .museu-link{
+    font-size: 1.2em;
+}
+
+.social-link{
+    font-size: 1.2em;
+}
 }
 
 @media (max-width:520px) {
