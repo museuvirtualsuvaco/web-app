@@ -1,5 +1,7 @@
+import FormCarrossel from "./FormCarrossel/FormCarrossel"
 import "./home.css"
 import React, { useEffect, useState } from "react"
+
 
 
 
@@ -59,7 +61,7 @@ export default function Home() {
                                 <a href="http://google.com" className="museu-link overlay">O Projeto Museu</a>
                             </div>
                         </div>
-                        <img id="separador-gradiente-2" src="src/assets/Group - Onda.svg" alt="" />
+                        <img id="separador-gradiente-2" src="src/assets/Group - Onda(1).svg" alt="" />
                     </>
                 )}
 
@@ -82,6 +84,12 @@ export default function Home() {
                     </>
                 )}
 
+
+            </div>
+
+            <div className="form-area">
+
+                <FormCarrossel></FormCarrossel>
 
             </div>
         </>
