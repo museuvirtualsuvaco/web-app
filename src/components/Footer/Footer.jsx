@@ -1,15 +1,15 @@
 import React from "react";
-import './Footer.css'
+import styles from './Footer.module.css'
 
 export default function Footer() {
 
-    return <footer>
+    return <footer className={styles.mainContainer}>
         
-        <div className="texts-left-footer">
-            <p id="bold">Suvaco do Cristo</p>
+        <div className={styles.leftContainer}>
+            <p className={styles.title}>Suvaco do Cristo</p>
             <p>Todos os direitos reservados.</p>
         </div>
-        <div className="links">
+        <div className={styles.links}>
 
             <a href="https://www.instagram.com/suvacodocristooficial" target="_blank" rel="noopener noreferrer">
                 <i class="ri-instagram-line"></i><span> Instagram</span>
