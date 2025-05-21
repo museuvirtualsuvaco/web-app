@@ -1,12 +1,12 @@
 import React from "react";
-import './nav.css'
+import styles from './Nav.module.css'
 
 export default function Nav(){
     return <>
-        <nav>
+        <nav className={styles.mainContainer}>
             <ul>
-                <img id="nav-icon" src="" alt="icone aqui" />
-                <div className="li-itens">
+                <img className={styles.navIcon} src="" alt="icone aqui" />
+                <div className={styles.liItens}>
                     <li>Início</li>
                     <li>Projeto Social</li>
                     <li>Projeto Museu</li>

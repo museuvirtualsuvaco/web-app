@@ -1,5 +1,5 @@
-import FormCarrossel from "./FormCarrossel/formCarrossel"
-import "./home.css"
+import FormCarrossel from "./FormCarrossel/FormCarrossel"
+import styles from "./Home.module.css"
 import React, { useEffect, useState } from "react"
 
 export default function Home() {
@@ -17,7 +17,7 @@ export default function Home() {
     return (
         <>
             <main>
-                <div className="home-texts">
+                <div className={styles.homeText}>
                     <p>Há muita história para contar…</p>
                     <p>
                         Então nasceu a ideia de construir um  espaço para que essa história seja contada:
@@ -32,10 +32,10 @@ export default function Home() {
                         O site está sendo construído em  torno dessa contextualização. Como resultado, extenso material estará
                         disponível na rede para consulta por pesquisadores e público em geral.</p>
                 </div>
-                <div className="home-logos">
-                    <img id="logo-ufrj" src="src/assets/ufrj-horizontal-cor-rgb-telas 1.svg" alt="" />
-                    <img id="logo-ic" src="src/assets/Sem títuloaaaaa 1.svg" alt="" />
-                    <img id="eba" src="src\assets\307093807_543650020901618_4682476023594602429_n 1.png" alt="Logo História da Arte" />
+                <div className={styles.homeLogo}>
+                    <img className={styles.logoUfrj} src="src/assets/ufrj-horizontal-cor-rgb-telas 1.svg" alt="" />
+                    <img className={styles.logoIc} src="src/assets/Sem títuloaaaaa 1.svg" alt="" />
+                    <img className={styles.eba} src="src\assets\307093807_543650020901618_4682476023594602429_n 1.png" alt="Logo História da Arte" />
                 </div>
             </main>
 
@@ -45,20 +45,20 @@ export default function Home() {
                 {/* AREA DESKTOP  */}
                 {!isMobile && (
                     <>
-                        <img id="separador-gradiente-1" src="src/assets/Group - Onda(1).svg" alt="" />
+                        <img className={styles.separadorGradiente1} src="src/assets/Group - Onda(1).svg" alt="" />
 
-                        <div className="projetos">
-                            <div className="projeto-social">
-                                <img id="projeto-social-img" src="src/assets/image 2(1).svg" alt="" />
-                                <a href="http://google.com" className="social-link overlay">O Projeto Social</a>
+                        <div className={styles.projetos}>
+                            <div className={styles.projetoSocial}>
+                                <img className={styles.projetoSocialImg} src="src/assets/image 2(1).svg" alt="" />
+                                <a href="http://google.com" className={styles.socialLinkOverlay}>O Projeto Social</a>
                             </div>
 
-                            <div className="projeto-museu">
-                                <img id="projeto-museu-img" src="src/assets/Emariz 28(2).jpg" alt="" />
-                                <a href="http://google.com" className="museu-link overlay">O Projeto Museu</a>
+                            <div className={styles.projetoMuseu}>
+                                <img className={styles.projetoMuseuImg} src="src/assets/Emariz 28(2).jpg" alt="" />
+                                <a href="http://google.com" className={styles.museuLinkOverlay}>O Projeto Museu</a>
                             </div>
                         </div>
-                        <img id="separador-gradiente-2" src="src/assets/Group - Onda(1).svg" alt="" />
+                        <img className={styles.separadorGradiente2} src="src/assets/Group - Onda(1).svg" alt="" />
                     </>
                 )}
 
@@ -66,12 +66,12 @@ export default function Home() {
                 {/* AREA MOBILE */}
                 {isMobile && (
                     <>
-                        <div className="projetos-mobile">
+                        <div className={styles.projetosMobile}>
 
                             <img id="botoes-mobile" src="src/assets/Frame 14(2).svg" alt="" />
-                            <a href="http://google.com" className="social-link-mobile overlay">O Projeto Social</a>
+                            <a href="http://google.com" className={styles.socialLinkMobileOverlay}>O Projeto Social</a>
 
-                            <a href="http://google.com" className="museu-link-mobile overlay">O Projeto Museu</a>
+                            <a href="http://google.com" className={styles.museuLinkMobileOverlay}>O Projeto Museu</a>
 
 
 
@@ -84,7 +84,7 @@ export default function Home() {
 
             </div>
 
-            <div className="form-area">
+            <div className={styles.formArea}>
 
                 <FormCarrossel></FormCarrossel>
 

@@ -1,12 +1,12 @@
-nav {
+.mainContainer {
     background-color: white;
 }
 
-#nav-icon{
+.navIcon{
     margin-left: 7vw;
     position: absolute;
 }
-nav ul{
+.mainContainer ul{
     display: flex;
     justify-content: left;
     align-items: center;
@@ -15,14 +15,13 @@ nav ul{
     font-size: 1.10rem;
 }
 
-.li-itens {
+.liItens {
     display: flex;
     justify-content: center; 
     flex: 1; 
     gap: 5rem;
-
 }
 
-.li-itens li{
+.liItens li{
     cursor: pointer;
 }

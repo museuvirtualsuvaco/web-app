@@ -1,4 +1,4 @@
-.home-texts {
+.homeText {
     justify-content: space-around;
     font-size: 18px;
     line-height: 20px;
@@ -6,14 +6,14 @@
     z-index: 100;
     background-color: white;
 }
-.home-texts p {
+.homeText p {
     margin-top: 2rem;
     margin-left: 7vw;
     margin-right: 7vw;
     z-index: 100;
 }
 
-.home-logos {
+.homeLogo {
     display: flex;
     gap: 15px;
     z-index: 100;
@@ -26,11 +26,11 @@
 
 }
 
-.home-logos img {
+.homeLogo img {
     height: 200px;
 }
 
-#eba{
+.eba{
     position: relative;
     top:-30px
 }
@@ -43,29 +43,30 @@
 }
 
 /* Gradientes */
-#separador-gradiente-1, #separador-gradiente-2 {
+.separadorGradiente1, #separadorGradiente2 {
     position: absolute;
     width: 100vw;
 }
-#separador-gradiente-1 {
+
+.separadorGradiente1 {
     top: -30vw;
 }
-#separador-gradiente-2 {
+.separadorGradiente-2 {
     top: 24vw;
     rotate: 180deg;
     z-index: 2;
 }
 
 /* Gradientes Mobile*/
-#separador-gradiente-11-mobile, #separador-gradiente-12-mobile{
+/* #separador-gradiente-11-mobile, #separador-gradiente-12-mobile{
     position: absolute;
     width: 100vw;
 }
 
 #separador-gradiente-11-mobile {
     top: -33vw;
-}
-#separador-gradiente-12-mobile {
+} */
+/* #separador-gradiente-12-mobile {
     top: 40vw;
     rotate: 180deg;
     z-index: 2;
@@ -75,21 +76,21 @@
     position: relative;
     top: -5vw;
     
-}
+} */
 
 
 
 /* Imagens */
-#projeto-social-img {
+/* #projeto-social-img {
     position: absolute;
     width: 60%;
     z-index: 0;
     background-color: black;
     z-index: -12;
-    margin-top: 3%;}
+    margin-top: 3%;} */
 
 
-#projeto-museu-img {
+/* #projeto-museu-img {
     position: absolute;
     width: 60%;
     object-fit: fill;
@@ -102,16 +103,16 @@
     position: absolute;
     z-index: 0;
     top: 50vw
-}
+} */
 
 
-.projeto-museu .projeto-social{
+.projetoMuseu .projetoSocial{
     position: relative;
     display: flex;
     width: 50%;
 }
 
-.museu-link {
+.museuLink {
     position: absolute;
     top: 27.5vw;
     left: 50%;
@@ -125,7 +126,7 @@
 
 
 
-.social-link {
+.socialLink {
     position: absolute;
     top: 27.5vw;
     margin-left: 25%;
@@ -136,12 +137,12 @@
 
 }
 
-.projetos-mobile{
+.projetosMobile{
     position: relative;
     top: -10vw;
 }
 
-.social-link-mobile{
+.socialLinkMobile{
     position: absolute;
     top: 47vw;
     margin-left: 0%;
@@ -149,7 +150,7 @@
     padding: 15px 30px;
     font-size: 2em;
 }
-.museu-link-mobile{
+.museuLinkMobile{
     position: absolute;
     top: 107vw;
     margin-left: 0%;
@@ -158,12 +159,9 @@
     font-size: 2em;
 }
 
-
-
-
 @media (max-width:1876px){
  
-    .home-logos {
+    .homeLogo {
         top: 700px;
     
     }
@@ -171,7 +169,7 @@
 }
 @media (max-width:1850px){
  
-    .home-logos {
+    .homeLogo {
         top: 700px;
         transform: scale(0.8);
         left: 53vw;
@@ -180,7 +178,7 @@
 }
 @media (max-width:1760px){
  
-    .home-logos {
+    .homeLogo {
         top: 680px;
         transform: scale(0.75);
         left: 53vw;
@@ -189,7 +187,7 @@
 }
 @media (max-width:1648px){
  
-    .home-logos {
+    .homeLogo {
         top: 645px;
         transform: scale(0.75);
         left: 51vw;
@@ -198,7 +196,7 @@
 }
 @media (max-width:1570px){
  
-    .home-logos {
+    .homeLogo {
         top: 635px;
         transform: scale(0.68);
         left: 50vw;
@@ -207,7 +205,7 @@
 }
 @media (max-width:1460px){
  
-    .home-logos {
+    .homeLogo {
         top: 630px;
         transform: scale(0.65);
         left: 49vw;
@@ -216,7 +214,7 @@
 }
 @media (max-width:1443px){
  
-    .home-logos {
+    .homeLogo {
         top: 615px;
         transform: scale(0.65);
         left: 47vw;
@@ -225,7 +223,7 @@
 }
 @media (max-width:1350px){
  
-    .home-logos {
+    .homeLogo {
         top: 590px;
         transform: scale(0.65);
         left: 45vw;
@@ -234,7 +232,7 @@
 }
 @media (max-width:1280px){
  
-    .home-logos {
+    .homeLogo {
         top: 580px;
         transform: scale(0.63);
         left: 44vw;
@@ -243,7 +241,7 @@
 }
 @media (max-width:1253px){
  
-    .home-logos {
+    .homeLogo {
         top: 570px;
         transform: scale(0.55);
         left: 42vw;
@@ -252,7 +250,7 @@
 }
 @media (max-width:1210px){
  
-    .home-logos {
+    .homeLogo {
         top: 560px;
         transform: scale(0.55);
         left: 42vw;
@@ -261,7 +259,7 @@
 }
 @media (max-width:1195px){
  
-    .home-logos {
+    .homeLogo {
         top: 580px;
         transform: scale(0.50);
         left: 42vw;
@@ -271,7 +269,7 @@
 
 @media (max-width:1165px){
  
-    .home-logos {
+    .homeLogo {
         top: 560px;
         transform: scale(0.50);
         left: 42vw;
@@ -280,7 +278,7 @@
 }
 @media (max-width:1095px){
  
-    .home-logos {
+    .homeLogo {
         top: 557px;
         transform: scale(0.46);
         left: 42vw;
@@ -289,7 +287,7 @@
 }
 
 @media (max-width:1030px) {
-    .home-logos{
+    .homeLogo{
         position: relative;
         display: flex;
         justify-content: center;
@@ -301,7 +299,7 @@
         transform: translateX(-50%) ;
         
     }
-    .home-logos img{
+    .homeLogo img{
         width: 150px;
         height: 150px;
         margin-top: 25px;
@@ -329,7 +327,7 @@
 
 @media (max-width:520px) {
 
-    .home-logos img{
+    .homeLogo img{
         width: 125px;
         width: 125px;
         
@@ -338,7 +336,7 @@
 }
 @media (max-width:420px) {
 
-    .home-logos img{
+    .homeLogo img{
         width: 100px;
         height: 100px;
         margin-top: 20px;
