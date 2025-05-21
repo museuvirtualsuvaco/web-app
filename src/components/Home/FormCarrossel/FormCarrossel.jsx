@@ -1,6 +1,6 @@
 import React from "react";
 
-import './formCarrossel.css'
+import './FormCarrossel.css'
 
 
 export default function FormCarrossel(){
