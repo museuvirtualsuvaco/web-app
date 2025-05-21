@@ -1,6 +1,8 @@
-import FormCarrossel from "./FormCarrossel/FormCarrossel"
+import { useEffect, useState } from "react"
 import "./Home.css"
-import React, { useEffect, useState } from "react"
+
+import FormCarrossel from "./FormCarrossel/FormCarrossel"
+import { Link } from 'react-router-dom';
 
 export default function Home() {
 
@@ -15,7 +17,7 @@ export default function Home() {
     const isMobile = windowWidth < 604
 
     return (
-        <>
+        <div>
             <main>
                 <div className="home-texts">
                     <p>Há muita história para contar…</p>
@@ -89,6 +91,6 @@ export default function Home() {
                 <FormCarrossel></FormCarrossel>
 
             </div>
-        </>
+        </div>
     )
 }
