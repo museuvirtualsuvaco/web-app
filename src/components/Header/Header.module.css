@@ -1,16 +1,16 @@
-header{
+.mainContainer{
     position: relative;
     z-index: 100;
     overflow-x: hidden;
 }
 
-header img{
+.mainContainer img{
     width: 100%;
     object-fit: con;
     z-index: 0;
 }
 
-header h1{
+.mainContainer h1{
     font-family: var(--header-font);
     font-weight: 600;
     position: absolute;
@@ -25,7 +25,7 @@ header h1{
     letter-spacing: 0;
 }
 
-.header-links{
+.headerLinks{
     position: absolute;
     color: white;
     bottom: 0vw;
@@ -40,7 +40,7 @@ header h1{
 
 }
 
-.header-links a{
+.headerLinks a{
     font-size: 1.5rem;
     text-decoration: underline;
 }
