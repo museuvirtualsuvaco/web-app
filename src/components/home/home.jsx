@@ -1,9 +1,6 @@
-import FormCarrossel from "./FormCarrossel/FormCarrossel"
+import FormCarrossel from "./FormCarrossel/formCarrossel"
 import "./home.css"
 import React, { useEffect, useState } from "react"
-
-
-
 
 export default function Home() {
 
