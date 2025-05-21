@@ -1,0 +1,9 @@
+export const LANDING = '/';
+export const PROJETO_MUSEU = '/projetoMuseu';
+export const DIVINAS_AXILAS = '/divinasAxilas';
+export const SOBRE = '/sobre';
+export const ACERVO = '/acervo';
+export const SAMBA = '/samba';
+export const CAMISETA = '/camiseta';
+export const DESFILE = '/desfile';
+export const SUVACO_NA_MIDIA = '/suvacoNaMidia';
