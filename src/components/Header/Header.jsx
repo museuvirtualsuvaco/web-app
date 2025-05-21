@@ -1,13 +1,13 @@
 import React from "react";
-import './header.css'
+import styles from './Header.module.css'
 
 export default function Header() {
 
-    return <>
-        <header>
+    return (
+        <header className={styles.mainContainer}>
             <img src="src\assets\image 1(2).svg" alt="" />
             <h1>Suvaco do Cristo</h1>
-            <div className="header-links">
+            <div className={styles.headerLinks}>
                     <a href="https://www.instagram.com/suvacodocristooficial" target="_blank" rel="noopener noreferrer">
                         <i className="ri-instagram-line"></i> Instagram 
                     </a>
@@ -18,5 +18,6 @@ export default function Header() {
                         <i className="ri-facebook-box-line"></i> Facebook
                     </a>
                 </div>
-        </header></>
+        </header>
+    );
 }
