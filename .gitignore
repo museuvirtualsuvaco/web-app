@@ -24,3 +24,6 @@ package-lock.json
 *.njsproj
 *.sln
 *.sw?
+
+# Muito importante ser ignorado. Contem as credenciais do firebase. NUNCA commitar isso.
+.env
