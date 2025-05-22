@@ -15,3 +15,9 @@ html{
 .overlay:hover{
     background: rgba(0, 0, 0, 0.9); 
 }
+
+.clearFix::after {
+    content: "";
+    display: table;
+    clear: both;
+}

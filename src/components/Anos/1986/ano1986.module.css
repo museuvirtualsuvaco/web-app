@@ -1,0 +1,67 @@
+.title{
+    font-family: "Roboto Flex";
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 15px;
+
+    display: flex;
+
+    justify-content: center;
+    gap: 5px;
+    align-items: end;
+
+}
+
+.line{
+    width: 50%;
+    height: 3px;
+    background: linear-gradient(to right, var(--blue), #00FF80);
+    margin-bottom: 13px;
+}
+
+.sectionTexts{
+    margin-top: 2rem;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    z-index: 100;
+
+    justify-content: space-around;
+    font-size: 18px;
+    line-height: 20px;
+    position: relative;
+    z-index: 100;
+    background-color: white;
+}
+
+p{
+    margin-top: 1.5rem;
+}
+
+.floatImage {
+    position: relative;
+    z-index: 101;
+    float: right; 
+    width: 500px; 
+    height: 350px; 
+    margin-left: 3vw; 
+    margin-right: 7vw;
+    margin-top: 2rem; 
+    margin-bottom: 20px; 
+    border-radius: 10px; 
+    background-color: #ffffff;
+}
+
+.divisorGradiente{
+    position: relative;
+    top: -7vw;
+    width: 100%;
+    z-index: 105;
+}
+
+.blueTitles{
+    color: var(--blue-titles);
+}
+.greenTitles{
+    color: var(--green-titles);
+}
