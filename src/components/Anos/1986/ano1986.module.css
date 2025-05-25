@@ -24,14 +24,18 @@
     margin-top: 2rem;
     margin-left: 7vw;
     margin-right: 7vw;
-    z-index: 100;
+    margin-bottom: 125px;
+    position: relative;
+    
 
     justify-content: space-around;
     font-size: 18px;
     line-height: 20px;
     position: relative;
-    z-index: 100;
+    z-index: 10002;
     background-color: white;
+
+
 }
 
 p{
@@ -40,7 +44,7 @@ p{
 
 .floatImage {
     position: relative;
-    z-index: 101;
+    z-index: 10003;
     float: right; 
     width: 500px; 
     height: 350px; 
@@ -49,14 +53,26 @@ p{
     margin-top: 2rem; 
     margin-bottom: 20px; 
     border-radius: 10px; 
-    background-color: #ffffff;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 0% 97%);
+
+
+    
 }
+
 
 .divisorGradiente{
     position: relative;
     top: -7vw;
     width: 100%;
-    z-index: 105;
+    z-index: 100010;
+}
+
+.group28Gradiente{
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    top: 31.3vw;
+    z-index: 10001;
 }
 
 .blueTitles{

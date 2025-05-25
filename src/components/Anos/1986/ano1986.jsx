@@ -40,11 +40,22 @@ export default function Ano1986(){
         
         </section>
 
-        <img src={'src/assets/Exclude(1).svg'} className={styles.divisorGradiente} alt="" />
-
-        {cardsData.map((data, index) =>{
-            return <Card key ={index} {...data}></Card>
-        })}
-        
-    </>)
+      
+       
+        <img 
+            src={'src/assets/Vector(1).svg'} 
+            className={styles.divisorGradiente} 
+            alt="divisor ondulado" 
+        />
+         <img 
+            src={'src/assets/Group 28.svg'} 
+            className={styles.group28Gradiente} 
+            alt="divisor ondulado" 
+        />
+      
+        {cardsData.map((data, index) => (
+            <Card key={index} {...data} />
+        ))}
+ 
+</>)
 }
