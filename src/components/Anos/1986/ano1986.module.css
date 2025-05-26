@@ -35,7 +35,6 @@
     z-index: 10002;
     background-color: white;
 
-
 }
 
 p{
@@ -61,8 +60,8 @@ p{
 
 
 .divisorGradiente{
-    position: relative;
-    top: -7vw;
+    position: absolute;
+    top: 44.5vw;
     width: 100%;
     z-index: 100010;
 }
@@ -80,4 +79,10 @@ p{
 }
 .greenTitles{
     color: var(--green-titles);
+}
+
+.cardContainer{
+    height: 200vh;
+    position: relative;
+    top: -105px;
 }

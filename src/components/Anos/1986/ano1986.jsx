@@ -52,10 +52,11 @@ export default function Ano1986(){
             className={styles.group28Gradiente} 
             alt="divisor ondulado" 
         />
-      
+      <div className={styles.cardContainer}>
         {cardsData.map((data, index) => (
             <Card key={index} {...data} />
         ))}
- 
+      </div>
+        
 </>)
 }

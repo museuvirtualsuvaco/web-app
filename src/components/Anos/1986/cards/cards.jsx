@@ -10,7 +10,7 @@ export default function Card({ title, description, src, firstColor, secondColor 
         <h2 className={styles.title}>{title}</h2>
         <p>{description}</p>
 
-        <button className={styles.button}>Clique para saber mais!</button>
+        <button className={styles.button}><span>Clique para ver mais!</span> <i class="ri-arrow-right-circle-line"></i></button>
       </div>
       
        <img src={src} alt={title} className={styles.imgCard} /> 
