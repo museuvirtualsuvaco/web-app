@@ -10,3 +10,4 @@ export const SUVACO_NA_MIDIA = '/suvacoNaMidia';
 
 
 export const FIREBASE_TESTING = '/firebase';
+export const TEMPORARIO = '/1986'
