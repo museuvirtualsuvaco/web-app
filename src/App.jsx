@@ -13,6 +13,7 @@ import ProjetoMuseu from './components/ProjetoMuseu/ProjetoMuseu';
 import DivinasAxilas from './components/DivinasAxilas/DivinasAxilas';
 import Sobre from './components/Sobre/Sobre';
 
+import FirebaseUi from './components/FirebaseUi/FirebaseUi';
 import Ano1986 from './components/Anos/1986/ano1986';
 
 import * as ROUTES from './constants/routes';
@@ -32,9 +33,8 @@ function App() {
           <Route path={ROUTES.DIVINAS_AXILAS} element={<DivinasAxilas />} />
           <Route path={ROUTES.PROJETO_MUSEU} element={<ProjetoMuseu />} />
           <Route path={ROUTES.SOBRE} element={<Sobre/>} />
+          <Route path={ROUTES.FIREBASE_TESTING} element={<FirebaseUi/>} />
           <Route path={ROUTES.TEMPORARIO} element={<Ano1986/>} />
-
-
         </Routes>
         <Footer />
       </div>
