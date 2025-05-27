@@ -1,0 +1,11 @@
+<svg width="1750" height="128" viewBox="0 0 1750 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 15.9997C891.431 -70.8151 497.476 238.145 1752 15.9997V38.6569C497.476 280.541 891.431 -55.8717 0 38.6569V15.9997Z" fill="url(#paint0_linear_872_966)"/>
+<defs>
+<clipPath id = "caminhoClip"> <path d="M0 15.9997C891.431 -70.8151 497.476 238.145 1752 15.9997V38.6569C497.476 280.541 891.431 -55.8717 0 38.6569V15.9997Z" fill="url(#paint0_linear_872_966)"/>
+</clipPath>
+<linearGradient id="paint0_linear_872_966" x1="0" y1="-55.5003" x2="1752" y2="-55.5003" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00FF80"/>
+<stop offset="1" stop-color="#0865CF"/>
+</linearGradient>
+</defs>
+</svg>
