@@ -29,8 +29,8 @@
     
 
     justify-content: space-around;
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 1.7rem;
+    line-height: 28px;
     position: relative;
     z-index: 10002;
     background-color: white;
@@ -45,14 +45,14 @@ p{
     position: relative;
     z-index: 10003;
     float: right; 
-    width: 500px; 
-    height: 350px; 
+    width: 450px; 
+    height: 300px; 
     margin-left: 3vw; 
     margin-right: 7vw;
     margin-top: 2rem; 
     margin-bottom: 20px; 
     border-radius: 10px; 
-    clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 0% 97%);
+    /* clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 0% 97%); */
 
 
     
@@ -61,7 +61,7 @@ p{
 
 .divisorGradiente{
     position: absolute;
-    top: 44.5vw;
+    top: 48.5vw;
     width: 100%;
     z-index: 100010;
 }
@@ -70,7 +70,7 @@ p{
     position: absolute;
     z-index: 100;
     width: 100%;
-    top: 31.3vw;
+    top: 35.3vw;
     z-index: 10001;
 }
 
@@ -84,5 +84,5 @@ p{
 .cardContainer{
     height: 200vh;
     position: relative;
-    top: -105px;
+    top: -60px;
 }

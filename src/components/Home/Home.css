@@ -1,7 +1,7 @@
 .home-texts {
     justify-content: space-around;
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 1.8rem;
+    line-height: 28px;
     position: relative;
     z-index: 100;
     background-color: white;
@@ -22,7 +22,7 @@
     justify-content: space-around;
     align-items: center;
     transform: scale(0.9);
-    top: 730px;
+    top: 780px;
 
 }
 
