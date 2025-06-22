@@ -1,10 +1,104 @@
-.mainContainer {
-    background-color:rgb(204, 255, 255);
+
+.group28Gradiente{
+    width: 100%;
+    position: absolute;
+    top: 640px;
+}
+
+.areaVerde {
+  width: 100%;
+  background: linear-gradient(#00CC65, #0053A1);
+}
+
+.titleSection{
+    color: white;
+    font-size: 2.5rem;
+    padding-top: 200px;
+    margin-left: 7.5vw;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.titleSectionNoPadding{
+    color: white;
+    font-size: 2.5rem;
+    margin-left: 7.5vw;
+    margin-top: 100px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.titleSectionEquipe{
+    color: white;
+    font-size: 2.5rem;
+    margin-left: 7.5vw;
+    margin-top: 100px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.box{
+    margin-top: 25px;
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    font-size: 1.9rem;
+    padding: 16px;
+    line-height: 28px;
+}
+.LastBox{
+    margin-top: 25px;
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    font-size: 1.9rem;
+    padding: 16px;
+    line-height: 28px;
+}
+
+.membroFoto{
+    width: 250px;
+}
+
+.divFotos{
     display: flex;
-    justify-content: center;  /* horizontal */
-    align-items: center;      /* vertical */
-    height: 100%;
-    padding: 300px 0;
-    font-size: 2em;
-    font-family: sans-serif;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 50px;
+    padding-top: 15px;
+}
+.divFotosSolo{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 15px;
+}
+
+.membro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 240px;
+    >p{
+        margin-top: 15px;
+    }
+}
+.membroSolo{
+    transform: translateX(20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 240px;
+    >p{
+        margin-top: 15px;
+    }
+}
+
+.greenSpace{
+    height: 100px;
+    width: 100%;
 }

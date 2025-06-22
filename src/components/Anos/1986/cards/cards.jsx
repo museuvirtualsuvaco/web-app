@@ -8,7 +8,7 @@ export default function Card({ title, description, src, firstColor, secondColor 
     <div className={styles.cardInfo} style={{ background: gradient }}>
       <div className={styles.textsFlex}>
         <h2 className={styles.title}>{title}</h2>
-        <p>{description}</p>
+        <p className={styles.p}>{description}</p>
 
         <button className={styles.button}><span>Clique para ver mais!</span> <i class="ri-arrow-right-circle-line"></i></button>
       </div>
