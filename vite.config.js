@@ -11,7 +11,7 @@ export default defineConfig({
   //     key: fs.readFileSync('./localhost-key.pem'),
   //     cert: fs.readFileSync('./localhost.pem'),
   //   },
-    host: 'localhost',
+    host: true,
     port: 4567,
   }
 })

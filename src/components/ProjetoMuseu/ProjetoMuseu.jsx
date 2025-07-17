@@ -6,29 +6,17 @@ const ProjetoMuseu = () => {
     return (
         <div>
             <main>
-                <div className="home-texts">
-                    <p>Há muita história para contar…</p>
-                    <p>
-                        Então nasceu a ideia de construir um espaço para que essa história seja contada:
-                        a história do Suvaco do Cristo e da revitalização do carnaval de rua do Rio de Janeiro.
-                        Foi iniciada uma parceria entre a presidência do bloco e a UFRJ, através de seu Instituto de Computação,
-                        e dessas conversas nasceu o projeto de extensão "Museu virtual do carnaval de rua do Rio de Janeiro: Bloco Suvaco do Cristo”
-                        que conta com a participação de professores, técnicos e estudantes da UFRJ, em especial, das áreas da Computação e da História da Arte.
+                <div className={styles.homeText}>
+                    <p>Qual é o papel de universidades como a UFRJ e da sociedade em geral na preservação e divulgação da memória do carnaval de rua do Rio de Janeiro? 
                     </p>
 
-                    <p>
-                        O projeto atua na preservação da memória do bloco e da revitalização do carnaval de rua carioca,
-                        através de um repositório e um portal (museu virtual) com a história do bloco. Uma organização por ano de
-                        desfile destaca o aspecto cronista do bloco, com sambas (e fantasias) relacionados ao momento.
-                        O site está sendo construído em torno dessa contextualização. Como resultado, extenso material estará
-                        disponível na rede para consulta por pesquisadores e público em geral.
-                    </p>
+                    <p> Essa indagação foi a motivação para a criação do projeto de extensão “Museu virtual do carnaval de rua do Rio de Janeiro – O bloco Suvaco do Cristo”, um dos responsáveis pela revitalização do carnaval de rua carioca. Através de uma parceria entre a presidência do bloco e o Instituto de Computação (IC/UFRJ), nasceu a ideia de construir um espaço para que essa história seja contada e continuada.</p>
                 </div>
 
-                <div className="home-logos">
-                    <img id="logo-ufrj" src="src/assets/ufrj-horizontal-cor-rgb-telas 1.svg" alt="Logo UFRJ" />
-                    <img id="logo-ic" src="src/assets/Sem títuloaaaaa 1.svg" alt="Logo IC" />
-                    <img id="eba" src="src/assets/307093807_543650020901618_4682476023594602429_n 1.png" alt="Logo História da Arte" />
+                <div className={styles.homeLogo}>
+                    <img className={styles.logoUfrj} src="src/assets/ufrj-horizontal-cor-rgb-telas 1.svg" alt="Logo UFRJ" />
+                    <img className={styles.logoIc} src="src/assets/Sem títuloaaaaa 1.svg" alt="Logo IC" />
+                    <img className={styles.logoEba} src="src/assets/307093807_543650020901618_4682476023594602429_n 1.png" alt="Logo História da Arte" />
                 </div>
             </main>
 
