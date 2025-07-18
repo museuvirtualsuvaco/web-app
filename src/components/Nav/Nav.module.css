@@ -1,6 +1,7 @@
 
 .mainContainer {
     background-color: white;
+    width: 100vw;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -54,11 +55,10 @@
     .liItens {
         display: flex; 
     }
-    .mainContainer {
-        justify-content: center; 
-    }
     .navIcon {
         position: static; 
         margin-left: 0; 
     }
 }
+
+

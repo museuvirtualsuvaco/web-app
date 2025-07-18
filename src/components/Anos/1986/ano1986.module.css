@@ -1,3 +1,7 @@
+.container{
+    width:100vw;
+}
+
 .title{
     font-family: "Roboto Flex";
     font-size: 5rem;
@@ -85,4 +89,17 @@ p{
     height: 200vh;
     position: relative;
     top: -60px;
+}
+
+@media (max-width: 1476px){
+    .title{
+        font-size: 4rem;
+    }    
+}
+
+
+@media (max-width: 1203px){
+    .title{
+        font-size: 3.5rem;
+    }    
 }

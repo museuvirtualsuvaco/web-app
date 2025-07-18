@@ -9,13 +9,13 @@ export default function Header() {
             <h1>Suvaco do Cristo</h1>
             <div className={styles.headerLinks}>
                     <a href="https://www.instagram.com/suvacodocristooficial" target="_blank" rel="noopener noreferrer">
-                        <i className="ri-instagram-line"></i> Instagram 
+                        <i className="ri-instagram-line"></i>
                     </a>
                     <a href="https://www.youtube.com/@blocosuvacodecristorj" target="_blank" rel="noopener noreferrer">
-                        <i className="ri-youtube-line"></i> Youtube
+                        <i className="ri-youtube-line"></i> 
                     </a>
                     <a href="https://www.facebook.com/suvaco.docristo" target="_blank" rel="noopener noreferrer">
-                        <i className="ri-facebook-box-line"></i> Facebook
+                        <i className="ri-facebook-box-line"></i> 
                     </a>
                 </div>
         </header>
