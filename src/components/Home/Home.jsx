@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 import "./Home.css"
 
+import Video from "./Video/Video"
 import FormCarrossel from "./FormCarrossel/FormCarrossel"
 import { Link } from 'react-router-dom';
 
@@ -38,6 +39,7 @@ export default function Home() {
                     <img id="logo-ufrj" src="src/assets/ufrj-horizontal-cor-rgb-telas 1.svg" alt="" />
                     <img id="logo-ic" src="src/assets/Sem títuloaaaaa 1.svg" alt="" />
                     <img id="eba" src="src\assets\307093807_543650020901618_4682476023594602429_n 1.png" alt="Logo História da Arte" />
+                    
                 </div>
             </main>
 
@@ -89,6 +91,7 @@ export default function Home() {
             <div className="form-area">
 
                 <FormCarrossel></FormCarrossel>
+                <Video></Video>
 
             </div>
         </div>

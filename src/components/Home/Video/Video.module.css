@@ -1,0 +1,32 @@
+.bg-gradient {
+  width: 100%;
+  background: linear-gradient(to bottom, #00b35d, #003d8c);
+  padding: 40px 0; 
+}
+
+.video-section {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  
+}
+
+.video-wrapper {
+  padding: 6px; 
+  border-radius: 20px;
+  background: linear-gradient(to bottom, #0084ff, #00FF80); 
+}
+
+.background-video {
+  width: 100%;
+  height: auto;
+  border: 4px solid white;
+  border-radius: 16px;
+  box-sizing: border-box;
+  display: block;
+}
