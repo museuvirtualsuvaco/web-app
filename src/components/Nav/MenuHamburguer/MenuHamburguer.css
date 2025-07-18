@@ -1,0 +1,103 @@
+
+.hamburguerContainer {
+    position: relative;
+
+    display: none; 
+    z-index: 1000;
+}
+
+.hamburguerIcon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 25px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 1001;
+    position: relative;
+}
+
+.hamburguerIcon .bar {
+    width: 100%;
+    height: 3px;
+    background-color: #333;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.hamburguerIcon.open .bar:nth-child(1) {
+    transform: translateY(11px) rotate(45deg);
+}
+
+.hamburguerIcon.open .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburguerIcon.open .bar:nth-child(3) {
+    transform: translateY(-11px) rotate(-45deg);
+}
+
+
+.menuItems {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    position: absolute;
+    top: 100%; /* Ajustado para ficar logo abaixo do hambúrguer */
+    right: 0;
+    width: 250px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  
+
+    /* Adicionado para os itens ficarem em coluna */
+    display: flex;
+    flex-direction: column;
+}
+
+.menuItems.open {
+    max-height: 400px;
+    padding: 10px 0;
+}
+
+/* Estilos para os <li> e <a> DENTRO do .menuItems (ul) */
+.menuItems li {
+    margin: 0;
+    padding: 0;
+}
+
+.menuItems li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1em;
+    display: block; /* Para que o padding e a largura funcionem */
+    padding: 12px 20px;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.menuItems li:last-child a { /* Remove a borda do último item */
+    border-bottom: none;
+}
+
+.menuItems li a:hover {
+  background-color: #e9e9e9;
+  color: #007bff;
+}
+
+
+@media (max-width: 768px) {
+  .hamburguerContainer {
+    display: block;
+    margin-left: auto;
+  }
+}
