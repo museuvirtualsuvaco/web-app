@@ -137,6 +137,11 @@ const ProjetoMuseu = () => {
                         <div className={styles.membro}>
 
                             <img className={styles.membroFoto} src="src/assets/96-modified.png" alt="" />
+                            <p>Maria do Carmo Martins Vido (EBA)</p>
+                        </div>
+                        <div className={styles.membro}>
+
+                            <img className={styles.membroFoto} src="src/assets/96-modified.png" alt="" />
                             <p>Tiago Matias da Silva (IC)</p>
                         </div>
                         <div className={styles.membro}>
@@ -151,8 +156,13 @@ const ProjetoMuseu = () => {
                 <h2 className={styles.titleSectionEquipe}>PARCEIROS DO SUVACO</h2>
 
                 <div className={styles.box}>
-                    <div className={styles.divFotosSolo}>
-                        <div className={styles.membroSolo}>
+                    <div className={styles.divFotos}>
+                        <div className={styles.membro}>
+
+                            <img className={styles.membroFoto} src="src/assets/96-modified.png" alt="" />
+                            <p>Caroline Déharbe</p>
+                        </div>
+                        <div className={styles.membro}>
 
                             <img className={styles.membroFoto} src="src/assets/96-modified.png" alt="" />
                             <p>João Carlos Regazzi Avelleira</p>
@@ -183,6 +193,21 @@ const ProjetoMuseu = () => {
                         <div className={styles.membro}>
 
                             <img className={styles.membroFoto} src="src/assets/96-modified.png" alt="" />
+                            <p>Daniel Nocito Falcão Lopes (IC)</p>
+                        </div>
+                        <div className={styles.membro}>
+
+                            <img className={styles.membroFoto} src="src/assets/96-modified.png" alt="" />
+                            <p>Davi de Souza Gomes Pereira (IC)</p>
+                        </div>
+                        <div className={styles.membro}>
+
+                            <img className={styles.membroFoto} src="src/assets/96-modified.png" alt="" />
+                            <p>Gabrielly de Freitas Ferreira (IC)</p>
+                        </div>
+                        <div className={styles.membro}>
+
+                            <img className={styles.membroFoto} src="src/assets/96-modified.png" alt="" />
                             <p>Guilherme Cappelli Bouzon de Amorim Cruz (IC)</p>
                         </div>
                         <div className={styles.membro}>
@@ -199,6 +224,11 @@ const ProjetoMuseu = () => {
 
                             <img className={styles.membroFoto} src="src/assets/96-modified.png" alt="" />
                             <p>Laura Luz Santos Soares (EBA)</p>
+                        </div>
+                        <div className={styles.membro}>
+
+                            <img className={styles.membroFoto} src="src/assets/96-modified.png" alt="" />
+                            <p>Lucas Tatsuya Tanaka (IC)</p>
                         </div>
                         <div className={styles.membro}>
 
