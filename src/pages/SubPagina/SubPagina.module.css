@@ -1,0 +1,38 @@
+.main {
+  align-items: center;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.titulo {
+  font-family: 'PT Mono', monospace;
+  font-size: 1.8rem;
+  color: #000;
+  text-align: center;
+  margin: 2rem 0;
+  line-height: 1.4;
+}
+
+.background {
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.divisorGradiente{
+    position: absolute;
+    top: 8vw;
+    width: 100%;
+    z-index: 100010;
+}
+
+.group28Gradiente{
+    position: relative;
+    z-index: 100;
+    width: 100%;
+    top: 6vw;
+    z-index: 10001;
+    margin-top: -8vw;
+}
