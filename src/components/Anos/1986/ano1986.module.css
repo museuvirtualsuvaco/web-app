@@ -100,3 +100,44 @@
         font-size: 3.5rem;
     }    
 }
+
+
+/*criando esse aqui de exemplo pra julia*/
+
+@media (max-width: 425px) {
+    .container{
+        position: relative;
+    }
+    
+    .title{
+        font-size: 2rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 2px;
+    }
+
+    .line{
+        width: 0px;
+    }
+
+    .floatImage{
+        float: none;
+        width: 95%;
+    }
+
+    .divisorGradiente{ /*
+        alterei aqui o top pra uma medida fixa
+        pra nao ter problema com diferentes celulares
+        e vc poder ter menos breakpoints pra serem feitos*/
+        top: inherit;
+        bottom: 99rem;
+    }
+
+    .group28Gradiente{
+        top: inherit;
+        bottom: 99rem;
+        position: absolute;
+    }
+
+
+}

@@ -54,3 +54,52 @@
     margin-top: 2.5rem;
 }
 
+@media (max-width:425px) {
+    .title{
+        font-size: 2.5rem; /*diminui o tamanho do titulo do card*/
+    }
+
+    .imgCard{
+        min-width: 80%; /*alterei tamanho da imagem pra ficar maior*/
+        max-width: 80%;
+        height: 70vh; /* forcei ela a ter um tamanho baseado na altura da tela*/
+        margin-right: 0vw; /*tirei margem da versao pc*/
+        position: inherit; /*resetei a posicao dela*/
+        z-index: 0;
+        align-self: center;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    .cardInfo{
+        overflow: hidden; /*tirar se ultrapassar*/
+        height: 110vh; /*maior que 100 = tela pra dar efeito*/
+        flex-direction: column; /*coloca imagem depois do texto*/
+        gap: 50px;
+        padding-left: 0vw;
+
+    }
+
+    .p{
+        font-size: 1rem;
+    }
+
+    .button{
+        padding: 8px 26px;
+        border: 2px solid white;
+        border-radius: 13px;
+        margin-top: 25px;
+        font-size: 1,1rem;
+        text-transform: uppercase;
+    }
+
+    .textsFlex{
+        margin-right: 0vw;
+        display: flex; /*pra poder centralizar todos os textos*/
+        align-items: center; /*centraliza texto e botao*/
+        flex-direction: column;
+        p{
+            padding: 0 5vw; /*margens laterais*/
+        }
+    }
+}
