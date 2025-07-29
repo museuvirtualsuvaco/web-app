@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './SambaConteudo.module.css';
 import Filipeta from '../../assets/FilipetaSamba1986.jpg';
+import Autores from './Artistas.json'
 
 export default function SambaContent() {
   return (
@@ -50,10 +51,12 @@ export default function SambaContent() {
       <h2 className={styles.sectionTitle}>AUTORES</h2>
       <section className={styles.card}>
         <div className={styles.profileRow}>
-          {Array(4).fill(0).map((_, i) => (
-            <div key={i} className={styles.profile}>
-              <div className={styles.avatar}></div>
-              <span className={styles.nome}>Nome Sobrenome</span>
+          {Object.entries(Autores["1986"]).map(([key, autor]) => (
+            <div key={key} className={styles.profile}>
+              <div className={styles.avatar}>
+                {/* <img src={autor.imgPath} alt={autor.name} /> */}
+              </div>
+              <span className={styles.nome}>{autor.name}</span>
             </div>
           ))}
         </div>
@@ -77,14 +80,14 @@ export default function SambaContent() {
 
         <div className={styles.gridArea}>
 
-        <div className={styles.gridVisual}>
-          <div className={styles.imgBoxGrande}></div>
-          <div className={styles.imgBox}></div>
-          <div className={styles.imgBox}>
-            <button className={styles.btn}>VER MAIS</button>
+          <div className={styles.gridVisual}>
+            <div className={styles.imgBoxGrande}></div>
+            <div className={styles.imgBox}></div>
+            <div className={styles.imgBox}>
+              <button className={styles.btn}>VER MAIS</button>
+            </div>
           </div>
         </div>
-      </div>
 
       </section>
     </div>
