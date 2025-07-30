@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './SambaConteudo.module.css';
 import Filipeta from '../../assets/FilipetaSamba1986.jpg';
 import Autores from './Artistas.json'
+import Musicos from './Musicos.json'
 
 export default function SambaContent() {
   return (
@@ -62,21 +63,24 @@ export default function SambaContent() {
         </div>
       </section>
 
-      {/* BLOCO: Bateria */}
-      <h2 className={styles.sectionTitle}>BATERIA</h2>
+      {/* BLOCO: Musicos */}
+      <h2 className={styles.sectionTitle}>MÚSICOS</h2>
       <section className={styles.card}>
         <div className={styles.profileRow}>
-          {Array(4).fill(0).map((_, i) => (
-            <div key={i} className={styles.profile}>
-              <div className={styles.avatar}></div>
-              <span className={styles.nome}>Nome Sobrenome</span>
+          {Object.entries(Musicos["1986"]).map(([key, musico]) => (
+            <div key={key} className={styles.profile}>
+              <div className={styles.avatar}>
+                {/* <img src={musico.imgPath} alt={musico.name} /> */}
+              </div>
+              <span className={styles.nome}>{musico.name}</span>
+              <span className={styles.funcao}>{musico.funcao}</span>
             </div>
           ))}
         </div>
 
-        <p className={styles.texto}>
+        {/* <p className={styles.texto}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor porttitor dictum. Curabitur mollis neque scelerisque nunc dapibus  cursus. Morbi egestas sapien neque. Phasellus sagittis consectetur  elementum. Vivamus mattis porta dapibus. Sed eu odio mollis, sagittis  lectus nec, rutrum odio. Maecenas vel dapibus dolor. Fusce ligula  ligula, molestie at lectus in, porttitor egestas libero. Nulla facilisi. Vestibulum varius tortor ligula, ut volutpat risus vestibulum quis.  Praesent laoreet nisi lectus, nec ornare orci facilisis ut. Duis  consectetur viverra malesuada.
-        </p>
+        </p> */}
 
         <div className={styles.gridArea}>
 
