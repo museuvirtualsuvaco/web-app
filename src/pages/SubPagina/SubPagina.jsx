@@ -17,7 +17,7 @@ export default function SubPagina() {
     <>
       <main className={styles.main} >
 
-        <section >
+        <section className={styles.secao}>
           <h2 className={styles.titulo}>
             {`Desfile ${numeroDesfile}, Ano ${ano} - ${categoria?.charAt(0).toUpperCase() + categoria?.slice(1)}`}
           </h2>

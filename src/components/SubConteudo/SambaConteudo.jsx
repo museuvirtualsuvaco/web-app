@@ -3,6 +3,8 @@ import styles from './SambaConteudo.module.css';
 import Filipeta from '../../assets/FilipetaSamba1986.jpg';
 import Autores from './Artistas.json'
 import Musicos from './Musicos.json'
+import musica from '../../assets/musicas/1986musica.mp3'
+
 
 export default function SambaContent() {
   return (
@@ -43,7 +45,7 @@ export default function SambaContent() {
       <h2 className={styles.sectionTitle}>ESCUTE A MÚSICA</h2>
       <section className={styles.card}>
         <audio controls className={styles.audio}>
-          <source src="/musica.mp3" type="audio/mpeg" />
+          <source src={musica} type="audio/mpeg" />
           Seu navegador não suporta o elemento de áudio.
         </audio>
       </section>
@@ -54,9 +56,7 @@ export default function SambaContent() {
         <div className={styles.profileRow}>
           {Object.entries(Autores["1986"]).map(([key, autor]) => (
             <div key={key} className={styles.profile}>
-              <div className={styles.avatar}>
-                {/* <img src={autor.imgPath} alt={autor.name} /> */}
-              </div>
+                { <img className={styles.avatar} src={autor.imgPath} alt={autor.name} />}
               <span className={styles.nome}>{autor.name}</span>
             </div>
           ))}

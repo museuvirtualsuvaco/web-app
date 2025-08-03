@@ -2,22 +2,22 @@
   "1986": {
     "1": {
       "name": "João Aveleira",
-      "imgPath": "",
+      "imgPath": "/src/assets/artistas/joao.png",
       "urlSuvaco": "#"
     },
     "2": {
       "name": "Arnaldo Chaim",
-      "imgPath": "",
+      "imgPath": "/src/assets/artistas/arnaldo.png",
       "urlSuvaco": "#"
     },
     "3": {
       "name": "José Lavigne",
-      "imgPath": "",
+      "imgPath": "/src/assets/artistas/joseLavigne-doc-modified.png",
       "urlSuvaco": "#"
     },
     "4": {
       "name": "Roberto Pirulito",
-      "imgPath": "",
+      "imgPath": "/src/assets/artistas/Pirulito-doc-modified.png",
       "urlSuvaco": "#"
     }
   }
