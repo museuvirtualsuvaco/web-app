@@ -1,9 +1,5 @@
 import React from 'react';
-import styles from './SambaConteudo.module.css';
-import Filipeta from '../../assets/FilipetaSamba1986.jpg';
-import Autores from './Artistas.json'
-import Musicos from './Musicos.json'
-import musica from '../../assets/musicas/1986musica.mp3'
+import styles from './SuvacoMidia86.module.css';
 
 
 export default function SambaContent() {

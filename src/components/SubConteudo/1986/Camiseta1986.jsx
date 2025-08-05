@@ -1,5 +1,10 @@
 import React from 'react';
 import styles from './CamisetaConteudo.module.css';
+import CamisaFoto from '../../../assets/camisetas/1986 Camiseta Sonia Matos.jpg';
+import Artistas from '../CamisetaArtistas.json'
+import Musicos from '../Musicos.json'
+import musica from '../../../assets/musicas/1986musica.mp3'
+
 
 export default function CamisetaContent() {
   return (
@@ -8,26 +13,25 @@ export default function CamisetaContent() {
       <h2 className={styles.sectionTitle}>A CAMISETA</h2>
       <section className={styles.card}>
       <div className={styles.imgCamisetaWrapper}>
-        <div className={styles.imgCamiseta}></div>
-        <div className={styles.imgCamiseta}></div>
+        <img src={CamisaFoto} className={styles.imgCamiseta} alt="" />
         </div>
       </section>
 
       {/* BLOCO: Autores */}
-      <h2 className={styles.sectionTitle}>ARTISTAS</h2>
+      <h2 className={styles.sectionTitle}>ARTISTA</h2>
       <section className={styles.card}>
         <div className={styles.profileRow}>
-          {Array(4).fill(0).map((_, i) => (
-            <div key={i} className={styles.profile}>
-              <div className={styles.avatar}></div>
-              <span className={styles.nome}>Nome Sobrenome</span>
+          {Object.entries(Artistas["1986"]).map(([key, autor]) => (
+            <div key={key} className={styles.profile}>
+              {<img className={styles.avatar} src={autor.imgPath} alt={autor.name} />}
+              <span className={styles.nome}>{autor.name}</span>
             </div>
           ))}
         </div>
       </section>
 
       {/* BLOCO: Bateria */}
-      <h2 className={styles.sectionTitle}>CURIOSIDADES</h2>
+      {/* <h2 className={styles.sectionTitle}>CURIOSIDADES</h2>
       <section className={styles.card}>
 
         <p className={styles.texto}>
@@ -45,7 +49,7 @@ export default function CamisetaContent() {
         </div>
       </div>
 
-      </section>
+      </section> */}
     </div>
   );
 }

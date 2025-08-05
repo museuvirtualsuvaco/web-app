@@ -19,6 +19,11 @@ import Ano1986 from './components/Anos/1986/ano1986';
 
 import * as ROUTES from './constants/routes';
 
+// Importação dos componentes de cada ano e categoria
+import Samba1986 from './components/SubConteudo/1986/Samba1986';
+import Camiseta1986 from './components/SubConteudo/1986/Camiseta1986';
+import SuvacoMidia86 from './components/SubConteudo/1986/SuvacoMidia1986';
+
 function App() {
 
   return (
