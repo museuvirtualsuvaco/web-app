@@ -18,7 +18,6 @@ export default function Ano1986() {
           <h2 className={styles.greenTitles}>Ano 1986</h2>
         </div>
 
-        {/* ✅ Caminho corrigido para a imagem */}
         <img src={turma1986} className={styles.floatImage} alt="Turma da Maria Angélica 1986" />
 
         <section className={styles.sectionTexts}>
