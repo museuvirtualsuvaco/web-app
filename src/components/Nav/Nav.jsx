@@ -23,7 +23,7 @@ export default function Nav() {
                     <Link to={ROUTES.PROJETO_MUSEU}>Projeto Museu</Link>
                 </li>
                 <li>
-                    <Link to={ROUTES.SOBRE}>Sobre</Link>
+                    <Link to={ROUTES.SOBRE}>Sobre Nós</Link>
                 </li>
             </ul>
 
@@ -40,7 +40,7 @@ export default function Nav() {
                     <Link to={ROUTES.PROJETO_MUSEU}>Projeto Museu</Link>
                 </li>
                 <li>
-                    <Link to={ROUTES.SOBRE}>Sobre</Link>
+                    <Link to={ROUTES.SOBRE}>Sobre Nós</Link>
                 </li>
             </MenuHamburguer>
         </nav>

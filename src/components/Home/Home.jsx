@@ -54,12 +54,12 @@ export default function Home() {
                         <div className="projetos">
                             <div className="projeto-social">
                                 <img id="projeto-social-img" src="src/assets/image 2(1).svg" alt="" />
-                                <a href="http://google.com" className="social-link overlay">O Projeto Social</a>
+                                <a href="#" className="social-link overlay">O Projeto Social</a>
                             </div>
 
                             <div className="projeto-museu">
                                 <img id="projeto-museu-img" src="src/assets/Emariz 28(2).jpg" alt="" />
-                                <a href="http://google.com" className="museu-link overlay">O Projeto Museu</a>
+                                <a href="/projetoMuseu" className="museu-link overlay">O Projeto Museu</a>
                             </div>
                         </div>
                         <img id="separador-gradiente-2" src="src/assets/Group - Onda(1).svg" alt="" />
@@ -73,9 +73,9 @@ export default function Home() {
                         <div className="projetos-mobile">
 
                             <img id="botoes-mobile" src="src/assets/Frame 14(2).svg" alt="" />
-                            <a href="http://google.com" className="social-link-mobile overlay">O Projeto Social</a>
+                            <a href="#" className="social-link-mobile overlay">O Projeto Social</a>
 
-                            <a href="http://google.com" className="museu-link-mobile overlay">O Projeto Museu</a>
+                            <a href="/projetoMuseu" className="museu-link-mobile overlay">O Projeto Museu</a>
 
 
 
