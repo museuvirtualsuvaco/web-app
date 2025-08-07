@@ -4,6 +4,7 @@ import styles from "./SubPagina.module.css";
 import { useParams } from "react-router-dom";
 import SambaContent from "../../components/SubConteudo/1986/Samba1986";
 import CamisetaContent from "../../components/SubConteudo/1986/Camiseta1986"
+import Desfile86 from "../../components/SubConteudo/1986/Desfile1986"
 import SuvacoMidia86 from "../../components/SubConteudo/1986/SuvacoMidia1986"
 import Header from "../../components/Header/Header";
 import Vetor from "../../assets/Vector(1).svg";
@@ -48,7 +49,7 @@ export default function SubPagina() {
           {categoria === "samba" && ano ==="1986" && <SambaContent />}
           {categoria === "camiseta" && ano ==="1986" &&  <CamisetaContent />}
           {categoria === "midia" && ano ==="1986" && <SuvacoMidia86 />}
-          {categoria === "desfile" && ano ==="1986" && <CamisetaContent />}
+          {categoria === "desfile" && ano ==="1986" && <Desfile86/>}
 
         </div>
       </main>
