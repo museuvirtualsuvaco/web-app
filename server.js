@@ -10,9 +10,16 @@ const PORT = process.env.PORT || 3001;
 
 app.use(express.static(path.join(__dirname, 'dist')));
 
-app.get('*', (req, res) => {
+app.get('*', (req, res, next) => {
+  // Se a URL parecer ser um arquivo (contém ponto "."), deixe o express.static lidar
+  if (req.path.includes('.')) {
+    return next(); // deixa o express.static tentar servir o arquivo
+  }
+
+  // Senão, é uma rota SPA — envia o index.html
   res.sendFile(path.join(__dirname, 'dist', 'index.html'));
 });
+
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT} (staging)`);
