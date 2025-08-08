@@ -1,0 +1,209 @@
+.container {
+  padding: 3rem 2rem;
+  width: 100%;
+  margin: 0 auto;
+  background: transparent;
+  max-width: 100%;
+  background: linear-gradient(to bottom, #A700C8, #E300C5);
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem 1.5rem;
+  margin: 0 auto 2.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 90%;
+  position: relative;
+
+}
+
+.sectionTitle {
+  font-family: 'Roboto Flex', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  margin: 2rem auto 1.5rem auto;
+  color: #ffffff;
+  text-decoration: underline;
+  max-width: 94%;
+  padding: 1rem 2rem 1rem 2rem;
+
+}
+
+.letra {
+  font-family: 'Roboto flex', sans-serif;
+  font-weight: 500;
+  flex: 1;
+  min-width: 300px;
+  max-width: 100%;
+  font-size: 1.6rem;
+  line-height: 1.8;
+  color: #000;
+  margin-top: 1rem;
+}
+
+.lyricsImageWrapper {
+  display:flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  justify-content: space-evenly;
+  overflow: auto;
+  width: 100%;
+  min-width: 50%;
+}
+
+.imageContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  max-width: 30%;
+  min-width: 400px;
+  align-items: center;
+  text-align: center;
+}
+
+.filipetaImage {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  object-fit: contain;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.caption {
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  color: #000;
+  text-align: justify;
+}
+
+.profileRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+  padding: 0.5rem;
+  max-width: 150px; 
+}
+
+.avatar {
+  min-width: 150px;
+  border-radius: 50%;
+}
+
+.flexSong{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.interprete{
+  font-size: 1.5rem;
+  font-weight: 500;
+
+}
+
+.funcao{
+  margin-top: 20px;
+  font-weight: 600;
+
+}
+.nome {
+  margin-top: 0.9rem;
+  font-size: 1.07rem;
+  text-align: center;
+  color: #0054A2;
+  text-decoration: underline;
+  line-height: 1.2;
+  font-weight: 600;
+  width: 250px;
+}
+
+.gridArea {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.texto {
+  flex: 1 1 300px;
+  font-family: 'Roboto Flex', sans-serif;
+  font-size: 1.3em;
+  color: #000;
+  line-height: 1.7;
+  margin-top: 1rem;
+
+}
+
+.gridVisual {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0.5rem;
+  width: 100%;
+  max-width: 70%;
+  margin: auto;
+  position: relative;
+}
+
+.imgBoxGrande {
+  width: 100%;
+  height: 100%;
+  background-color: #d9d9d9;
+  grid-row: span 2;
+}
+
+.imgBox {
+  height: 100%;
+
+  background-color: #d9d9d9;
+  position: relative;
+
+}
+
+.btn {
+  position: relative;
+  width: 100%;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #000000be;
+  color: white;
+  font-weight: bold;
+  padding: 32px 20px;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.btn:hover {
+  background-color: #000000ef;
+}
+
+@media (max-width: 400px) {
+  .profileRow {
+    gap: 1rem;
+  }
+
+  .avatar {
+    width: 80px;
+    height: 80px;
+  }
+
+  .name {
+    font-size: 0.9rem;
+  }
+}

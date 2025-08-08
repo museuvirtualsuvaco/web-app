@@ -12,11 +12,17 @@ import Footer from './components/Footer/Footer'
 import ProjetoMuseu from './components/ProjetoMuseu/ProjetoMuseu';
 import DivinasAxilas from './components/DivinasAxilas/DivinasAxilas';
 import Sobre from './components/Sobre/Sobre';
+import SubPagina from './pages/SubPagina/SubPagina';
 
 import FirebaseUi from './components/FirebaseUi/FirebaseUi';
 import Ano1986 from './components/Anos/1986/ano1986';
 
 import * as ROUTES from './constants/routes';
+
+// Importação dos componentes de cada ano e categoria
+import Samba1986 from './components/SubConteudo/1986/Samba1986';
+import Camiseta1986 from './components/SubConteudo/1986/Camiseta1986';
+import SuvacoMidia86 from './components/SubConteudo/1986/SuvacoMidia1986';
 
 function App() {
 
@@ -24,7 +30,7 @@ function App() {
     <Router>
       <div>
         <Nav />
-        <Header></Header>
+        <Header/>
 
         <hr />
         <Routes>
@@ -35,6 +41,7 @@ function App() {
           <Route path={ROUTES.SOBRE} element={<Sobre/>} />
           <Route path={ROUTES.FIREBASE_TESTING} element={<FirebaseUi/>} />
           <Route path={ROUTES.TEMPORARIO} element={<Ano1986/>} />
+          <Route path="/:ano/:categoria" element={<SubPagina />} />
         </Routes>
         <Footer />
       </div>
