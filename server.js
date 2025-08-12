@@ -10,10 +10,8 @@ const PORT = process.env.PORT || 3000
 
 app.use(express.static(path.join(__dirname, 'dist')))
 
-app.get('*', (req, res, next) => {
-  if (req.path.includes('.')) {
-    return next()
-  }
+// History API fallback: serve index.html para todas as rotas, exceto as que batem com arquivos estáticos
+app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'dist', 'index.html'))
 })
 
