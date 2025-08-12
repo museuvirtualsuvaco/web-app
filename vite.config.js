@@ -1,17 +1,35 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import fs from 'fs'
 
-// https://vite.dev/config/
+const prod = process.env.NODE_ENV === 'production'
+
 export default defineConfig({
+  base: prod ? './' : '/',
   plugins: [react()],
-  base: './', // 🔹 garante que assets usem caminhos relativos
-  server: {
-    // https: {
-    //   key: fs.readFileSync('./localhost-key.pem'),
-    //   cert: fs.readFileSync('./localhost.pem'),
-    // },
+  server: prod ? undefined : {
+    port: process.env.PORT || 3000,
     host: true,
-    port: 4567,
-  }
+    strictPort: true,
+    watch: {
+      usePolling: true,
+    },
+    cors: {
+      origin: [
+        "www.suvacodocristo.com",
+        "www.suvacodocristo.com.br",
+        "suvacodocristo.com",
+        "suvacodocristo.com.br",
+      ],
+      credentials: true,
+    },
+    clientPort: 443,
+  },
+  preview: prod ? undefined : {
+    allowedHosts: [
+      "www.suvacodocristo.com",
+      "www.suvacodocristo.com.br",
+      "suvacodocristo.com",
+      "suvacodocristo.com.br",
+    ],
+  },
 })
