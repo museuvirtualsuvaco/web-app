@@ -7,9 +7,10 @@ export const cardsData = [
     {
         title: 'Samba',
         description: "O primeiro samba, intitulado “Divinas Axilas”, foi composto por João Avelleira, Arnaldo Chaim e José Lavigne, com sugestões do presidente do bloco Força Jovem do Horto, Roberto de Assis (conhecido pelo apelido de Pirulito). A canção ironizava a maior parte dos sambas enredos pela obrigatoriedade de referências a temas nacionais, citando as localidades da Rocinha e Humaitá e povos indígenas Tamoios e Tupinambás, obrigatoriedade já satirizada no 'Samba do Crioulo Doido' do grande Stanislau Ponte Preta. Embora explicações mais glamourizadas, anos mais tarde tenham surgido, era apenas mais uma brincadeira irreverente, como todo o bloco.",
-        src: "src/assets/Samba 1986(2).jpg",
+        src: sambaImg,
         firstColor: "#00BE1D",
         secondColor: "#00DE21",
+        link: '/1986/samba'
     },
     {
         title: 'Camiseta',
@@ -17,6 +18,7 @@ export const cardsData = [
         src: camisetaImg,
         firstColor: "#009DFF",
         secondColor: "#00BEB5",
+        link: '/1986/camiseta'
     },
     {
         title: 'Desfile',
@@ -24,6 +26,7 @@ export const cardsData = [
         src: desfileImg,
         firstColor: "#E300C5",
         secondColor: "#A700C8",
+        link: '/1986/desfile'
     },
     {
         title: 'Suvaco na mídia',
@@ -31,5 +34,6 @@ export const cardsData = [
         src: midiaImg,
         firstColor: "#DBBB00",
         secondColor: "#FF9A27",
+        link: '/1986/midia'
     },
 ]
