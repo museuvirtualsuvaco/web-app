@@ -34,7 +34,7 @@ export default function FormCarrossel(){
 
 
   <div className={styles.carrossel} id="carrossel">
-    <a href="#" className={styles.item} data-item>
+    <a href="/1986" className={styles.item} data-item>
       <img src="/src/assets/imgCarrossel/rect86.png" alt="Ano 1986" />
     </a>
     <a href="#" className={styles.item} data-item>

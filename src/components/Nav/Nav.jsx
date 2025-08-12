@@ -9,7 +9,7 @@ import * as ROUTES from '../../constants/routes';
 export default function Nav() {
     return (
         <nav className={styles.mainContainer}>
-            <img className={styles.navIcon} src={null} alt="icone aqui" />
+            {/* <img className={styles.navIcon} src={null} alt="icone aqui" /> */}
 
             {/* Menu Desktop */}
             <ul className={styles.liItens}>
