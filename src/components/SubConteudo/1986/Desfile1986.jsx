@@ -4,8 +4,25 @@ import styles from './Desfile1986.module.css';
 import foto1 from '../../../assets/1986 Foto Maria Angelica 741.jpg';
 import foto2 from '../../../assets/1986 desfile.JPG';
 import foto3 from '../../../assets/1986 saida.JPG';
+
+import Grupo from "../../../assets/Group 28.svg";
 export default function SambaContent() {
   return (
+
+    <>
+    
+        <div className={styles.cabecalho}>
+    
+        <h2 className={styles.titulo}>Desfile 1986, Ano 01 - Desfile</h2>
+    
+        </div>
+
+         <img
+                          src={Grupo}
+                          className={styles.group28Gradiente}
+                          alt="divisor ondulado"
+                        />
+            
     <div className={styles.container}>
       <h2 className={styles.sectionTitle}>O DESFILE</h2>
       <section className={styles.card}>
@@ -31,5 +48,7 @@ export default function SambaContent() {
 
       </section>
     </div>
+
+    </>
   );
 }
