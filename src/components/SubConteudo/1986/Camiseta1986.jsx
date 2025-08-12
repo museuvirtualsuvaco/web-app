@@ -4,11 +4,25 @@ import CamisaFoto from '../../../assets/camisetas/1986 Camiseta Sonia Matos.jpg'
 import Artistas from '../CamisetaArtistas.json'
 import Musicos from '../Musicos.json'
 import musica from '../../../assets/musicas/1986musica.mp3'
+import Grupo from "../../../assets/Group 28.svg";
 
 
 export default function CamisetaContent() {
   return (
   
+    <>
+        <div className={styles.cabecalho}>
+        
+            <h2 className={styles.titulo}>Desfile 1986, Ano 01 - Camiseta</h2>
+        
+            </div>
+        
+            <img
+                      src={Grupo}
+                      className={styles.group28Gradiente}
+                      alt="divisor ondulado"
+                    />
+
     <div className={styles.container}>
       <h2 className={styles.sectionTitle}>A CAMISETA</h2>
       <section className={styles.card}>
@@ -51,5 +65,6 @@ export default function CamisetaContent() {
 
       </section> */}
     </div>
+    </>
   );
 }

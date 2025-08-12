@@ -4,8 +4,24 @@ import styles from './SuvacoMidia86.module.css';
 import foto1 from '../../../assets/1985 JB - Nasce o Suvaco.jpg';
 import foto2 from '../../../assets/1986 1 Desfila Sonia e Robertinho.jpg';
 import foto3 from '../../../assets/1986 JB Carta dos Leitores Revolta.jpg';
+
+import Grupo from "../../../assets/Group 28.svg";
 export default function SambaContent() {
   return (
+    <>
+    <div className={styles.cabecalho}>
+    
+        <h2 className={styles.titulo}>Desfile 1986, Ano 01 - Mídia</h2>
+    
+        </div>
+    
+        <img
+                  src={Grupo}
+                  className={styles.group28Gradiente}
+                  alt="divisor ondulado"
+                />
+    
+    
     <div className={styles.container}>
       <h2 className={styles.sectionTitle}>NA MÍDIA</h2>
       <section className={styles.card}>
@@ -30,5 +46,7 @@ export default function SambaContent() {
 
       </section>
     </div>
+
+    </>
   );
 }
