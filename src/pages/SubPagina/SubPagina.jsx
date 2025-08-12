@@ -45,13 +45,6 @@ export default function SubPagina() {
           alt="divisor ondulado"
         />
 
-        <div className={styles.background}>
-          {categoria === "samba" && ano ==="1986" && <SambaContent />}
-          {categoria === "camiseta" && ano ==="1986" &&  <CamisetaContent />}
-          {categoria === "midia" && ano ==="1986" && <SuvacoMidia86 />}
-          {categoria === "desfile" && ano ==="1986" && <Desfile86/>}
-
-        </div>
       </main>
 
     </>

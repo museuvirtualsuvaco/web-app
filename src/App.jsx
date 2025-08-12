@@ -23,6 +23,7 @@ import * as ROUTES from './constants/routes';
 import Samba1986 from './components/SubConteudo/1986/Samba1986';
 import Camiseta1986 from './components/SubConteudo/1986/Camiseta1986';
 import SuvacoMidia86 from './components/SubConteudo/1986/SuvacoMidia1986';
+import Desfile86 from './components/SubConteudo/1986/Desfile1986'
 
 function App() {
 
@@ -40,8 +41,15 @@ function App() {
           <Route path={ROUTES.PROJETO_MUSEU} element={<ProjetoMuseu />} />
           <Route path={ROUTES.SOBRE} element={<Sobre/>} />
           <Route path={ROUTES.FIREBASE_TESTING} element={<FirebaseUi/>} />
-          <Route path={ROUTES.TEMPORARIO} element={<Ano1986/>} />
-          <Route path="/:ano/:categoria" element={<SubPagina />} />
+          <Route path={ROUTES.PAG86} element={<Ano1986/>} />
+          
+          <Route path={ROUTES.PAG86SAMBA} element={<Samba1986/>} />
+          <Route path={ROUTES.PAG86MIDIA} element={<SuvacoMidia86/>} />
+          <Route path={ROUTES.PAG86DESFILE} element={<Desfile86/>} />
+          <Route path={ROUTES.PAG86CAMISETA} element={<Camiseta1986/>} />
+
+          
+
         </Routes>
         <Footer />
       </div>

@@ -7,6 +7,28 @@
   background: linear-gradient(to bottom, #A700C8, #E300C5);
 }
 
+
+.titulo {
+  font-family: 'PT Mono', monospace;
+  font-size: 2.5rem;
+  padding-bottom: 28px;
+  margin-top: 2rem;
+  color: #000;
+  text-align: left;
+  margin-left: var(--margin-left);
+  z-index: 10;
+  position: relative;
+}
+
+.group28Gradiente{
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    top: 18vw;
+    z-index: 8;
+}
+
+
 .card {
   background: white;
   border-radius: 12px;
