@@ -1,0 +1,143 @@
+.container{
+    width:100vw;
+}
+
+.title{
+    font-family: "Roboto Flex";
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 15px;
+
+    display: flex;
+
+    justify-content: center;
+    gap: 5px;
+    align-items: end;
+
+}
+
+.line{
+    width: 50%;
+    height: 3px;
+    background: linear-gradient(to right, var(--blue), #00FF80);
+    margin-bottom: 13px;
+}
+
+.sectionTexts{
+    margin-top: 2rem;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    margin-bottom: 125px;
+    position: relative;
+    
+
+    justify-content: space-around;
+    font-size: 1.7rem;
+    line-height: 28px;
+    position: relative;
+    z-index: 10002;
+    background-color: white;
+
+}
+
+
+.floatImage {
+    position: relative;
+    z-index: 10003;
+    float: right; 
+    width: 450px; 
+    height: 300px; 
+    margin-left: 3vw; 
+    margin-right: 7vw;
+    margin-top: 2rem; 
+    margin-bottom: 20px; 
+    border-radius: 10px; 
+    /* clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 0% 97%); */
+
+
+    
+}
+
+
+.divisorGradiente{
+    position: absolute;
+    top: 48.5vw;
+    width: 100%;
+    z-index: 100010;
+}
+
+.group28Gradiente{
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    top: 35.3vw;
+    z-index: 10001;
+}
+
+.blueTitles{
+    color: var(--blue-titles);
+}
+.greenTitles{
+    color: var(--green-titles);
+}
+
+.cardContainer{
+    height: 200vh;
+    position: relative;
+    top: -60px;
+}
+
+@media (max-width: 1476px){
+    .title{
+        font-size: 4rem;
+    }    
+}
+
+
+@media (max-width: 1203px){
+    .title{
+        font-size: 3.5rem;
+    }    
+}
+
+
+/*criando esse aqui de exemplo pra julia*/
+
+@media (max-width: 425px) {
+    .container{
+        position: relative;
+    }
+    
+    .title{
+        font-size: 2rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 2px;
+    }
+
+    .line{
+        width: 0px;
+    }
+
+    .floatImage{
+        float: none;
+        width: 95%;
+    }
+
+    .divisorGradiente{ /*
+        alterei aqui o top pra uma medida fixa
+        pra nao ter problema com diferentes celulares
+        e vc poder ter menos breakpoints pra serem feitos*/
+        top: inherit;
+        bottom: 99rem;
+    }
+
+    .group28Gradiente{
+        top: inherit;
+        bottom: 99rem;
+        position: absolute;
+    }
+
+
+}

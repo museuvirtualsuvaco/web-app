@@ -16,6 +16,7 @@ import SubPagina from './pages/SubPagina/SubPagina';
 
 import FirebaseUi from './components/FirebaseUi/FirebaseUi';
 import Ano1986 from './components/Anos/1986/ano1986';
+import Ano2012 from './components/Anos/2012/ano2012';
 
 import * as ROUTES from './constants/routes';
 
@@ -41,12 +42,15 @@ function App() {
           <Route path={ROUTES.PROJETO_MUSEU} element={<ProjetoMuseu />} />
           <Route path={ROUTES.SOBRE} element={<Sobre/>} />
           <Route path={ROUTES.FIREBASE_TESTING} element={<FirebaseUi/>} />
-          <Route path={ROUTES.PAG86} element={<Ano1986/>} />
           
+          
+          <Route path={ROUTES.PAG86} element={<Ano1986/>} />
           <Route path={ROUTES.PAG86SAMBA} element={<Samba1986/>} />
           <Route path={ROUTES.PAG86MIDIA} element={<SuvacoMidia86/>} />
           <Route path={ROUTES.PAG86DESFILE} element={<Desfile86/>} />
           <Route path={ROUTES.PAG86CAMISETA} element={<Camiseta1986/>} />
+
+          <Route path={ROUTES.PAG12} element={<Ano2012/>} />
 
           
 
