@@ -22,7 +22,7 @@ export const cardsData = [
     },
     {
         title: 'Desfile',
-        description: "lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
+        description: "Domingo, 02 de fevereiro de 1986, dia de Yemanjá, a galera da Maria Angélica 741, com seus estandartes de fios metalizados, 70 camisetas vendidas, 2 cornetas de auto-falante no teto de uma Kombi emprestada pelo Jornal dos Sports, aqueceu...",
         src: desfileImg,
         firstColor: "#E300C5",
         secondColor: "#A700C8",

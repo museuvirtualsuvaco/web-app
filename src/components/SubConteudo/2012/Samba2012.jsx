@@ -94,8 +94,23 @@ export default function SambaContent() {
             <div className={styles.profile}>
               <span className={styles.interprete}>INTÉRPRETE</span>
               <img className={styles.avatar} src="/src/assets/artistas/nenhum.png" alt="" />
-              <span className={styles.nome}>Beto Brown</span>
+              <span className={styles.nome}>Mu Chebabi</span>
             </div>
+
+          </div>
+
+        </section>
+        {/* BLOCO: Música */}
+        <h2 className={styles.sectionTitle}>CURIOSIDADES</h2>
+        <section className={styles.card}>
+
+          <div className={styles.flexSong}>
+
+          <p className={styles.texto}> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla velit impedit omnis officiis quia. Sint laborum facere eligendi sed distinctio fugiat ex eveniet rerum, quia blanditiis non fuga modi tempora?
+          Soluta aspernatur impedit eaque mollitia obcaecati assumenda culpa? Autem omnis temporibus praesentium debitis soluta ea consectetur totam veritatis dignissimos quas ipsam quisquam doloremque mollitia dolorem illum, nisi molestiae tempora voluptatibus?
+          Velit assumenda, laborum praesentium similique sunt nulla, facere alias, nostrum eos sequi quo. Reprehenderit possimus veritatis suscipit dolores unde, repellendus neque laboriosam tempora aliquid, autem quidem dignissimos. Fugit, vero dolores!
+          Dignissimos nostrum ducimus et fugit eligendi eaque excepturi quasi, tempora ullam, reprehenderit facilis repellendus, voluptas dicta. Eum, aliquid accusantium nostrum necessitatibus ducimus similique possimus impedit, dignissimos doloremque, eius iste sapiente.
+          Adipisci impedit modi molestiae vitae exercitationem temporibus, ipsum quod aliquam! Nam blanditiis ea corporis eius earum neque. Iure, repudiandae. Vero doloribus quia rem dolore vel cum voluptate deleniti incidunt dolorum.</p>
 
           </div>
 
