@@ -11,7 +11,7 @@ export default function SambaContent() {
     <>
     <div className={styles.cabecalho}>
     
-        <h2 className={styles.titulo}>Desfile 1986, Ano 01 - Mídia</h2>
+        <h2 className={styles.titulo}>Desfile 2012, Ano 27 - Mídia</h2>
     
         </div>
     
@@ -26,9 +26,7 @@ export default function SambaContent() {
       <h2 className={styles.sectionTitle}>NA MÍDIA</h2>
       <section className={styles.card}>
 
-        <p className={styles.texto}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor porttitor dictum. Curabitur mollis neque scelerisque nunc dapibus  cursus. Morbi egestas sapien neque. Phasellus sagittis consectetur  elementum. Vivamus mattis porta dapibus. Sed eu odio mollis, sagittis  lectus nec, rutrum odio. Maecenas vel dapibus dolor. Fusce ligula  ligula, molestie at lectus in, porttitor egestas libero. Nulla facilisi. Vestibulum varius tortor ligula, ut volutpat risus vestibulum quis.  Praesent laoreet nisi lectus, nec ornare orci facilisis ut. Duis  consectetur viverra malesuada.
-        </p>
+  
 
         <div className={styles.gridArea}>
 
@@ -38,6 +36,26 @@ export default function SambaContent() {
             <div className={styles.lastBox}>
 
               <img src={foto3} className={styles.imgBox} alt="" />
+
+                <button className={styles.btn}>VER MAIS</button>
+            </div>
+        </div>
+      </div>
+
+      </section>
+      <h2 className={styles.sectionTitle}>PRÊMIO SERPENTINA DE OURO</h2>
+      <section className={styles.card}>
+
+  
+
+        <div className={styles.gridArea}>
+
+        <div className={styles.gridVisual}>
+          <img src='#' className={styles.imgBoxGrande} alt="" />
+          <img src='#' className={styles.imgBox} alt="" />
+            <div className={styles.lastBox}>
+
+              <img src='#' className={styles.imgBox} alt="" />
 
                 <button className={styles.btn}>VER MAIS</button>
             </div>

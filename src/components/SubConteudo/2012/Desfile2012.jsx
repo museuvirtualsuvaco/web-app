@@ -13,7 +13,7 @@ export default function SambaContent() {
     
         <div className={styles.cabecalho}>
     
-        <h2 className={styles.titulo}>Desfile 1986, Ano 01 - Desfile</h2>
+        <h2 className={styles.titulo}>Desfile 2012, Ano 27 - Desfile</h2>
     
         </div>
 
@@ -27,19 +27,68 @@ export default function SambaContent() {
       <h2 className={styles.sectionTitle}>O DESFILE</h2>
       <section className={styles.card}>
 
-        <p className={styles.texto}>
-           Nessa época não andávamos por aí com nossas câmeras fotográficas, então são muito poucos registros.
-           Se você tiver algo do desfile nesse ano, por favor não deixe de entrar em contato conosco!
-        </p>
+        <div className={styles.gridArea}>
+
+        <div className={styles.gridVisual}>
+          <img src='#' className={styles.imgBoxGrande} alt="" />
+          <img src='#' className={styles.imgBox} alt="" />
+            <div className={styles.lastBox}>
+
+              <img src='#' className={styles.imgBox} alt="" />
+
+                <button className={styles.btn}>VER MAIS</button>
+            </div>
+        </div>
+      </div>
+
+      </section>
+      <h2 className={styles.sectionTitle}>BATERIA</h2>
+      <section className={styles.card}>
 
         <div className={styles.gridArea}>
 
         <div className={styles.gridVisual}>
-          <img src={foto1} className={styles.imgBoxGrande} alt="" />
-          <img src={foto2} className={styles.imgBox} alt="" />
+          <img src='#' className={styles.imgBoxGrande} alt="" />
+          <img src='#' className={styles.imgBox} alt="" />
             <div className={styles.lastBox}>
 
-              <img src={foto3} className={styles.imgBox} alt="" />
+              <img src='#' className={styles.imgBox} alt="" />
+
+                <button className={styles.btn}>VER MAIS</button>
+            </div>
+        </div>
+      </div>
+
+      </section>
+      <h2 className={styles.sectionTitle}>BAIANAS</h2>
+      <section className={styles.card}>
+
+        <div className={styles.gridArea}>
+
+        <div className={styles.gridVisual}>
+          <img src='#' className={styles.imgBoxGrande} alt="" />
+          <img src='#' className={styles.imgBox} alt="" />
+            <div className={styles.lastBox}>
+
+              <img src='#' className={styles.imgBox} alt="" />
+
+                <button className={styles.btn}>VER MAIS</button>
+            </div>
+        </div>
+      </div>
+
+      </section>
+      <h2 className={styles.sectionTitle}>MESTRE-SALA E PORTA-BANDEIRA</h2>
+      <section className={styles.card}>
+
+        <div className={styles.gridArea}>
+
+        <div className={styles.gridVisual}>
+          <img src='#' className={styles.imgBoxGrande} alt="" />
+          <img src='#' className={styles.imgBox} alt="" />
+            <div className={styles.lastBox}>
+
+              <img src='#' className={styles.imgBox} alt="" />
 
                 <button className={styles.btn}>VER MAIS</button>
             </div>

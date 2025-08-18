@@ -1,9 +1,8 @@
 import React from 'react';
 import styles from './CamisetaConteudo.module.css';
-import CamisaFoto from '../../../assets/camisetas/1986 Camiseta Sonia Matos.jpg';
+import CamisaFoto from '../../../assets/camisetas/Camiseta 2012 Edgar.png';
 import Artistas from '../CamisetaArtistas.json'
 import Musicos from '../Musicos.json'
-import musica from '../../../assets/musicas/1986musica.mp3'
 import Grupo from "../../../assets/Group 28.svg";
 
 
@@ -13,7 +12,7 @@ export default function CamisetaContent() {
     <>
         <div className={styles.cabecalho}>
         
-            <h2 className={styles.titulo}>Desfile 1986, Ano 01 - Camiseta</h2>
+            <h2 className={styles.titulo}>Desfile 2012, Ano 27 - Camiseta</h2>
         
             </div>
         
@@ -35,7 +34,7 @@ export default function CamisetaContent() {
       <h2 className={styles.sectionTitle}>ARTISTA</h2>
       <section className={styles.card}>
         <div className={styles.profileRow}>
-          {Object.entries(Artistas["1986"]).map(([key, autor]) => (
+          {Object.entries(Artistas["2012"]).map(([key, autor]) => (
             <div key={key} className={styles.profile}>
               {<img className={styles.avatar} src={autor.imgPath} alt={autor.name} />}
               <span className={styles.nome}>{autor.name}</span>

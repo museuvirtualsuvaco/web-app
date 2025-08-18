@@ -5,6 +5,7 @@ import { cardsData } from "../2012/cards/cardsData";
 
 
 import img2012 from "../../../assets/2012/imgPagina2012.jpg";
+
 import vector from "../../../assets/Vector(1).svg";
 import group28 from "../../../assets/Group 28.svg";
 
