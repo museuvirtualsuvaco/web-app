@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Desfile1986.module.css';
+import styles from './Desfile2012.module.css';
 
 import foto1 from '../../../assets/1986 Foto Maria Angelica 741.jpg';
 import foto2 from '../../../assets/1986 desfile.JPG';

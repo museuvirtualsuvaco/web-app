@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './SuvacoMidia86.module.css';
+import styles from './SuvacoMidia2012.module.css';
 
 import foto1 from '../../../assets/1985 JB - Nasce o Suvaco.jpg';
 import foto2 from '../../../assets/1986 1 Desfila Sonia e Robertinho.jpg';

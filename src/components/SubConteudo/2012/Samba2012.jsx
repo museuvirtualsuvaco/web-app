@@ -3,7 +3,7 @@ import styles from './SambaConteudo.module.css';
 import Filipeta from '../../../assets/FilipetaSamba1986.jpg';
 import Autores from '../Artistas.json'
 import Musicos from '../Musicos.json'
-import musica from '../../../assets/musicas/1986musica.mp3'
+import musica from '../../../assets/musicas/2012 Suvaco Samba Palmas pro Suvaco.mp3'
 import Grupo from "../../../assets/Group 28.svg";
 
 
@@ -13,7 +13,7 @@ export default function SambaContent() {
 
     <div className={styles.cabecalho}>
 
-    <h2 className={styles.titulo}>Desfile 1986, Ano 01 - Samba</h2>
+    <h2 className={styles.titulo}>Desfile 2012, Ano 27 - Samba</h2>
 
     </div>
 
@@ -24,25 +24,50 @@ export default function SambaContent() {
             />
 
       <div className={styles.container}>
-        <h2 className={styles.sectionTitle}>DIVINAS AXILAS</h2>
+        <h2 className={styles.sectionTitle}>PALMAS PARA BATERIA DO SUVACO</h2>
         <section className={styles.card}>
           <div className={styles.lyricsImageWrapper}>
             <div className={styles.letra}>
               <p>
-                Venham ver,<br />
-                O odor do Redentor nos inspirou,<br />
-                Sob o manto protetor<br />
-                Das divinas axilas<br />
-                Brincamos nesta festa com amor.<br /><br />
-                E contrariando<br />
-                As leis do Criador<br />
-                Cristo Redentor<br />
-                Libertando-nos do mal<br />
-                Desceu do céu e vem brincar o carnaval.<br /><br />
-                (BIS)<br />
-                Gávea Pequena, Rocinha, Humaitá,<br />
-                Índios Tamoios, ilustres Tupinambás,<br />
-                Mas venham ver.
+                A bateria vai chegando<br/>
+                Tra tra tra tra<br/>
+                Ouve  a virada do repique <br/>
+                Tacatacatacatacata<br/>
+                Tan Tam tá muito louco<br/>
+                Achando que bebeu pouco<br/>
+                E já bebeu um alambique<br/>
+                <br/>
+                A bateria vai chegando<br/>
+                Tra tra tra tra<br/>
+                Ouve  a virada do repique <br/>
+                Tacatacatacatacata<br/>
+                Xequerê no xererê<br/>
+                Reco reco no boteco<br/>
+                Chega chacoalhando wisque<br/>
+                <br/>
+                A bateria quer bater<br/>
+                Fazer bater o coração    <br/>
+                E quem é do suvaco<br/>
+                Vai na palma da mão,<br/>
+                <br/>
+                Bate palma pro caminho abrir<br/>
+                Bate palma e não deixa cair            <br/>
+                Bate palma  e canta pra subir<br/>
+                <br/>
+                Bate palmas o suvaco chegou<br/>
+                Bate palmas pra mim meu amor<br/>
+                E é com esse suvaco que vou<br/>
+                <br/>
+                Palmas pro Suvaco pela nossa "simpatia quase amor"<br/>
+                É um "monobloco" que a tantos outros blocos inspirou<br/>
+                <br/>
+                A "banda de ipanema" "pede passagem" pra "banda braguinha"<br/>
+                "imprensa que eu gamo" e "vem ni mim que eu sou facinha"<br/>
+                <br/>
+                Carmelitas tira a cinta liga e vem dançar <br/>
+                São tantos blocos na rua,  meu amor,<br/>
+                Me beija e deixa o suvaco passar<br/>
+                <br/>
               </p>
             </div>
 
@@ -80,7 +105,7 @@ export default function SambaContent() {
         <h2 className={styles.sectionTitle}>AUTORES</h2>
         <section className={styles.card}>
           <div className={styles.profileRow}>
-            {Object.entries(Autores["1986"]).map(([key, autor]) => (
+            {Object.entries(Autores["2012"]).map(([key, autor]) => (
               <div key={key} className={styles.profile}>
                 {<img className={styles.avatar} src={autor.imgPath} alt={autor.name} />}
                 <span className={styles.nome}>{autor.name}</span>

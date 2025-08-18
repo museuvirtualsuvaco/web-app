@@ -20,11 +20,16 @@ import Ano2012 from './components/Anos/2012/ano2012';
 
 import * as ROUTES from './constants/routes';
 
-// Importação dos componentes de cada ano e categoria
 import Samba1986 from './components/SubConteudo/1986/Samba1986';
 import Camiseta1986 from './components/SubConteudo/1986/Camiseta1986';
 import SuvacoMidia86 from './components/SubConteudo/1986/SuvacoMidia1986';
 import Desfile86 from './components/SubConteudo/1986/Desfile1986'
+
+
+import Samba2012 from './components/SubConteudo/2012/Samba2012';
+import Camiseta2012 from './components/SubConteudo/2012/Camiseta2012';
+import SuvacoMidia2012 from './components/SubConteudo/2012/SuvacoMidia2012';
+import Desfile2012 from './components/SubConteudo/2012/Desfile2012'
 
 function App() {
 
@@ -51,7 +56,10 @@ function App() {
           <Route path={ROUTES.PAG86CAMISETA} element={<Camiseta1986/>} />
 
           <Route path={ROUTES.PAG12} element={<Ano2012/>} />
-
+          <Route path={ROUTES.PAG12SAMBA} element={<Samba2012/>} />
+          <Route path={ROUTES.PAG12MIDIA} element={<SuvacoMidia2012/>} />
+          <Route path={ROUTES.PAG12DESFILE} element={<Desfile2012/>} />
+          <Route path={ROUTES.PAG12CAMISETA} element={<Camiseta2012/>} />
           
 
         </Routes>
