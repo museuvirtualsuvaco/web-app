@@ -172,7 +172,7 @@
 @media (max-width:1850px){
  
     .home-logos {
-        top: 700px;
+        top: 740px;
         transform: scale(0.8);
         left: 53vw;
     }
@@ -181,52 +181,59 @@
 @media (max-width:1760px){
  
     .home-logos {
-        top: 680px;
-        transform: scale(0.75);
-        left: 53vw;
+        top: 730px;
+        transform: scale(0.73);
+        left: 48vw;
     }
 
 }
 @media (max-width:1648px){
  
     .home-logos {
-        top: 645px;
-        transform: scale(0.75);
-        left: 51vw;
+        top: 730px;
+        transform: scale(0.73);
+        left: 48vw;
     }
 
 }
 @media (max-width:1570px){
  
     .home-logos {
-        top: 635px;
+        top: 720px;
         transform: scale(0.68);
-        left: 50vw;
+        left: 45vw;
+    }}
+@media (max-width:1540px){
+ 
+    .home-logos {
+        top: 700px;
+        transform: scale(0.68);
+        left: 45vw;
     }
 
 }
 @media (max-width:1460px){
  
     .home-logos {
-        top: 630px;
+        top: 690px;
         transform: scale(0.65);
-        left: 49vw;
+        left: 45vw;
     }
 
 }
 @media (max-width:1443px){
  
     .home-logos {
-        top: 615px;
+        top: 690px;
         transform: scale(0.65);
-        left: 47vw;
+        left: 45vw;
     }
 
 }
 @media (max-width:1350px){
  
     .home-logos {
-        top: 590px;
+        top: 680px;
         transform: scale(0.65);
         left: 45vw;
     }
@@ -235,7 +242,7 @@
 @media (max-width:1280px){
  
     .home-logos {
-        top: 580px;
+        top: 680px;
         transform: scale(0.63);
         left: 44vw;
     }
@@ -244,7 +251,7 @@
 @media (max-width:1253px){
  
     .home-logos {
-        top: 570px;
+        top: 670px;
         transform: scale(0.55);
         left: 42vw;
     }
@@ -253,7 +260,7 @@
 @media (max-width:1210px){
  
     .home-logos {
-        top: 560px;
+        top: 670px;
         transform: scale(0.55);
         left: 42vw;
     }
@@ -262,7 +269,7 @@
 @media (max-width:1195px){
  
     .home-logos {
-        top: 580px;
+        top: 670px;
         transform: scale(0.50);
         left: 42vw;
     }
@@ -272,16 +279,16 @@
 @media (max-width:1165px){
  
     .home-logos {
-        top: 560px;
+        top: 670px;
         transform: scale(0.50);
         left: 42vw;
     }
 
 }
-@media (max-width:1095px){
+@media (max-width:1090px){
  
     .home-logos {
-        top: 557px;
+        top: 650px;
         transform: scale(0.46);
         left: 42vw;
     }
