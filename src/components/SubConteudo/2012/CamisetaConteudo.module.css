@@ -4,9 +4,8 @@
   margin: 0 auto;
   background: transparent;
   max-width: 100%;
-  background: linear-gradient(to bottom, #A700C8, #E300C5);
+  background: linear-gradient(to bottom, #009EFC, #01BDB7);
 }
-
 
 .titulo {
   font-family: 'PT Mono', monospace;
@@ -24,10 +23,9 @@
     position: absolute;
     z-index: 100;
     width: 100%;
-    top: 29.5vw;
+    top: 18vw;
     z-index: 8;
 }
-
 
 .card {
   background: white;
@@ -51,54 +49,19 @@
   padding: 1rem 2rem 1rem 2rem;
 
 }
-
-.letra {
-  font-family: 'Roboto flex', sans-serif;
-  font-weight: 500;
-  flex: 1;
-  min-width: 300px;
-  max-width: 100%;
-  font-size: 1.6rem;
-  line-height: 1.8;
-  color: #000;
-  margin-top: 1rem;
-}
-
-.lyricsImageWrapper {
-  display:flex;
-  flex-direction: row;
-  gap: 0.5rem;
-  justify-content: space-evenly;
-  overflow: auto;
-  width: 100%;
-  min-width: 50%;
-}
-
-.imageContainer {
+.imgCamisetaWrapper {
   display: flex;
-  flex-direction: column;
-  flex: 1;
-  max-width: 30%;
-  min-width: 400px;
-  align-items: center;
-  text-align: center;
-}
-
-.filipetaImage {
-  max-width: 100%;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
   width: 100%;
-  height: auto;
-  border-radius: 4px;
-  object-fit: contain;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-.caption {
-  font-size: 0.75rem;
-  font-weight: bold;
-  margin-top: 0.5rem;
-  color: #000;
-  text-align: justify;
+.imgCamiseta {
+  background-color: #d9d9d9;
+  width: 60%;
+  height: 600px;
+  border-radius: 8px;
 }
 
 .profileRow {
@@ -123,23 +86,6 @@
   border-radius: 50%;
 }
 
-.flexSong{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.interprete{
-  font-size: 1.5rem;
-  font-weight: 500;
-
-}
-
-.funcao{
-  margin-top: 20px;
-  font-weight: 600;
-
-}
 .nome {
   margin-top: 0.9rem;
   font-size: 1.07rem;
@@ -149,8 +95,6 @@
   line-height: 1.2;
   font-weight: 600;
   width: 250px;
-  z-index: 25;
-  position: relative;
 }
 
 .gridArea {
@@ -165,14 +109,10 @@
 .texto {
   flex: 1 1 300px;
   font-family: 'Roboto Flex', sans-serif;
-  font-size: 1.3em;
+  font-size: 1.6rem;
   color: #000;
   line-height: 1.7;
   margin-top: 1rem;
-  z-index: 150;
-  position: relative;
-  margin-left: 7vw;
-  margin-right: 7vw;
 
 }
 
@@ -180,9 +120,9 @@
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 0.5rem;
+  gap: 1rem;
   width: 100%;
-  max-width: 70%;
+  max-width: 100%;
   margin: auto;
   position: relative;
 }
@@ -195,30 +135,33 @@
 }
 
 .imgBox {
+  width: 100%;
   height: 100%;
-
+  min-height: 220px;
   background-color: #d9d9d9;
   position: relative;
 
 }
 
 .btn {
-  position: relative;
+  position: absolute;
   width: 100%;
-  bottom: 50%;
+  height: 25%;
+  bottom: 35%;
   left: 50%;
-  transform: translate(-50%,-50%);
-  background-color: #000000be;
+  transform: translateX(-50%);
+  background-color: #737373;
   color: white;
   font-weight: bold;
-  padding: 32px 20px;
+  padding: 8px 20px;
   border: none;
   cursor: pointer;
   z-index: 1;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
 .btn:hover {
-  background-color: #000000ef;
+  background-color: #4e4e4e;
 }
 
 @media (max-width: 400px) {

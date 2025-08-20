@@ -4,9 +4,8 @@
   margin: 0 auto;
   background: transparent;
   max-width: 100%;
-  background: linear-gradient(to bottom, #A700C8, #E300C5);
+  background: linear-gradient(to bottom, #DBBB00, #FF9A27);
 }
-
 
 .titulo {
   font-family: 'PT Mono', monospace;
@@ -24,10 +23,9 @@
     position: absolute;
     z-index: 100;
     width: 100%;
-    top: 29.5vw;
+    top: 18vw;
     z-index: 8;
 }
-
 
 .card {
   background: white;
@@ -101,6 +99,13 @@
   text-align: justify;
 }
 
+.audio {
+  width: 80%;
+  margin-top: 1.2rem;
+  border-radius: 6px;
+  display: block;
+}
+
 .profileRow {
   display: flex;
   flex-wrap: wrap;
@@ -149,8 +154,6 @@
   line-height: 1.2;
   font-weight: 600;
   width: 250px;
-  z-index: 25;
-  position: relative;
 }
 
 .gridArea {
@@ -169,10 +172,6 @@
   color: #000;
   line-height: 1.7;
   margin-top: 1rem;
-  z-index: 150;
-  position: relative;
-  margin-left: 7vw;
-  margin-right: 7vw;
 
 }
 
@@ -180,7 +179,7 @@
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 0.5rem;
+  gap: 2rem;
   width: 100%;
   max-width: 70%;
   margin: auto;
@@ -196,7 +195,7 @@
 
 .imgBox {
   height: 100%;
-
+  width: 100%;
   background-color: #d9d9d9;
   position: relative;
 
@@ -204,21 +203,22 @@
 
 .btn {
   position: relative;
-  width: 100%;
+  width: 97%;
   bottom: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
-  background-color: #000000be;
+  transform: translateX(-50%);
+  background-color: #000000;
   color: white;
   font-weight: bold;
   padding: 32px 20px;
   border: none;
   cursor: pointer;
   z-index: 1;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 .btn:hover {
-  background-color: #000000ef;
+  background-color: #4e4e4e;
 }
 
 @media (max-width: 400px) {

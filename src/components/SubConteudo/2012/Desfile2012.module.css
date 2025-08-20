@@ -24,7 +24,7 @@
     position: absolute;
     z-index: 100;
     width: 100%;
-    top: 29.5vw;
+    top: 18vw;
     z-index: 8;
 }
 
@@ -149,8 +149,6 @@
   line-height: 1.2;
   font-weight: 600;
   width: 250px;
-  z-index: 25;
-  position: relative;
 }
 
 .gridArea {
@@ -169,10 +167,6 @@
   color: #000;
   line-height: 1.7;
   margin-top: 1rem;
-  z-index: 150;
-  position: relative;
-  margin-left: 7vw;
-  margin-right: 7vw;
 
 }
 
@@ -196,7 +190,7 @@
 
 .imgBox {
   height: 100%;
-
+  width: 100%;
   background-color: #d9d9d9;
   position: relative;
 

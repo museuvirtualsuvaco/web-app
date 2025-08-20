@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import "./Home.css"
+import Footer from '../Footer/Footer'
 
 import Video from "./Video/Video"
 import FormCarrossel from "./FormCarrossel/FormCarrossel"
@@ -92,7 +93,7 @@ export default function Home() {
 
                 <FormCarrossel></FormCarrossel>
                 <Video></Video>
-
+                
             </div>
         </div>
     )
