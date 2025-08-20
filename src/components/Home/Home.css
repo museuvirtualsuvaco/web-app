@@ -355,6 +355,12 @@
         top:-15px
     }
 
+    .form-area{
+        position: relative;
+        margin-top: -250px;
+        height: fit-content;
+    }
+
 }
 
 

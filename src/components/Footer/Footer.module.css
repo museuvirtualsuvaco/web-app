@@ -16,3 +16,21 @@
     font-weight: 600;
     font-size: 2.5rem;
 }
+
+@media (max-width:420px) {
+    .mainContainer{
+        font-size: 1rem;
+        flex-direction: row;
+    }
+
+    .links{
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 10px;
+        align-items: start;
+    }
+
+    .title{
+        font-size: 1.5rem;
+    }
+}

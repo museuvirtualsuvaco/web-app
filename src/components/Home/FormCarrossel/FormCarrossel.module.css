@@ -35,7 +35,7 @@
 }
 
 .inputContainer input:focus {
-    background-color: #f9f9f9;
+    background-color: #ffffff;
 }
 
 /*carrossel*/
@@ -126,5 +126,12 @@
   .seta {
     font-size: 1.8rem;
     padding: 0.5rem 0.75rem;
+  }
+}
+
+
+@media (max-width: 420px){
+  .inputContainer{
+    width: 90%;
   }
 }

@@ -6,7 +6,7 @@
 
 .mainContainer img{
     width: 100%;
-    object-fit: con;
+    object-fit: contain;
     z-index: 0;
 }
 
@@ -44,3 +44,14 @@
     font-size: 1.5rem;
 }
 
+@media (max-width:420px) {
+    .mainContainer img{
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+    }
+
+    .mainContainer h1{
+        font-size: 1.9rem;
+    }
+}
