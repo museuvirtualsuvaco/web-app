@@ -332,6 +332,8 @@
 .social-link{
     font-size: 1.2em;
 }
+
+
 }
 
 @media (max-width:520px) {
@@ -358,7 +360,6 @@
     .form-area{
         position: relative;
         margin-top: -250px;
-        height: fit-content;
     }
 
 }
