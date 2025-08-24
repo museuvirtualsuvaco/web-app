@@ -53,7 +53,7 @@ export default function Home() {
 
                         <div className="projetos">
                             <div className="projeto-social">
-                                <img id="projeto-social-img" src="src/assets/image 2(1).svg" alt="" />
+                                <img id="projeto-social-img" src="src/assets/divinas-home.png" alt="" />
                                 <a href="#" className="social-link overlay">O Projeto Social</a>
                             </div>
 
