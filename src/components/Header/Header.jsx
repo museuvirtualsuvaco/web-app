@@ -6,7 +6,7 @@ export default function Header() {
     return (
         <header className={styles.mainContainer}>
             <img src={logo} alt="Logo do Suvaco do Cristo" />
-            <h1>Suvaco do Cristo</h1>
+            <h1><a href="/">Suvaco do Cristo</a></h1>
             <div className={styles.headerLinks}>
                 <a href="https://www.instagram.com/suvacodocristooficial" target="_blank" rel="noopener noreferrer">
                     <i className="ri-instagram-line"></i>

@@ -2,39 +2,39 @@
   "1986": {
     "1": {
       "name": "João Aveleira",
-      "imgPath": "/src/assets/artistas/joao.png",
+      "imgFile": "joao.png",
       "urlSuvaco": "#"
     },
     "2": {
       "name": "Arnaldo Chaim",
-      "imgPath": "/src/assets/artistas/arnaldo.png",
+      "imgFile": "arnaldo.png",
       "urlSuvaco": "#"
     },
     "3": {
       "name": "José Lavigne",
-      "imgPath": "/src/assets/artistas/joseLavigne-doc-modified.png",
+      "imgFile": "joseLavigne-doc-modified.png",
       "urlSuvaco": "#"
     },
     "4": {
       "name": "Roberto Pirulito",
-      "imgPath": "/src/assets/artistas/Pirulito-doc-modified.png",
+      "imgFile": "Pirulito-doc-modified.png",
       "urlSuvaco": "#"
     }
   },
   "2012": {
     "1": {
       "name": "Dom Oliveira",
-      "imgPath": "/src/assets/artistas/joao.png",
+      "imgFile": "/src/assets/artistas/joao.png",
       "urlSuvaco": "#"
     },
     "2": {
       "name": "Jovi Joviniano",
-      "imgPath": "/src/assets/artistas/arnaldo.png",
+      "imgFile": "/src/assets/artistas/arnaldo.png",
       "urlSuvaco": "#"
     },
     "3": {
       "name": "Jê Machado",
-      "imgPath": "/src/assets/artistas/joseLavigne-doc-modified.png",
+      "imgFile": "/src/assets/artistas/joseLavigne-doc-modified.png",
       "urlSuvaco": "#"
     }
   }

@@ -7,6 +7,10 @@ import musica from '../../../assets/musicas/1986musica.mp3'
 import Grupo from "../../../assets/Group 28.svg";
 
 
+const importImagem = (fileName) => {
+  return new URL(`../../../assets/artistas/${fileName}`, import.meta.url).href;
+};
+
 export default function SambaContent() {
   return (
     <>
@@ -14,6 +18,10 @@ export default function SambaContent() {
     <div className={styles.cabecalho}>
 
     <h2 className={styles.titulo}>Desfile 1986, Ano 01 - Samba</h2>
+    <p className={styles.texto}>
+              O primeiro samba, intitulado “Divinas Axilas”, foi composto por João Avelleira, Arnaldo Chaim e José Lavigne, com sugestões do presidente do bloco Força Jovem do Horto,  Roberto de Assis (conhecido pelo apelido de Pirulito). A canção ironizava a maior parte dos sambas enredos pela obrigatoriedade de referências a temas nacionais, citando as localidades da Rocinha e Humaitá e povos indígenas Tamoios  e Tupinambás, obrigatoriedade já satirizada no "Samba do Crioulo Doido" do grande Stanislau Ponte Preta.  Embora explicações mais glamourizadas, anos mais tarde tenham surgido, era apenas mais uma brincadeira irreverente, como todo o bloco. (Ver documentário dos 20 anos do bloco, da diretora Paola Vieira, em breve aqui no nosso portal).
+    
+            </p>
 
     </div>
 
@@ -82,7 +90,11 @@ export default function SambaContent() {
           <div className={styles.profileRow}>
             {Object.entries(Autores["1986"]).map(([key, autor]) => (
               <div key={key} className={styles.profile}>
-                {<img className={styles.avatar} src={autor.imgPath} alt={autor.name} />}
+              <img
+              className={styles.avatar}
+              src={importImagem(autor.imgFile)}
+              alt={autor.name}
+            />
                 <span className={styles.nome}>{autor.name}</span>
               </div>
             ))}
