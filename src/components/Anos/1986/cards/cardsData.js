@@ -6,7 +6,7 @@ import midiaImg from '../../../../assets/1986 Imprensa JB ou Globo Rio mais anim
 export const cardsData = [
     {
         title: 'Samba',
-        description: "O primeiro samba, intitulado “Divinas Axilas”, foi composto por João Avelleira, Arnaldo Chaim e José Lavigne, com sugestões do presidente do bloco Força Jovem do Horto, Roberto de Assis (conhecido pelo apelido de Pirulito). A canção ironizava a maior parte dos sambas enredos pela obrigatoriedade de referências a temas nacionais, citando as localidades da Rocinha e Humaitá e povos indígenas Tamoios e Tupinambás, obrigatoriedade já satirizada no 'Samba do Crioulo Doido' do grande Stanislau Ponte Preta. Embora explicações mais glamourizadas, anos mais tarde tenham surgido, era apenas mais uma brincadeira irreverente, como todo o bloco.",
+        description: "O primeiro samba, intitulado “Divinas Axilas”, foi composto por João Avelleira, Arnaldo Chaim e José Lavigne, com sugestões do presidente do bloco Força Jovem do Horto, Roberto de Assis (conhecido pelo apelido de Pirulito). A canção ironizava a maior parte...",
         src: sambaImg,
         firstColor: "#00BE1D",
         secondColor: "#00DE21",
@@ -30,7 +30,7 @@ export const cardsData = [
     },
     {
         title: 'Suvaco na mídia',
-        description: "lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
+        description: "Na mídia, o Suvaco já virou pauta incontáveis vezes. Em 1986, jornais locais jogaram confete e serpentina sobre o primeiro desfile do bloco. Jornal do Brasil e O Globo chegaram a disputar o melhor furo jornalístico. Joaquim Ferreira dos Santos e a Revista...",
         src: midiaImg,
         firstColor: "#DBBB00",
         secondColor: "#FF9A27",
