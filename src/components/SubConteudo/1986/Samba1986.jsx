@@ -7,6 +7,10 @@ import musica from '../../../assets/musicas/1986musica.mp3'
 import Grupo from "../../../assets/Group 28.svg";
 
 
+const importImagem = (fileName) => {
+  return new URL(`../../../assets/artistas/${fileName}`, import.meta.url).href;
+};
+
 export default function SambaContent() {
   return (
     <>
@@ -86,7 +90,11 @@ export default function SambaContent() {
           <div className={styles.profileRow}>
             {Object.entries(Autores["1986"]).map(([key, autor]) => (
               <div key={key} className={styles.profile}>
-                {<img className={styles.avatar} src={autor.imgPath} alt={autor.name} />}
+              <img
+              className={styles.avatar}
+              src={importImagem(autor.imgFile)}
+              alt={autor.name}
+            />
                 <span className={styles.nome}>{autor.name}</span>
               </div>
             ))}

@@ -1,6 +1,7 @@
 import React from "react";
 
 import styles from './Video.module.css'
+import video from '../../../assets/video.mp4'
 
 export default function Video(){
     return (
@@ -8,7 +9,7 @@ export default function Video(){
 <div className={styles["video-section"]}>
     <div className={styles["video-wrapper"]}>
         <video autoPlay loop muted className={styles["background-video"]}>
-            <source src="/src/assets/video.mp4" type="video/mp4" />
+            <source src={video} type="video/mp4" />
             Seu navegador não suporta a reprodução de vídeos.
         </video>
     </div>
