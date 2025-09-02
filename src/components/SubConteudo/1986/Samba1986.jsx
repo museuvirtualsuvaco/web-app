@@ -108,7 +108,10 @@ export default function SambaContent() {
             {Object.entries(Musicos["1986"]).map(([key, musico]) => (
               <div key={key} className={styles.profile}>
 
-                {<img className={styles.avatar} src={musico.imgPath} alt={musico.name} />}
+              <img
+              className={styles.avatar}
+              src={importImagem(musico.imgFile)}
+              alt={musico.name}></img>
 
                 <span className={styles.nome}>{musico.name}</span>
                 <span className={styles.funcao}>{musico.funcao}</span>
@@ -120,16 +123,6 @@ export default function SambaContent() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor porttitor dictum. Curabitur mollis neque scelerisque nunc dapibus  cursus. Morbi egestas sapien neque. Phasellus sagittis consectetur  elementum. Vivamus mattis porta dapibus. Sed eu odio mollis, sagittis  lectus nec, rutrum odio. Maecenas vel dapibus dolor. Fusce ligula  ligula, molestie at lectus in, porttitor egestas libero. Nulla facilisi. Vestibulum varius tortor ligula, ut volutpat risus vestibulum quis.  Praesent laoreet nisi lectus, nec ornare orci facilisis ut. Duis  consectetur viverra malesuada.
           </p> */}
 
-          <div className={styles.gridArea}>
-
-            <div className={styles.gridVisual}>
-              <div className={styles.imgBoxGrande}></div>
-              <div className={styles.imgBox}></div>
-              <div className={styles.imgBox}>
-                <button className={styles.btn}>VER MAIS</button>
-              </div>
-            </div>
-          </div>
 
         </section>
       </div>
