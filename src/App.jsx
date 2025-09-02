@@ -13,6 +13,7 @@ import ProjetoMuseu from './components/ProjetoMuseu/ProjetoMuseu';
 import DivinasAxilas from './components/DivinasAxilas/DivinasAxilas';
 import Sobre from './components/Sobre/Sobre';
 import SubPagina from './pages/SubPagina/SubPagina';
+import Artista from './pages/Artista/Artista';
 
 import FirebaseUi from './components/FirebaseUi/FirebaseUi';
 import Ano1986 from './components/Anos/1986/ano1986';
@@ -42,6 +43,7 @@ function App() {
           <Route path={ROUTES.SOBRE} element={<Sobre/>} />
           <Route path={ROUTES.FIREBASE_TESTING} element={<FirebaseUi/>} />
           <Route path={ROUTES.PAG86} element={<Ano1986/>} />
+          <Route path={ROUTES.ARTISTA} element={<Artista/>} />
           
           <Route path={ROUTES.PAG86SAMBA} element={<Samba1986/>} />
           <Route path={ROUTES.PAG86MIDIA} element={<SuvacoMidia86/>} />
