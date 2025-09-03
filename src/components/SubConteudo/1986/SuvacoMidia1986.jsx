@@ -5,6 +5,7 @@ import foto1 from '../../../assets/1985 JB - Nasce o Suvaco.jpg';
 import foto2 from '../../../assets/1986 1 Desfila Sonia e Robertinho.jpg';
 import foto3 from '../../../assets/1986 JB Carta dos Leitores Revolta.jpg';
 
+
 import Grupo from "../../../assets/Group 28.svg";
 export default function SambaContent() {
   return (

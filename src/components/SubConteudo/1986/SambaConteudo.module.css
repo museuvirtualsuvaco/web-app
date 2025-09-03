@@ -32,7 +32,7 @@
   background: white;
   border-radius: 12px;
   padding: 2rem 1.5rem;
-  margin: 0 auto 2.5rem;
+  margin: 0 var(--margin-left);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   max-width: 90%;
   position: relative;
@@ -47,6 +47,7 @@
   color: #ffffff;
   text-decoration: underline;
   padding-bottom: 0.8rem;
+  margin-left: var(--margin-left);
 
 }
 
@@ -65,10 +66,9 @@
 .lyricsImageWrapper {
   display:flex;
   flex-direction: row;
-  gap: 0.5rem;
+  gap: 15rem;
   justify-content: space-evenly;
   overflow: auto;
-  width: 100%;
   min-width: 50%;
 }
 
@@ -82,8 +82,8 @@
 }
 
 .filipetaImage {
-  max-width: 100%;
-  width: 100%;
+  
+  width: 75%;
   height: auto;
   border-radius: 4px;
   object-fit: co;
@@ -91,11 +91,12 @@
 }
 
 .caption {
-  font-size: 0.75rem;
+  font-size: 0.9rem;
   font-weight: bold;
   margin-top: 0.5rem;
   color: #000;
   text-align: justify;
+  width: 75%;
 }
 
 .audio {
@@ -110,9 +111,9 @@
 .profileRow {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
-  justify-content: space-around;
   margin-top: 1rem;
+  margin-left: 25px;
+
 }
 
 .profile {
@@ -120,8 +121,69 @@
   flex-direction: column;
   align-items: center;
   width: 100px;
+  max-width: 100px; 
+}
+
+
+/*carrossel*/
+
+.carrosselWrapper {
+  position: relative;
+  width: 100vw;
+  margin: auto;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.carrossel {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  padding-bottom: 10px;
+  gap: 3rem
+}
+
+
+
+.carrossel::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+
+.seta {
+  position: absolute;
+  background-color: (255, 255, 255, 0.9);
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
   padding: 0.5rem;
-  max-width: 150px; 
+  border-radius: 50%;
+  z-index: 26;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  transition: background-color 0.3s ease;
+  width: 48px;
+  height: 48px;
+  display: none;
+  top: 40px;
+}
+
+.seta:hover {
+  background-color: #eee;
+}
+
+.esquerda {
+  left: 0;
+}
+.direita {
+  right: 0;
 }
 
 .avatar {
@@ -232,6 +294,10 @@
 
 @media (max-width:800px) {
   
+    .seta{
+      display: initial;
+    }
+
           .sectionTitle{
       padding: 0.5rem 0 1rem 0;
       font-size: 3rem;
@@ -244,14 +310,27 @@
     }
     .lyricsImageWrapper{
       flex-direction: column-reverse;
+      gap: 10px;
     }
 
     .filipetaImage{
       width: 100%;
+      max-height:492px;
+      max-width: 376px; 
+    }
+
+    .caption{
+      width: 100%;
+      max-width: 376px;
+
+    }
+
+    .letra{
+      text-align: center;
     }
 
     .imageContainer{
-      align-items: last baseline;
+      align-items: safe;
     }
     .card{
       max-width: 100%;
@@ -267,26 +346,42 @@
       width: 100%;
     }
 
-    .profileRow{
-      align-items: center;
-    }
 
 }
 
 
 
 
-@media (max-width: 900px) {
+@media (max-width: 1474px) {
 
     .group28Gradiente{
-      top: 40rem;
+      top: 34rem;
     }
+  }
+@media (max-width: 1081px) {
+
+    .group28Gradiente{
+      top: 36rem;
+    }
+  }
+@media (max-width: 921px) {
+
+    .group28Gradiente{
+      top: 38rem;
+    }
+
   }
 
 @media (max-width: 835px) {
 
     .group28Gradiente{
       top: 40rem;
+    }
+
+    
+           .avatar{
+      min-width: 10px;
+
     }
   }
 @media (max-width: 765px) {
@@ -300,6 +395,17 @@
     .group28Gradiente{
       top: 44rem;
     }
+
+          .sectionTitle{
+      padding: 0;
+      font-size: 3rem;
+      width: 100%;
+      text-align: center;
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+  
   }
 
 @media (max-width: 699px){
@@ -311,6 +417,8 @@
     margin-left: var(--margin-left);
     margin-right: var(--margin-left);
   }
+
+  
 }
 @media (max-width: 689px) {
 
@@ -318,6 +426,7 @@
       top: 48rem;
     }
   }
+
 @media (max-width: 632px) {
   
 
@@ -339,9 +448,7 @@
   }
   
 
-    .avatar{
-      min-width: 100px;
-    }
+ 
 }
 
 
@@ -358,12 +465,7 @@
     }
   }
 @media (max-width: 596px) {
-      .sectionTitle{
-      padding: 0;
-      font-size: 3rem;
-      width: 100%;
-      text-align: center;
-    }
+
     .group28Gradiente{
       top: 52rem;
     }
