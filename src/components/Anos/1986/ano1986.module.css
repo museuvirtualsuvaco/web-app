@@ -68,10 +68,10 @@
 }
 
 .group28Gradiente{
-    position: absolute;
+    position: relative;
     z-index: 100;
-    width: 100%;
-    top: 35.3vw;
+    width: 100%;    
+    top: 100px;
     z-index: 10001;
 }
 
@@ -86,6 +86,7 @@
     height: 200vh;
     position: relative;
     top: -60px;
+    
 }
 
 @media (max-width: 1476px){
@@ -94,9 +95,112 @@
     }    
 }
 
-
 @media (max-width: 1203px){
     .title{
         font-size: 3.5rem;
+    }   
+    .floatImage{
+        width:400px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 1064px){
+    .title{
+        font-size: 3rem;
     }    
+}
+
+@media (max-width: 922px){
+    .title{
+        font-size: 2.5rem;
+    }    
+    .floatImage{
+        width: 350px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 777px){
+    .title{
+        font-size: 2.3rem;
+    }
+}
+
+@media(max-width: 717px){
+    .title{
+        font-size: 2rem;
+    }
+    .sectionTexts{
+        font-size: 1.5rem;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+}
+
+@media (max-width: 633px){
+    .title{
+        font-size: 1.8rem;
+    }
+    .sectionTexts{
+        font-size: 1.3rem;
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+    .floatImage{
+        width: 350px;
+        height: 250px;
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+}
+
+@media (max-width: 575px){
+    .title{
+        font-size: 1.6rem;
+    }
+    .sectionTexts{
+        font-size: 1.2rem;
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+    .floatImage{
+        width: 300px;
+        height: 200px;
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+}
+
+
+@media (max-width: 516px) {
+    .container{
+        position: relative;
+    }
+    
+    .title{
+        font-size: 2rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 2px;
+    }
+
+    .line{
+        width: 0px;
+    }
+
+    .floatImage{
+        float: none;
+        width: 95%;
+    }
+
+    
+
+    .group28Gradiente{
+        top: inherit;
+        bottom: 99rem;
+        position: absolute;
+    }
+
+
 }
