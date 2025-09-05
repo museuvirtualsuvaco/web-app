@@ -23,7 +23,7 @@
     position: absolute;
     z-index: 100;
     width: 100%;
-    top: 18vw;
+    top: 29.5vw;
     z-index: 8;
 }
 
@@ -109,10 +109,14 @@
 .texto {
   flex: 1 1 300px;
   font-family: 'Roboto Flex', sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.3em;
   color: #000;
   line-height: 1.7;
   margin-top: 1rem;
+  z-index: 150;
+  position: relative;
+  margin-left: 7vw;
+  margin-right: 7vw;
 
 }
 

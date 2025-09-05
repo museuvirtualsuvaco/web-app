@@ -2,27 +2,9 @@
   "1986": {
     "1": {
       "name": "Força Jovem do Horto",
-      "imgPath": "/src/assets/artistas/nenhum.png",
+      "imgFile": "nenhum.png",
       "urlSuvaco": "#",
       "funcao": "Bateria"
-    },
-    "2": {
-      "name": "Musico2 Musico2",
-      "imgPath": "/src/assets/artistas/nenhum.png",
-      "urlSuvaco": "#",
-      "funcao": "Função"
-    },
-    "3": {
-      "name": "Musico3 Musico3",
-      "imgPath": "/src/assets/artistas/nenhum.png",
-      "urlSuvaco": "#",
-      "funcao": "Função"
-    },
-    "4": {
-      "name": "Musico4 Musico4",
-      "imgPath": "/src/assets/artistas/nenhum.png",
-      "urlSuvaco": "#",
-      "funcao": "Função"
     }
   }
 }
