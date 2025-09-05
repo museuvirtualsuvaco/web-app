@@ -66,10 +66,9 @@
 .lyricsImageWrapper {
   display:flex;
   flex-direction: row;
-  gap: 15rem;
-  justify-content: space-evenly;
   overflow: auto;
-  min-width: 50%;
+  align-items: center;
+  
 }
 
 .imageContainer {
@@ -79,6 +78,9 @@
   max-width: 100%;
   align-items: center;
   text-align: center;
+
+  max-width: 490px ;
+  max-height: 690px;
 }
 
 .filipetaImage {
@@ -86,7 +88,7 @@
   width: 75%;
   height: auto;
   border-radius: 4px;
-  object-fit: co;
+  object-fit: contain;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -111,8 +113,7 @@
 .profileRow {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 1rem;
-  margin-left: 25px;
+  justify-content: center;
 
 }
 
@@ -120,16 +121,24 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100px;
-  max-width: 100px; 
+  width: 150px;
+  max-width: 150px; 
+  scroll-snap-align: start;
 }
 
+
+.avatar {
+  max-width: 150px;
+  width: 150px;
+  border-radius: 50%;
+
+}
 
 /*carrossel*/
 
 .carrosselWrapper {
   position: relative;
-  width: 100vw;
+  width: 100%;
   margin: auto;
   overflow: hidden;
   box-sizing: border-box;
@@ -145,8 +154,7 @@
   scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
-  padding-bottom: 10px;
-  gap: 3rem
+  gap: 3rem;
 }
 
 
@@ -172,7 +180,7 @@
   width: 48px;
   height: 48px;
   display: none;
-  top: 40px;
+  top: 40%;
 }
 
 .seta:hover {
@@ -180,16 +188,13 @@
 }
 
 .esquerda {
-  left: 0;
+  left: 5px;
 }
 .direita {
-  right: 0;
+  right: 5px;
 }
 
-.avatar {
-  min-width: 150px;
-  border-radius: 50%;
-}
+
 
 .flexSong{
   display: flex;
@@ -292,233 +297,164 @@
 }
 
 
-@media (max-width:800px) {
-  
-    .seta{
-      display: initial;
-    }
+/* === DESKTOP MAIOR PARA MÉDIO === */
+@media (max-width: 1474px) {.group28Gradiente { top: 34rem; }}
 
-          .sectionTitle{
-      padding: 0.5rem 0 1rem 0;
-      font-size: 3rem;
-      width: 100%;
-      text-align: left;
-    }
+@media (max-width: 1123px){
+   .filipetaImage {
+    width: 100%;
+    min-height: 492px;
+    min-width: 376px;
 
-    .letra{
-      min-width: auto;
-    }
-    .lyricsImageWrapper{
-      flex-direction: column-reverse;
-      gap: 10px;
-    }
+  }
 
-    .filipetaImage{
-      width: 100%;
-      max-height:492px;
-      max-width: 376px; 
-    }
-
-    .caption{
-      width: 100%;
-      max-width: 376px;
-
-    }
-
-    .letra{
-      text-align: center;
-    }
-
-    .imageContainer{
-      align-items: safe;
-    }
-    .card{
-      max-width: 100%;
-    }
-
-    .flexSong{
-      display: flex;
-      flex-direction: column;
-      gap: 25px;
-    }
-
-    .audio{
-      width: 100%;
-    }
-
-
+    .caption {
+    width: 100%;
+    max-width: 376px;
+  }
 }
 
+@media (max-width: 1024px) {.seta { display: initial; }}
+@media (max-width: 1081px) {.group28Gradiente { top: 36rem;}}
 
-
-
-@media (max-width: 1474px) {
-
-    .group28Gradiente{
-      top: 34rem;
-    }
-  }
-@media (max-width: 1081px) {
-
-    .group28Gradiente{
-      top: 36rem;
-    }
-  }
-@media (max-width: 921px) {
-
-    .group28Gradiente{
-      top: 38rem;
-    }
-
+@media (max-width: 1025px){
+    .filipetaImage {
+    width: 100%;
+    max-height: 492px;
+    max-width: 376px;
   }
 
-@media (max-width: 835px) {
-
-    .group28Gradiente{
-      top: 40rem;
-    }
-
-    
-           .avatar{
-      min-width: 10px;
-
-    }
+  .caption {
+    width: 100%;
+    max-width: 376px;
   }
-@media (max-width: 765px) {
-
-    .group28Gradiente{
-      top: 42rem;
-    }
+   .lyricsImageWrapper {
+    flex-direction: column-reverse;
+    gap: 10px;
   }
-@media (max-width: 757px) {
 
-    .group28Gradiente{
-      top: 44rem;
-    }
+    .letra { min-width: auto; text-align: center; }
+}
 
-          .sectionTitle{
-      padding: 0;
-      font-size: 3rem;
-      width: 100%;
-      text-align: center;
-      margin-left: 0;
-      margin-right: 0;
-    }
+@media (max-width: 921px) {.group28Gradiente { top: 38rem;}}
+@media (max-width: 835px) {.group28Gradiente { top: 40rem; }
+}
 
+/* === TABLET E INTERMEDIÁRIO === */
+@media (max-width: 800px) {
   
+
+  .sectionTitle {
+    padding: 0.5rem 0 1rem 0;
+    font-size: 3rem;
+    width: 100%;
+    text-align: left;
   }
 
-@media (max-width: 699px){
-    .titulo{
-    font-size: 2rem;
+
+
+ 
+
+
+
+  .imageContainer { align-items: center; }
+  .card { max-width: 100%; }
+
+  .flexSong {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .audio { width: 100%; }
+}
+
+@media (max-width: 757px) {
+  .group28Gradiente { top: 44rem; }
+
+  .sectionTitle {
+    padding: 0;
+    font-size: 3rem;
+    text-align: center;
     margin-left: 0;
-    text-align: left;
-    padding-bottom: 14px;
+    margin-right: 0;
+  }
+}
+
+/* === MOBILE MÉDIO === */
+@media (max-width: 699px) {
+  .titulo {
+    font-size: 2rem;
     margin-left: var(--margin-left);
     margin-right: var(--margin-left);
+    text-align: left;
+    padding-bottom: 14px;
   }
-
-  
 }
-@media (max-width: 689px) {
 
-    .group28Gradiente{
-      top: 48rem;
-    }
+     .profile { width: 110px; padding-left: 0px;}
+  .avatar{width: 110px;}
+
+  .seta {
+    width: 32px;
+    height: 32px;
+    font-size: 1rem;
   }
+@media (max-width: 689px) {
+  .group28Gradiente { top: 48rem; }
+}
 
 @media (max-width: 632px) {
-  
+  .group28Gradiente { top: 50rem; }
+}
 
-    .group28Gradiente{
-      top: 50rem;
-    }
-  }
-
-
-@media (max-width:600px) {
-  
-  .titulo{
+@media (max-width: 600px) {
+  .titulo {
     font-size: 2rem;
-    margin-left: 0;
-    text-align: left;
-    padding-bottom: 14px;
     margin-left: var(--margin-left);
     margin-right: var(--margin-left);
+    text-align: left;
+    padding-bottom: 14px;
   }
-  
-
- 
 }
 
-
-@media (max-width: 626px) {
-
-    .group28Gradiente{
-      top: 52rem;
-    }
+/* === MOBILE PEQUENO === */
+@media (max-width: 561px) { .group28Gradiente { top: 54rem; } }
+@media (max-width: 542px) { 
+  .group28Gradiente { top: 56rem; } 
+  .carrossel{gap: 0rem} 
+  .profile{width: 140px;
+    max-width: 140px;
   }
-@media (max-width: 600px) {
-
-    .group28Gradiente{
-      top: 50rem;
-    }
-  }
-@media (max-width: 596px) {
-
-    .group28Gradiente{
-      top: 52rem;
-    }
-  }
-@media (max-width: 561px) {
-
-    .group28Gradiente{
-      top: 54rem;
-    }
-  }
-@media (max-width: 542px) {
-
-    .group28Gradiente{
-      top: 56rem;
-    }
-  }
-
-@media (max-width: 511px) {
-
-    .group28Gradiente{
-      top: 58rem;
-    }
-  }
-
-    
-@media (max-width: 481px) {
-
-    .group28Gradiente{
-      top: 60rem;
-    }
- 
-
-    
 }
-@media (max-width: 463px) {
+@media (max-width: 511px) { .group28Gradiente { top: 58rem; } }
+@media (max-width: 481px) { .group28Gradiente { top: 60rem; } }
+@media (max-width: 463px) { .group28Gradiente { top: 63rem; } }
+@media (max-width: 458px) { .group28Gradiente { top: 66rem; } }
 
-    .group28Gradiente{
-      top: 63rem;
-    }
+/* === MOBILE EXTRA PEQUENO === */
+@media (max-width: 395px) {
 
-    
-}
-@media (max-width: 458px) {
 
-    .group28Gradiente{
-      top: 66rem;
-    }
-
-    
+  .group28Gradiente { top: 68rem; }
 }
 
-@media (max-width:395px) {
-  .group28Gradiente{
-      top: 68rem;
-    }
+/* === PERFIS NO CARROSSEL === */
+
+
+@media (max-width: 1066px) {
+  .carrossel{
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .profile { flex: 0 0 calc(33.33% - 2rem); } /* 3 itens */
+}
+
+@media (max-width: 768px) {
+  .profile { flex: 0 0 calc(50% - 2rem); } /* 2 itens */
+}
+
+@media (max-width: 550px) {
+  .profile { flex: 0 0 100%; } /* 1 item */
 }

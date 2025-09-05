@@ -24,8 +24,10 @@ export default function SambaContent() {
 
     const itemStyle = window.getComputedStyle(item);
     const itemWidth = item.offsetWidth + parseInt(itemStyle.marginRight || 0);
-
+    console.log(itemWidth)
     container.scrollBy({
+      
+      
       left: direcao * itemWidth,
       behavior: 'smooth',
     });
@@ -103,30 +105,38 @@ export default function SambaContent() {
         </section>
 
         {/* BLOCO: Autores */}
-        <h2 className={styles.sectionTitle}>AUTORES</h2>
-        <section className={styles.card}>
-          <div className={styles.profileRow}>
+<h2 className={styles.sectionTitle}>AUTORES</h2>
+<section className={styles.card}>
+  <div className={styles.carrosselWrapper}>
+    <button
+      className={`${styles.seta} ${styles.esquerda}`}
+      onClick={() => scrollCarrossel(-1)}
+    >
+      &#10094;
+    </button>
 
-              <div className={styles.carrosselWrapper}>
-                <button className={`${styles.seta} ${styles.esquerda}`} onClick={() => scrollCarrossel(-1)} >&#10094;</button>
-            <div className={styles.carrossel} id="carrossel">
+    <div className={styles.carrossel} id="carrossel">
+      {Object.entries(Autores["1986"]).map(([key, autor]) => (
+        <div key={key} className={styles.profile} data-item>
+          <img
+            className={styles.avatar}
+            src={importImagem(autor.imgFile)}
+            alt={autor.name}
+          />
+          <span className={styles.nome}>{autor.name}</span>
+        </div>
+      ))}
+    </div>
 
+    <button
+      className={`${styles.seta} ${styles.direita}`}
+      onClick={() => scrollCarrossel(1)}
+    >
+      &#10095;
+    </button>
+  </div>
+</section>
 
-                {Object.entries(Autores["1986"]).map(([key, autor]) => (
-                    <div key={key} className={styles.profile} data-item>
-                      <img
-                        className={styles.avatar}
-                        src={importImagem(autor.imgFile)}
-                        alt={autor.name}
-                      />
-                      <span className={styles.nome}>{autor.name}</span>
-                    </div>
-                  ))}
-              <button className={`${styles.seta} ${styles.direita}`} onClick={() => scrollCarrossel(1)}>&#10095;</button>
-                </div>
-            </div>
-          </div>
-        </section>
 
         {/* BLOCO: Musicos */}
         <h2 className={styles.sectionTitle}>MÚSICOS</h2>
