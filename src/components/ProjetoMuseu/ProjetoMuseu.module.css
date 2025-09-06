@@ -212,6 +212,11 @@
     .homeLogo{margin: 0px}
 }
 
+@media (max-width:569px) { 
+    .group28Gradiente{ top:49rem}
+    .homeLogo img{ height: 120px;}
+}
+
 @media (max-width:503px) { 
     .group28Gradiente{ top:51rem}
     .homeLogo img{ height: 120px;}

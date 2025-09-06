@@ -1,5 +1,5 @@
 .container {
-  padding: 3rem 2rem;
+  padding: 6rem 2rem;
   width: 100%;
   margin: 0 auto;
   background: transparent;
@@ -39,14 +39,14 @@
 }
 
 .sectionTitle {
-  font-family: 'Roboto Flex', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
   font-weight: bold;
   font-size: 50px;
   margin: 2rem auto 1.5rem auto;
   color: #ffffff;
   text-decoration: underline;
-  max-width: 94%;
-  padding: 1rem 2rem 1rem 2rem;
+  padding-bottom: 0.8rem;
+  margin-left: var(--margin-left);
 
 }
 .imgCamisetaWrapper {
@@ -59,8 +59,6 @@
 
 .imgCamiseta {
   background-color: #d9d9d9;
-  width: 30%;
-  height: 600px;
   border-radius: 8px;
 }
 
@@ -182,3 +180,65 @@
     font-size: 0.9rem;
   }
 }
+
+
+
+
+
+/*=== TITULOS ===*/
+
+@media (max-width:900px) {
+   .titulo {
+    font-size: 2rem;
+    margin-left: var(--margin-left);
+    margin-right: var(--margin-left);
+    text-align: left;
+    padding-bottom: 14px;
+  }
+}
+
+
+
+@media (max-width:757px) {
+
+  .sectionTitle {
+    padding: 0;
+    font-size: 3rem;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+  }}
+@media (max-width:415px) {
+  .sectionTitle{font-size: 3rem;}
+}
+
+/*=== FOTO ===*/
+
+@media (max-width:515px) {
+  .imgCamiseta{
+    width: auto;
+    height: auto;
+  }
+}
+
+/* === DIVISOR === */
+@media (max-width: 1800px) {.group28Gradiente { top: 33rem; } }
+@media (max-width: 1581px) {.group28Gradiente { top: 35rem; } }
+@media (max-width: 999px) {.group28Gradiente { top: 37rem; } }
+@media (max-width: 883px) {.group28Gradiente { top: 39rem; } }
+@media (max-width: 816px) {.group28Gradiente { top: 41rem; } }
+@media (max-width: 765px) {.group28Gradiente { top: 43rem; } }
+@media (max-width: 732px) {.group28Gradiente { top: 46rem; } }
+@media (max-width: 693px) {.group28Gradiente { top: 49rem; } }
+@media (max-width: 680px) {.group28Gradiente { top: 51rem; } }
+@media (max-width: 627px) {.group28Gradiente { top: 54rem; } }
+@media (max-width: 600px) {.group28Gradiente { top: 52rem; } }
+@media (max-width: 583px) {.group28Gradiente { top: 55rem; } }
+@media (max-width: 539px) {.group28Gradiente { top: 59rem; } }
+@media (max-width: 507px) {.group28Gradiente { top: 61rem; } }
+@media (max-width: 495px) {.group28Gradiente { top: 63rem; } }
+@media (max-width: 460px) {.group28Gradiente { top: 66rem; } }
+@media (max-width: 417px) {.group28Gradiente { top: 69rem; } }
+@media (max-width: 397px) {.group28Gradiente { top: 71rem; } }
+@media (max-width: 382px) {.group28Gradiente { top: 73rem; } }
+@media (max-width: 370px) {.group28Gradiente { top: 75rem; } }
