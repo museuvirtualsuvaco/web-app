@@ -267,3 +267,56 @@
 @media(min-width:1850px){
   .group28Gradiente{bottom:-11rem}
 }
+
+
+/* === GRID FOTOS === */
+
+
+@media(max-width:1230px){
+  .imgBoxGrande{
+    height: auto;
+  }
+
+  .btn{position: absolute;
+    top: 35vw;
+    bottom: auto;
+    border-radius: 24px;
+    padding: 16px 20px;
+  }
+
+  .gridArea{
+    padding-bottom: 5rem;
+  }
+}
+
+
+@media (max-width:757px) {
+  .gridVisual{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 70%;
+
+  }
+
+  .imgBoxGrande{
+    grid-row: auto;
+    max-height: 275px;
+    max-width: 400px;
+  }
+
+  .imgBox{
+    max-height: 275px;
+  }
+
+  .btn{
+    padding: 16px 20px;
+    position: initial;
+    transform: none;
+    margin-top: 20px;
+    border-radius: 24px;
+  }
+
+
+
+}
