@@ -299,6 +299,10 @@
 
   }
 
+  .gridArea{
+    padding-bottom: 0;
+  }
+
   .imgBoxGrande{
     grid-row: auto;
     max-height: 275px;
