@@ -208,6 +208,8 @@
     margin-left: 0;
     margin-right: 0;
   }}
+
+  
 @media (max-width:415px) {
   .sectionTitle{font-size: 3rem;}
 }
@@ -219,12 +221,18 @@
     width: auto;
     height: auto;
   }
+  .avatar{
+    height: auto;
+    width: auto;
+  }
 }
 
+
 /* === DIVISOR === */
+
 @media (max-width: 1800px) {.group28Gradiente { top: 33rem; } }
-@media (max-width: 1581px) {.group28Gradiente { top: 35rem; } }
-@media (max-width: 999px) {.group28Gradiente { top: 37rem; } }
+@media (max-width: 1581px) {.group28Gradiente { top: 38rem; } }
+@media (max-width: 900px) {.group28Gradiente { top: 37rem; } }
 @media (max-width: 883px) {.group28Gradiente { top: 39rem; } }
 @media (max-width: 816px) {.group28Gradiente { top: 41rem; } }
 @media (max-width: 765px) {.group28Gradiente { top: 43rem; } }
@@ -232,13 +240,14 @@
 @media (max-width: 693px) {.group28Gradiente { top: 49rem; } }
 @media (max-width: 680px) {.group28Gradiente { top: 51rem; } }
 @media (max-width: 627px) {.group28Gradiente { top: 54rem; } }
-@media (max-width: 600px) {.group28Gradiente { top: 52rem; } }
-@media (max-width: 583px) {.group28Gradiente { top: 55rem; } }
-@media (max-width: 539px) {.group28Gradiente { top: 59rem; } }
-@media (max-width: 507px) {.group28Gradiente { top: 61rem; } }
-@media (max-width: 495px) {.group28Gradiente { top: 63rem; } }
-@media (max-width: 460px) {.group28Gradiente { top: 66rem; } }
-@media (max-width: 417px) {.group28Gradiente { top: 69rem; } }
-@media (max-width: 397px) {.group28Gradiente { top: 71rem; } }
-@media (max-width: 382px) {.group28Gradiente { top: 73rem; } }
-@media (max-width: 370px) {.group28Gradiente { top: 75rem; } }
+@media (max-width: 579px) {.group28Gradiente { top: 59rem; } }
+@media (max-width: 545px) {.group28Gradiente { top: 62rem; } }
+@media (max-width: 531px) {.group28Gradiente { top: 65rem; } }
+@media (max-width: 493px) {.group28Gradiente { top: 67rem; } }
+@media (max-width: 468px) {.group28Gradiente { top: 69rem; } }
+@media (max-width: 448px) {.group28Gradiente { top: 70rem; } }
+@media (max-width: 408px) {.group28Gradiente { top: 72rem; } }
+@media (max-width: 397px) {.group28Gradiente { top: 74rem; } }
+@media (max-width: 385px) {.group28Gradiente { top: 78rem; } }
+@media (max-width: 369px) {.group28Gradiente { top: 80rem; } }
+@media (max-width: 359px) {.group28Gradiente { top: 82rem; } }

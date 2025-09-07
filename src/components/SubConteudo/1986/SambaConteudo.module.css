@@ -106,7 +106,6 @@
   margin-top: 1.2rem;
   border-radius: 6px;
   display: block;
-  background-color: rgb(42, 165, 79);
   font-size: 2rem;
 }
 
@@ -299,7 +298,7 @@
 
 
 /* === DESKTOP MAIOR PARA MÉDIO === */
-@media (max-width: 1474px) {.group28Gradiente { top: 34rem; }}
+@media (max-width: 1474px) {.group28Gradiente { top: 36rem; }}
 
 @media (max-width: 1123px){
    .filipetaImage {
@@ -316,7 +315,7 @@
 }
 
 @media (max-width: 1024px) {.seta { display: initial; }}
-@media (max-width: 1081px) {.group28Gradiente { top: 36rem;}}
+@media (max-width: 1081px) {.group28Gradiente { top: 37rem;}}
 
 @media (max-width: 1025px){
     .filipetaImage {
@@ -337,8 +336,8 @@
     .letra { min-width: auto; text-align: center; }
 }
 
-@media (max-width: 921px) {.group28Gradiente { top: 38rem;}}
-@media (max-width: 835px) {.group28Gradiente { top: 40rem; }
+@media (max-width: 921px) {.group28Gradiente { top: 39rem;}}
+@media (max-width: 835px) {.group28Gradiente { top: 41rem; }
 }
 
 /* === TABLET E INTERMEDIÁRIO === */
@@ -369,7 +368,7 @@
   .audio { width: 100%; }
 }
 
-@media (max-width: 757px) {
+@media (max-width: 773px) {
   .group28Gradiente { top: 44rem; }
 
   .sectionTitle {
@@ -381,8 +380,12 @@
   }
 }
 
+@media (max-width:747px) {
+  .group28Gradiente { top: 46rem; }
+}
+
 /* === MOBILE MÉDIO === */
-@media (max-width: 699px) {
+@media (max-width: 700px) {
   .titulo {
     font-size: 2rem;
     margin-left: var(--margin-left);
@@ -404,8 +407,8 @@
   .group28Gradiente { top: 48rem; }
 }
 
-@media (max-width: 632px) {
-  .group28Gradiente { top: 50rem; }
+@media (max-width: 639px) {
+  .group28Gradiente { top: 49rem; }
 }
 
 @media (max-width: 600px) {
@@ -416,6 +419,7 @@
     text-align: left;
     padding-bottom: 14px;
   }
+   .group28Gradiente { top: 55rem; }
 }
 
 /* === MOBILE PEQUENO === */
@@ -426,22 +430,23 @@
   }
 }
 
-@media (max-width: 561px) { .group28Gradiente { top: 54rem; } }
+@media (max-width: 561px) { .group28Gradiente { top: 58rem; } }
 @media (max-width: 542px) { 
-  .group28Gradiente { top: 56rem; } 
+  .group28Gradiente { top: 60rem; } 
   .carrossel{gap: 0rem} 
   .profile{width: 140px;
     max-width: 140px;
   }
 }
-@media (max-width: 511px) { .group28Gradiente { top: 58rem; } }
-@media (max-width: 481px) { .group28Gradiente { top: 60rem; } }
-@media (max-width: 463px) { .group28Gradiente { top: 63rem; } }
-@media (max-width: 458px) { .group28Gradiente { top: 66rem; } }
+@media (max-width: 496px) { .group28Gradiente { top: 65rem; } }
+@media (max-width: 481px) { .group28Gradiente { top: 68rem; } }
+@media (max-width: 454px) { .group28Gradiente { top: 69rem; } }
+@media (max-width: 409px) { .group28Gradiente { top: 71rem; } }
 
 /* === MOBILE EXTRA PEQUENO === */
 @media (max-width: 395px) {.group28Gradiente { top: 71rem; } }
-@media (max-width: 370px) {.group28Gradiente { top: 78rem; } }
+@media (max-width: 376px) {.group28Gradiente { top: 76rem; } }
+@media (max-width: 366px) {.group28Gradiente { top: 78rem; } }
 
 /* === PERFIS NO CARROSSEL === */
 

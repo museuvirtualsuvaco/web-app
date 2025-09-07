@@ -1,5 +1,5 @@
 .container {
-  padding: 3rem 2rem;
+  padding: 6rem 2rem;
   width: 100%;
   margin: 0 auto;
   background: transparent;
@@ -173,7 +173,6 @@
   position: relative;
   margin-left: 7vw;
   margin-right: 7vw;
-
 }
 
 .gridVisual {
@@ -221,17 +220,16 @@
   background-color: #000000ef;
 }
 
-@media (max-width: 400px) {
-  .profileRow {
-    gap: 1rem;
-  }
-
-  .avatar {
-    width: 80px;
-    height: 80px;
-  }
-
-  .name {
-    font-size: 0.9rem;
+@media (max-width:900px) {
+   .titulo {
+    font-size: 2rem;
+    margin-left: var(--margin-left);
+    margin-right: var(--margin-left);
+    text-align: left;
+    padding-bottom: 14px;
   }
 }
+
+/* === DIVISOR === */
+
+@media (max-width: 370px) {.group28Gradiente { top: 78rem; } }

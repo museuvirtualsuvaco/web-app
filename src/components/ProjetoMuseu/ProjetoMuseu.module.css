@@ -141,6 +141,24 @@
 }
 
 
+
+@media (max-width:500px) {
+    .titleSection{
+        font-size: 2rem;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .titleSectionNoPadding{
+        margin-left: 0;
+        text-align: center;
+    }
+    .titleSectionEquipe{
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
 /* GRADIENTE E LOGOS */
 
 
@@ -207,7 +225,7 @@
 }
 
 @media (max-width:570px) { 
-    .group28Gradiente{ top:50rem}
+    .group28Gradiente{ top:49rem}
     .homeLogo img{ height: 120px;}
     .homeLogo{margin: 0px}
 }
@@ -233,26 +251,30 @@
 }
 
 @media (max-width:462px) { 
-    .group28Gradiente{ top:54rem}
+    .group28Gradiente{ top:52rem}
     .homeLogo img{ height: 100px;}
 }
 
-@media (max-width:427px) { 
+@media (max-width:413px) { 
     .group28Gradiente{ top:54rem}
     .homeLogo img{ height: 90px;}
 }
 
-@media (max-width:420px) { 
-    .group28Gradiente{ top:51rem}
+@media (max-width:406px) { 
+    .group28Gradiente{ top:55rem}
     .homeLogo img{ height: 80px;}
 
 }
 @media (max-width:387px) { 
-    .group28Gradiente{ top:53rem}
+    .group28Gradiente{ top:55rem}
     .homeLogo img{ height: 85px;}
 }
 
 @media (max-width:381px) { 
     .group28Gradiente{ top:55rem}
+    .homeLogo img{ height: 80px;}
+}
+@media (max-width:374px) { 
+    .group28Gradiente{ top:58rem}
     .homeLogo img{ height: 80px;}
 }
