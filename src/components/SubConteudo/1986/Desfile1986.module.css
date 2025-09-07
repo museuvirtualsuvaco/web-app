@@ -20,14 +20,15 @@
   position: relative;
 }
 
-.group28Gradiente{
-    position: absolute;
-    z-index: 100;
-    width: 100%;
-    top: 29.5vw;
-    z-index: 8;
-}
+.cabecalho{position: relative;}
 
+.group28Gradiente {
+  position: absolute;
+  bottom: -5rem;
+  left: 0;
+  width: 100%;
+  z-index: 8;
+}
 
 .card {
   background: white;
@@ -162,10 +163,12 @@
   margin-top: 2rem;
 }
 
+
+.cabecalho{position:relative}
 .texto {
   flex: 1 1 300px;
   font-family: 'Roboto Flex', sans-serif;
-  font-size: 1.3em;
+  font-size: 20.16px;
   color: #000;
   line-height: 1.7;
   margin-top: 1rem;
@@ -230,6 +233,37 @@
   }
 }
 
+@media (max-width:767px) {
+
+  .sectionTitle {
+    padding: 0;
+    font-size: 3rem;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+  }}
+
+
+
+
+@media (max-width:372px) {
+  .sectionTitle{
+    font-size: 3rem;
+  }
+
+  }
+
 /* === DIVISOR === */
 
-@media (max-width: 370px) {.group28Gradiente { top: 78rem; } }
+@media(min-width:1000px){
+  .group28Gradiente{bottom:-7rem}
+}
+@media(min-width:1270px){
+  .group28Gradiente{bottom:-8rem}
+}
+@media(min-width:1550px){
+  .group28Gradiente{bottom:-9rem}
+}
+@media(min-width:1850px){
+  .group28Gradiente{bottom:-11rem}
+}

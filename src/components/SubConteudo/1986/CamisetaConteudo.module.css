@@ -19,13 +19,14 @@
   position: relative;
 }
 
-.group28Gradiente{
-    position: absolute;
-    z-index: 100;
-    width: 100%;
-    top: 29.5vw;
-    z-index: 8;
+.group28Gradiente {
+  position: absolute;
+  bottom: -5rem;
+  left: 0;
+  width: 100%;
+  z-index: 8;
 }
+
 
 .card {
   background: white;
@@ -61,6 +62,12 @@
   background-color: #d9d9d9;
   border-radius: 8px;
 }
+
+.cabecalho{
+  position:relative;
+}
+
+
 
 .profileRow {
   display: flex;
@@ -107,7 +114,7 @@
 .texto {
   flex: 1 1 300px;
   font-family: 'Roboto Flex', sans-serif;
-  font-size: 1.3em;
+  font-size: 20.16px;
   color: #000;
   line-height: 1.7;
   margin-top: 1rem;
@@ -227,27 +234,15 @@
   }
 }
 
-
-/* === DIVISOR === */
-
-@media (max-width: 1800px) {.group28Gradiente { top: 33rem; } }
-@media (max-width: 1581px) {.group28Gradiente { top: 38rem; } }
-@media (max-width: 900px) {.group28Gradiente { top: 37rem; } }
-@media (max-width: 883px) {.group28Gradiente { top: 39rem; } }
-@media (max-width: 816px) {.group28Gradiente { top: 41rem; } }
-@media (max-width: 765px) {.group28Gradiente { top: 43rem; } }
-@media (max-width: 732px) {.group28Gradiente { top: 46rem; } }
-@media (max-width: 693px) {.group28Gradiente { top: 49rem; } }
-@media (max-width: 680px) {.group28Gradiente { top: 51rem; } }
-@media (max-width: 627px) {.group28Gradiente { top: 54rem; } }
-@media (max-width: 579px) {.group28Gradiente { top: 59rem; } }
-@media (max-width: 545px) {.group28Gradiente { top: 62rem; } }
-@media (max-width: 531px) {.group28Gradiente { top: 65rem; } }
-@media (max-width: 493px) {.group28Gradiente { top: 67rem; } }
-@media (max-width: 468px) {.group28Gradiente { top: 69rem; } }
-@media (max-width: 448px) {.group28Gradiente { top: 70rem; } }
-@media (max-width: 408px) {.group28Gradiente { top: 72rem; } }
-@media (max-width: 397px) {.group28Gradiente { top: 74rem; } }
-@media (max-width: 385px) {.group28Gradiente { top: 78rem; } }
-@media (max-width: 369px) {.group28Gradiente { top: 80rem; } }
-@media (max-width: 359px) {.group28Gradiente { top: 82rem; } }
+@media(min-width:1000px){
+  .group28Gradiente{bottom:-7rem}
+}
+@media(min-width:1270px){
+  .group28Gradiente{bottom:-8rem}
+}
+@media(min-width:1550px){
+  .group28Gradiente{bottom:-9rem}
+}
+@media(min-width:1850px){
+  .group28Gradiente{bottom:-11rem}
+}

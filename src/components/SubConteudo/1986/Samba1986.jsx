@@ -38,19 +38,21 @@ export default function SambaContent() {
       <div className={styles.cabecalho}>
 
         <h2 className={styles.titulo}>Desfile 1986, Ano 01 - Samba</h2>
-        <p className={styles.textoInicio}>
+        <p className={styles.texto}>
           O primeiro samba, intitulado “Divinas Axilas”, foi composto por João Avelleira, Arnaldo Chaim e José Lavigne, com sugestões do presidente do bloco Força Jovem do Horto,  Roberto de Assis (conhecido pelo apelido de Pirulito). A canção ironizava a maior parte dos sambas enredos pela obrigatoriedade de referências a temas nacionais, citando as localidades da Rocinha e Humaitá e povos indígenas Tamoios  e Tupinambás, obrigatoriedade já satirizada no "Samba do Crioulo Doido" do grande Stanislau Ponte Preta.  Embora explicações mais glamourizadas, anos mais tarde tenham surgido, era apenas mais uma brincadeira irreverente, como todo o bloco. (Ver documentário dos 20 anos do bloco, da diretora Paola Vieira, em breve aqui no nosso portal).
 
         </p>
 
-      </div>
 
-      <img
+          <img
         src={Grupo}
         className={styles.group28Gradiente}
         alt="divisor ondulado"
       />
 
+      </div>
+
+    
       <div className={styles.container}>
         <h2 className={styles.sectionTitle}>DIVINAS AXILAS</h2>
         <section className={styles.card}>

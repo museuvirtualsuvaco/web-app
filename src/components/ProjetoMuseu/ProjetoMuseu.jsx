@@ -5,7 +5,7 @@ const ProjetoMuseu = () => {
 
     return (
         <div>
-            <main>
+            <main className={styles.introSection}>
                 <div className={styles.homeText}>
                     <p>Qual é o papel de universidades como a UFRJ e da sociedade em geral na preservação e divulgação da memória do carnaval de rua do Rio de Janeiro? 
                     </p>
@@ -18,15 +18,17 @@ const ProjetoMuseu = () => {
                     <img className={styles.logoIc} src="src/assets/Sem títuloaaaaa 1.svg" alt="Logo IC" />
                     <img className={styles.logoEba} src="src/assets/307093807_543650020901618_4682476023594602429_n 1.png" alt="Logo História da Arte" />
                 </div>
-            </main>
 
-
-            <img
+                 <img
                 src={'src/assets/Group 28.svg'}
                 className={styles.group28Gradiente}
                 alt="divisor ondulado"
             />
 
+            </main>
+
+
+           
             <section className={styles.areaVerde}>
                 <h2 className={styles.titleSection}>Objeto de pesquisa</h2>
 

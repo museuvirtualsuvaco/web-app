@@ -33,13 +33,15 @@ export default function CamisetaContent() {
 
         </p>
 
-      </div>
-
-      <img
+        <img
         src={Grupo}
         className={styles.group28Gradiente}
         alt="divisor ondulado"
       />
+
+      </div>
+
+      
 
       <div className={styles.container}>
         <h2 className={styles.sectionTitle}>A CAMISETA</h2>
