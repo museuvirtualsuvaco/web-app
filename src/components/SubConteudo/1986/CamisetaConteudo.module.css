@@ -1,5 +1,5 @@
 .container {
-  padding: 3rem 2rem;
+  padding: 6rem 2rem;
   width: 100%;
   margin: 0 auto;
   background: transparent;
@@ -19,13 +19,14 @@
   position: relative;
 }
 
-.group28Gradiente{
-    position: absolute;
-    z-index: 100;
-    width: 100%;
-    top: 29.5vw;
-    z-index: 8;
+.group28Gradiente {
+  position: absolute;
+  bottom: -5rem;
+  left: 0;
+  width: 100%;
+  z-index: 8;
 }
+
 
 .card {
   background: white;
@@ -39,14 +40,14 @@
 }
 
 .sectionTitle {
-  font-family: 'Roboto Flex', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
   font-weight: bold;
   font-size: 50px;
   margin: 2rem auto 1.5rem auto;
   color: #ffffff;
   text-decoration: underline;
-  max-width: 94%;
-  padding: 1rem 2rem 1rem 2rem;
+  padding-bottom: 0.8rem;
+  margin-left: var(--margin-left);
 
 }
 .imgCamisetaWrapper {
@@ -59,10 +60,14 @@
 
 .imgCamiseta {
   background-color: #d9d9d9;
-  width: 30%;
-  height: 600px;
   border-radius: 8px;
 }
+
+.cabecalho{
+  position:relative;
+}
+
+
 
 .profileRow {
   display: flex;
@@ -109,7 +114,7 @@
 .texto {
   flex: 1 1 300px;
   font-family: 'Roboto Flex', sans-serif;
-  font-size: 1.3em;
+  font-size: 20.16px;
   color: #000;
   line-height: 1.7;
   margin-top: 1rem;
@@ -181,4 +186,63 @@
   .name {
     font-size: 0.9rem;
   }
+}
+
+
+
+
+
+/*=== TITULOS ===*/
+
+@media (max-width:900px) {
+   .titulo {
+    font-size: 2rem;
+    margin-left: var(--margin-left);
+    margin-right: var(--margin-left);
+    text-align: left;
+    padding-bottom: 14px;
+  }
+}
+
+
+
+@media (max-width:757px) {
+
+  .sectionTitle {
+    padding: 0;
+    font-size: 3rem;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+  }}
+
+  
+@media (max-width:415px) {
+  .sectionTitle{font-size: 3rem;}
+}
+
+/*=== FOTO ===*/
+
+@media (max-width:515px) {
+  .imgCamiseta{
+    width: auto;
+    height: auto;
+  }
+  .avatar{
+    height: auto;
+    width: auto;
+  }
+}
+
+@media(min-width:1000px){
+  .group28Gradiente{bottom:-7rem}
+}
+@media(min-width:1270px){
+  .group28Gradiente{bottom:-8rem}
+}
+@media(min-width:1550px){
+  .group28Gradiente{bottom:-9rem}
+}
+@media(min-width:1850px){
+  .group28Gradiente{bottom:-11rem}
 }

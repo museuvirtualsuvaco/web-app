@@ -20,22 +20,18 @@ Em 1986, jornais locais jogaram confete e serpentina sobre o primeiro desfile do
 
                     </p>
     
-        </div>
-    
         <img
                   src={Grupo}
                   className={styles.group28Gradiente}
                   alt="divisor ondulado"
                 />
+        </div>
+    
     
     
     <div className={styles.container}>
       <h2 className={styles.sectionTitle}>NA MÍDIA</h2>
       <section className={styles.card}>
-
-        <p className={styles.texto}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor porttitor dictum. Curabitur mollis neque scelerisque nunc dapibus  cursus. Morbi egestas sapien neque. Phasellus sagittis consectetur  elementum. Vivamus mattis porta dapibus. Sed eu odio mollis, sagittis  lectus nec, rutrum odio. Maecenas vel dapibus dolor. Fusce ligula  ligula, molestie at lectus in, porttitor egestas libero. Nulla facilisi. Vestibulum varius tortor ligula, ut volutpat risus vestibulum quis.  Praesent laoreet nisi lectus, nec ornare orci facilisis ut. Duis  consectetur viverra malesuada.
-        </p>
 
         <div className={styles.gridArea}>
 
