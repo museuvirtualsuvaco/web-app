@@ -1,0 +1,20 @@
+.title{
+    font-size: 5rem;
+    color: var(--blue-titles);
+    font-family: "Roboto Flex";
+    font-weight: 500;
+    text-align: center;
+    margin: 25px 0 ;
+}
+
+.texto{
+    font-size: 1.8em;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.link{
+    color: var(--blue-titles);
+    text-decoration: underline;
+    font-weight: 500;
+}

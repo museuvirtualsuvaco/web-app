@@ -23,3 +23,11 @@ export const PAG12SAMBA = '/2012/samba'
 export const PAG12MIDIA = '/2012/midia'
 export const PAG12DESFILE = '/2012/desfile'
 export const PAG12CAMISETA = '/2012/camiseta'
+
+const routes = {};
+
+for (let i = 1986; i < 2012; i++) {
+  routes[`PAG${i}`] = `/${i}`;
+}
+
+export default routes;
