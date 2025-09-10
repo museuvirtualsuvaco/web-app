@@ -22,9 +22,6 @@ export default function Nav() {
                 <li>
                     <Link to={ROUTES.PROJETO_MUSEU}>Projeto Museu</Link>
                 </li>
-                <li>
-                    <Link to={ROUTES.SOBRE}>Sobre Nós</Link>
-                </li>
             </ul>
 
             {/* Menu Hambúrguer (Mobile) */}
@@ -38,9 +35,6 @@ export default function Nav() {
                 </li>
                 <li>
                     <Link to={ROUTES.PROJETO_MUSEU}>Projeto Museu</Link>
-                </li>
-                <li>
-                    <Link to={ROUTES.SOBRE}>Sobre Nós</Link>
                 </li>
             </MenuHamburguer>
         </nav>

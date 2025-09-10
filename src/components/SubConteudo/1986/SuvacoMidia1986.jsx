@@ -5,6 +5,8 @@ import foto1 from '../../../assets/1985 JB - Nasce o Suvaco.jpg';
 import foto2 from '../../../assets/1986 1 Desfila Sonia e Robertinho.jpg';
 import foto3 from '../../../assets/1986 JB Carta dos Leitores Revolta.jpg';
 
+import BtnVoltar from '../../VoltarBtn/BtnVoltar';
+
 
 import Grupo from "../../../assets/Group 28.svg";
 export default function SambaContent() {
@@ -48,6 +50,8 @@ Em 1986, jornais locais jogaram confete e serpentina sobre o primeiro desfile do
       </div>
 
       </section>
+
+      <BtnVoltar></BtnVoltar>
     </div>
 
     </>

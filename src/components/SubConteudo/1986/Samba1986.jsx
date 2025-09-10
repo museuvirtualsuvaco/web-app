@@ -6,6 +6,8 @@ import Musicos from '../Musicos.json'
 import musica from '../../../assets/musicas/1986musica.mp3'
 import Grupo from "../../../assets/Group 28.svg";
 
+import BtnVoltar from '../../VoltarBtn/BtnVoltar';
+
 
 
 
@@ -164,6 +166,8 @@ export default function SambaContent() {
 
 
         </section>
+
+        <BtnVoltar></BtnVoltar>
       </div>
 
     </>

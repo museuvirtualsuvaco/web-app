@@ -2,9 +2,9 @@ import React from 'react';
 import styles from './CamisetaConteudo.module.css';
 import CamisaFoto from '../../../assets/camisetas/1986 Camiseta Sonia Matos.jpg';
 import Artistas from '../CamisetaArtistas.json'
-import Musicos from '../Musicos.json'
-import musica from '../../../assets/musicas/1986musica.mp3'
 import Grupo from "../../../assets/Group 28.svg";
+
+import BtnVoltar from '../../VoltarBtn/BtnVoltar';
 
 
 const importImagem = (fileName) => {
@@ -88,6 +88,8 @@ export default function CamisetaContent() {
       </div>
 
       </section> */}
+
+      <BtnVoltar></BtnVoltar>
       </div>
     </>
   );

@@ -52,31 +52,31 @@ export default function FormCarrossel() {
           <a href="/2012" className={styles.item} data-item>
             <img src={foto12} alt="Ano 2012" />
           </a>
-          <a href="#" className={styles.item} data-item>
+          <a href="/1987" className={styles.item} data-item>
             <img src={foto87} alt="Ano 1987" />
           </a>
-          <a href="#" className={styles.item} data-item>
+          <a href="/1988" className={styles.item} data-item>
             <img src={foto88} alt="Ano 1988" />
           </a>
-          <a href="#" className={styles.item} data-item>
+          <a href="/1989" className={styles.item} data-item>
             <img src={foto89} alt="Ano 1989" />
           </a>
-          <a href="#" className={styles.item} data-item>
+          <a href="/1990" className={styles.item} data-item>
             <img src={foto90} alt="Ano 1990" />
           </a>
-          <a href="#" className={styles.item} data-item>
+          <a href="/1991" className={styles.item} data-item>
             <img src={foto91} alt="Ano 1991" />
           </a>
-          <a href="#" className={styles.item} data-item>
+          <a href="/1992" className={styles.item} data-item>
             <img src={foto92} alt="Ano 1992" />
           </a>
-          <a href="#" className={styles.item} data-item>
+          <a href="/1993" className={styles.item} data-item>
             <img src={foto93} alt="Ano 1993" />
           </a>
-          <a href="#" className={styles.item} data-item>
+          <a href="/1994" className={styles.item} data-item>
             <img src={foto94} alt="Ano 1994" />
           </a>
-          <a href="#" className={styles.item} data-item>
+          <a href="/1995" className={styles.item} data-item>
             <img src={foto95} alt="Ano 1995" />
           </a>
         </div>
