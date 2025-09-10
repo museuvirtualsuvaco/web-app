@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import styles from "./ProjetoMuseu.module.css";
 
+import BtnVoltar from "../VoltarBtn/BtnVoltar";
+
 const ProjetoMuseu = () => {
 
     return (
@@ -254,11 +256,13 @@ const ProjetoMuseu = () => {
                     
                 </div>
 
+                <BtnVoltar></BtnVoltar>
             <div className={styles.greenSpace}></div>
+            
             </section>
 
 
-
+        
 
         </div>
     );

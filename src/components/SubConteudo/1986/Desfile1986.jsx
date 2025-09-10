@@ -6,6 +6,8 @@ import foto2 from '../../../assets/1986 desfile.JPG';
 import foto3 from '../../../assets/1986 saida.JPG';
 
 import Grupo from "../../../assets/Group 28.svg";
+
+import BtnVoltar from '../../VoltarBtn/BtnVoltar';
 export default function SambaContent() {
   return (
 
@@ -53,6 +55,8 @@ export default function SambaContent() {
       </div>
 
       </section>
+
+      <BtnVoltar></BtnVoltar>
     </div>
 
     </>

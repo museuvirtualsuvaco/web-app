@@ -12,22 +12,23 @@ export const SUVACO_NA_MIDIA = '/suvacoNaMidia';
 export const FIREBASE_TESTING = '/firebase';
 
 
-export const PAG86 = '/1986'
-export const PAG86SAMBA = '/1986/samba'
-export const PAG86MIDIA = '/1986/midia'
-export const PAG86DESFILE = '/1986/desfile'
-export const PAG86CAMISETA = '/1986/camiseta'
-
-export const PAG12 = '/2012'
-export const PAG12SAMBA = '/2012/samba'
-export const PAG12MIDIA = '/2012/midia'
-export const PAG12DESFILE = '/2012/desfile'
-export const PAG12CAMISETA = '/2012/camiseta'
+const tipos = ["samba", "midia", "desfile", "camiseta"];
 
 const routes = {};
+const subroutes = {};
 
-for (let i = 1986; i < 2012; i++) {
-  routes[`PAG${i}`] = `/${i}`;
+for (let ano = 1986; ano <= 2025; ano++) {
+  // rota principal
+  routes[`PAG${ano}`] = `/${ano}`;
+
+  // subrotas
+  for (const tipo of tipos) {
+    subroutes[`PAG${ano}${tipo.toUpperCase()}`] = `/${ano}/${tipo}`;
+  }
 }
 
+
+
 export default routes;
+
+export { subroutes };

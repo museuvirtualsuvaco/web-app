@@ -4,17 +4,29 @@
     font-family: "Roboto Flex";
     font-weight: 500;
     text-align: center;
-    margin: 25px 0 ;
+    margin: 25px 7vw ;
 }
 
 .texto{
     font-size: 1.8em;
     text-align: center;
     padding-bottom: 10px;
+    margin: 10px 7vw;
 }
 
 .link{
     color: var(--blue-titles);
     text-decoration: underline;
     font-weight: 500;
+}
+
+
+
+@media (max-width:767px) {
+    .title{font-size: 3rem;}
+    .texto{font-size: 1.4rem;}
+}
+@media (max-width:500px) {
+    .title{font-size: 2rem;}
+    .texto{font-size: 1.15rem;}
 }
