@@ -83,6 +83,7 @@ function App() {
           <Route path={routes.PAG2004} element={<Emconstrucao />} />
           <Route path={routes.PAG2005} element={<Emconstrucao />} />
           <Route path={routes.PAG2006} element={<Emconstrucao />} />
+          
 
 
 
@@ -93,6 +94,9 @@ function App() {
           <Route path={subroutes.PAG2012CAMISETA} element={<Camiseta2012/>} />
 
           
+
+          
+          <Route path={ROUTES.EM_CONSTRUCAO} element={<Emconstrucao />} />
           
 
         </Routes>
