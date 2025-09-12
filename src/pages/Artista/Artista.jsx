@@ -30,6 +30,13 @@ function Artista() {
   </div>
 
   <div className={styles.conteudo}>
+
+    <img
+      src={Foto}
+      alt="João Avelleira"
+      className={styles.foto}
+    />
+
     <section className={styles.sectionTexts}>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -44,11 +51,7 @@ function Artista() {
       </p>
     </section>
 
-    <img
-      src={Foto}
-      alt="João Avelleira"
-      className={styles.foto}
-    />
+    
   </div>
 </div>
     <img

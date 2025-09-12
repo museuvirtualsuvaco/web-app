@@ -71,31 +71,27 @@
     margin-bottom: 13px;
 }
 
-.conteudo {
-  width: 100%;
-  margin-top: 2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 2rem;
-}
+
 
 .sectionTexts{
-    margin-top: 2rem;
+   margin-top: 2rem;
     margin-left: 7vw;
     margin-right: 7vw;
-    margin-bottom: 2rem;
     position: relative;
-    justify-content: space-around;
-    text-align: justify;
     font-size: 1.7rem;
     line-height: 28px;
+    position: relative;
+    z-index: 10002;
+    background-color: white;
 
 }
 
 .foto {
+  position: relative;
+  z-index: 10003;
+  float: right;
   flex: 1;
-  max-width: 220px;
+  max-width: 300px;
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid #008080; 
@@ -346,6 +342,28 @@
 }
 .direita {
   right: 0;
+}
+
+@media (max-width:786px) {   
+    .cabecalho{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sectionTexts{
+      text-align: justify;
+    }
+    .line{display: none;}
+    .foto{
+        float:none;
+        height: auto;
+        width: 75%;
+        max-width: 300px;
+        left: 50%;
+        transform: translateX(-40%);
+        margin: 0;
+        margin-top: 2rem;
+    }
 }
 
 @media (max-width: 600px) {
