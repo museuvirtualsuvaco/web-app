@@ -1,9 +1,22 @@
 import { useEffect, useState } from "react"
 import "./Home.css"
+import Footer from '../Footer/Footer'
 
 import Video from "./Video/Video"
 import FormCarrossel from "./FormCarrossel/FormCarrossel"
 import { Link } from 'react-router-dom';
+
+
+import logoufrj from "../../assets/ufrj-horizontal-cor-rgb-telas 1.svg"
+import logoic from "../../assets/Sem títuloaaaaa 1.svg"
+import logoeba from "../../assets/307093807_543650020901618_4682476023594602429_n 1.png"
+
+import gradiente from "../../assets/Group - Onda(1).svg"
+
+import projetoSocial from "../../assets/image 2(1).svg"
+import projetoMuseu from "../../assets/Emariz 28(2).jpg"
+
+import projetosMobile from "../../assets/Frame 14(2).svg"
 
 export default function Home() {
 
@@ -36,9 +49,9 @@ export default function Home() {
                         disponível na rede para consulta por pesquisadores e público em geral.</p>
                 </div>
                 <div className="home-logos">
-                    <img id="logo-ufrj" src="src/assets/ufrj-horizontal-cor-rgb-telas 1.svg" alt="" />
-                    <img id="logo-ic" src="src/assets/Sem títuloaaaaa 1.svg" alt="" />
-                    <img id="eba" src="src\assets\307093807_543650020901618_4682476023594602429_n 1.png" alt="Logo História da Arte" />
+                    <img id="logo-ufrj" src={logoufrj} alt="" />
+                    <img id="logo-ic" src={logoic} alt="" />
+                    <img id="eba" src={logoeba} alt="Logo História da Arte" />
                     
                 </div>
             </main>
@@ -49,20 +62,20 @@ export default function Home() {
                 {/* AREA DESKTOP  */}
                 {!isMobile && (
                     <>
-                        <img id="separador-gradiente-1" src="src/assets/Group - Onda(1).svg" alt="" />
+                        <img id="separador-gradiente-1" src={gradiente} alt="" />
 
                         <div className="projetos">
                             <div className="projeto-social">
-                                <img id="projeto-social-img" src="src/assets/image 2(1).svg" alt="" />
-                                <a href="http://google.com" className="social-link overlay">O Projeto Social</a>
+                                <img id="projeto-social-img" src={projetoSocial} alt="" />
+                                <a href="/divinasAxilas" className="social-link overlay">O Projeto Social</a>
                             </div>
 
                             <div className="projeto-museu">
-                                <img id="projeto-museu-img" src="src/assets/Emariz 28(2).jpg" alt="" />
-                                <a href="http://google.com" className="museu-link overlay">O Projeto Museu</a>
+                                <img id="projeto-museu-img" src={projetoMuseu} alt="" />
+                                <a href="/projetoMuseu" className="museu-link overlay">O Projeto Museu</a>
                             </div>
                         </div>
-                        <img id="separador-gradiente-2" src="src/assets/Group - Onda(1).svg" alt="" />
+                        <img id="separador-gradiente-2" src={gradiente} alt="" />
                     </>
                 )}
 
@@ -72,10 +85,10 @@ export default function Home() {
                     <>
                         <div className="projetos-mobile">
 
-                            <img id="botoes-mobile" src="src/assets/Frame 14(2).svg" alt="" />
-                            <a href="http://google.com" className="social-link-mobile overlay">O Projeto Social</a>
+                            <img id="botoes-mobile" src={projetosMobile} alt="" />
+                            <a href="/divinasAxilas" className="social-link-mobile overlay">O Projeto Social</a>
 
-                            <a href="http://google.com" className="museu-link-mobile overlay">O Projeto Museu</a>
+                            <a href="/projetoMuseu" className="museu-link-mobile overlay">O Projeto Museu</a>
 
 
 
@@ -92,7 +105,7 @@ export default function Home() {
 
                 <FormCarrossel></FormCarrossel>
                 <Video></Video>
-
+                
             </div>
         </div>
     )

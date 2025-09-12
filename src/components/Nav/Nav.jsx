@@ -9,7 +9,7 @@ import * as ROUTES from '../../constants/routes';
 export default function Nav() {
     return (
         <nav className={styles.mainContainer}>
-            <img className={styles.navIcon} src={null} alt="icone aqui" />
+            {/* <img className={styles.navIcon} src={null} alt="icone aqui" /> */}
 
             {/* Menu Desktop */}
             <ul className={styles.liItens}>
@@ -21,9 +21,6 @@ export default function Nav() {
                 </li>
                 <li>
                     <Link to={ROUTES.PROJETO_MUSEU}>Projeto Museu</Link>
-                </li>
-                <li>
-                    <Link to={ROUTES.SOBRE}>Sobre</Link>
                 </li>
             </ul>
 
@@ -38,9 +35,6 @@ export default function Nav() {
                 </li>
                 <li>
                     <Link to={ROUTES.PROJETO_MUSEU}>Projeto Museu</Link>
-                </li>
-                <li>
-                    <Link to={ROUTES.SOBRE}>Sobre</Link>
                 </li>
             </MenuHamburguer>
         </nav>

@@ -15,7 +15,7 @@
     z-index: 100;
     position: absolute;
     left: 40vw;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     transform: scale(0.9);
     top: 640px;
@@ -117,11 +117,12 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 240px;
+    width: 200px;
     >p{
         margin-top: 15px;
     }
 }
+
 .membroSolo{
     display: flex;
     flex-direction: column;
@@ -141,708 +142,139 @@
 
 
 
-@media (max-width: 1800px) {
-    .group28Gradiente{
-    top:450px;
+@media (max-width:500px) {
+    .titleSection{
+        font-size: 2rem;
+        text-align: center;
+        margin-left: 0;
     }
 
-.homeLogo{
-    display: flex;
-    gap: 15px;
-    z-index: 100;
-    position: absolute;
-    left: 40vw;
-    justify-content: space-around;
-    align-items: center;
-    transform: scale(0.8);
-    top: 605px;
-        
-    img{
-            height: 180px;
-        }
-}
-
-.homeText{
- 
-
-    padding-bottom: 50px;
-}
-
-
-.titleSection{
-
-    font-size: 2.5rem;
-    margin-left: 4.3rem;
-    
-
-}
-.titleSectionNoPadding{
-
-    font-size: 2.5rem;
-   margin-left: 4.3rem;
-
-}
-.titleSectionEquipe{
-
-    font-size: 2.5rem;
-     margin-left: 4.3rem;
-}
-
-.membroFoto{
-    width: 150px;
-}
-}
-
-
-@media (max-width: 1700px) {
-    .group28Gradiente{
-    top:450px;
+    .titleSectionNoPadding{
+        margin-left: 0;
+        text-align: center;
     }
-
-.homeLogo{
-    display: flex;
-    gap: 15px;
-    z-index: 100;
-    position: absolute;
-    left: 40vw;
-    justify-content: space-around;
-    align-items: center;
-    transform: scale(0.8);
-    top: 575px;
-        
-    img{
-            height: 180px;
-        }
-}
-
-.homeText{
- 
-
-    padding-bottom: 50px;
-}
-
-
-.titleSection{
-
-    font-size: 2.5rem;
-    margin-left: 7vw;
-    
-
-}
-.titleSectionNoPadding{
-
-    font-size: 2.5rem;
-   margin-left: 7vw;
-
-}
-.titleSectionEquipe{
-
-    font-size: 2.5rem;
-     margin-left: 7vw;
-}
-
-.membroFoto{
-    width: 150px;
-}
-}
-@media (max-width: 1600px) {
-    .group28Gradiente{
-    width: 100%;
-    top:450px;
+    .titleSectionEquipe{
+        margin-left: 0;
+        text-align: center;
     }
-
-.homeLogo{
-    display: flex;
-    gap: 15px;
-    z-index: 100;
-    position: absolute;
-    left: 40vw;
-    justify-content: space-around;
-    align-items: center;
-    transform: scale(0.7);
-    top: 550px;
-        
-    img{
-            height: 180px;
-        }
 }
 
-.homeText{
+/* GRADIENTE E LOGOS */
+
+
+@media (max-width:1850px) { 
+    .group28Gradiente{ top:29.5rem}
+    .homeLogo{ top: 610px;}
+    .logoEba {top: -13px;}
+}
+@media (max-width:1705px) { 
+    .group28Gradiente{ top:29.5rem}
+    .homeLogo img{ height: 150px;}
+    .homeLogo{ position: absolute; gap: 0px; margin: 0 7vw; left: 40vw; top: 37vw;}
+}
+@media (max-width:1565px) { 
+    .group28Gradiente{ top:29.5rem}
+    .homeLogo{ position: absolute; gap: 0px; margin: 0 7vw; left: 40vw; top: 39vw;}
+}
+@media (max-width:1435px) { 
+    .homeLogo{ position: absolute; gap: 0px; margin: 0 7vw; left: 40vw; top: 41vw;}
+}
+@media (max-width:1315px) { 
+
+    .homeLogo{ position: absolute; gap: 0px; margin: 0 7vw; left: 43vw; top: 43vw;}
+
+}
+@media (max-width:1150px) { 
+
+    .homeLogo{ position: absolute; gap: 0px; margin: 0 7vw; left: 43vw; top: 45vw;}
+
+}
+@media (max-width:1055px) { 
+
+    .homeLogo{ position: absolute; gap: 0px; margin: 0 7vw; left: 25rem; top: 31.5rem;}
+
+}
+
+
+
+
+/*Vertical alinhado no centro*/
+@media (max-width:1000px) { 
+    .group28Gradiente{ top:40.5rem}
+    .homeLogo{ position: relative; gap: 0px; margin: 0 7vw; left: 0; top: 0;}
  
-
-    padding-bottom: 50px;
-}
-
-
-
-.membroFoto{
-    width: 150px;
-}
-}
-@media (max-width: 1500px) {
-    .group28Gradiente{
-
-    top:450px;
-    }
-
-.homeLogo{
-    display: flex;
-    gap: 15px;
-    z-index: 100;
-    position: absolute;
-    left: 40vw;
-    justify-content: space-around;
-    align-items: center;
-    transform: scale(0.7);
-    top: 550px;
-        
-    img{
-            height: 180px;
-        }
-}
-
-.homeText{
- 
-
-    padding-bottom: 50px;
-}
-
-
-.membroFoto{
-    width: 150px;
-}
-}
-@media (max-width: 1400px) {
-    .group28Gradiente{
-  
-    top:450px;
-    }
-
-    .homeLogo{
-    display: flex;
-    flex-direction: row;
-    z-index: 100;
-
-    top: 470px;
-    left:20%;
-    transform:scale(0.3);
-        
-    img{
-            height: 350px;
-        }
-
-    
-}
-
-.homeText{
- 
-
-    padding-bottom: 50px;
-}
-
-
-
-.membroFoto{
-    width: 150px;
-}
-}
-@media (max-width: 1300px) {
-    .group28Gradiente{
-   
-    top:450px;
-    }
-
-    .homeLogo{
-    display: flex;
-    flex-direction: row;
-    z-index: 100;
-
-    top: 440px;
-    left:20%;
-    transform:scale(0.3);
-        
-    img{
-            height: 350px;
-        }
-
-    
-}
-
-.homeText{
- 
-
-    padding-bottom: 50px;
-}
-
-
-
-.membroFoto{
-    width: 150px;
-}
-}
-@media (max-width: 1200px) {
-    .group28Gradiente{
-   
-    top:450px;
-    }
-
-    .homeLogo{
-    display: flex;
-    flex-direction: row;
-    z-index: 100;
-
-    top: 420px;
-    left:20%;
-    transform:scale(0.3);
-        
-    img{
-            height: 350px;
-        }
-
-    
-}
-
-.homeText{
- 
-
-    padding-bottom: 50px;
-}
-
-
-
-.membroFoto{
-    width: 150px;
-}
-}
-
-@media (max-width: 1100px) {
-    .group28Gradiente{
-
-    top:450px;
-    }
-
-    .homeLogo{
-    display: flex;
-    flex-direction: row;
-    z-index: 100;
-
-    top: 410px;
-    left:12%;
-    transform:scale(0.3);
-        
-    img{
-            height: 350px;
-        }
-
-    
-}
-
-.homeText{
- 
-
-    padding-bottom: 50px;
-}
-
-
-
-.membroFoto{
-    width: 150px;
-}
-}
-
-
-@media (max-width: 1000px) {
-    .group28Gradiente{
-
-    top:450px;
-    }
-
-    .homeLogo{
-    display: flex;
-    flex-direction: row;
-    z-index: 100;
-
-    top: 390px;
-    left:12%;
-    transform:scale(0.3);
-        
-    img{
-            height: 350px;
-        }
-
-    
-}
-
-.homeText{
- 
-
-    padding-bottom: 50px;
-}
-
-
-
-.membroFoto{
-    width: 150px;
-}
-}
-
-
-@media (max-width: 900px) {
-    .group28Gradiente{
-    top:500px;
-    }
-
-    .homeLogo{
-    display: flex;
-    flex-direction: row;
-    z-index: 100;
-
-    top: 390px;
-    left:0%;
-    transform:scale(0.3);
-        
-    img{
-            height: 350px;
-        }
-
-    
-}
-
-.homeText{
- 
-
-    padding-bottom: 100px;
-}
-
-
-.membroFoto{
-    width: 150px;
-}
-}
-@media (max-width: 800px) {
-    .group28Gradiente{
-    top:590px;
-    }
-
-    .homeLogo{
-    display: flex;
-    flex-direction: row;
-    z-index: 100;
-
-    top: 420px;
-    left: 54%;
-    transform: translateX(-100%) scale(0.45);
-        
-    img{
-            height: 50vw;
-        }
-
-    
-}
-
-.homeText{
- 
-
-    padding-bottom: 125px;
-}
-
-
-.titleSection{
-
-    font-size: 2.5rem;
-    margin-left: 0;
-    text-align: center;
-
-}
-.titleSectionNoPadding{
-
-    font-size: 2.5rem;
-    margin-left: 0;
-    text-align: center;
-
-}
-.titleSectionEquipe{
-
-    font-size: 2.5rem;
-    margin-left: 0;
-    text-align: center;
-}
-
-.membroFoto{
-    width: 150px;
-}
-}
-@media (max-width: 700px) {
-    .group28Gradiente{
-
-    top:600px;
-    }
-
-    .homeLogo{
-    display: flex;
-    flex-direction: row;
-    z-index: 100;
-
-    top: 450px;
-    left: 54%;
-    transform: translateX(-100%) scale(0.45);
-        
-    img{
-            height: 50vw;
-        }
-
-    
-}
-
-.homeText{
- 
-
-    padding-bottom: 150px;
-}
-
-
-.titleSection{
-
-    font-size: 2.5rem;
-    margin-left: 0;
-    text-align: center;
-
-}
-.titleSectionNoPadding{
-
-    font-size: 2.5rem;
-    margin-left: 0;
-    text-align: center;
-
-}
-.titleSectionEquipe{
-
-    font-size: 2.5rem;
-    margin-left: 0;
-    text-align: center;
-}
-
-.membroFoto{
-    width: 150px;
-}
-}
-@media (max-width: 570px) {
-    .group28Gradiente{
-
-    top:600px;
-    }
-
-    .homeLogo{
-    display: flex;
-    flex-direction: row;
-    z-index: 100;
-
-    top: 480px;
-    left: 52%;
-    transform: translateX(-100%) scale(0.45);
-        
-    img{
-            height: 50vw;
-        }
-
-    
-}
-
-.homeText{
- 
-
-    padding-bottom: 100px;
-}
-
-
-.titleSection{
-
-    font-size: 2.5rem;
-    margin-left: 0;
-    text-align: center;
-
-}
-.titleSectionNoPadding{
-
-    font-size: 2.5rem;
-    margin-left: 0;
-    text-align: center;
-
-}
-.titleSectionEquipe{
-
-    font-size: 2.5rem;
-    margin-left: 0;
-    text-align: center;
-}
-
-.membroFoto{
-    width: 150px;
-}
-}
-@media (max-width: 500px) {
-    .group28Gradiente{
-
-    top:650px;
-    }
-
-    .homeLogo{
-    display: flex;
-    flex-direction: row;
-    z-index: 100;
-
-    top: 525px;
-    left: 50%;
-    transform: translateX(-100%) scale(0.5);
-        
-    img{
-            height: 50vw;
-        }
-
-    
-}
-
-.homeText{
- 
-
-    padding-bottom: 100px;
-}
-
-
-.titleSection{
-
-    font-size: 2.5rem;
-    margin-left: 0;
-    text-align: center;
-
-}
-.titleSectionNoPadding{
-
-    font-size: 2.5rem;
-    margin-left: 0;
-    text-align: center;
-
 }
-.titleSectionEquipe{
-
-    font-size: 2.5rem;
-    margin-left: 0;
-    text-align: center;
+@media (max-width:803px) { 
+    .group28Gradiente{ top:42.5rem}
+    .homeLogo{ position: relative; gap: 0px; margin: 0 7vw; left: 0; top: 0;}
 }
 
-.membroFoto{
-    width: 150px;
-}
+@media (max-width:764px) { 
+    .group28Gradiente{ top:45rem}
+    .homeLogo img{ height: 130px;}
 }
 
-@media (max-width: 450px) {
-    .group28Gradiente{
-
-    top:670px;
-    }
-
-    .homeLogo{
-    display: flex;
-    flex-direction: row;
-    z-index: 100;
-
-    top: 555px;
-    left: 50%;
-    transform: translateX(-100%) scale(0.5);
-        
-    img{
-            height: 50vw;
-        }
-
-    
+@media (max-width:737px) { 
+    .group28Gradiente{ top:46rem}
+    .homeLogo img{ height: 130px;}
 }
 
-.homeText{
- 
-
-    padding-bottom: 100px;
+@media (max-width:677px) { 
+    .group28Gradiente{ top:48rem}
+    .homeLogo img{ height: 130px;}
 }
-
 
-.titleSection{
-
-    font-size: 2.5rem;
-    margin-left: 0;
-    text-align: center;
-
+@media (max-width:570px) { 
+    .group28Gradiente{ top:49rem}
+    .homeLogo img{ height: 120px;}
+    .homeLogo{margin: 0px}
 }
-.titleSectionNoPadding{
-
-    font-size: 2.5rem;
-    margin-left: 0;
-    text-align: center;
 
+@media (max-width:569px) { 
+    .group28Gradiente{ top:49rem}
+    .homeLogo img{ height: 120px;}
 }
-.titleSectionEquipe{
 
-    font-size: 2.5rem;
-    margin-left: 0;
-    text-align: center;
+@media (max-width:503px) { 
+    .group28Gradiente{ top:51rem}
+    .homeLogo img{ height: 120px;}
 }
 
-.membroFoto{
-    width: 150px;
+@media (max-width:497px) { 
+    .group28Gradiente{ top:52rem}
+    .homeLogo img{ height: 110px;}
 }
-}
-
-
 
-@media (max-width: 370px) {
-    .group28Gradiente{
- 
-    position: absolute;
-    top:790px;
-    }
-
-    .homeLogo{
-    display: flex;
-    flex-direction: row;
-    z-index: 100;
-    transform: scale(0.5);
-    top: 675px;
-    left: -25%;
-        
-    img{
-            height: 150px;
-        }
-
-    
+@media (max-width:497px) { 
+    .group28Gradiente{ top:52rem}
+    .homeLogo img{ height: 110px;}
 }
-
-.homeText{
- 
 
-    padding-bottom: 130px;
+@media (max-width:462px) { 
+    .group28Gradiente{ top:52rem}
+    .homeLogo img{ height: 100px;}
 }
 
-
-.titleSection{
-
-    font-size: 2rem;
-    margin-left: 0;
-    text-align: center;
-
+@media (max-width:413px) { 
+    .group28Gradiente{ top:54rem}
+    .homeLogo img{ height: 90px;}
 }
-.titleSectionNoPadding{
 
-    font-size: 2rem;
-    margin-left: 0;
-    text-align: center;
+@media (max-width:406px) { 
+    .group28Gradiente{ top:55rem}
+    .homeLogo img{ height: 80px;}
 
 }
-.titleSectionEquipe{
-
-    font-size: 2rem;
-    margin-left: 0;
-    text-align: center;
+@media (max-width:387px) { 
+    .group28Gradiente{ top:55rem}
+    .homeLogo img{ height: 85px;}
 }
 
-.membroFoto{
-    width: 150px;
+@media (max-width:381px) { 
+    .group28Gradiente{ top:55rem}
+    .homeLogo img{ height: 80px;}
 }
+@media (max-width:374px) { 
+    .group28Gradiente{ top:58rem}
+    .homeLogo img{ height: 80px;}
 }

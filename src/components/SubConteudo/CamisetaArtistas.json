@@ -1,0 +1,16 @@
+{
+  "1986": {
+    "1": {
+      "name": "Sonia Matos",
+      "imgFile": "Sonia Matos 1987-modified.png",
+      "urlSuvaco": "#"
+    }
+  },
+  "2012":{
+    "1":{
+      "name": "Edgar Fonseca",
+      "imgPath": "/src/assets/artistas/Sonia Matos 1987-modified.png",
+      "urlSuvaco": "#"
+    }
+  }
+}

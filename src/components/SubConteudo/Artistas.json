@@ -1,0 +1,47 @@
+{
+  "1986": {
+    "1": {
+      "name": "João Aveleira",
+      "imgFile": "joao.png",
+      "urlSuvaco": "#"
+    },
+    "2": {
+      "name": "Arnaldo Chaim",
+      "imgFile": "arnaldo.png",
+      "urlSuvaco": "#"
+    },
+    "3": {
+      "name": "José Lavigne",
+      "imgFile": "joseLavigne-doc-modified.png",
+      "urlSuvaco": "#"
+    },
+    "4": {
+      "name": "Roberto Pirulito",
+      "imgFile": "Pirulito-doc-modified.png",
+      "urlSuvaco": "#"
+    },
+    "5": {
+      "name": "Xico Chaves",
+      "imgFile": "nenhum.png",
+      "urlSuvaco": "#"
+    }
+  },
+  "2012": {
+    "1": {
+      "name": "Dom Oliveira",
+      "imgFile": "/src/assets/artistas/joao.png",
+      "urlSuvaco": "#"
+    },
+    "2": {
+      "name": "Jovi Joviniano",
+      "imgFile": "/src/assets/artistas/arnaldo.png",
+      "urlSuvaco": "#"
+    },
+    "3": {
+      "name": "Jê Machado",
+      "imgFile": "/src/assets/artistas/joseLavigne-doc-modified.png",
+      "urlSuvaco": "#"
+    }
+  }
+
+}

@@ -10,4 +10,25 @@ export const SUVACO_NA_MIDIA = '/suvacoNaMidia';
 
 
 export const FIREBASE_TESTING = '/firebase';
-export const TEMPORARIO = '/1986'
+
+
+const tipos = ["samba", "midia", "desfile", "camiseta"];
+
+const routes = {};
+const subroutes = {};
+
+for (let ano = 1986; ano <= 2025; ano++) {
+  // rota principal
+  routes[`PAG${ano}`] = `/${ano}`;
+
+  // subrotas
+  for (const tipo of tipos) {
+    subroutes[`PAG${ano}${tipo.toUpperCase()}`] = `/${ano}/${tipo}`;
+  }
+}
+
+
+
+export default routes;
+
+export { subroutes };
