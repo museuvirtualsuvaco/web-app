@@ -12,10 +12,15 @@ export default function Ano1986() {
   return (
     <>
       <div className={styles.container}>
+        
+      
+        <div className={styles.cabecalho}>
+
+        
         <div className={styles.title}>
-          <h2 className={styles.blueTitles}>Desfile 01</h2>
-          <div className={styles.line}></div>
-          <h2 className={styles.greenTitles}>Ano 1986</h2>
+          <h2 className={styles.blueTitles}>Desfile 01 </h2>
+
+          <h2 className={styles.greenTitles}> Ano 1986</h2>
         </div>
 
         <img src={turma1986} className={styles.floatImage} alt="Turma da Maria Angélica 1986" />
@@ -48,21 +53,13 @@ export default function Ano1986() {
         <img src={vector} className={styles.divisorGradiente} alt="divisor ondulado" />
         <img src={group28} className={styles.group28Gradiente} alt="divisor ondulado" />
 
-
+      </div>
         
-        
-            
-        <div className={styles.cardContainer}>
-            <img 
-                src={'src/assets/Group 28.svg'} 
-                className={styles.group28Gradiente} 
-                alt="divisor ondulado" 
-            />
+  
             {cardsData.map((data, index) => (   
                 <Card key={index} {...data} />
             ))}
         </div>
-      </div>
     </>
   );
 }
