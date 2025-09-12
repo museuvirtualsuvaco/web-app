@@ -1,10 +1,208 @@
-.mainContainer {
-    background-color:rgb(241, 204, 255);
+.container{
+    width:100vw;
+
+}
+
+.title{
+    font-family: "Roboto Flex";
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-left: 7vw;
+}
+
+.cabecalho{
+    position: relative;;
+}
+
+.areaVerde{
+        background: linear-gradient(#00CC65, #0053A1);
+}
+
+.imgDivinas{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 50px;
+      position: relative;
+    z-index: 10002;
+}
+
+.sectionTexts{
+    margin-left: 7vw;
+    margin-right: 7vw;
+    position: relative;
+    margin-top: 32px;
+    font-size: 20.16px;
+    line-height: 28px;
+    position: relative;
+    z-index: 10002;
+    background-color: white;
+
+}
+
+
+
+.divisorGradiente{
+    position: absolute;
+    top: 45.3rem;
+    width: 100%;
+    z-index: 100010;
+}
+
+.group28Gradiente{
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    top: 28.5rem;
+    z-index: 10001;
+}
+
+.blueTitles{
+    color: var(--blue-titles);
+}
+.greenTitles{
+    color: var(--green-titles);
+}
+
+.cardContainer{
+    height: 100vh;
+    position: relative;
+    top: -50px;
+}
+
+.sectionTitle{
+    font-size: 3rem;
+    color: white;
+    margin-left: 7vw;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: 600;
+    margin-top: 65px;
+}
+
+.gridVisual {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0.2rem;
+  width: 100%;
+  max-width: fit-content;
+  margin: auto;
+  position: relative;
+
+}
+
+.gridVisual {
+  position: relative;
+  border-radius: 13px;
+  padding: 10px; /* grossura da borda */
+
+  background: linear-gradient(to bottom, #0084ff, #00FF80);
+}
+
+.gridVisual > * {
+  background: white;
+  border-radius: 0px; /*deixar a borda visível */
+}
+
+
+.padding{
+    padding: 25px;
+}
+
+
+
+.imgBoxGrande {
+  width: 100%;
+  height: 100%;
+  max-height: 516px;
+  grid-row: span 2;
+}
+
+.imgBox {
+  height: 100%;
+  max-height: 250px;
+  position: relative;
+
+}
+.linksDiv{
+    background: white;
     display: flex;
-    justify-content: center;  /* horizontal */
-    align-items: center;      /* vertical */
-    height: 100%;
-    padding: 300px 0;
-    font-size: 2em;
-    font-family: sans-serif;
+    gap: 25px;
+    justify-content: center;
+    width: 40%;
+    align-items: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 50px;
+    
+}
+
+.linksDiv > * {
+  font-size: 28px;
+}
+
+.link{
+    font-size: 28px;
+
+}
+
+
+
+@media (max-width: 1476px){
+    .title{
+        font-size: 4rem;
+    }    
+}
+
+
+@media (max-width: 1203px){
+    .title{
+        font-size: 3.5rem;
+    }    
+}
+
+
+/*criando esse aqui de exemplo pra julia*/
+
+@media (max-width: 425px) {
+    .container{
+        position: relative;
+    }
+    
+    .title{
+        font-size: 2rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 2px;
+    }
+
+    .line{
+        width: 0px;
+    }
+
+    .floatImage{
+        float: none;
+        width: 95%;
+    }
+
+    .divisorGradiente{ /*
+        alterei aqui o top pra uma medida fixa
+        pra nao ter problema com diferentes celulares
+        e vc poder ter menos breakpoints pra serem feitos*/
+        top: inherit;
+        bottom: 99rem;
+    }
+
+    .group28Gradiente{
+        top: inherit;
+        bottom: 99rem;
+        position: absolute;
+    }
+
+
 }
