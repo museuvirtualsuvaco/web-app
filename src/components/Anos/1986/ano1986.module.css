@@ -2,33 +2,33 @@
     width:100vw;
 }
 
-.title{
-    font-family: "Roboto Flex";
-    font-size: 5rem;
-    text-transform: uppercase;
-    font-weight: 700;
-    margin-top: 15px;
-
-    display: flex;
-
-    justify-content: center;
-    gap: 5px;
-    align-items: end;
-
+.cabecalho{
+    position:relative;
 }
 
-.line{
-    width: 50%;
-    height: 3px;
-    background: linear-gradient(to right, var(--blue), #00FF80);
-    margin-bottom: 13px;
+.title {
+  font-family: "Roboto Flex";
+  font-size: 5rem;
+  font-weight: 700;
+  margin-top: 15px;
+
+  display: flex;
+  justify-content: flex-start; /* alinhado à esquerda */
+  gap: 5px;
+  align-items: end;
+
+  margin-left: 7vw; /* mesmo recuo dos textos */
+  margin-right: 7vw;
+}
+
+.line {
+  display: none;
 }
 
 .sectionTexts{
     margin-top: 2rem;
     margin-left: 7vw;
     margin-right: 7vw;
-    margin-bottom: 125px;
     position: relative;
     
 
@@ -55,23 +55,20 @@
     border-radius: 10px; 
     /* clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 0% 97%); */
 
-
     
 }
 
-
 .divisorGradiente{
     position: absolute;
-    top: 48.5vw;
+    top: 412.8px;
     width: 100%;
     z-index: 100010;
 }
 
 .group28Gradiente{
-    position: relative;
-    z-index: 100;
+    position: absolute;
     width: 100%;    
-    top: 100px;
+    top: 144px;
     z-index: 10001;
 }
 
@@ -89,118 +86,80 @@
     
 }
 
-@media (max-width: 1476px){
-    .title{
-        font-size: 4rem;
-    }    
-}
-
-@media (max-width: 1203px){
-    .title{
-        font-size: 3.5rem;
-    }   
-    .floatImage{
-        width:400px;
-        height: 300px;
-    }
-}
-
-@media (max-width: 1064px){
-    .title{
-        font-size: 3rem;
-    }    
-}
-
-@media (max-width: 922px){
-    .title{
-        font-size: 2.5rem;
-    }    
-    .floatImage{
-        width: 350px;
-        height: 250px;
-    }
-}
-
-@media (max-width: 777px){
-    .title{
-        font-size: 2.3rem;
-    }
-}
-
-@media(max-width: 717px){
-    .title{
-        font-size: 2rem;
-    }
-    .sectionTexts{
-        font-size: 1.5rem;
-        margin-left: 5vw;
-        margin-right: 5vw;
-    }
-}
-
-@media (max-width: 633px){
-    .title{
-        font-size: 1.8rem;
-    }
-    .sectionTexts{
-        font-size: 1.3rem;
-        margin-left: 3vw;
-        margin-right: 3vw;
-    }
-    .floatImage{
-        width: 350px;
-        height: 250px;
-        margin-left: 3vw;
-        margin-right: 3vw;
-    }
-}
-
-@media (max-width: 575px){
-    .title{
-        font-size: 1.6rem;
-    }
-    .sectionTexts{
-        font-size: 1.2rem;
-        margin-left: 2vw;
-        margin-right: 2vw;
-    }
-    .floatImage{
-        width: 300px;
-        height: 200px;
-        margin-left: 2vw;
-        margin-right: 2vw;
-    }
-}
-
-
-@media (max-width: 516px) {
-
-/*criando esse aqui de exemplo pra julia*/
-    .container{
-        position: relative;
-    }
+@media (max-width:5000px) {
+    .divisorGradiente{display: none;}
     
+}
+
+@media (max-width:1600px) {.group28Gradiente{top: 280px}
+
+.title{font-size: 4rem;}
+}
+@media (max-width:2100px) {.group28Gradiente{top: 130px}}
+@media (max-width:1940px) {.group28Gradiente{top: 170px}}
+@media (max-width:1865px) {.group28Gradiente{top: 200px}}
+@media (max-width:1738px) {.group28Gradiente{top: 220px}}
+@media (max-width:1638px) {.group28Gradiente{top: 240px}}
+@media (max-width:1504px) {.group28Gradiente{top: 280px}}
+@media (max-width:1456px) {.group28Gradiente{top: 300px}}
+@media (max-width:1337px) {
+    .group28Gradiente{top: 325px}
+    .title{font-size: 3rem;}
+
+}
+@media (max-width:1250px) {.group28Gradiente{top: 350px}}
+@media (max-width:1237px) {.group28Gradiente{top: 400px}}
+@media (max-width:1125px) {.group28Gradiente{top: 420px}}
+@media (max-width:1114px) {.group28Gradiente{top: 450px}}
+@media (max-width:1028px) {.group28Gradiente{top: 500px}}
+@media (max-width:967px) {.group28Gradiente{top: 520px}
+    
+}
+@media (max-width:940px) {.group28Gradiente{top: 560px}}
+@media (max-width:894px) {.group28Gradiente{top: 580px}}
+@media (max-width:848px) {.group28Gradiente{top:620px}}
+
+@media (max-width:798px) {.group28Gradiente{top: 670px}}
+
+    
+
+@media (max-width:786px) {
+    .group28Gradiente{top: 890px}
     .title{
-        font-size: 2rem;
         flex-direction: column;
         align-items: center;
-        gap: 2px;
     }
 
-    .line{
-        width: 0px;
-    }
+    .line{display: none;}
 
     .floatImage{
-        float: none;
-        width: 95%;
+        float:none;
+        height: auto;
+        width: 75%;
+        max-width: 468px;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 0;
+        margin-top: 2rem;
     }
-    .divisorGradiente{ /*
-        alterei aqui o top pra uma medida fixa
-        pra nao ter problema com diferentes celulares
-        e vc poder ter menos breakpoints pra serem feitos*/
-        top: inherit;
-        bottom: 99rem;
-    }
+}
+@media (max-width:705px) {.group28Gradiente{top: 930px}}
+@media (max-width:683px) {.group28Gradiente{top: 950px}}
+
+@media (max-width:668px) {.group28Gradiente{top: 975px}}
+@media (max-width:597px) {.group28Gradiente{top: 1010px}}
+@media (max-width:563px) {.group28Gradiente{top: 1050px}}
+@media (max-width:481px) {.group28Gradiente{top: 1080px}}
+
+@media (max-width:468px) {.group28Gradiente{top: 1100px}}
+
+@media (max-width:444px) {
+    .group28Gradiente{top: 1100px}
+    .title{font-size: 2rem;}
 
 }
+@media (max-width:437px) {.group28Gradiente{top: 1125px}}
+@media (max-width:422px) {.group28Gradiente{top: 1150px}}
+@media (max-width:388px) {.group28Gradiente{top: 1200px}}
+@media (max-width:369px) {.group28Gradiente{top: 1230px}}
+@media (max-width:362px) {.group28Gradiente{top:1279px}}
