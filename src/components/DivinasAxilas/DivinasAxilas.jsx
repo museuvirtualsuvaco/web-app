@@ -30,11 +30,13 @@ export default function DivinasAxilas() {
 
                     <p className={styles.sectionTexts}>
                         As integrantes- em sua maioria residentes de Santa Marta - recebiam da ONG kits grátis para confecção destes trajes
-                        e eram divididas nos cursos de Corte e costura,oficina de adereços e criação de figurinos de carnaval, aprendendo
+                        e eram divididas nos cursos de Corte e costura, oficina de adereços e criação de figurinos de carnaval, aprendendo
                         desde a operar os equipamentos necessários até modelar os futuros trajes que saiam do papel após as aulas práticas, além
                         da separação dos materiais utilizados que eram reaproveitados de blocos carnavalescos.</p>
                     <p className={styles.sectionTexts}>
-                        A Divinas já recebeu prêmios como: o Economia Criativa(parte do programa Fomento a Iniciativas Empreendedoras e Inovadoras do Ministério da Cultura),na categoria “Novos Modelos de Empreendimentos e Negócios Criativos” e o Prêmio Fantasia do Serpentina de Ouro 2012.
+                        A Divinas já recebeu prêmios como: o Economia Criativa (parte do programa Fomento a Iniciativas 
+                        Empreendedoras e Inovadoras do Ministério da Cultura), na categoria 
+                        “Novos Modelos de Empreendimentos e Negócios Criativos” e o Prêmio Fantasia do Serpentina de Ouro 2012.
                     </p>
 
                     <img className={styles.imgDivinas} src={divinasImg} alt="" />

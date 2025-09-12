@@ -14,7 +14,7 @@ export const cardsData = [
     },
     {
         title: 'Camiseta',
-        description: "lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
+        description: "A arte da primeira camiseta foi criada pela artista Sônia Matos e escolhida pela galera em uma tarde no Parque Lage. Para o primeiro desfile foram confeccionadas 70 camisetas. Essa arte é vista até hoje como um símbolo do bloco.",
         src: camisetaImg,
         firstColor: "#009DFF",
         secondColor: "#00BEB5",
