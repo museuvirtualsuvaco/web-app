@@ -79,6 +79,63 @@ export default function FormCarrossel() {
           <a href="/1995" className={styles.item} data-item>
             <img src={foto95} alt="Ano 1995" />
           </a>
+           <a href="#" className={styles.item} data-item>
+            <img src="/src/assets/imgCarrossel/rect96.png" alt="Ano 1996" />
+          </a>
+          <a href="#" className={styles.item} data-item>
+            <img src="/src/assets/imgCarrossel/rect97.png" alt="Ano 1997" />
+          </a>
+          <a href="#" className={styles.item} data-item>
+            <img src="/src/assets/imgCarrossel/rect98.png" alt="Ano 1998" />
+          </a>
+          <a href="#" className={styles.item} data-item>
+            <img src="/src/assets/imgCarrossel/rect99.png" alt="Ano 1999" />
+          </a>
+          <a href="#" className={styles.item} data-item>
+            <img src="/src/assets/imgCarrossel/rect00.png" alt="Ano 2000" />
+          </a>
+          <a href="#" className={styles.item} data-item>
+            <img src="/src/assets/imgCarrossel/rect01.png" alt="Ano 2001" />
+          </a>
+          <a href="#" className={styles.item} data-item>
+            <img src="/src/assets/imgCarrossel/rect02.png" alt="Ano 2002" />
+          </a>
+          <a href="#" className={styles.item} data-item>
+            <img src="/src/assets/imgCarrossel/rect03.png" alt="Ano 2003" />
+          </a>
+          <a href="#" className={styles.item} data-item>
+            <img src="/src/assets/imgCarrossel/rect05.png" alt="Ano 2005" />
+          </a>
+          <a href="#" className={styles.item} data-item>
+            <img src="/src/assets/imgCarrossel/rect06.png" alt="Ano 2006" />
+          </a>
+          <a href="#" className={styles.item} data-item>
+            <img src="/src/assets/imgCarrossel/rect07.png" alt="Ano 2007" />
+          </a>
+          <a href="#" className={styles.item} data-item>
+            <img src="/src/assets/imgCarrossel/rect08.png" alt="Ano 2008" />
+          </a>
+          <a href="#" className={styles.item} data-item>
+            <img src="/src/assets/imgCarrossel/rect10.png" alt="Ano 2010" />
+          </a>
+          <a href="#" className={styles.item} data-item>
+            <img src="/src/assets/imgCarrossel/rect11.png" alt="Ano 2011" />
+          </a>
+          <a href="#" className={styles.item} data-item>
+            <img src="/src/assets/imgCarrossel/rect13.png" alt="Ano 2013" />
+          </a>
+          <a href="#" className={styles.item} data-item>
+            <img src="/src/assets/imgCarrossel/rect14.png" alt="Ano 2014" />
+          </a>
+          <a href="#" className={styles.item} data-item>
+            <img src="/src/assets/imgCarrossel/rect15.png" alt="Ano 2015" />
+          </a>
+          <a href="#" className={styles.item} data-item>
+            <img src="/src/assets/imgCarrossel/rect16.png" alt="Ano 2016" />
+          </a>
+          <a href="#" className={styles.item} data-item>
+            <img src="/src/assets/imgCarrossel/rect17.png" alt="Ano 2017" />
+          </a>
         </div>
         <button className={`${styles.seta} ${styles.direita}`} onClick={() => scrollCarrossel(1)}>&#10095;</button>
 
