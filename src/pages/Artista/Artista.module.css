@@ -395,3 +395,8 @@
     font-size: 0.9rem;
   }
 }
+
+.areaVerde {
+  width: 100%;
+  background: linear-gradient(#00CC65, #0053A1);
+}

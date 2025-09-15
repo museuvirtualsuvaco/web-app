@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './SambaConteudo.module.css';
+import { Link } from 'react-router-dom';
 import Filipeta from '../../../assets/FilipetaSamba1986.jpg';
 import Autores from '../Artistas.json'
 import Musicos from '../Musicos.json'
@@ -80,12 +81,14 @@ export default function SambaContent() {
         <h2 className={styles.sectionTitle}>AUTORES</h2>
         <section className={styles.card}>
           <div className={styles.profileRow}>
-            {Object.entries(Autores["1986"]).map(([key, autor]) => (
-              <div key={key} className={styles.profile}>
-                {<img className={styles.avatar} src={autor.imgPath} alt={autor.name} />}
-                <span className={styles.nome}>{autor.name}</span>
-              </div>
-            ))}
+        {Object.entries(Autores["1986"]).map(([key, autor]) => (
+          <div key={key} className={styles.profile}>
+            <Link to={`/artista/1986/${key}`} className={styles.autorLink}>
+              <img className={styles.avatar} src={autor.imgPath} alt={autor.name} />
+              <span className={styles.nome}>{autor.name}</span>
+            </Link>
+          </div>
+        ))}
           </div>
         </section>
 

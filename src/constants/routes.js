@@ -7,7 +7,8 @@ export const SAMBA = '/samba';
 export const CAMISETA = '/camiseta';
 export const DESFILE = '/desfile';
 export const SUVACO_NA_MIDIA = '/suvacoNaMidia';
-export const ARTISTA = '/artista';
+export const ARTISTA = '/artista/:ano/:id';
+
 
 
 export const FIREBASE_TESTING = '/firebase';

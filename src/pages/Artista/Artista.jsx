@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useParams } from 'react-router-dom';
 import styles from './Artista.module.css';
 import FormCarrossel from "../../components/Home/FormCarrossel/FormCarrossel"
 import Foto from "../../assets/artistas/joao.png"
 import Grupo from "../../assets/Group 28.svg";
-
+import Artistas from '../../components/SubConteudo/Artistas.json'
 
     function scrollCarrossel(direcao) {
     const container = document.getElementById('carrossel');
@@ -21,45 +22,39 @@ import Grupo from "../../assets/Group 28.svg";
   }
 
 function Artista() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+
+  const { ano, id } = useParams(); // pega parâmetros da URL
+  const artista = Artistas[ano]?.[id];
+
+  if (!artista) {
+    return <p>Artista não encontrado.</p>;
+  }
+
   return (
     <>
-  <div className={styles.cabecalho}>
-  <div className={styles.header}>
-    <h2 className={styles.titulo}>João Avelleira</h2>
-    <div className={styles.line}></div>
-  </div>
+      <div className={styles.cabecalho}>
+        <div className={styles.header}>
+          <h2 className={styles.titulo}>{artista.name}</h2>
+          <div className={styles.line}></div>
+        </div>
 
-  <div className={styles.conteudo}>
-
-    <img
-      src={Foto}
-      alt="João Avelleira"
-      className={styles.foto}
-    />
-
-    <section className={styles.sectionTexts}>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur
-        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  commodo consequat. Duis aute irure dolor in reprehenderit in voluptate  velit esse cillum dolore eu fugiat nulla pariatur.   
-      </p>
-    </section>
-
-    
-  </div>
-</div>
+        <div className={styles.conteudo}>
+          <img src={artista.imgPath} alt={artista.name} className={styles.foto} />
+          <section className={styles.sectionTexts}>
+            <p>{artista.bio || "Sem biografia disponível."}</p>
+          </section>
+        </div>
+      </div>
     <img
         src={Grupo}
         className={styles.group28Gradiente}
         alt="divisor ondulado"
     />
-    
+
       <div className={styles.container}>
         <h2 className={styles.sectionTitle}>FOTOS</h2>
         <section className={styles.card}>
@@ -146,7 +141,6 @@ function Artista() {
                       </div>
         </section>
       </div>
-    
   </>
   );
 }

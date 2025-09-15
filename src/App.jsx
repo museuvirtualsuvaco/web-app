@@ -43,7 +43,7 @@ function App() {
           <Route path={ROUTES.SOBRE} element={<Sobre/>} />
           <Route path={ROUTES.FIREBASE_TESTING} element={<FirebaseUi/>} />
           <Route path={ROUTES.PAG86} element={<Ano1986/>} />
-          <Route path={ROUTES.ARTISTA} element={<Artista/>} />
+          <Route path={ROUTES.ARTISTA} element={<Artista />} />
           
           <Route path={ROUTES.PAG86SAMBA} element={<Samba1986/>} />
           <Route path={ROUTES.PAG86MIDIA} element={<SuvacoMidia86/>} />
