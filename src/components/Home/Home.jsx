@@ -13,10 +13,10 @@ import logoeba from "../../assets/307093807_543650020901618_4682476023594602429_
 
 import gradiente from "../../assets/Group - Onda(1).svg"
 
-import projetoSocial from "../../assets/image 2(1).svg"
-import projetoMuseu from "../../assets/Emariz 28(2).jpg"
+import projetoSocial from "../../assets/Home/social.jpeg"
+import projetoMuseu from "../../assets/Home/museu.jpg"
 
-import projetosMobile from "../../assets/Frame 14(2).svg"
+import projetosMobile from "../../assets/Home/mobile.svg"
 
 export default function Home() {
 

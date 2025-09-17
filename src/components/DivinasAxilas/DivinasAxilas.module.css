@@ -25,7 +25,7 @@
     left: 50%;
     transform: translateX(-50%);
     margin-bottom: 50px;
-      position: relative;
+    position: relative;
     z-index: 10002;
 }
 
@@ -86,20 +86,12 @@
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 0.2rem;
+  gap: 0.5rem;
   width: 100%;
   max-width: fit-content;
   margin: auto;
   position: relative;
 
-}
-
-.gridVisual {
-  position: relative;
-  border-radius: 13px;
-  padding: 10px; /* grossura da borda */
-
-  background: linear-gradient(to bottom, #0084ff, #00FF80);
 }
 
 .gridVisual > * {
@@ -125,6 +117,8 @@
   height: 100%;
   max-height: 250px;
   position: relative;
+  max-width: 290px;
+  object-fit: cover;
 
 }
 .linksDiv{
@@ -165,43 +159,86 @@
     }    
 }
 
-
-/*criando esse aqui de exemplo pra julia*/
-
-@media (max-width: 425px) {
-    .container{
-        position: relative;
-    }
+@media (max-width:5000px) {
+    .divisorGradiente{display: none;}
     
+}
+
+@media (max-width:1600px) {.group28Gradiente{top: 280px}
+
+.title{font-size: 4rem;}
+}
+@media (max-width:2100px) {.group28Gradiente{top: 130px}}
+@media (max-width:1940px) {.group28Gradiente{top: 170px}}
+@media (max-width:1865px) {.group28Gradiente{top: 200px}}
+@media (max-width:1738px) {.group28Gradiente{top: 220px}}
+@media (max-width:1638px) {.group28Gradiente{top: 240px}}
+@media (max-width:1504px) {.group28Gradiente{top: 280px}}
+@media (max-width:1456px) {.group28Gradiente{top: 300px}}
+@media (max-width:1337px) {
+    .group28Gradiente{top: 325px}
+    .title{font-size: 3rem;}
+
+}
+@media (max-width:1250px) {.group28Gradiente{top: 350px}}
+@media (max-width:1237px) {.group28Gradiente{top: 400px}}
+@media (max-width:1125px) {.group28Gradiente{top: 420px}}
+@media (max-width:1114px) {.group28Gradiente{top: 450px}}
+@media (max-width:1028px) {.group28Gradiente{top: 500px}}
+@media (max-width:967px) {.group28Gradiente{top: 520px}
+    
+}
+@media (max-width:940px) {.group28Gradiente{top: 560px}}
+@media (max-width:894px) {.group28Gradiente{top: 580px}}
+@media (max-width:848px) {.group28Gradiente{top:620px}}
+
+@media (max-width:798px) {.group28Gradiente{top: 670px}}
+
+    
+
+@media (max-width:786px) {
+    .group28Gradiente{top: 890px}
     .title{
-        font-size: 2rem;
         flex-direction: column;
         align-items: center;
-        gap: 2px;
     }
 
-    .line{
-        width: 0px;
-    }
+    .line{display: none;}
 
     .floatImage{
-        float: none;
-        width: 95%;
+        float:none;
+        height: auto;
+        width: 75%;
+        max-width: 468px;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 0;
+        margin-top: 2rem;
     }
+}
+@media (max-width:705px) {.group28Gradiente{top: 930px}}
+@media (max-width:683px) {.group28Gradiente{top: 950px}}
 
-    .divisorGradiente{ /*
-        alterei aqui o top pra uma medida fixa
-        pra nao ter problema com diferentes celulares
-        e vc poder ter menos breakpoints pra serem feitos*/
-        top: inherit;
-        bottom: 99rem;
-    }
-
-    .group28Gradiente{
-        top: inherit;
-        bottom: 99rem;
-        position: absolute;
-    }
+@media (max-width:600px) {
+    .imgDivinas {width: 50%;}
 
 
 }
+
+@media (max-width:668px) {.group28Gradiente{top: 975px}}
+@media (max-width:597px) {.group28Gradiente{top: 1010px}}
+@media (max-width:563px) {.group28Gradiente{top: 1050px}}
+@media (max-width:481px) {.group28Gradiente{top: 1080px}}
+
+@media (max-width:468px) {.group28Gradiente{top: 1100px}}
+
+@media (max-width:444px) {
+    .group28Gradiente{top: 1100px}
+    .title{font-size: 2rem;}
+
+}
+@media (max-width:437px) {.group28Gradiente{top: 1125px}}
+@media (max-width:422px) {.group28Gradiente{top: 1150px}}
+@media (max-width:388px) {.group28Gradiente{top: 1200px}}
+@media (max-width:369px) {.group28Gradiente{top: 1230px}}
+@media (max-width:362px) {.group28Gradiente{top:1279px}}
