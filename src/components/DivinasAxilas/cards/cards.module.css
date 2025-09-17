@@ -51,8 +51,15 @@
 
 .p{
     margin-top: 2.5rem;
+    width: calc(100vw - 599px);
 }
 
+
+@media (max-width:1500px) {
+    .title{
+        font-size: 3rem ;
+    }
+}
 
 @media (max-width: 1200px){
     .title{
@@ -112,7 +119,7 @@
 
 }
 
-@media (max-width:600px) {
+@media (max-width:742px) {
     .title{
         font-size:2.5rem; /*diminui o tamanho do titulo do card*/
     }
@@ -138,6 +145,7 @@
         flex-direction: column;
         p{
             padding: 0 5vw; /*margens laterais*/
+            width: auto;
         }
     }
 
@@ -170,3 +178,5 @@
     }
 
 }
+
+
