@@ -65,9 +65,10 @@ export default function DivinasAxilas() {
                         
                         <div className={styles.gridGradiente}/>
                         <div className={styles.gridVisual}>
-                                  <img src={divinas3} className={styles.imgBoxGrande} alt="" />
+                                  <img src={divinas3} className={styles.imgBox} alt="" />
                                   <img src={divinas2} className={styles.imgBox} alt="" />
                                   <img src={divinas1} className={styles.imgBox} alt="" />
+                                  <img src={divinas3} className={styles.imgBox} alt="" />
                             </div>
                     </section>
                     

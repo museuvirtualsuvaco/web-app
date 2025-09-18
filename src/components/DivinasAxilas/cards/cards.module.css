@@ -130,7 +130,7 @@
 
     .cardInfo{
         overflow: hidden; /*tirar se ultrapassar*/
-        height: 35vh;
+        height: 55vh;
         flex-direction: column; /*coloca imagem depois do texto*/
         gap: 50px;
         padding-left: 7vw;
