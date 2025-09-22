@@ -8,6 +8,10 @@ import BtnVoltar from "../VoltarBtn/BtnVoltar"
 import vector from "../../assets/Vector(1).svg";
 import group28 from "../../assets/Group 28.svg";
 import divinasImg from "../../assets/divinas.svg"
+import divinas1 from "../../assets/divinas/divinas1.jpg"
+import divinas2 from "../../assets/divinas/divinas5.jpg"
+import divinas3 from "../../assets/divinas/divinas6.jpg"
+import divinas4 from "../../assets/divinas/divinas7.jpg"
 
 export default function DivinasAxilas() {
     return (
@@ -62,9 +66,10 @@ export default function DivinasAxilas() {
                         
                         <div className={styles.gridGradiente}/>
                         <div className={styles.gridVisual}>
-                                  <img src={divinasImg} className={styles.imgBoxGrande} alt="" />
-                                  <img src={divinasImg} className={styles.imgBox} alt="" />
-                                  <img src={divinasImg} className={styles.imgBox} alt="" />
+                                  <img src={divinas3} className={styles.imgBox} alt="" />
+                                  <img src={divinas2} className={styles.imgBox} alt="" />
+                                  <img src={divinas1} className={styles.imgBox} alt="" />
+                                  <img src={divinas4} className={styles.imgBox} alt="" />
                             </div>
                     </section>
                     

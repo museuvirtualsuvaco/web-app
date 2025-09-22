@@ -112,7 +112,7 @@
 
 }
 
-@media (max-width:600px) {
+@media (max-width:742px) {
     .title{
         font-size:2.5rem; /*diminui o tamanho do titulo do card*/
     }
