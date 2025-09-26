@@ -87,7 +87,7 @@ function App() {
 
 
 
-          <Route path={routes.PAG2012} element={<Emconstrucao/>} />
+          <Route path={routes.PAG2012} element={<Ano2012></Ano2012>} />
           <Route path={subroutes.PAG2012SAMBA} element={<Samba2012/>} />
           <Route path={subroutes.PAG2012MIDIA} element={<SuvacoMidia2012/>} />
           <Route path={subroutes.PAG2012DESFILE} element={<Desfile2012/>} />
