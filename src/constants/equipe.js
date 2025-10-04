@@ -1,5 +1,8 @@
 // Imports das fotos
-
+import anamaria_foto from '../assets/equipe/anamaria.jpg'
+import artur_foto from '../assets/equipe/artur_amaral.jpeg'
+import carlos_foto from '../assets/equipe/carlos_chagas.jpg'
+import vitor_foto from '../assets/equipe/vitor_vicente.jpeg'
 
 // JSON com dados dos membros
 const equipe = [
@@ -8,7 +11,7 @@ const equipe = [
 
     nome: "Anamaria Martins Moreira",
     instituto: "IC",
-    foto: null,
+    foto: anamaria_foto,
     section: 1
   },
 
@@ -68,7 +71,7 @@ const equipe = [
   {
     nome: "Carlos Chagas Oliveira Filho",
     instituto: "IC",
-    foto: null,
+    foto: carlos_foto,
     section: 5
   },
   {
@@ -122,7 +125,7 @@ const equipe = [
   {
     nome: "Vitor Vicente da Motta",
     instituto: "IC",
-    foto: null,
+    foto: vitor_foto,
     section: 5
   },
 

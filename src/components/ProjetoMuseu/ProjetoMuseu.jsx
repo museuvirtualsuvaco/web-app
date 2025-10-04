@@ -173,15 +173,21 @@ const ProjetoMuseu = () => {
         <h2 className={styles.titleSectionEquipe}>COORDENAÇÃO</h2>
 
         <div className={styles.box}>
-          <div className={styles.divFotosSolo}>
-            <div className={styles.membroSolo}>
-              <img
-                className={styles.membroFoto}
-                src="src/assets/96-modified.png"
-                alt=""
-              />
-              <p>Anamaria Martins Moreira (IC)</p>
-            </div>
+          <div className={styles.divFotos}>
+            {equipe
+              .filter((p) => p.section === 1)
+              .map((p) => (
+                <div key={p.nome} className={styles.membro}>
+                  {p.foto ? (
+                    <img className={styles.membroFoto} src={p.foto} alt={p.nome} />
+                  ) : (
+                    gerarAvatar(p.nome)
+                  )}
+                  <p>
+                    {p.nome} {p.instituto && `(${p.instituto})`}
+                  </p>
+                </div>
+              ))}
           </div>
         </div>
 
@@ -219,7 +225,7 @@ const ProjetoMuseu = () => {
                   ) : (
                     gerarAvatar(p.nome)
                   )}
-                  <p>{p.nome}</p>
+                  <p>{p.nome} </p>
                 </div>
               ))}
           </div>
@@ -238,7 +244,7 @@ const ProjetoMuseu = () => {
                   ) : (
                     gerarAvatar(p.nome)
                   )}
-                  <p>{p.nome}</p>
+                  <p>{p.nome} {p.instituto && `(${p.instituto})`}</p>
                 </div>
               ))}
           </div>
