@@ -6,6 +6,10 @@ import Foto from "../../assets/artistas/joao.png"
 import Grupo from "../../assets/Group 28.svg";
 import Artistas from '../../components/SubConteudo/Artistas.json'
 
+const importImagem = (fileName) => {
+  return new URL(`../../assets/artistas/${fileName}`, import.meta.url).href;
+};
+
     function scrollCarrossel(direcao) {
     const container = document.getElementById('carrossel');
     const item = container.querySelector('[data-item]');
@@ -34,6 +38,8 @@ function Artista() {
     return <p>Artista não encontrado.</p>;
   }
 
+  const caminhoCompletoImagem = importImagem(artista.imgFile);
+
   return (
     <>
       <div className={styles.cabecalho}>
@@ -43,17 +49,20 @@ function Artista() {
         </div>
 
         <div className={styles.conteudo}>
-          <img src={artista.imgPath} alt={artista.name} className={styles.foto} />
+           {caminhoCompletoImagem && (
+            <img src={caminhoCompletoImagem} alt={artista.name} className={styles.foto} />
+          )}
           <section className={styles.sectionTexts}>
             <p>{artista.bio || "Sem biografia disponível."}</p>
           </section>
         </div>
-      </div>
-    <img
+            <img
         src={Grupo}
         className={styles.group28Gradiente}
         alt="divisor ondulado"
     />
+      </div>
+
 
       <div className={styles.container}>
         <h2 className={styles.sectionTitle}>FOTOS</h2>
