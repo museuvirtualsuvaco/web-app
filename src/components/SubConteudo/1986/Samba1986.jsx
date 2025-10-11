@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './SambaConteudo.module.css';
+import { Link } from 'react-router-dom';
 import Filipeta from '../../../assets/FilipetaSamba1986.jpg';
 import Autores from '../Artistas.json'
 import Musicos from '../Musicos.json'
@@ -122,12 +123,14 @@ export default function SambaContent() {
     <div className={styles.carrossel} id="carrossel">
       {Object.entries(Autores["1986"]).map(([key, autor]) => (
         <div key={key} className={styles.profile} data-item>
+          <Link to={`/artista/1986/${key}`} className={styles.autorLink}>
           <img
             className={styles.avatar}
             src={importImagem(autor.imgFile)}
             alt={autor.name}
           />
           <span className={styles.nome}>{autor.name}</span>
+          </Link>
         </div>
       ))}
     </div>
