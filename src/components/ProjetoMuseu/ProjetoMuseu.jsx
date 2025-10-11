@@ -249,6 +249,24 @@ const ProjetoMuseu = () => {
               ))}
           </div>
         </div>
+        <h2 className={styles.titleSectionEquipe}>Ex-Membros</h2>
+
+        <div className={styles.LastBox}>
+          <div className={styles.divFotos}>
+            {equipe
+              .filter((p) => p.section === 6)
+              .map((p) => (
+                <div key={p.nome} className={styles.membro}>
+                  {p.foto ? (
+                    <img className={styles.membroFoto} src={p.foto} alt={p.nome} />
+                  ) : (
+                    gerarAvatar(p.nome)
+                  )}
+                  <p>{p.nome} {p.instituto && `(${p.instituto})`}</p>
+                </div>
+              ))}
+          </div>
+        </div>
 
         <BtnVoltar />
         <div className={styles.greenSpace}></div>

@@ -129,6 +129,33 @@ const equipe = [
     section: 5
   },
 
+  //Ex Membros
+  {
+    nome: "Anna Cristina Ferreira Alves",
+    instituto: "IC",
+    foto: null,
+    section: 6
+  },
+  {
+    nome: "Artur Henrique Teixeira do Amaral",
+    instituto: "IC",
+    foto: artur_foto,
+    section: 6
+  },
+  {
+    nome: "Gabrielly de Freitas Ferreira",
+    instituto: "IC",
+    foto: null,
+    section: 6
+  },
+  {
+    nome: "Laura Luz Santos Soares",
+    instituto: "EBA",
+    foto: null,
+    section: 6
+  },
+  
+
 ];
 
 export default equipe;
