@@ -283,15 +283,14 @@
     height: auto;
   }
 
-  .btn{position: absolute;
-    top: 58vw;
+  .btn{position: relative;
     bottom: auto;
     border-radius: 24px;
     padding: 16px 20px;
   }
 
   .gridArea{
-    padding-bottom: 8rem;
+    padding-bottom: 0rem;
   }
 }
 
