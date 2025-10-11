@@ -24,6 +24,12 @@
   margin-bottom: 8px;
 }
 
+.membroFoto{
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+}
+
 .homeLogo{
     display: flex;
     gap: 15px;
@@ -108,11 +114,6 @@
     padding: 16px;
     line-height: 28px;
 }
-
-.membroFoto{
-    width: 250px;
-}
-
 .divFotos{
     display: flex;
     flex-wrap: wrap;
