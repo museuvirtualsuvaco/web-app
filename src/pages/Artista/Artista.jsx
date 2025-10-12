@@ -5,9 +5,20 @@ import FormCarrossel from "../../components/Home/FormCarrossel/FormCarrossel"
 import Foto from "../../assets/artistas/joao.png"
 import Grupo from "../../assets/Group 28.svg";
 import Artistas from '../../components/SubConteudo/Artistas.json'
+import CamisetaArtistas from '../../components/SubConteudo/CamisetaArtistas.json';
+import Musicos from '../../components/SubConteudo/Musicos.json';
+import Interpretes from '../../components/SubConteudo/Interpretes.json';
+
 
 const importImagem = (fileName) => {
   return new URL(`../../assets/artistas/${fileName}`, import.meta.url).href;
+};
+
+const dataSources = {
+  samba: Artistas,
+  camiseta: CamisetaArtistas,
+  musico: Musicos,
+  interprete: Interpretes,
 };
 
     function scrollCarrossel(direcao) {
@@ -31,8 +42,12 @@ function Artista() {
   }, []);
 
 
-  const { ano, id } = useParams(); // pega parâmetros da URL
-  const artista = Artistas[ano]?.[id];
+
+
+  const { tipo, ano, id } = useParams(); // pega parâmetros da URL
+   const dataSource = dataSources[tipo];
+  const artista = dataSource ? dataSource[ano]?.[id] : undefined;
+ 
 
   if (!artista) {
     return <p>Artista não encontrado.</p>;

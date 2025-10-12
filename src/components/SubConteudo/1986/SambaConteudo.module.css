@@ -251,6 +251,9 @@
 
 }
 
+.autorLink {
+  text-align: center;
+}
 
 .gridVisual {
   display: grid;
