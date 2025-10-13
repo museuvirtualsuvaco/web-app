@@ -1,4 +1,4 @@
-import sambaImg from '../../../../assets/Samba 1986(2).jpg';
+import sambaImg from '../../../../assets/2012/ventarolas.jpeg';
 import camisetaImg from '../../../../assets/camisetas/camiseta 2012 edgar SO FRENTE.png';
 import desfileImg from '../../../../assets/2012/330969_2616015796013_1745110318_o(1).jpg';
 import midiaImg from '../../../../assets/2012/2012 Globo Anselmo gente Boa.jpg';

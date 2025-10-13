@@ -4,7 +4,11 @@ import CamisaFoto from '../../../assets/camisetas/Camiseta 2012 Edgar.png';
 import Artistas from '../CamisetaArtistas.json'
 import Musicos from '../Musicos.json'
 import Grupo from "../../../assets/Group 28.svg";
+import BtnVoltar from '../../VoltarBtn/BtnVoltar';
 
+const importImagem = (fileName) => {
+  return new URL(`../../../assets/artistas/${fileName}`, import.meta.url).href;
+};
 
 export default function CamisetaContent() {
   return (
@@ -35,11 +39,15 @@ export default function CamisetaContent() {
       <section className={styles.card}>
         <div className={styles.profileRow}>
           {Object.entries(Artistas["2012"]).map(([key, autor]) => (
-            <div key={key} className={styles.profile}>
-              {<img className={styles.avatar} src={autor.imgPath} alt={autor.name} />}
-              <span className={styles.nome}>{autor.name}</span>
-            </div>
-          ))}
+        <div key={key} className={styles.profile} data-item>
+          <img
+            className={styles.avatar}
+            src={importImagem(autor.imgFile)}
+            alt={autor.name}
+          />
+          <span className={styles.nome}>{autor.name}</span>
+        </div>
+      ))}
         </div>
       </section>
 
@@ -63,6 +71,8 @@ export default function CamisetaContent() {
       </div>
 
       </section> */}
+
+    <BtnVoltar></BtnVoltar>
     </div>
     </>
   );
