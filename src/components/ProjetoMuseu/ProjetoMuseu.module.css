@@ -9,6 +9,27 @@
     top: 450px;
 }
 
+.avatarPlaceholder {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  user-select: none;
+  margin-bottom: 8px;
+}
+
+.membroFoto{
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+}
+
 .homeLogo{
     display: flex;
     gap: 15px;
@@ -93,11 +114,6 @@
     padding: 16px;
     line-height: 28px;
 }
-
-.membroFoto{
-    width: 250px;
-}
-
 .divFotos{
     display: flex;
     flex-wrap: wrap;
