@@ -1,20 +1,48 @@
 import React from 'react';
 import styles from './SambaConteudo.module.css';
-import Filipeta from '../../../assets/FilipetaSamba1986.jpg';
+import Filipeta from '../../../assets/2012/ventarolas.jpeg';
 import Autores from '../Artistas.json'
 import Musicos from '../Musicos.json'
 import musica from '../../../assets/musicas/2012 Suvaco Samba Palmas pro Suvaco.mp3'
 import Grupo from "../../../assets/Group 28.svg";
+import BtnVoltar from '../../VoltarBtn/BtnVoltar';
 
+
+const importImagem = (fileName) => {
+  return new URL(`../../../assets/artistas/${fileName}`, import.meta.url).href;
+};
 
 export default function SambaContent() {
+
+   function scrollCarrossel(direcao) {
+    const container = document.getElementById('carrossel');
+    const item = container.querySelector('[data-item]');
+
+    if (!item) return;
+
+    const itemStyle = window.getComputedStyle(item);
+    const itemWidth = item.offsetWidth + parseInt(itemStyle.marginRight || 0);
+    console.log(itemWidth)
+    container.scrollBy({
+      
+      
+      left: direcao * itemWidth,
+      behavior: 'smooth',
+    });
+  }
+
+
   return (
     <>
 
     <div className={styles.cabecalho}>
 
     <h2 className={styles.titulo}>Desfile 2012, Ano 27 - Samba</h2>
+     <p className={styles.texto}>
+              O samba-enredo retrata a essência do Carnaval como uma celebração coletiva e participativa, descrevendo a chegada da bateria como um grupo de foliões que se integram à festa, com a letra evocando os sons dos instrumentos e o espírito descontraído. A canção convida o público a se tornar parte ativa do desfile através do refrão "bate palma", simbolizando a união em que o ritmo dos tambores e os aplausos se fundem em um só coração pulsante. Por fim, a obra presta uma breve homenagem a outros blocos icônicos do Rio de Janeiro, reconhecendo a rica e interligada tradição do carnaval de rua da cidade.
 
+    
+            </p>
     </div>
 
     <img
@@ -74,7 +102,7 @@ export default function SambaContent() {
             <div className={styles.imageContainer}>
               <img src={Filipeta} className={styles.filipetaImage} alt="Filipeta do samba" />
               <p className={styles.caption}>
-                Filipeta com a letra do Samba distribuída no desfile de 1986. Patrocínio das Casas da Banha (que também ofereceram a kombi de som).
+                Legenda.
               </p>
             </div>
           </div>
@@ -100,66 +128,42 @@ export default function SambaContent() {
           </div>
 
         </section>
-        {/* BLOCO: Música */}
-        <h2 className={styles.sectionTitle}>CURIOSIDADES</h2>
-        <section className={styles.card}>
-
-          <div className={styles.flexSong}>
-
-          <p className={styles.texto}> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla velit impedit omnis officiis quia. Sint laborum facere eligendi sed distinctio fugiat ex eveniet rerum, quia blanditiis non fuga modi tempora?
-          Soluta aspernatur impedit eaque mollitia obcaecati assumenda culpa? Autem omnis temporibus praesentium debitis soluta ea consectetur totam veritatis dignissimos quas ipsam quisquam doloremque mollitia dolorem illum, nisi molestiae tempora voluptatibus?
-          Velit assumenda, laborum praesentium similique sunt nulla, facere alias, nostrum eos sequi quo. Reprehenderit possimus veritatis suscipit dolores unde, repellendus neque laboriosam tempora aliquid, autem quidem dignissimos. Fugit, vero dolores!
-          Dignissimos nostrum ducimus et fugit eligendi eaque excepturi quasi, tempora ullam, reprehenderit facilis repellendus, voluptas dicta. Eum, aliquid accusantium nostrum necessitatibus ducimus similique possimus impedit, dignissimos doloremque, eius iste sapiente.
-          Adipisci impedit modi molestiae vitae exercitationem temporibus, ipsum quod aliquam! Nam blanditiis ea corporis eius earum neque. Iure, repudiandae. Vero doloribus quia rem dolore vel cum voluptate deleniti incidunt dolorum.</p>
-
-          </div>
-
-        </section>
+       
 
         {/* BLOCO: Autores */}
-        <h2 className={styles.sectionTitle}>AUTORES</h2>
-        <section className={styles.card}>
-          <div className={styles.profileRow}>
-            {Object.entries(Autores["2012"]).map(([key, autor]) => (
-              <div key={key} className={styles.profile}>
-                {<img className={styles.avatar} src={autor.imgPath} alt={autor.name} />}
-                <span className={styles.nome}>{autor.name}</span>
-              </div>
-            ))}
-          </div>
-        </section>
+       <h2 className={styles.sectionTitle}>AUTORES</h2>
+<section className={styles.card}>
+  <div className={styles.carrosselWrapper}>
+    <button
+      className={`${styles.seta} ${styles.esquerda}`}
+      onClick={() => scrollCarrossel(-1)}
+    >
+      &#10094;
+    </button>
 
-        {/* BLOCO: Musicos */}
-        <h2 className={styles.sectionTitle}>MÚSICOS</h2>
-        <section className={styles.card}>
-          <div className={styles.profileRow}>
-            {Object.entries(Musicos["1986"]).map(([key, musico]) => (
-              <div key={key} className={styles.profile}>
+    <div className={styles.carrossel} id="carrossel">
+      {Object.entries(Autores["2012"]).map(([key, autor]) => (
+        <div key={key} className={styles.profile} data-item>
+          <img
+            className={styles.avatar}
+            src={importImagem(autor.imgFile)}
+            alt={autor.name}
+          />
+          <span className={styles.nome}>{autor.name}</span>
+        </div>
+      ))}
+    </div>
 
-                {<img className={styles.avatar} src={musico.imgPath} alt={musico.name} />}
+    <button
+      className={`${styles.seta} ${styles.direita}`}
+      onClick={() => scrollCarrossel(1)}
+    >
+      &#10095;
+    </button>
+  </div>
+</section>
 
-                <span className={styles.nome}>{musico.name}</span>
-                <span className={styles.funcao}>{musico.funcao}</span>
-              </div>
-            ))}
-          </div>
-
-          {/* <p className={styles.texto}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor porttitor dictum. Curabitur mollis neque scelerisque nunc dapibus  cursus. Morbi egestas sapien neque. Phasellus sagittis consectetur  elementum. Vivamus mattis porta dapibus. Sed eu odio mollis, sagittis  lectus nec, rutrum odio. Maecenas vel dapibus dolor. Fusce ligula  ligula, molestie at lectus in, porttitor egestas libero. Nulla facilisi. Vestibulum varius tortor ligula, ut volutpat risus vestibulum quis.  Praesent laoreet nisi lectus, nec ornare orci facilisis ut. Duis  consectetur viverra malesuada.
-          </p> */}
-
-          <div className={styles.gridArea}>
-
-            <div className={styles.gridVisual}>
-              <div className={styles.imgBoxGrande}></div>
-              <div className={styles.imgBox}></div>
-              <div className={styles.imgBox}>
-                <button className={styles.btn}>VER MAIS</button>
-              </div>
-            </div>
-          </div>
-
-        </section>
+      <BtnVoltar></BtnVoltar>
       </div>
 
     </>

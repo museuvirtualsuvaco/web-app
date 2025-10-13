@@ -29,17 +29,22 @@
   "2012": {
     "1": {
       "name": "Dom Oliveira",
-      "imgFile": "/src/assets/artistas/joao.png",
+      "imgFile": "nenhum.png",
       "urlSuvaco": "#"
     },
     "2": {
       "name": "Jovi Joviniano",
-      "imgFile": "/src/assets/artistas/arnaldo.png",
+      "imgFile": "nenhum.png",
       "urlSuvaco": "#"
     },
     "3": {
-      "name": "Jê Machado",
-      "imgFile": "/src/assets/artistas/joseLavigne-doc-modified.png",
+      "name": "Jerônimo Machado",
+      "imgFile": "nenhum.png",
+      "urlSuvaco": "#"
+    },
+    "4": {
+      "name": "Mu Chebabi",
+      "imgFile": "nenhum.png",
       "urlSuvaco": "#"
     }
   }

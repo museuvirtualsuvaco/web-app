@@ -18,9 +18,9 @@ export default function Ano1986() {
 
         
         <div className={styles.title}>
+          <h2 className={styles.blueTitles}>Desfile 1986 </h2>
           <h2 className={styles.blueTitles}>Desfile 01 </h2>
 
-          {/* <h2 className={styles.greenTitles}> Ano 1986</h2> */}
         </div>
 
         <img src={turma1986} className={styles.floatImage} alt="Turma da Maria Angélica 1986" />
