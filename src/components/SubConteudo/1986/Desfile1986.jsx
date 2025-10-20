@@ -49,11 +49,11 @@ export default function SambaContent() {
 
               <img src={foto3} className={styles.imgBox} alt="" />
 
-                <button className={styles.btn}>VER MAIS</button>
             </div>
         </div>
       </div>
 
+                <button className={styles.btn}>VER MAIS</button>
       </section>
 
       <BtnVoltar></BtnVoltar>

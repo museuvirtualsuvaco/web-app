@@ -40,14 +40,14 @@ Em 1986, jornais locais jogaram confete e serpentina sobre o primeiro desfile do
         <div className={styles.gridVisual}>
           <img src={foto1} className={styles.imgBoxGrande} alt="" />
           <img src={foto2} className={styles.imgBox} alt="" />
-            <div className={styles.lastBox}>
 
               <img src={foto3} className={styles.imgBox} alt="" />
 
-                <button className={styles.btn}>VER MAIS</button>
-            </div>
+                
         </div>
       </div>
+
+      <button className={styles.btn}>VER MAIS</button>
 
       </section>
 
