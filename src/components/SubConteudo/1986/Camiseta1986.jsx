@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './CamisetaConteudo.module.css';
+import { Link } from 'react-router-dom';
 import CamisaFoto from '../../../assets/camisetas/1986 Camiseta Sonia Matos.jpg';
 import Artistas from '../CamisetaArtistas.json'
 import Grupo from "../../../assets/Group 28.svg";
@@ -54,12 +55,14 @@ export default function CamisetaContent() {
           <div className={styles.profileRow}>
             {Object.entries(Artistas["1986"]).map(([key, autor]) => (
               <div key={key} className={styles.profile}>
+                <Link to={`/artista/camiseta/1986/${key}`} className={styles.autorLink}>
                 <img
                   className={styles.avatar}
                   src={importImagem(autor.imgFile)}
                   alt={autor.name}
                 />
                 <span className={styles.nome}>{autor.name}</span>
+                </Link>
               </div>
             ))}
           </div>

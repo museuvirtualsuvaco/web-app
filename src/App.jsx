@@ -13,6 +13,7 @@ import ProjetoMuseu from './components/ProjetoMuseu/ProjetoMuseu';
 import DivinasAxilas from './components/DivinasAxilas/DivinasAxilas';
 import Sobre from './components/Sobre/Sobre';
 import SubPagina from './pages/SubPagina/SubPagina';
+import Artista from './pages/Artista/Artista';
 
 import Timeline from './components/TimelinePage/TimeLine';
 
@@ -62,6 +63,7 @@ function App() {
           <Route path={subroutes.PAG1986MIDIA} element={<SuvacoMidia86/>} />
           <Route path={subroutes.PAG1986DESFILE} element={<Desfile86/>} />
           <Route path={subroutes.PAG1986CAMISETA} element={<Camiseta1986/>} />
+          
 
 
           <Route path={routes.PAG1987} element={<Emconstrucao />} />
@@ -85,8 +87,8 @@ function App() {
           <Route path={routes.PAG2004} element={<Emconstrucao />} />
           <Route path={routes.PAG2005} element={<Emconstrucao />} />
           <Route path={routes.PAG2006} element={<Emconstrucao />} />
-          
 
+          <Route path="/artista/:tipo/:ano/:id" element={<Artista />} />
 
 
           <Route path={routes.PAG2012} element={<Ano2012></Ano2012>} />

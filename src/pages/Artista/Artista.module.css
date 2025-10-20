@@ -1,0 +1,410 @@
+.container {
+  padding: 10rem 2rem 6rem 2rem;
+  width: 100%;
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #03C01F, #22BFEA);
+}
+
+.group28Gradiente {
+  position: absolute;
+  display: block;
+  width: 100%;
+  z-index: 1; 
+  left: 0; 
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem 1.5rem;
+  margin: 0 auto 2.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 90%;
+  position: relative; 
+
+}
+
+.sectionTitle {
+  font-family: 'Roboto Flex', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  margin: 2rem auto 1.5rem auto;
+  color: #ffffff;
+  text-decoration: underline;
+  max-width: 94%;
+  padding: 1rem 2rem 1rem 2rem;
+
+}
+
+.cabecalho{
+ background: white;
+ position: relative;
+ padding-bottom: 5rem; 
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.titulo {
+  font-family: 'PT Mono', monospace;
+  font-size: 2rem;
+  font-weight: medium;
+  color: #0066AF;
+  text-align: left;
+  margin-left: var(--margin-left);
+  z-index: 10;
+  position: relative;
+}
+
+.line{
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to right, var(--blue), #00FF80);
+    margin-bottom: 13px;
+}
+
+
+
+.sectionTexts{
+   margin-top: 2rem;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    position: relative;
+    font-size: 1.7rem;
+    line-height: 28px;
+    position: relative;
+    z-index: 10002;
+    background-color: white;
+
+}
+
+.foto {
+  position: relative;
+  z-index: 10003;
+  float: right;
+  flex: 1;
+  max-width: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #008080; 
+}
+
+
+.imageContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  max-width: 30%;
+  min-width: 400px;
+  align-items: center;
+  text-align: center;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+  padding: 0.5rem;
+  max-width: 150px; 
+}
+
+.avatar {
+  min-width: 150px;
+  border-radius: 50%;
+}
+
+.flexSong{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.interprete{
+  font-size: 1.5rem;
+  font-weight: 500;
+
+}
+
+.funcao{
+  margin-top: 20px;
+  font-weight: 600;
+
+}
+.nome {
+  margin-top: 0.9rem;
+  font-size: 1.07rem;
+  text-align: center;
+  color: #0054A2;
+  text-decoration: underline;
+  line-height: 1.2;
+  font-weight: 600;
+  width: 250px;
+}
+
+.gridArea {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.texto {
+  flex: 1 1 300px;
+  font-family: 'Roboto Flex', sans-serif;
+  font-size: 1.6rem;
+  color: #000;
+  line-height: 1.7;
+  margin-top: 1rem;
+
+}
+
+.gridVisual {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1rem;
+  width: 100%;
+  max-width: 100%;
+  margin: auto;
+  position: relative;
+}
+
+.imgBoxGrande {
+  width: 100%;
+  height: 100%;
+  background-color: #d9d9d9;
+  grid-row: span 2;
+}
+
+.imgBox {
+  width: 100%;
+  height: 100%;
+  min-height: 220px;
+  background-color: #d9d9d9;
+  position: relative;
+
+}
+
+.btn {
+  position: absolute;
+  width: 100%;
+  height: 25%;
+  bottom: 35%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #737373;
+  color: white;
+  font-weight: bold;
+  padding: 8px 20px;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+  background-color: #4e4e4e;
+}
+
+.links{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    font-size: large;
+    margin: 3rem;
+}
+
+.mainContainer{
+    position: relative;
+    top: -5vw;
+    z-index: 2;
+
+    margin-left: 30px;
+}
+
+.buscarAnos{
+    position: absolute;
+    background-color: white;
+    top: -20px;
+    left: 35px;
+    padding: 5px 5px;
+    font-size: 1.5rem;
+    width: 130px;
+    text-align: center;
+}
+
+.inputContainer {
+    width: 510px;
+    height: 49px;
+    border-radius: 20px;
+    padding: 2px;
+    background: linear-gradient(to right, var(--green), var(--blue));
+}
+
+.inputContainer input {
+    width: 100%;
+    height: 45px;
+    padding: 12px 16px;
+    font-size: 18px;
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
+}
+
+.inputContainer input:focus {
+    background-color: #f9f9f9;
+}
+
+/*carrossel*/
+
+.carrosselWrapper {
+  position: relative;
+  width: 100vw;
+  max-width: 90%;
+  margin: auto;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 0 40px;
+}
+
+.carrossel {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  padding-bottom: 10px;
+}
+
+.item {
+  flex: 0 0 auto;
+  width: 200px;
+  margin-right: 5px; 
+  scroll-snap-align: start;
+  border-radius: 8px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.carrossel::-webkit-scrollbar {
+  display: none;
+}
+
+
+.item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.item p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #444;
+}
+
+.seta {
+  position: absolute;
+  top: 40%;
+  background-color: (255, 255, 255, 0.9);
+  border: none;
+  font-size: 3rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 50%;
+  z-index: 10;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  transition: background-color 0.3s ease;
+  width: 64px;
+  height: 64px;
+  justify-content: center;
+}
+
+.seta:hover {
+  background-color: #eee;
+}
+
+.esquerda {
+  left: 0;
+}
+.direita {
+  right: 0;
+}
+
+/*=== TITULOS ===*/
+
+@media (max-width:900px) {
+   .titulo {
+    font-size: 2rem;
+    margin-left: var(--margin-left);
+    margin-right: var(--margin-left);
+    text-align: left;
+    padding-bottom: 14px;
+  }
+}
+
+@media (max-width:757px) {
+
+  .sectionTitle {
+    padding: 0;
+    font-size: 3rem;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+  }}
+
+@media (max-width: 600px) {
+  .carrosselWrapper {
+    max-width: 100%;
+}
+  .item {
+    width: 140px;
+    margin: 8px;
+  }
+  .seta {
+    font-size: 1.8rem;
+    padding: 0.5rem 0.75rem;
+  }
+
+    .titulo {
+    font-size: 1.8rem; 
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .sectionTitle {
+    font-size: 2.2rem; 
+  }
+}
+
+
+@media (max-width: 400px) {
+  .profileRow {
+    gap: 1rem;
+  }
+
+  .avatar {
+    width: 80px;
+    height: 80px;
+  }
+
+  .name {
+    font-size: 0.9rem;
+  }
+}
+
+
+.areaVerde {
+  width: 100%;
+  background: linear-gradient(#00CC65, #0053A1);
+}
