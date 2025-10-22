@@ -12,6 +12,7 @@
   width: 100%;
   z-index: 1; 
   left: 0; 
+  top: 400px;
 }
 
 .card {
@@ -23,6 +24,10 @@
   max-width: 90%;
   position: relative; 
 
+}
+
+span{
+  font-size: 1.5rem;
 }
 
 .sectionTitle {
@@ -51,7 +56,7 @@
 
 .titulo {
   font-family: 'PT Mono', monospace;
-  font-size: 2rem;
+  font-size: 4rem;
   font-weight: medium;
   color: #0066AF;
   text-align: left;
@@ -85,12 +90,15 @@
 .foto {
   position: relative;
   z-index: 10003;
-  float: right;
   flex: 1;
   max-width: 300px;
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid #008080; 
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 7vw;
+
 }
 
 

@@ -55,6 +55,15 @@ export default function SambaContent() {
 
                 <button className={styles.btn}>VER MAIS</button>
       </section>
+      <h2 className={styles.sectionTitle}>A BATERIA</h2>
+      <section className={styles.card}>
+
+        <p className={styles.texto}>
+           Em construção!
+        </p>
+
+    
+      </section>
 
       <BtnVoltar></BtnVoltar>
     </div>

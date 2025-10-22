@@ -116,6 +116,24 @@ export default function SambaContent() {
       </div>
 
       </section>
+      <h2 className={styles.sectionTitle}>PRÊMIO SERPENTINA DE OURO</h2>
+      <section className={styles.card}>
+
+        <div className={styles.gridArea}>
+
+        <div className={styles.gridVisual}>
+          <img src={null} className={styles.imgBoxGrande} alt="" />
+          <img src={null} className={styles.imgBox} alt="" />
+            <div className={styles.lastBox}>
+
+              <img src={null} className={styles.imgBox} alt="" />
+
+                <button className={styles.btn}>VER MAIS</button>
+            </div>
+        </div>
+      </div>
+
+      </section>
 
     <BtnVoltar></BtnVoltar>  
     </div>
