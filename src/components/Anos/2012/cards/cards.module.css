@@ -21,9 +21,8 @@
     font-size: 4rem;
     font-weight: 700;
     text-transform: uppercase;
-    padding-top: 4.5rem;
     letter-spacing: initial;
-    
+    padding-top: 10rem;
 }
 
 
@@ -38,14 +37,14 @@
 
 
 .imgCard{
-        min-width: 500px;
-    max-width: 500px;;
+        min-width: 400px;
+    max-width: 400px;;
     height: 480px;
     position: relative;
     z-index: 0;
     align-self: center;
     object-fit: cover;
-    object-position: center;
+    object-position: top;
 }
     
 

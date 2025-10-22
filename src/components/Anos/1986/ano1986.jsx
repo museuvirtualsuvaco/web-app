@@ -19,7 +19,6 @@ export default function Ano1986() {
         
         <div className={styles.title}>
           <h2 className={styles.blueTitles}>Desfile 1986 </h2>
-          <h2 className={styles.blueTitles}>Desfile 01 </h2>
 
         </div>
 
@@ -47,18 +46,21 @@ export default function Ano1986() {
             Meu bloco na rua: Barbas, Simpatia e Suvaco na retomada do carnaval de rua da zona sul
             do Rio de Janeiro.
           </p>
+
+          
         </section>
 
-        {/* ✅ Caminhos corrigidos para imagens decorativas */}
-        <img src={vector} className={styles.divisorGradiente} alt="divisor ondulado" />
-        <img src={group28} className={styles.group28Gradiente} alt="divisor ondulado" />
+        
 
       </div>
         
-  
-            {cardsData.map((data, index) => (   
+      <div className={styles.sectionCards}>
+        <img src={group28} className={styles.group28Gradiente} alt="divisor ondulado" />
+        {cardsData.map((data, index) => (   
                 <Card key={index} {...data} />
             ))}
+      </div>
+            
         </div>
     </>
   );

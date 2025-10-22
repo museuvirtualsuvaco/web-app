@@ -8,6 +8,7 @@ import Artistas from '../../components/SubConteudo/Artistas.json'
 import CamisetaArtistas from '../../components/SubConteudo/CamisetaArtistas.json';
 import Musicos from '../../components/SubConteudo/Musicos.json';
 import Interpretes from '../../components/SubConteudo/Interpretes.json';
+import BtnVoltar from '../../components/VoltarBtn/BtnVoltar';
 
 
 const importImagem = (fileName) => {
@@ -80,7 +81,7 @@ function Artista() {
 
 
       <div className={styles.container}>
-        <h2 className={styles.sectionTitle}>FOTOS</h2>
+       {/*  <h2 className={styles.sectionTitle}>FOTOS</h2>
         <section className={styles.card}>
 
           <div className={styles.gridArea}>
@@ -94,10 +95,10 @@ function Artista() {
             </div>
           </div>
 
-        </section>
+        </section> */}
 
         <section className={styles.carrosselContainer}>
-          <h2 className={styles.sectionTitle}>ANOS</h2>
+          <h2 className={styles.sectionTitle}>PARTICIPAÇÕES</h2>
           <div className="form-area">
 
                 <div>
@@ -154,17 +155,20 @@ function Artista() {
                       <div className={styles.links}>
           
                           <a href="https://www.instagram.com/joaoavelleira?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">
-                              <i className="ri-instagram-line"></i><span> Instagram</span>
+                              <span> <i className="ri-instagram-line"></i> Instagram</span>
                           </a>
                           <a href="https://www.youtube.com/@blocosuvacodecristorj" target="_blank" rel="noopener noreferrer">
-                              <i className="ri-youtube-line"></i><span> Youtube</span>
+                             <span>  <i className="ri-youtube-line"></i> Youtube</span>
                           </a>
                           <a href="https://www.facebook.com/suvaco.docristo" target="_blank" rel="noopener noreferrer">
-                              <i className="ri-facebook-box-line"></i><span> Facebook</span>
+                              <span> <i className="ri-facebook-box-line"></i> Facebook</span>
                           </a>
                       </div>
         </section>
+        <BtnVoltar></BtnVoltar>
       </div>
+
+      
   </>
   );
 }

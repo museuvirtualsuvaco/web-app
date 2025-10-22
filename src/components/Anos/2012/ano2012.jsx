@@ -29,11 +29,11 @@ export default function Ano2012() {
 
         </section>
 
-        <img src={vector} className={styles.divisorGradiente} alt="divisor ondulado" />
-        <img src={group28} className={styles.group28Gradiente} alt="divisor ondulado" />
+        
         </div>
 
-        <div className={styles.cardContainer}>
+        <div className={styles.sectionCards}>
+          <img src={group28} className={styles.group28Gradiente} alt="divisor ondulado" />
           {cardsData.map((data, index) => (
             <Card key={index} {...data} />
           ))}
