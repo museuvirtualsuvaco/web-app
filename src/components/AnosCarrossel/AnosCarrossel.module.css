@@ -1,0 +1,136 @@
+.anosParticipacaoContainer {
+  margin-top: 3rem; 
+  margin-bottom: 3rem;
+}
+
+.sectionTitle {
+  font-family: 'Roboto Flex', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  margin: 0 auto 1.5rem auto; 
+  color: #ffffff; 
+  text-decoration: underline;
+  text-align: center; 
+  max-width: 90%;
+}
+
+
+.carrosselWrapper {
+  position: relative;
+  width: 100vw;
+  max-width: 90%;
+  margin: auto;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 0 40px;
+}
+
+
+.carrossel {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  padding-bottom: 10px;
+  flex-wrap: nowrap;
+}
+.carrossel::-webkit-scrollbar {
+  display: none; 
+}
+
+
+.item {
+  flex: 0 0 auto;
+  width: 150px; 
+  scroll-snap-align: start; 
+  border-radius: 8px;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none; 
+}
+
+.item img {
+  width: 100%;
+  height: 150px; 
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.anoTexto {
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #FFF; 
+  text-align: center;
+}
+
+
+.seta {
+  position: absolute;
+  top: 50%; 
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.8); 
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 50%;
+  z-index: 10;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  transition: background-color 0.3s ease;
+  width: 48px; 
+  height: 48px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+}
+.seta:hover {
+  background-color: #eee;
+}
+.esquerda {
+  left: 5px; 
+}
+.direita {
+  right: 5px; 
+}
+
+
+@media (max-width: 768px) {
+  .item {
+    width: 120px; 
+  }
+  .item img {
+    height: 120px;
+  }
+  .seta {
+     width: 40px;
+     height: 40px;
+     font-size: 1.5rem;
+  }
+  .carrosselWrapper {
+      padding: 0 10px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .item {
+    width: 100px; 
+  }
+   .item img {
+    height: 100px;
+  }
+  .anoTexto {
+     font-size: 1rem;
+  }
+  .seta {
+     width: 32px;
+     height: 32px;
+     font-size: 1rem;
+  }
+}
