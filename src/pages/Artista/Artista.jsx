@@ -98,15 +98,16 @@ function Artista() {
             <p>{artista.bio || "Sem biografia disponível."}</p>
           </section>
         </div>
-            <img
-        src={Grupo}
-        className={styles.group28Gradiente}
-        alt="divisor ondulado"
-    />
+           
       </div>
 
 
       <div className={styles.container}>
+        <img
+          src={Grupo}
+          className={styles.group28Gradiente}
+          alt="divisor ondulado"
+        />
        {/*  <h2 className={styles.sectionTitle}>FOTOS</h2>
         <section className={styles.card}>
 

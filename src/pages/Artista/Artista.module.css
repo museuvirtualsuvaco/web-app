@@ -1,18 +1,24 @@
 .container {
-  padding: 10rem 2rem 6rem 2rem;
+  padding: 50x 2rem 6rem 2rem;
   width: 100%;
-  margin: 0;
+  margin: 0 auto;
+  max-width: 100%;
   min-height: 100vh;
+  z-index: 1;
+  position: relative;
+  margin-top: -5rem;
+  z-index: 1;
+  margin-top: -80px;
   background: linear-gradient(to bottom, #03C01F, #22BFEA);
 }
 
 .group28Gradiente {
-  position: absolute;
   display: block;
   width: 100%;
-  z-index: 1; 
-  left: 0; 
-  top: 60vh;
+  position: relative;
+  z-index: 2;
+  left: 0;
+  margin-top: -100px;
 }
 
 .card {
@@ -45,7 +51,7 @@ span{
 .cabecalho{
  background: white;
  position: relative;
- padding-bottom: 5rem; 
+ z-index: 3;
 }
 
 .header {
