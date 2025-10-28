@@ -238,13 +238,15 @@ span{
 
 .links{
     display: flex;
-    gap: 100px;
+    gap: 2rem;
     align-items: center;
     justify-content: center;
-    text-decoration: underline;
-    font-size: large;
+    text-decoration: none;
+    font-size: 2rem;
     margin: 3rem;
 }
+
+
 
 .mainContainer{
     position: relative;
@@ -363,10 +365,15 @@ span{
   right: 0;
 }
 
+.areaVerde {
+  width: 100%;
+  background: linear-gradient(#00CC65, #0053A1);
+}
+
 /*=== TITULOS ===*/
 
 @media (max-width:1045px) {
-  .group28Gradiente {top: 70vh;}
+  .group28Gradiente {top: 10vh;}
 }
 
 @media (max-width:900px) {
@@ -376,13 +383,17 @@ span{
     text-align: left;
     padding-bottom: 14px;
   }
-
-  .group28Gradiente {top: 84vh;}
 }
 
-@media (max-width: 830px) {
-  .group28Gradiente {top: 95vh;}
-}
+@media (max-width:800px) {
+    .sectionTexts{
+    font-size: 1.4rem;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    }
+
+   
+  }
 
 
 @media (max-width:786px) {
@@ -397,18 +408,18 @@ span{
         float:none;
         height: auto;
         width: 75%;
-        max-width: 468px;
+        max-width: 400px;
         left: 50%;
         transform: translateX(-50%);
         margin: 0;
         margin-top: 2rem;
     }
 
+    .titulo { font-size: 2.8rem;}
     .conteudo{flex-direction: column;}
 
-    .sectionTexts{font-size: 2rem;}
-
-    .group28Gradiente {top: 130vh;}
+    .sectionTexts{font-size: 1.5rem;}
+   
 }
 
 @media (max-width:757px) {
@@ -419,7 +430,15 @@ span{
     text-align: center;
     margin-left: 0;
     margin-right: 0;
-  }}
+  }
+  .group28Gradiente {top: 5vh;}
+}
+
+@media (max-width:645px) {
+  .links {
+    font-size: ;
+  }
+}
 
 @media (max-width: 600px) {
   .carrosselWrapper {
@@ -434,8 +453,7 @@ span{
     padding: 0.5rem 0.75rem;
   }
 
-    .titulo {
-    font-size: 1.8rem; 
+    .titulo { 
     text-align: center;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -446,6 +464,20 @@ span{
   }
 }
 
+@media (max-width: 520px) {
+  .cabecalho {
+    margin-bottom: 1rem;
+  }
+  .sectionTitle{
+    margin-top: 3rem;
+  }
+
+}
+
+@media (max-width: 430px) {
+
+  .group28Gradiente {top: 5vh;}
+}
 
 @media (max-width: 400px) {
   .profileRow {
@@ -463,11 +495,5 @@ span{
 }
 
 
-.areaVerde {
-  width: 100%;
-  background: linear-gradient(#00CC65, #0053A1);
-}
 
-@media (max-width:420px) {
-    .group28Gradiente {top: 120vh;}
-}
+
