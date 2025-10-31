@@ -41,6 +41,15 @@
 
 }
 
+.autorLink {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .sectionTitle {
   font-family: 'Roboto Flex', sans-serif;
   font-weight: bold;
