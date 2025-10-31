@@ -237,12 +237,12 @@ span{
 }
 
 .links{
-    display: flex;
+    display: flex;  
     gap: 2rem;
     align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    font-size: 2rem;
+    justify-content: space-evenly;
+    text-decoration: underline;
+    font-size:large;
     margin: 3rem;
 }
 
@@ -435,9 +435,17 @@ span{
 }
 
 @media (max-width:645px) {
-  .links {
-    font-size: ;
+  .links{
+    text-decoration: none;
   }
+  .links span {
+    font-size: 0;
+  }
+
+  .links i{
+    font-size: 3rem;
+  }
+  
 }
 
 @media (max-width: 600px) {

@@ -63,7 +63,9 @@ function App() {
           <Route path={subroutes.PAG1986MIDIA} element={<SuvacoMidia86/>} />
           <Route path={subroutes.PAG1986DESFILE} element={<Desfile86/>} />
           <Route path={subroutes.PAG1986CAMISETA} element={<Camiseta1986/>} />
-          
+
+
+
 
 
           <Route path={routes.PAG1987} element={<Emconstrucao />} />
