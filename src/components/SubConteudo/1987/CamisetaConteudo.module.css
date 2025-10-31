@@ -1,0 +1,249 @@
+.container {
+  padding: 6rem 2rem;
+  width: 100%;
+  margin: 0 auto;
+  background: transparent;
+  max-width: 100%;
+  background: linear-gradient(to bottom, #009EFC, #01BDB7);
+}
+
+.titulo {
+  font-family: 'PT Mono', monospace;
+  font-size: 2.5rem;
+  padding-bottom: 28px;
+  margin-top: 2rem;
+  color: #000;
+  text-align: left;
+  margin-left: var(--margin-left);
+  z-index: 10;
+  position: relative;
+}
+
+.group28Gradiente {
+  position: absolute;
+  bottom: -5rem;
+  left: 0;
+  width: 100%;
+  z-index: 8;
+}
+
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem 1.5rem;
+  margin: 0 auto 2.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 90%;
+  position: relative;
+
+}
+
+.sectionTitle {
+    font-family: 'Roboto Flex', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  margin: 2rem auto 1.5rem auto;
+  color: #ffffff;
+  text-decoration: underline;
+  padding-bottom: 0.8rem;
+  margin-left: var(--margin-left);
+
+}
+.imgCamisetaWrapper {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.imgCamiseta {
+  background-color: #d9d9d9;
+  border-radius: 8px;
+}
+
+.cabecalho{
+  position:relative;
+}
+
+
+
+.profileRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+  padding: 0.5rem;
+  max-width: 150px; 
+}
+
+.avatar {
+  min-width: 150px;
+  border-radius: 50%;
+}
+
+.nome {
+  margin-top: 0.9rem;
+  font-size: 1.07rem;
+  text-align: center;
+  color: #0054A2;
+  text-decoration: underline;
+  line-height: 1.2;
+  font-weight: 600;
+  width: 250px;
+}
+
+
+.gridArea {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.texto {
+  flex: 1 1 300px;
+  font-family: 'Roboto Flex', sans-serif;
+  font-size: 20.16px;
+  color: #000;
+  line-height: 1.7;
+  margin-top: 1rem;
+  z-index: 150;
+  position: relative;
+  margin-left: 7vw;
+  margin-right: 7vw;
+
+}
+
+.gridVisual {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1rem;
+  width: 100%;
+  max-width: 100%;
+  margin: auto;
+  position: relative;
+}
+
+.imgBoxGrande {
+  width: 100%;
+  height: 100%;
+  background-color: #d9d9d9;
+  grid-row: span 2;
+}
+
+.imgBox {
+  width: 100%;
+  height: 100%;
+  min-height: 220px;
+  background-color: #d9d9d9;
+  position: relative;
+
+}
+
+.btn {
+  position: absolute;
+  width: 100%;
+  height: 25%;
+  bottom: 35%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #737373;
+  color: white;
+  font-weight: bold;
+  padding: 8px 20px;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+  background-color: #4e4e4e;
+}
+
+@media (max-width: 400px) {
+  .profileRow {
+    gap: 1rem;
+  }
+
+  .avatar {
+    width: 80px;
+    height: 80px;
+  }
+
+  .name {
+    font-size: 0.9rem;
+  }
+}
+
+
+
+
+
+/*=== TITULOS ===*/
+
+@media (max-width:900px) {
+   .titulo {
+    font-size: 2rem;
+    margin-left: var(--margin-left);
+    margin-right: var(--margin-left);
+    text-align: left;
+    padding-bottom: 14px;
+  }
+}
+
+
+
+@media (max-width:757px) {
+
+  .sectionTitle {
+    padding: 0;
+    font-size: 3rem;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+  }}
+
+  
+@media (max-width:415px) {
+  .sectionTitle{font-size: 3rem;}
+}
+
+/*=== FOTO ===*/
+
+@media (max-width:515px) {
+  .imgCamiseta{
+    width: auto;
+    height: auto;
+  }
+  .avatar{
+    height: auto;
+    width: auto;
+  }
+}
+
+@media(min-width:1000px){
+  .group28Gradiente{bottom:-7rem}
+}
+@media(min-width:1270px){
+  .group28Gradiente{bottom:-8rem}
+}
+@media(min-width:1550px){
+  .group28Gradiente{bottom:-9rem}
+}
+@media(min-width:1850px){
+  .group28Gradiente{bottom:-11rem}
+}
