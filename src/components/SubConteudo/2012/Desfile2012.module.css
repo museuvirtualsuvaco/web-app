@@ -24,7 +24,7 @@
 
 .group28Gradiente {
   position: absolute;
-  bottom: 10rem;
+  bottom: -5rem;
   left: 0;
   width: 100%;
   z-index: 8;
@@ -198,7 +198,7 @@
 
 .imgBox {
   height: 100%;
-
+ width: 100%;
   background-color: #d9d9d9;
   position: relative;
 
@@ -209,15 +209,19 @@
   width: 100%;
   bottom: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
-  background-color: #000000be;
+  transform: translateX(-50%);
+  background-color: #A700C8;
   color: white;
   font-weight: bold;
-  padding: 32px 20px;
+  padding: 20px 20px;
+  margin-top: 30px;
+  border-radius: 32px;
   border: none;
   cursor: pointer;
   z-index: 1;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
+
 
 .btn:hover {
   background-color: #000000ef;
@@ -255,6 +259,18 @@
 
 /* === DIVISOR === */
 
+@media(min-width:1000px){
+  .group28Gradiente{bottom:-7rem}
+}
+@media(min-width:1270px){
+  .group28Gradiente{bottom:-8rem}
+}
+@media(min-width:1550px){
+  .group28Gradiente{bottom:-9rem}
+}
+@media(min-width:1850px){
+  .group28Gradiente{bottom:-11rem}
+}
 
 
 /* === GRID FOTOS === */
@@ -265,15 +281,14 @@
     height: auto;
   }
 
-  .btn{position: absolute;
-    top: 35vw;
+  .btn{position: relative;
     bottom: auto;
     border-radius: 24px;
     padding: 16px 20px;
   }
 
   .gridArea{
-    padding-bottom: 5rem;
+    padding-bottom: 0rem;
   }
 }
 
@@ -285,6 +300,9 @@
     flex-direction: column;
     max-width: 70%;
 
+  }
+  .imgBoxGrande{
+    grid-row: auto;
   }
 
   .gridArea{
@@ -311,4 +329,11 @@
 
 
 
+}
+
+
+@media (min-width:758px){
+  .btn{
+    width: 70%;
+  }
 }

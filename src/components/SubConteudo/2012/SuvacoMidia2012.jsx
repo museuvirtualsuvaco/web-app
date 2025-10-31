@@ -1,9 +1,10 @@
 import React from 'react';
 import styles from './SuvacoMidia2012.module.css';
 
-import foto1 from '../../../assets/1985 JB - Nasce o Suvaco.jpg';
-import foto2 from '../../../assets/1986 1 Desfila Sonia e Robertinho.jpg';
-import foto3 from '../../../assets/1986 JB Carta dos Leitores Revolta.jpg';
+import namidia1 from '../../../assets/2012/na_midia/2012 Globo Anselmo gente Boa(1).jpg'
+import namidia2 from '../../../assets/2012/na_midia/2012 Serpentina de Ouro 2012(1).jpg'
+import namidia3 from '../../../assets/2012/na_midia/2012 Suvaco Cynthia PB Caras.jpg'
+import namidia4 from '../../../assets/2012/na_midia/2012 Valor economico(1).jpg'
 
 import Grupo from "../../../assets/Group 28.svg";
 export default function SambaContent() {
@@ -12,14 +13,15 @@ export default function SambaContent() {
     <div className={styles.cabecalho}>
     
         <h2 className={styles.titulo}>Desfile 2012, Ano 27 - Mídia</h2>
-    
-        </div>
-    
+        <p className={styles.texto}>Em construção!</p>
         <img
                   src={Grupo}
                   className={styles.group28Gradiente}
                   alt="divisor ondulado"
                 />
+        </div>
+    
+        
     
     
     <div className={styles.container}>
@@ -31,37 +33,17 @@ export default function SambaContent() {
         <div className={styles.gridArea}>
 
         <div className={styles.gridVisual}>
-          <img src={foto1} className={styles.imgBoxGrande} alt="" />
-          <img src={foto2} className={styles.imgBox} alt="" />
-            <div className={styles.lastBox}>
+          <img src={namidia4} className={styles.imgBoxGrande} alt="" />
+          <img src={namidia3} className={styles.imgBox} alt="" />
+            
 
-              <img src={foto3} className={styles.imgBox} alt="" />
-
-                <button className={styles.btn}>VER MAIS</button>
-            </div>
-        </div>
-      </div>
-
-      </section>
-      <h2 className={styles.sectionTitle}>PRÊMIO SERPENTINA DE OURO</h2>
-      <section className={styles.card}>
+              <img src={namidia1} className={styles.imgBox} alt="" />
 
   
-
-        <div className={styles.gridArea}>
-
-        <div className={styles.gridVisual}>
-          <img src='#' className={styles.imgBoxGrande} alt="" />
-          <img src='#' className={styles.imgBox} alt="" />
-            <div className={styles.lastBox}>
-
-              <img src='#' className={styles.imgBox} alt="" />
-
-                <button className={styles.btn}>VER MAIS</button>
-            </div>
         </div>
       </div>
 
+                <button className={styles.btn}>VER MAIS</button>
       </section>
     </div>
 

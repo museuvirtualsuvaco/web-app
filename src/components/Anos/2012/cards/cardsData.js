@@ -15,7 +15,7 @@ export const cardsData = [
     },
     {
         title: 'Camiseta',
-        description: "lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
+        description: "Em construção!",
         src: camisetaImg,
         firstColor: "#009DFF",
         secondColor: "#00BEB5",
@@ -23,7 +23,7 @@ export const cardsData = [
     },
     {
         title: 'Desfile',
-        description: "lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
+        description: "Em construção!",
         src: desfileImg,
         firstColor: "#E300C5",
         secondColor: "#A700C8",
@@ -31,7 +31,7 @@ export const cardsData = [
     },
     {
         title: 'Suvaco na mídia',
-        description: "lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
+        description: "Em construção!",
         src: midiaImg,
         firstColor: "#DBBB00",
         secondColor: "#FF9A27",
