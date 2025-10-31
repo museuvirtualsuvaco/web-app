@@ -127,6 +127,7 @@
   width: 150px;
   max-width: 150px; 
   scroll-snap-align: start;
+  text-align: center;
 }
 
 
@@ -217,7 +218,7 @@
 
 }
 .nome {
-  margin-top: 0.9rem;
+  margin-top: 1rem;
   font-size: 1.07rem;
   text-align: center;
   color: #0054A2;
@@ -253,6 +254,10 @@
 
 .autorLink {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .gridVisual {
@@ -393,9 +398,7 @@
     text-align: left;
     padding-bottom: 14px;
   }
-}
 
-     .profile { width: 110px; padding-left: 0px;}
   .avatar{width: 110px;}
 
   .seta {
@@ -404,6 +407,9 @@
     font-size: 1rem;
   }
 
+}
+
+  
 
 @media (max-width: 600px) {
   .titulo {
