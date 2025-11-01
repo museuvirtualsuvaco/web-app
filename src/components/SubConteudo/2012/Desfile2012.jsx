@@ -21,6 +21,12 @@ import mspb1 from '../../../assets/2012/mspb/330969_2616015796013_1745110318_o(2
 import mspb2 from '../../../assets/2012/mspb/429678_371094099585588_1177974823_n.jpg';
 import mspb3 from '../../../assets/2012/mspb/Suvaco 2012 Rui Zilnet.jpg';
 
+import serpentina1 from '../../../assets/2012/serpentina_de_ouro/2012 Serpentina de Ouro Suvaco.jpg'
+import serpentina2 from '../../../assets/2012/serpentina_de_ouro/2012 Serpentina de Ouro- Trofeu.jpg'
+import serpentina3 from '../../../assets/2012/serpentina_de_ouro/DSC_3400.jpg'
+import serpentina4 from '../../../assets/2012/serpentina_de_ouro/DSC_3417.JPG'
+import serpentina5 from '../../../assets/2012/serpentina_de_ouro/Serpentina de Ouro- Davi e as meninas.jpg'
+
 
 import Grupo from "../../../assets/Group 28.svg";
 
@@ -33,14 +39,15 @@ export default function SambaContent() {
         <div className={styles.cabecalho}>
     
         <h2 className={styles.titulo}>Desfile 2012, Ano 27 - Desfile</h2>
-    
-        </div>
-
+        <p className={styles.texto}>Em construção!</p>
          <img
                           src={Grupo}
                           className={styles.group28Gradiente}
                           alt="divisor ondulado"
                         />
+        </div>
+
+        
             
     <div className={styles.container}>
       <h2 className={styles.sectionTitle}>O DESFILE</h2>
@@ -52,16 +59,16 @@ export default function SambaContent() {
               <div className={styles.gridVisual}>
                 <img src={desfile1} className={styles.imgBoxGrande} alt="" />
                 <img src={desfile2} className={styles.imgBox} alt="" />
-                  <div className={styles.lastBox}>
-      
+
                     <img src={desfile3} className={styles.imgBox} alt="" />
-      
-                      <button className={styles.btn}>VER MAIS</button>
-                  </div>
+             
               </div>
             </div>
-      
+
+      <button className={styles.btn}>VER MAIS</button>
             </section>
+
+
       <h2 className={styles.sectionTitle}>BATERIA</h2>
       <section className={styles.card}>
 
@@ -70,16 +77,18 @@ export default function SambaContent() {
         <div className={styles.gridVisual}>
           <img src={bateria3} className={styles.imgBoxGrande} alt="" />
           <img src={bateria1} className={styles.imgBox} alt="" />
-            <div className={styles.lastBox}>
 
               <img src={bateria2} className={styles.imgBox} alt="" />
 
-                <button className={styles.btn}>VER MAIS</button>
-            </div>
+                
+          
         </div>
       </div>
-
+    <button className={styles.btn}>VER MAIS</button>
       </section>
+
+
+
       <h2 className={styles.sectionTitle}>BAIANAS</h2>
       <section className={styles.card}>
 
@@ -88,14 +97,14 @@ export default function SambaContent() {
         <div className={styles.gridVisual}>
           <img src={baianas1} className={styles.imgBoxGrande} alt="" />
           <img src={baianas2} className={styles.imgBox} alt="" />
-            <div className={styles.lastBox}>
+          
 
               <img src={baianas3} className={styles.imgBox} alt="" />
 
-                <button className={styles.btn}>VER MAIS</button>
-            </div>
+
         </div>
       </div>
+                <button className={styles.btn}>VER MAIS</button>
 
       </section>
       <h2 className={styles.sectionTitle}>MESTRE-SALA E PORTA-BANDEIRA</h2>
@@ -106,14 +115,13 @@ export default function SambaContent() {
         <div className={styles.gridVisual}>
           <img src={mspb2} className={styles.imgBoxGrande} alt="" />
           <img src={mspb1} className={styles.imgBox} alt="" />
-            <div className={styles.lastBox}>
+
 
               <img src={mspb3} className={styles.imgBox} alt="" />
 
-                <button className={styles.btn}>VER MAIS</button>
-            </div>
         </div>
       </div>
+                <button className={styles.btn}>VER MAIS</button>
 
       </section>
       <h2 className={styles.sectionTitle}>PRÊMIO SERPENTINA DE OURO</h2>
@@ -122,17 +130,15 @@ export default function SambaContent() {
         <div className={styles.gridArea}>
 
         <div className={styles.gridVisual}>
-          <img src={null} className={styles.imgBoxGrande} alt="" />
-          <img src={null} className={styles.imgBox} alt="" />
-            <div className={styles.lastBox}>
+          <img src={serpentina3} className={styles.imgBoxGrande} alt="" />
+          <img src={serpentina1} className={styles.imgBox} alt="" />
 
-              <img src={null} className={styles.imgBox} alt="" />
+              <img src={serpentina5} className={styles.imgBox} alt="" />
 
-                <button className={styles.btn}>VER MAIS</button>
-            </div>
         </div>
       </div>
 
+                <button className={styles.btn}>VER MAIS</button>
       </section>
 
     <BtnVoltar></BtnVoltar>  

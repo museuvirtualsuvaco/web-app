@@ -15,7 +15,7 @@
 
 .textsFlex{
     margin-right: 2vw;
-    width:80%;
+    width:75%;
 }
 
 .title{
@@ -44,7 +44,7 @@
     position: relative;
     z-index: 0;
     align-self: center;
-    object-fit: cover;
+    object-fit: unset;
     object-position: top;
 }
     

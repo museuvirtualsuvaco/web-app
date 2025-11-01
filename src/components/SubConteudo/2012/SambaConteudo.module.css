@@ -127,6 +127,7 @@
   width: 150px;
   max-width: 150px; 
   scroll-snap-align: start;
+  text-align: center;
 }
 
 
@@ -390,9 +391,8 @@
     text-align: left;
     padding-bottom: 14px;
   }
-}
 
-     .profile { width: 110px; padding-left: 0px;}
+   .profile { width: 110px; padding-left: 0px;}
   .avatar{width: 110px;}
 
   .seta {
@@ -401,6 +401,9 @@
     font-size: 1rem;
   }
 
+}
+
+    
 
 @media (max-width: 600px) {
   .titulo {

@@ -18,13 +18,16 @@
   z-index: 10;
   position: relative;
 }
+.cabecalho{
+  position: relative;
+}
 
-.group28Gradiente{
-    position: absolute;
-    z-index: 100;
-    width: 100%;
-    top: 18vw;
-    z-index: 8;
+.group28Gradiente {
+  position: absolute;
+  bottom: -5rem;
+  left: 0;
+  width: 100%;
+  z-index: 8;
 }
 
 .card {
@@ -37,6 +40,15 @@
   position: relative;
 
 }
+
+.autorLink {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .sectionTitle {
   font-family: 'Roboto Flex', sans-serif;
@@ -172,9 +184,12 @@
   color: #000;
   line-height: 1.7;
   margin-top: 1rem;
+  z-index: 150;
+  position: relative;
+  margin-left: 7vw;
+  margin-right: 7vw;
 
 }
-
 .gridVisual {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -195,7 +210,7 @@
 
 .imgBox {
   height: 100%;
-  width: 100%;
+
   background-color: #d9d9d9;
   position: relative;
 
@@ -203,14 +218,16 @@
 
 .btn {
   position: relative;
-  width: 97%;
+  width: 100%;
   bottom: 50%;
   left: 50%;
   transform: translateX(-50%);
-  background-color: #000000;
+  background-color: #FF9A27;
   color: white;
   font-weight: bold;
-  padding: 32px 20px;
+  padding: 20px 20px;
+  margin-top: 30px;
+  border-radius: 32px;
   border: none;
   cursor: pointer;
   z-index: 1;
@@ -218,20 +235,105 @@
 }
 
 .btn:hover {
-  background-color: #4e4e4e;
+  background-color: #b6680e;
 }
 
-@media (max-width: 400px) {
-  .profileRow {
-    gap: 1rem;
+@media (max-width:900px) {
+   .titulo {
+    font-size: 2rem;
+    margin-left: var(--margin-left);
+    margin-right: var(--margin-left);
+    text-align: left;
+    padding-bottom: 14px;
+  }
+}
+
+@media (max-width:767px) {
+
+  .sectionTitle {
+    padding: 0;
+    font-size: 3rem;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+  }}
+
+
+
+
+@media (max-width:372px) {
+  .sectionTitle{
+    font-size: 3rem;
   }
 
-  .avatar {
-    width: 80px;
-    height: 80px;
   }
 
-  .name {
-    font-size: 0.9rem;
+/* === DIVISOR === */
+
+@media(min-width:1000px){
+  .group28Gradiente{bottom:-7rem}
+}
+@media(min-width:1270px){
+  .group28Gradiente{bottom:-8rem}
+}
+@media(min-width:1550px){
+  .group28Gradiente{bottom:-9rem}
+}
+@media(min-width:1850px){
+  .group28Gradiente{bottom:-11rem}
+}
+
+
+/* === GRID FOTOS === */
+
+
+@media(max-width:1230px){
+  .imgBoxGrande{
+    height: auto;
+  }
+
+  .btn{position: relative;
+    bottom: auto;
+    border-radius: 24px;
+    padding: 16px 20px;
+  }
+
+  .gridArea{
+    padding-bottom: 0rem;
+  }
+}
+
+
+@media (max-width:757px) {
+  .gridVisual{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 70%;
+
+  }
+
+  .imgBoxGrande{
+    grid-row: auto;
+  }
+
+
+  .btn{
+    padding: 16px 20px;
+    position: initial;
+    transform: none;
+    margin-top: 20px;
+    border-radius: 24px;
+  }
+
+  .gridArea{
+    padding-bottom: 0px;
+  }
+
+}
+
+@media (min-width:758px){
+  .btn{
+    width: 70%;
   }
 }

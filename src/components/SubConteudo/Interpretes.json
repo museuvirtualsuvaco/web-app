@@ -2,9 +2,17 @@
   "1986": {
     "1": {
       "name": "Beto Brown",
-      "imgFile": "nenhum.png",
+      "imgFile": "20XX - Beto Brown.png",
       "urlSuvaco": "#",
       "bio": "Beto Brown é um músico, ator, diretor, cantor, compositor, autor e coreógrafo carioca. Nascido e criado em Copacabana, o artista teve seu interesse pelo teatro despertado desde a infância, em razão de sua mãe o levar  para assistir peças infantis. Já na adolescência, passou a ter aulas  no Colégio Andrews com Miguel Falabella e Maria Padilha e passou a trabalhar em diversas peças em diferentes funções como diretor, ator, figurinista e produtor. Na década de 1990, investiu em uma carreira internacional e passou por países como Portugal, Espanha, França, Dinamarca e Holanda. Em 1986, primeiro desfile do Suvaco do Cristo, foi um dos puxadores do bloco. Foi compositor dos sambas de 2013 (O Suvaco é Rei)  e 2014 (Como o Suvaco no Hay). Em entrevista ao Jornal JB em Folhas ele comenta que o Suvaco é o bloco mais bonito que ele já viu e lamenta que nos anos recentes não haja mais ensaios: “Todo mundo só sabe cantar os sambas dos primeiros 15 anos, porque hoje não tem mais ensaio, só o desfile mesmo“ ."
+    }
+  },
+  "1987": {
+    "1": {
+      "name": "Em construção",
+      "imgFile": "nenhum.png",
+      "urlSuvaco": "#",
+      "bio": null
     }
   }
 }

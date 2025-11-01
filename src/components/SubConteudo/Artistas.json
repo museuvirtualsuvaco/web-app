@@ -27,20 +27,33 @@
       "bio": "O bloco Força Jovem do Horto, localizado no bairro de mesmo nome próximo ao Jardim Botânico, foi um parceiro importante durante os três primeiros anos do Suvaco. Os ensaios do Suvaco aconteciam na quadra do Força Jovem e a base da bateria era composta pelo pessoal do Força Jovem. Roberto de Assis, também conhecido como Pirulito, era o  presidente do bloco Força Jovem na época, e  participou da construção do primeiro samba do Suvaco  ('Divinas Axilas'), como revela no documentário 20 anos de Suvaco o sociólogo Arnaldo Chaim: 'Em cinco minutos, ele transformou aquele monstro em samba'. A relação entre os dois blocos terminaria após três anos com a mudança do Suvaco para o Clube Condomínio."
     }
   },
+
+  "1987":{
+    "1": {
+      "name": "Em construção",
+      "imgFile": "nenhum.png",
+      "urlSuvaco": "#"
+    },
+    "2": {
+      "name": "Em construção",
+      "imgFile": "nenhum.png",
+      "urlSuvaco": "#"
+    }
+  },
   "2012": {
     "1": {
       "name": "Dom Oliveira",
-      "imgFile": "joao.png",
+      "imgFile": "nenhum.png",
       "urlSuvaco": "#"
     },
     "2": {
       "name": "Jovi Joviniano",
-      "imgFile": "arnaldo.png",
+      "imgFile": "nenhum.png",
       "urlSuvaco": "#"
     },
     "3": {
       "name": "Jê Machado",
-      "imgFile": "joseLavigne-doc-modified.png",
+      "imgFile": "nenhum.png",
       "urlSuvaco": "#"
     }
   }
