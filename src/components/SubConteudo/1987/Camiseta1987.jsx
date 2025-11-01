@@ -1,8 +1,7 @@
 import React from 'react';
 import styles from './CamisetaConteudo.module.css';
 import { Link } from 'react-router-dom';
-import CamisaFoto from '../../../assets/1987/camiseta/1987 Claudio Lobato.jpg';
-import CamisaFoto1 from '../../../assets/1987/camiseta/1987 Claudio Lobato(1).jpg';
+import CamisaFoto from '../../../assets/1987/camiseta/1987 Claudio Lobato.JPG';
 import Artistas from '../CamisetaArtistas.json'
 import Grupo from "../../../assets/Group 28.svg";
 
