@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from './SuvacoMidia86.module.css';
 
-import foto1 from '../../../assets/1985 JB - Nasce o Suvaco.jpg';
-import foto2 from '../../../assets/1986 1 Desfila Sonia e Robertinho.jpg';
-import foto3 from '../../../assets/1986 JB Carta dos Leitores Revolta.jpg';
+import foto1 from '../../../assets/1987/naMidia/1987 Soninha e Robertinho.jpg';
+import foto2 from '../../../assets/1987/naMidia/1987 Suvaco Isabel.jpg';
+import foto3 from '../../../assets/1987/naMidia/1987 Suvaco Sonia e Robertinho.jpg';
 
 import BtnVoltar from '../../VoltarBtn/BtnVoltar';
 
@@ -36,10 +36,10 @@ export default function SambaContent() {
         <div className={styles.gridArea}>
 
         <div className={styles.gridVisual}>
-          <img src={null} className={styles.imgBoxGrande} alt="" />
-          <img src={null} className={styles.imgBox} alt="" />
+          <img src={foto1} className={styles.imgBoxGrande} alt="" />
+          <img src={foto2} className={styles.imgBox} alt="" />
 
-              <img src={null} className={styles.imgBox} alt="" />
+              <img src={foto3} className={styles.imgBox} alt="" />
 
                 
         </div>

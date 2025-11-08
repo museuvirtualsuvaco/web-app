@@ -66,15 +66,15 @@ export default function SambaContent() {
                 Esse imenso troféu<br />
                 Que perfume tão rico<br />
                 Alguém acreditou no que viu<br />
-                Fez fé acompanhou e subiu<br />
+                Fez fé acompanhou e subiu<br /><br />
                 O Suvaco do Cristo subiu a ladeira<br />
                 Da primeira vez que o bloco saiu<br />
                 Todo mundo no passo da porta-bandeira<br />
-                E na brincadeira o Cristo sorriu<br />
+                E na brincadeira o Cristo sorriu<br /><br />
                 Não é milagre<br />
                 Nem maldição<br />
                 Quem fala mal<br />
-                Não tem vez<br />
+                Não tem vez<br /><br />
 
                 Revoa cardeal meu passarinho (bis)<br />
                 Que o Suvaco é meu ninho<br />
@@ -98,7 +98,7 @@ export default function SambaContent() {
         <section className={styles.card}>
 
           <div className={styles.flexSong}>
-            <p className={styles.texto}>INDISPONIVEL</p>
+            <p className={styles.texto}>Áudio indisponível</p>
 
             {Object.entries(Interpretes["1987"]).map(([key, interprete]) => (
               <div key={key} className={styles.profile}>
