@@ -72,61 +72,61 @@ const equipe = [
     nome: "Carlos Chagas Oliveira Filho",
     instituto: "IC",
     foto: carlos_foto,
-    section: 5
+    section: 4
   },
   {
     nome: "Daniel Nocito Falcão Lopes",
     instituto: "IC",
     foto: null,
-    section: 5
+    section: 4
   },
   {
     nome: "Davi de Souza Gomes Pereira",
     instituto: "IC",
     foto: null,
-    section: 5
+    section: 4
   },
   {
     nome: "Guilherme Cappelli Bouzon de Amorim Cruz",
     instituto: "IC",
     foto: null,
-    section: 5
+    section: 4
   },
   {
     nome: "Igor de Andrade Assuncao de Almeida",
     instituto: "IC",
     foto: null,
-    section: 5
+    section: 4
   },
   {
     nome: "Julia Vilela da Silva Brito",
     instituto: "IC",
     foto: null,
-    section: 5
+    section: 4
   },
   {
     nome: "Lucas Tatsuya Tanaka",
     instituto: "IC",
     foto: null,
-    section: 5
+    section: 4
   },
   {
     nome: "Maria Luisa Lima De Omena",
     instituto: "EBA",
     foto: null,
-    section: 5
+    section: 4
   },
   {
     nome: "Riquelme Freitas Gomes",
     instituto: "IC",
     foto: null,
-    section: 5
+    section: 4
   },
   {
     nome: "Vitor Vicente da Motta",
     instituto: "IC",
     foto: vitor_foto,
-    section: 5
+    section: 4
   },
 
   //Ex Membros
@@ -134,25 +134,25 @@ const equipe = [
     nome: "Anna Cristina Ferreira Alves",
     instituto: "IC",
     foto: null,
-    section: 6
+    section: 5
   },
   {
     nome: "Artur Henrique Teixeira do Amaral",
     instituto: "IC",
     foto: artur_foto,
-    section: 6
+    section: 5
   },
   {
     nome: "Gabrielly de Freitas Ferreira",
     instituto: "IC",
     foto: null,
-    section: 6
+    section: 5
   },
   {
     nome: "Laura Luz Santos Soares",
     instituto: "EBA",
     foto: null,
-    section: 6
+    section: 5
   },
   
 
