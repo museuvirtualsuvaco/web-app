@@ -236,7 +236,7 @@ const ProjetoMuseu = () => {
         <div className={styles.LastBox}>
           <div className={styles.divFotos}>
             {equipe
-              .filter((p) => p.section === 5)
+              .filter((p) => p.section === 4)
               .map((p) => (
                 <div key={p.nome} className={styles.membro}>
                   {p.foto ? (
@@ -254,7 +254,7 @@ const ProjetoMuseu = () => {
         <div className={styles.LastBox}>
           <div className={styles.divFotos}>
             {equipe
-              .filter((p) => p.section === 6)
+              .filter((p) => p.section === 5)
               .map((p) => (
                 <div key={p.nome} className={styles.membro}>
                   {p.foto ? (
