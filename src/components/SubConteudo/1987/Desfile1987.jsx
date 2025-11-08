@@ -1,9 +1,11 @@
 import React from 'react';
 import styles from './Desfile1986.module.css';
 
-import foto1 from '../../../assets/1986 Foto Maria Angelica 741.jpg';
-import foto2 from '../../../assets/1986 desfile.JPG';
-import foto3 from '../../../assets/1986 saida.JPG';
+import foto1 from '../../../assets/1987/desfile/1987 desfile preparacao.JPG'
+import foto2 from '../../../assets/1987/desfile/1987 joao sonia.jpeg'
+import foto3 from '../../../assets/1987/desfile/1987 prepara.JPG'
+import foto4 from '../../../assets/1987/desfile/1987 saida.JPG'
+
 
 import Grupo from "../../../assets/Group 28.svg";
 
@@ -42,11 +44,11 @@ export default function SambaContent() {
         <div className={styles.gridArea}>
 
         <div className={styles.gridVisual}>
-          <img src={null} className={styles.imgBoxGrande} alt="" />
-          <img src={null} className={styles.imgBox} alt="" />
+          <img src={foto1} className={styles.imgBoxGrande} alt="" />
+          <img src={foto3} className={styles.imgBox} alt="" />
             <div className={styles.lastBox}>
 
-              <img src={null} className={styles.imgBox} alt="" />
+              <img src={foto4} className={styles.imgBox} alt="" />
 
             </div>
         </div>
