@@ -4,7 +4,8 @@ import styles from './Artista.module.css';
 import FormCarrossel from "../../components/Home/FormCarrossel/FormCarrossel"
 import Foto from "../../assets/artistas/joao.png"
 import Grupo from "../../assets/Group 28.svg";
-import Artistas from '../../components/SubConteudo/Artistas.json'
+import AnosCarrossel from '../../components/AnosCarrossel/AnosCarrossel';
+import Artistas from '../../components/SubConteudo/Artistas.json';
 import CamisetaArtistas from '../../components/SubConteudo/CamisetaArtistas.json';
 import Musicos from '../../components/SubConteudo/Musicos.json';
 import Interpretes from '../../components/SubConteudo/Interpretes.json';
@@ -22,7 +23,31 @@ const dataSources = {
   interprete: Interpretes,
 };
 
-    function scrollCarrossel(direcao) {
+function findParticipacoes(nomeDoArtista, dataSources){
+  const participacoes = {};
+
+  for (const tipo in dataSources){
+    const fonte = dataSources[tipo];
+    for (const ano in fonte){
+      const artistasDoAno = fonte[ano];
+      for (const id in artistasDoAno) {
+        const artistaEntry = artistasDoAno[id];
+
+        if(artistaEntry.name === nomeDoArtista && !participacoes[ano]){
+          const foto = artistaEntry.fotoAno || artistaEntry.imgFile || 'nenhum.png'; 
+
+          participacoes[ano] = {
+            ano: ano,
+            fotoURL: importImagem(foto) 
+          };
+        }
+      }
+    }
+  }
+  return Object.values(participacoes).sort((a, b) => a.ano.localeCompare(b.ano));
+}
+//passar função para o componente AnosCarrossel depois
+    /*function scrollCarrossel(direcao) {
     const container = document.getElementById('carrossel');
     const item = container.querySelector('[data-item]');
 
@@ -35,7 +60,7 @@ const dataSources = {
       left: direcao * itemWidth,
       behavior: 'smooth',
     });
-  }
+  }*/
 
 function Artista() {
   useEffect(() => {
@@ -45,10 +70,11 @@ function Artista() {
 
 
 
-  const { tipo, ano, id } = useParams(); // pega parâmetros da URL
-   const dataSource = dataSources[tipo];
+  const { tipo, ano, id } = useParams(); 
+  const dataSource = dataSources[tipo];
   const artista = dataSource ? dataSource[ano]?.[id] : undefined;
  
+  const participacoes = artista ? findParticipacoes(artista.name, dataSources) : [];
 
   if (!artista) {
     return <p>Artista não encontrado.</p>;
@@ -72,15 +98,16 @@ function Artista() {
             <p>{artista.bio || "Sem biografia disponível."}</p>
           </section>
         </div>
-            <img
-        src={Grupo}
-        className={styles.group28Gradiente}
-        alt="divisor ondulado"
-    />
+           
       </div>
 
 
       <div className={styles.container}>
+        <img
+          src={Grupo}
+          className={styles.group28Gradiente}
+          alt="divisor ondulado"
+        />
        {/*  <h2 className={styles.sectionTitle}>FOTOS</h2>
         <section className={styles.card}>
 
@@ -97,7 +124,13 @@ function Artista() {
 
         </section> */}
 
-        <section className={styles.carrosselContainer}>
+        {participacoes.length > 0 && artista.name !== "João Aveleira" && (
+          <section className={styles.carrosselContainer}> 
+             <AnosCarrossel participacoes={participacoes} />
+          </section>
+        )}
+
+        <section className={styles.carrosselContainer}>{/*
           <h2 className={styles.sectionTitle}>PARTICIPAÇÕES</h2>
           <div className="form-area">
 
@@ -147,7 +180,7 @@ function Artista() {
             </div>
                     </div>
 
-            </div>
+            </div>*/}
         </section>
 
         <h2 className={styles.sectionTitle}>LINKS</h2>
