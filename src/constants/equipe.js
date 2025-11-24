@@ -3,6 +3,9 @@ import anamaria_foto from '../assets/equipe/anamaria.jpg'
 import artur_foto from '../assets/equipe/artur_amaral.jpeg'
 import carlos_foto from '../assets/equipe/carlos_chagas.jpg'
 import vitor_foto from '../assets/equipe/vitor_vicente.jpeg'
+import julia_foto from '../assets/equipe/julia.jpg'
+import malu_foto from '../assets/equipe/malu.jpg'
+import igor_foto from '../assets/equipe/igorandrade.jpg'
 
 // JSON com dados dos membros
 const equipe = [
@@ -34,12 +37,15 @@ const equipe = [
     foto: null,
     section: 2
   },
-  {
-    nome: "Maria do Carmo Martins Vido",
-    instituto: "EBA",
+
+
+{
+    nome: "Paulo Roberto Mann Marques Júnior",
+    instituto: "IC",
     foto: null,
     section: 2
-  },
+  }, 
+
   {
     nome: "Tiago Matias da Silva",
     instituto: "IC",
@@ -95,13 +101,13 @@ const equipe = [
   {
     nome: "Igor de Andrade Assuncao de Almeida",
     instituto: "IC",
-    foto: null,
+    foto: igor_foto,
     section: 4
   },
   {
     nome: "Julia Vilela da Silva Brito",
     instituto: "IC",
-    foto: null,
+    foto: julia_foto,
     section: 4
   },
   {
@@ -113,7 +119,7 @@ const equipe = [
   {
     nome: "Maria Luisa Lima De Omena",
     instituto: "EBA",
-    foto: null,
+    foto: malu_foto,
     section: 4
   },
   {
@@ -150,6 +156,12 @@ const equipe = [
   },
   {
     nome: "Laura Luz Santos Soares",
+    instituto: "EBA",
+    foto: null,
+    section: 5
+  },
+    {
+    nome: "Maria do Carmo Martins Vido",
     instituto: "EBA",
     foto: null,
     section: 5

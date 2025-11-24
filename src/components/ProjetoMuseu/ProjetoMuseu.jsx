@@ -7,6 +7,7 @@ import logoUFRJ from "../../assets/ufrj-horizontal-cor-rgb-telas 1.svg";
 import logoIC from "../../assets/Sem títuloaaaaa 1.svg";
 import logoEBA from "../../assets/307093807_543650020901618_4682476023594602429_n 1.png";
 
+
 import divisor from "../../assets/Group 28.svg";
 
 import equipe from "../../constants/equipe.js";
@@ -212,7 +213,7 @@ const ProjetoMuseu = () => {
           </div>
         </div>
 
-        <h2 className={styles.titleSectionEquipe}>PARCEIROS DO SUVACO</h2>
+        <h2 className={styles.titleSectionEquipe}>PARCEIROS</h2>
 
         <div className={styles.box}>
           <div className={styles.divFotos}>
