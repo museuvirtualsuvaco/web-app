@@ -71,18 +71,37 @@
     "1": {
       "name": "Dom Oliveira",
       "imgFile": "nenhum.png",
-      "urlSuvaco": "#"
+      "urlSuvaco": "#",
+      "bio": "DOM iniciou sua trajetória artística no início dos anos 2000, no Rio de Janeiro, ainda durante o período escolar, ao integrar um projeto social no CIEP 241 Nação Mangueirense. Foi nesse ambiente fértil e inspirador que teve seu primeiro contato com diversas linguagens artísticas — como música, desenho, dança, construção de instrumentos e conheceu importantes nomes da cultura brasileira. O cavaquinho é seu primeiro instrumento. Com o grupo Batuque na Cozinha, gravou um disco e acompanhou artistas consagrados da música popular brasileira, como Luiz Melodia, Wilson das Neves, Martinho da Vila, Alcione, entre outros. Em 2011, lançou-se como artista solo. Em 2013, lançou o videoclipe da faixa \"Popstar\", onde expressa o desejo de transcender os gêneros tradicionais, mesclando sua arte com sonoridades e instrumentos contemporâneos. Na França desde 2016, DOM continuou expandindo suas colaborações e formou o duo afro-brasileiro Les Afrolandais e o grupo basco-brasileiro Sambastian, com os quais realizou shows e lançou novas composições. O músico relata que seu encontro com o Suvaco do Cristo aconteceu do jeito mais natural possível, como tudo que é de verdade no samba: por amizade, afinidade e aquele toque de acaso que parece destino. A porta de entrada foram dois grandes parceiros: o produtor Jerônimo Machado e o compositor Mu Chebabi e a introdução pelo conhecido de longa data, o  talentoso Jovi Joviniano, figura cheia de swing, sabedoria e generosidade. “Na época, Jerônimo estava organizando, a pedido do presidente do bloco, um coletivo de compositores para o Suvaco. Um verdadeiro caldeirão criativo: músicos, intérpretes, poetas do batuque, cada um com sua cor, seu ritmo. Jovi já fazia parte da roda e, por conta da nossa parceria musical, me indicou como cavaquinista — pra dar aquela pulsação certeira no samba.”  Iniciou-se aí um período de parcerias em sambas do bloco: “A bateria tá chegando” (2012), “O Suvaco é Rei” (2013),  “Como o Suvaco no Hay” (2014) e “Selfie-se quem puder” (2015)."
     },
     "2": {
       "name": "Jovi Joviniano",
       "imgFile": "nenhum.png",
-      "urlSuvaco": "#"
+      "urlSuvaco": "#",
+      "bio": "Percussionista, compositor, carioca criado no bairro de Ramos, profundo conhecedor dos ritmos populares brasileiros, Jovi Joviniano aproximou-se de todos os instrumentos que compõem a orquestra de percussão popular na bateria da escola de samba Imperatriz Leopoldinense e também com o Maestro Paulo Moura. Fez também parte de rodas de samba de fundo-de-quintal no bloco carnavalesco Cacique de Ramos, ambiente propício à sua formação autodidata. Tocou com Paulo Moura, Marisa Monte, Fernanda Abreu, Roberta Sá, Lenine e Marcos Suzano, entre outros",
+      "fontes": [],
+      "socials":{
+        "instagram": "https://www.instagram.com/Jovi_Joviniano",
+        "youtube":null,
+        "facebook":null
+
+      }
+    }
+      
     },
     "3": {
       "name": "Jê Machado",
       "imgFile": "nenhum.png",
-      "urlSuvaco": "#"
+      "urlSuvaco": "#",
+      "bio": "Não me considero um compositor. Na verdade sou um produtor de eventos/shows e fui empresário de alguns renomados artistas. Entrei nessa história do Suvaco meio que por acaso. O ano era 2012 e encontrei com o Mu Chebabi em algum canto aqui do Rio e falei: Bicho, você não quer fazer o samba do Suvaco para esse ano? Ele topou na hora. Liguei para o Jovi Joviniano e para o Dom Oliveira e marcamos no estúdio do Mu uns dois ou três encontros e o samba saiu. ”Palmas Pra Bateria do Suvaco” é uma homenagem a nossa bateria e seus mestres. Na sequência agendei com os músicos e convidei o William Vorhees para ser nosso puxador oficial. Como eu estava em todas as sessões de gravação acabei dando uns pitacos, trocando uma vírgula de lugar e os verdadeiros autores me concederam a honra de assinar o samba. Mostramos para o João Avelleira que gostou e assim começou minha carreira de compositor de sambas enredos. Nos anos seguintes o processo foi parecido e “compus” mais quatro sambas (2013, 2014, 2015 e 2019) sempre ao lado de generosos e talentosíssimos parceiros.",
+      "fontes": [],
+      "socials":{
+        "instagram": "https://www.instagram.com/jejeronymomachado",
+        "youtube":null,
+        "facebook":null
+
+      }
     }
   }
 
-}
+

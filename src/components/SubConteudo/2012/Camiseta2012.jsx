@@ -35,21 +35,23 @@ export default function CamisetaContent() {
       </section>
 
       {/* BLOCO: Autores */}
-      <h2 className={styles.sectionTitle}>ARTISTA</h2>
-      <section className={styles.card}>
-        <div className={styles.profileRow}>
-          {Object.entries(Artistas["2012"]).map(([key, autor]) => (
-        <div key={key} className={styles.profile} data-item>
-          <img
-            className={styles.avatar}
-            src={importImagem(autor.imgFile)}
-            alt={autor.name}
-          />
-          <span className={styles.nome}>{autor.name}</span>
-        </div>
-      ))}
-        </div>
-      </section>
+        <h2 className={styles.sectionTitle}>ARTISTA</h2>
+        <section className={styles.card}>
+          <div className={styles.profileRow}>
+            {Object.entries(Artistas["2012"]).map(([key, autor]) => (
+              <div key={key} className={styles.profile}>
+                <Link to={`/artista/camiseta/2012/${key}`} className={styles.autorLink}>
+                <img
+                  className={styles.avatar}
+                  src={importImagem(autor.imgFile)}
+                  alt={autor.name}
+                />
+                <span className={styles.nome}>{autor.name}</span>
+                </Link>
+              </div>
+            ))}
+          </div>
+        </section>
 
       {/* BLOCO: Bateria */}
       {/* <h2 className={styles.sectionTitle}>CURIOSIDADES</h2>

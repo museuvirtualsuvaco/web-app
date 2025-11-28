@@ -100,7 +100,7 @@ function Artista() {
               <>
                 <p>Fontes:</p>
                 {artista.fontes.map((fonte, index) => (
-                  <p key={index}>
+                  <p className={styles.nowrap} key={index}>
                     <a href={fonte} target="_blank" rel="noopener noreferrer">
                       {fonte}
                     </a>

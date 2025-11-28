@@ -341,6 +341,10 @@ span{
   color: #444;
 }
 
+.nowrap {
+  overflow-wrap: anywhere;
+}
+
 .seta {
   position: absolute;
   top: 40%;

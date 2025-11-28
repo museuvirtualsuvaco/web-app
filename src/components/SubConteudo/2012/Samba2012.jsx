@@ -6,7 +6,8 @@ import Musicos from '../Musicos.json'
 import musica from '../../../assets/musicas/2012 Suvaco Samba Palmas pro Suvaco.mp3'
 import Grupo from "../../../assets/Group 28.svg";
 import BtnVoltar from '../../VoltarBtn/BtnVoltar';
-
+import Interpretes from '../Interpretes.json';
+import { Link } from 'react-router-dom';
 
 const importImagem = (fileName) => {
   return new URL(`../../../assets/artistas/${fileName}`, import.meta.url).href;
@@ -109,7 +110,7 @@ export default function SambaContent() {
         </section>
 
 
-        {/* BLOCO: Música */}
+       {/* BLOCO: Música */}
         <h2 className={styles.sectionTitle}>ESCUTE A MÚSICA</h2>
         <section className={styles.card}>
 
@@ -119,19 +120,26 @@ export default function SambaContent() {
               Seu navegador não suporta o elemento de áudio.
             </audio>
 
-            <div className={styles.profile}>
-              <span className={styles.interprete}>INTÉRPRETE</span>
-              <img className={styles.avatar} src="/src/assets/artistas/nenhum.png" alt="" />
-              <span className={styles.nome}>Mu Chebabi</span>
-            </div>
+        {Object.entries(Interpretes["2012"]).map(([key, interprete]) => (
+          <div key={key} className={styles.profile}>
+            <span className={styles.interprete}>INTÉRPRETE</span>
+            <Link to={`/artista/interprete/2012/${key}`}>
+              <img
+                className={styles.avatar}
+                src={importImagem(interprete.imgFile)}
+                alt={interprete.name}
+              />
+            <span className={styles.nome}>{interprete.name}</span>
+            </Link>
+          </div>
+      ))}
 
           </div>
 
         </section>
-       
 
         {/* BLOCO: Autores */}
-       <h2 className={styles.sectionTitle}>AUTORES</h2>
+<h2 className={styles.sectionTitle}>AUTORES</h2>
 <section className={styles.card}>
   <div className={styles.carrosselWrapper}>
     <button
@@ -144,12 +152,14 @@ export default function SambaContent() {
     <div className={styles.carrossel} id="carrossel">
       {Object.entries(Autores["2012"]).map(([key, autor]) => (
         <div key={key} className={styles.profile} data-item>
+          <Link to={`/artista/samba/2012/${key}`} className={styles.autorLink}>
           <img
             className={styles.avatar}
             src={importImagem(autor.imgFile)}
             alt={autor.name}
           />
           <span className={styles.nome}>{autor.name}</span>
+          </Link>
         </div>
       ))}
     </div>
