@@ -23,22 +23,22 @@ const dataSources = {
   interprete: Interpretes,
 };
 
-function findParticipacoes(nomeDoArtista, dataSources){
+function findParticipacoes(nomeDoArtista, dataSources) {
   const participacoes = {};
 
-  for (const tipo in dataSources){
+  for (const tipo in dataSources) {
     const fonte = dataSources[tipo];
-    for (const ano in fonte){
+    for (const ano in fonte) {
       const artistasDoAno = fonte[ano];
       for (const id in artistasDoAno) {
         const artistaEntry = artistasDoAno[id];
 
-        if(artistaEntry.name === nomeDoArtista && !participacoes[ano]){
-          const foto = artistaEntry.fotoAno || artistaEntry.imgFile || 'nenhum.png'; 
+        if (artistaEntry.name === nomeDoArtista && !participacoes[ano]) {
+          const foto = artistaEntry.fotoAno || artistaEntry.imgFile || 'nenhum.png';
 
           participacoes[ano] = {
             ano: ano,
-            fotoURL: importImagem(foto) 
+            fotoURL: importImagem(foto)
           };
         }
       }
@@ -47,20 +47,20 @@ function findParticipacoes(nomeDoArtista, dataSources){
   return Object.values(participacoes).sort((a, b) => a.ano.localeCompare(b.ano));
 }
 //passar função para o componente AnosCarrossel depois
-    /*function scrollCarrossel(direcao) {
-    const container = document.getElementById('carrossel');
-    const item = container.querySelector('[data-item]');
+/*function scrollCarrossel(direcao) {
+const container = document.getElementById('carrossel');
+const item = container.querySelector('[data-item]');
 
-    if (!item) return;
+if (!item) return;
 
-    const itemStyle = window.getComputedStyle(item);
-    const itemWidth = item.offsetWidth + parseInt(itemStyle.marginRight || 0);
+const itemStyle = window.getComputedStyle(item);
+const itemWidth = item.offsetWidth + parseInt(itemStyle.marginRight || 0);
 
-    container.scrollBy({
-      left: direcao * itemWidth,
-      behavior: 'smooth',
-    });
-  }*/
+container.scrollBy({
+  left: direcao * itemWidth,
+  behavior: 'smooth',
+});
+}*/
 
 function Artista() {
   useEffect(() => {
@@ -70,10 +70,10 @@ function Artista() {
 
 
 
-  const { tipo, ano, id } = useParams(); 
+  const { tipo, ano, id } = useParams();
   const dataSource = dataSources[tipo];
   const artista = dataSource ? dataSource[ano]?.[id] : undefined;
- 
+
   const participacoes = artista ? findParticipacoes(artista.name, dataSources) : [];
 
   if (!artista) {
@@ -91,14 +91,26 @@ function Artista() {
         </div>
 
         <div className={styles.conteudo}>
-           {caminhoCompletoImagem && (
+          {caminhoCompletoImagem && (
             <img src={caminhoCompletoImagem} alt={artista.name} className={styles.foto} />
           )}
           <section className={styles.sectionTexts}>
             <p>{artista.bio || "Sem biografia disponível."}</p>
+            {artista.fontes && artista.fontes.length > 0 && (
+              <>
+                <p>Fontes:</p>
+                {artista.fontes.map((fonte, index) => (
+                  <p className={styles.nowrap} key={index}>
+                    <a href={fonte} target="_blank" rel="noopener noreferrer">
+                      {fonte}
+                    </a>
+                  </p>
+                ))}
+              </>
+            )}
           </section>
         </div>
-           
+
       </div>
 
 
@@ -108,7 +120,7 @@ function Artista() {
           className={styles.group28Gradiente}
           alt="divisor ondulado"
         />
-       {/*  <h2 className={styles.sectionTitle}>FOTOS</h2>
+        {/*  <h2 className={styles.sectionTitle}>FOTOS</h2>
         <section className={styles.card}>
 
           <div className={styles.gridArea}>
@@ -125,8 +137,8 @@ function Artista() {
         </section> */}
 
         {participacoes.length > 0 && artista.name !== "João Aveleira" && (
-          <section className={styles.carrosselContainer}> 
-             <AnosCarrossel participacoes={participacoes} />
+          <section className={styles.carrosselContainer}>
+            <AnosCarrossel participacoes={participacoes} />
           </section>
         )}
 
@@ -184,25 +196,47 @@ function Artista() {
         </section>
 
         <h2 className={styles.sectionTitle}>LINKS</h2>
-        <section className={styles.card}>
-                      <div className={styles.links}>
-          
-                          <a href="https://www.instagram.com/joaoavelleira?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">
-                              <span> <i className="ri-instagram-line"></i> Instagram</span>
-                          </a>
-                          <a href="https://www.youtube.com/@blocosuvacodecristorj" target="_blank" rel="noopener noreferrer">
-                             <span>  <i className="ri-youtube-line"></i> Youtube</span>
-                          </a>
-                          <a href="https://www.facebook.com/suvaco.docristo" target="_blank" rel="noopener noreferrer">
-                              <span> <i className="ri-facebook-box-line"></i> Facebook</span>
-                          </a>
-                      </div>
-        </section>
+
+  <section className={styles.card}>
+    <div className={styles.links}>
+      {artista.socials && (
+  <>
+    {artista.socials.instagram ||
+    artista.socials.youtube ||
+    artista.socials.facebook ? (
+      <>
+        {artista.socials.instagram && (
+          <a href={artista.socials.instagram} target="_blank" rel="noopener noreferrer">
+            <span><i className="ri-instagram-line"></i> Instagram</span>
+          </a>
+        )}
+
+        {artista.socials.youtube && (
+          <a href={artista.socials.youtube} target="_blank" rel="noopener noreferrer">
+            <span><i className="ri-youtube-line"></i> YouTube</span>
+          </a>
+        )}
+
+        {artista.socials.facebook && (
+          <a href={artista.socials.facebook} target="_blank" rel="noopener noreferrer">
+            <span><i className="ri-facebook-circle-line"></i> Facebook</span>
+          </a>
+        )}
+      </>
+    ) : (
+       <p className={styles.noLinksText}> Sem links disponíveis</p>
+    )}
+  </>
+)}
+    </div>
+  </section>
+
+
         <BtnVoltar></BtnVoltar>
       </div>
-
       
-  </>
+
+    </>
   );
 }
 

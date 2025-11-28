@@ -80,8 +80,13 @@
     margin-top: 65px;
 }
 
+.fotosSection{
+    padding-top: 500px;
+}
+
 .gridVisual {
-  display: grid;
+  
+    display: grid;
   grid-template-columns: 1fr 1fr; /* duas colunas iguais */
   grid-template-rows: 1fr 1fr;  /* duas linhas */
   gap: 0.5rem;
@@ -135,10 +140,14 @@
 
 
 
-@media (max-width: 1476px){
+@media (min-width: 1476px){
     .title{
         font-size: 4rem;
-    }    
+    }
+    .gridVisual{
+        padding-top: 35px;
+    }
+
 }
 
 

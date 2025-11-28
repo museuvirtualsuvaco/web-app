@@ -52,7 +52,9 @@ export default function DivinasAxilas() {
 
                 </div>
 
-                    <div className={styles.areaVerde}>
+                <div className={styles.areaVerde}>
+
+
 
                 <div className={styles.cardContainer}>
                     {cardsData.map((data, index) => (
@@ -60,11 +62,10 @@ export default function DivinasAxilas() {
                     ))}
                 </div>
 
-
-                    <section>
+                                        <section className={styles.fotosSection}>
+                                            
                         <h3 className={styles.sectionTitle}>Fotos</h3>
                         
-                        <div className={styles.gridGradiente}/>
                         <div className={styles.gridVisual}>
                                   <img src={divinas3} className={styles.imgBox} alt="" />
                                   <img src={divinas2} className={styles.imgBox} alt="" />
@@ -72,6 +73,7 @@ export default function DivinasAxilas() {
                                   <img src={divinas4} className={styles.imgBox} alt="" />
                             </div>
                     </section>
+
                     
                    {/*  <section>
                         <h3 className={styles.sectionTitle} >Links</h3>
