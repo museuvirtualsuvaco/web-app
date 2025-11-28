@@ -5,6 +5,10 @@
     justify-content: space-around;
 }
 
+.linksExterno{
+    display: flex;
+    flex-direction: column;
+}
 .links{
     display: flex;
     gap: 50px;

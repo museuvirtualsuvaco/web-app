@@ -4,34 +4,61 @@
       "name": "João Aveleira",
       "imgFile": "joao.png",
       "urlSuvaco": "#",
-      "bio": " João Avelleira, é carioca, nascido em 1953 e desde 1983 morador do bairro do Jardim Botânico, inicialmente na Maria Angélica 741, prédio onde morava grande parte dos fundadores do Suvaco, e geograficamente localizado abaixo do braço direito do Cristo. Médico, dermatologista, viveu a época dos movimentos de resistência cultural e as transformações comportamentais que marcaram a década de 70. Defendia o carnaval como a festa libertária e popular que necessitava recuperar as ruas após anos de ditadura. Presente em todos os desfiles de 1986 a 2026."
+      "bio": " João Avelleira, é carioca, nascido em 1953 e desde 1983 morador do bairro do Jardim Botânico, inicialmente na Maria Angélica 741, prédio onde morava grande parte dos fundadores do Suvaco, e geograficamente localizado abaixo do braço direito do Cristo. Médico, dermatologista, viveu a época dos movimentos de resistência cultural e as transformações comportamentais que marcaram a década de 70. Defendia o carnaval como a festa libertária e popular que necessitava recuperar as ruas após anos de ditadura. Presente em todos os desfiles de 1986 a 2026.",
+      "fontes": [],
+      "socials":{
+        "instagram": "https://www.instagram.com/joaoavelleira?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+        "youtube":"https://www.youtube.com/@blocosuvacodecristorj",
+        "facebook":"https://www.facebook.com/suvaco.docristo"
 
+      }
     },
     "2": {
       "name": "Arnaldo Chaim",
       "imgFile": "arnaldo.png",
       "urlSuvaco": "#",
-      "bio": "Arnaldo Chaim foi sociólogo, formado pela Universidade Federal Fluminense (UFF). Também morador do prédio da Rua Maria Angélica 741, foi um dos fundadores do Suvaco. Sua casa, como as dos outros fundadores, eram pontos ativos de reuniões quase que permanentes. Chaim participava das realizações dos ensaios do Bloco e criação de alegorias, adereços, organização de desfiles e produção geral."
+      "bio": "Arnaldo Chaim foi sociólogo, formado pela Universidade Federal Fluminense (UFF). Também morador do prédio da Rua Maria Angélica 741, foi um dos fundadores do Suvaco. Sua casa, como as dos outros fundadores, eram pontos ativos de reuniões quase que permanentes. Chaim participava das realizações dos ensaios do Bloco e criação de alegorias, adereços, organização de desfiles e produção geral.",
+      "fontes": [],
+      "socials":{
+        "instagram": "",
+        "youtube":"",
+        "facebook":""
+
+      }
     },
 
     "3": {
       "name": "José Lavigne",
       "imgFile": "joseLavigne-doc-modified.png",
       "urlSuvaco": "#", 
-      "bio": "Nascido no Rio de Janeiro, José Lavigne de Lemos Filho enxergou no teatro do Liceu Franco Brasileiro um escape para a rigidez de sua educação. De lá, entrou para o Tablado, escola de atuação fundada em 1951 pela atriz, escritora e diretora Maria Clara Machado. Após abandonar a universidade em que cursava direito para dedicar-se exclusivamente ao mundo das artes, Lavigne ingressou no grupo “Asdrúbal Trouxe o Trombone”. Posteriormente fundou, junto com outros artistas,  o “Manhas e Manias”, focado em apresentações circenses, onde passou a desenvolver suas primeiras experiências como diretor. Ao ingressar na Globo, em 1986, Lavigne passou a dirigir programas  humorísticos de grande sucesso da televisão brasileira, assim como programas jornalísticos. Em 1985, na época da criação do Suvaco do Cristo, era um dos moradores do prédio 741 da Rua Maria Angélica, onde nossa odisseia começou!"
+      "bio": "Nascido no Rio de Janeiro, José Lavigne de Lemos Filho enxergou no teatro do Liceu Franco Brasileiro um escape para a rigidez de sua educação. De lá, entrou para o Tablado, escola de atuação fundada em 1951 pela atriz, escritora e diretora Maria Clara Machado. Após abandonar a universidade em que cursava direito para dedicar-se exclusivamente ao mundo das artes, Lavigne ingressou no grupo “Asdrúbal Trouxe o Trombone”. Posteriormente fundou, junto com outros artistas,  o “Manhas e Manias”, focado em apresentações circenses, onde passou a desenvolver suas primeiras experiências como diretor. Ao ingressar na Globo, em 1986, Lavigne passou a dirigir programas  humorísticos de grande sucesso da televisão brasileira, assim como programas jornalísticos. Em 1985, na época da criação do Suvaco do Cristo, era um dos moradores do prédio 741 da Rua Maria Angélica, onde nossa odisseia começou!",
+      "fontes": ["https://memoriaglobo.globo.com/perfil/jose-lavigne/noticia/jose-lavigne.ghtml","https://www.otablado.com.br/texto/1/historia"],
+      "socials":{
+        "instagram": "",
+        "youtube":"",
+        "facebook":""
+
+      }
     },
     "4": {
       "name": "Roberto Pirulito",
       "imgFile": "Pirulito-doc-modified.png",
       "urlSuvaco": "",
-      "bio": "O bloco Força Jovem do Horto, localizado no bairro de mesmo nome próximo ao Jardim Botânico, foi um parceiro importante durante os três primeiros anos do Suvaco. Os ensaios do Suvaco aconteciam na quadra do Força Jovem e a base da bateria era composta pelo pessoal do Força Jovem. Roberto de Assis, também conhecido como Pirulito, era o  presidente do bloco Força Jovem na época, e  participou da construção do primeiro samba do Suvaco  ('Divinas Axilas'), como revela no documentário 20 anos de Suvaco o sociólogo Arnaldo Chaim: 'Em cinco minutos, ele transformou aquele monstro em samba'. A relação entre os dois blocos terminaria após três anos com a mudança do Suvaco para o Clube Condomínio."
+      "bio": "O bloco Força Jovem do Horto, localizado no bairro de mesmo nome próximo ao Jardim Botânico, foi um parceiro importante durante os três primeiros anos do Suvaco. Os ensaios do Suvaco aconteciam na quadra do Força Jovem e a base da bateria era composta pelo pessoal do Força Jovem. Roberto de Assis, também conhecido como Pirulito, era o  presidente do bloco Força Jovem na época, e  participou da construção do primeiro samba do Suvaco  ('Divinas Axilas'), como revela no documentário 20 anos de Suvaco o sociólogo Arnaldo Chaim: 'Em cinco minutos, ele transformou aquele monstro em samba'. A relação entre os dois blocos terminaria após três anos com a mudança do Suvaco para o Clube Condomínio.",
+      "fontes": [],
+      "socials":{
+        "instagram": "",
+        "youtube":"",
+        "facebook":""
+
+      }
     }
   },
 
   "1987":{
     "1": {
-      "name": "Em construção",
-      "imgFile": "nenhum.png",
+      "name": "Arnaldo Chaim",
+      "imgFile": "arnaldo.png",
       "urlSuvaco": "#"
     },
     "2": {

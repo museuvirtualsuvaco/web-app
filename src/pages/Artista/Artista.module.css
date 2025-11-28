@@ -308,6 +308,7 @@ span{
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
   padding-bottom: 10px;
+  gap: 10px;
 }
 
 .item {
@@ -324,6 +325,9 @@ span{
   display: none;
 }
 
+.noLinksText{
+  font-size: 20px;
+}
 
 .item img {
   width: 100%;

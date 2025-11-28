@@ -12,7 +12,7 @@
     top: -20px;
     left: 35px;
     padding: 5px 5px;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     width: 130px;
     text-align: center;
 }
@@ -23,6 +23,7 @@
     border-radius: 20px;
     padding: 2px;
     background: linear-gradient(to right, var(--green), var(--blue));
+    font-size: 16px;
 }
 
 .inputContainer input {
