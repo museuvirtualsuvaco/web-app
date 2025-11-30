@@ -7,7 +7,7 @@
     padding-left: 7vw;
     position: sticky;
     top: 0vw;
-    height: 52vh;
+    height: 75vh;
     overflow-y: hidden;
     width: 100%;
 
@@ -68,7 +68,7 @@
 
     .cardInfo{
         overflow: hidden; /*tirar se ultrapassar*/
-        height: 55vh;
+        height: 75vh;
         flex-direction: row; /*coloca imagem depois do texto*/
         gap: 50px;
 
@@ -91,7 +91,7 @@
 
     .cardInfo{
         overflow: hidden; /*tirar se ultrapassar*/
-        height: 55vh;
+        height: 125vh;
         flex-direction: row; /*coloca imagem depois do texto*/
         gap: 25px;
 
@@ -129,8 +129,8 @@
     }
 
     .cardInfo{
-        overflow: hidden; /*tirar se ultrapassar*/
-        height: 55vh;
+        overflow: visible; /*tirar se ultrapassar*/
+        height: 110vh;
         flex-direction: column; /*coloca imagem depois do texto*/
         gap: 50px;
         padding-left: 7vw;
@@ -150,7 +150,8 @@
     }
 
     .imgCard{
-        display: none;
+        object-fit: contain;
+        max-height:250px ;
     }
 
     .p{
