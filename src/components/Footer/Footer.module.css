@@ -54,17 +54,28 @@
         font-size: 2rem;
     }
 }
-@media (max-width:420px) {
+@media (max-width:745px) {
     .mainContainer{
         font-size: 1rem;
-        flex-direction: row;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap:15px
     }
 
     .links{
         justify-content: space-between;
-        flex-direction: column;
+        flex-direction: row;
         gap: 10px;
-        align-items: start;
+        
+        i{
+            display: none;
+        }
+        
+        span {
+            font-size: 1rem;
+        }
     }
 
     .title{

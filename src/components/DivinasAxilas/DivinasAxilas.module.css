@@ -66,7 +66,8 @@
 }
 
 .cardContainer{
-    height: 100vh;
+    min-height: 125vh;
+    height: auto;
     position: relative;
     top: -50px;
 }
@@ -81,7 +82,7 @@
 }
 
 .fotosSection{
-    padding-top: 500px;
+    margin-top: 80px;
 }
 
 .gridVisual {

@@ -7,7 +7,7 @@
     padding-left: 7vw;
     position: sticky;
     top: 0vw;
-    height: 52vh;
+    height: 75vh;
     overflow-y: hidden;
     width: 100%;
 
@@ -21,8 +21,9 @@
     font-size: 4rem;
     font-weight: 700;
     text-transform: uppercase;
+    padding-top: 4.5rem;
     letter-spacing: initial;
-    padding-top: 10rem;
+    
 }
 
 
@@ -50,8 +51,15 @@
 
 .p{
     margin-top: 2.5rem;
+    width: calc(100vw - 599px);
 }
 
+
+@media (max-width:1500px) {
+    .title{
+        font-size: 3rem ;
+    }
+}
 
 @media (max-width: 1200px){
     .title{
@@ -60,7 +68,7 @@
 
     .cardInfo{
         overflow: hidden; /*tirar se ultrapassar*/
-        height: 55vh;
+        height: 75vh;
         flex-direction: row; /*coloca imagem depois do texto*/
         gap: 50px;
 
@@ -83,7 +91,7 @@
 
     .cardInfo{
         overflow: hidden; /*tirar se ultrapassar*/
-        height: 55vh;
+        height: 125vh;
         flex-direction: row; /*coloca imagem depois do texto*/
         gap: 25px;
 
@@ -116,9 +124,13 @@
         font-size:2.5rem; /*diminui o tamanho do titulo do card*/
     }
 
+    .title{
+        text-align: center;
+    }
+
     .cardInfo{
-        overflow: hidden; /*tirar se ultrapassar*/
-        height: 55vh;
+        overflow: visible; /*tirar se ultrapassar*/
+        height: 110vh;
         flex-direction: column; /*coloca imagem depois do texto*/
         gap: 50px;
         padding-left: 7vw;
@@ -133,11 +145,13 @@
         flex-direction: column;
         p{
             padding: 0 5vw; /*margens laterais*/
+            width: auto;
         }
     }
 
     .imgCard{
-        display: none;
+        object-fit: contain;
+        max-height:250px ;
     }
 
     .p{
@@ -165,3 +179,5 @@
     }
 
 }
+
+
