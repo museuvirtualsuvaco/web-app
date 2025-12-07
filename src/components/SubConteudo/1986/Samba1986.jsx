@@ -7,7 +7,7 @@ import Musicos from '../Musicos.json';
 import Interpretes from '../Interpretes.json';
 import musica from '../../../assets/musicas/1986musica.mp3';
 import Grupo from "../../../assets/Group 28.svg";
-
+import Pessoas from '../Pessoas.json';
 import BtnVoltar from '../../VoltarBtn/BtnVoltar';
 
 

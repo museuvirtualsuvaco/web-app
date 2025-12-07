@@ -10,6 +10,7 @@ import CamisetaArtistas from '../../components/SubConteudo/CamisetaArtistas.json
 import Musicos from '../../components/SubConteudo/Musicos.json';
 import Interpretes from '../../components/SubConteudo/Interpretes.json';
 import BtnVoltar from '../../components/VoltarBtn/BtnVoltar';
+import Pessoas from '../../components/SubConteudo/Pessoas.json';
 
 
 const importImagem = (fileName) => {
@@ -23,18 +24,19 @@ const dataSources = {
   interprete: Interpretes,
 };
 
-function findParticipacoes(nomeDoArtista, dataSources) {
+function findParticipacoes(pessoaIdProcurado, dataSources) {
   const participacoes = {};
 
   for (const tipo in dataSources) {
     const fonte = dataSources[tipo];
     for (const ano in fonte) {
       const artistasDoAno = fonte[ano];
-      for (const id in artistasDoAno) {
-        const artistaEntry = artistasDoAno[id];
+      for (const idNumerico in artistasDoAno) {
+        const entry = artistasDoAno[idNumerico];
 
-        if (artistaEntry.name === nomeDoArtista && !participacoes[ano]) {
-          const foto = artistaEntry.fotoAno || artistaEntry.imgFile || 'nenhum.png';
+        if (entry.name === pessoaIdProcurado && !participacoes[ano]) {
+          const dadosMestre = Pessoas[entry.pessoaId];
+          const foto = entry.fotoAno || (dadosMestre ? dadosMestre.imgFile : 'nenhum.png');
 
           participacoes[ano] = {
             ano: ano,
@@ -72,9 +74,21 @@ function Artista() {
 
   const { tipo, ano, id } = useParams();
   const dataSource = dataSources[tipo];
-  const artista = dataSource ? dataSource[ano]?.[id] : undefined;
+  const dadosDoAno = dataSource ? dataSource[ano]?.[id] : undefined;
 
-  const participacoes = artista ? findParticipacoes(artista.name, dataSources) : [];
+  let artista = undefined;
+
+  //const participacoes = artista ? findParticipacoes(artista.name, dataSources) : [];
+
+if (dadosDoAno && dadosDoAno.pessoaId) {
+      const dadosMestres = Pessoas[dadosDoAno.pessoaId];
+
+      if (dadosMestres) {
+          artista = { ...dadosMestres, ...dadosDoAno };
+      }
+  }
+
+  const participacoes = artista ? findParticipacoes(artista.pessoaId, dataSources) : [];
 
   if (!artista) {
     return <p>Artista não encontrado.</p>;
