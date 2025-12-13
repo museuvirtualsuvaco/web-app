@@ -245,14 +245,14 @@ heroku pipelines:promote -r staging
 
 ## Configuração Heroku, Hostinger e Cloudflare
 
-Esta seção descreve o passo a passo da configuração de domínio e infraestrutura usando Heroku, Hostinger e Cloudflare para o domínio `suvacodocristo.com`.
+Esta seção descreve o passo a passo da configuração de domínio e infraestrutura usando Heroku, Hostinger e Cloudflare para o domínio `suvacodocristo.com` e `suvacodocristo.com.br`.
 
 ### Visão geral
 -----------
 
 - O app roda no Heroku, usando o pipeline `museu-virtual-suvaco-pipeline` com ambientes de **staging** e **produção**.
-- O domínio `suvacodocristo.com` é gerenciado na Hostinger.
-- A Cloudflare é usada como DNS e proxy (HTTPS, cache e segurança) para o domínio.
+- Os domínios são gerenciados na Hostinger.
+- A Cloudflare é usada como DNS e proxy (HTTPS, cache e segurança) para os domínios.
 
 ### Passo 1 – Apps e pipeline no Heroku
 -----------------------------------
