@@ -372,8 +372,9 @@ git commit -m "Mensagem clara e descritiva sobre a atualização"
 ```
 
 ```
-git push origin main
+git push origin nova-brach
 ```
+> Observação: `nova-branch é o nome da SUA branch`
 
 > Aguarde a solicitação de PR ser **Aprovada**.
 
