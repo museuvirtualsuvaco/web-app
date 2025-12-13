@@ -360,13 +360,27 @@ Siga as instruções para autenticar sua conta.
 No diretório do projeto, faça o commit das suas mudanças:
 
 ```
+git checkout -b nova-brach
+```
+> Observação: Escolha um nome de branch que faça sentido com a sua alteração
+
+```
 git add .
 ```
 ```
 git commit -m "Mensagem clara e descritiva sobre a atualização"
 ```
 
-Aguarde a solicitação de PR ser **Aprovada**.
+```
+git push origin main
+```
+
+> Aguarde a solicitação de PR ser **Aprovada**.
+
+> Após ser aprovada, confirme que está tudo certo com:
+```
+git status
+```
 
 ---
 
