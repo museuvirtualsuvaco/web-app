@@ -21,7 +21,7 @@
     font-size: 4rem;
     font-weight: 700;
     text-transform: uppercase;
-    padding-top: 4.5rem;
+    padding-top: 15rem;
     letter-spacing: initial;
     
 }
@@ -54,79 +54,43 @@
     width: calc(100vw - 599px);
 }
 
-
-@media (max-width:1500px) {
-    .title{
-        font-size: 3rem ;
+ .cardInfo{
+        img{
+            height: 100%;
+            object-fit: cover;
+        }
     }
-}
 
-@media (max-width: 1200px){
+
+@media(max-width:1024px){
     .title{
-        font-size: 3.5rem;
+        font-size: 3rem;
+        padding-top: 4.5rem;
+    }
+
+    .textsFlex{
+        font-size: 1.5rem;
+        width: 100%;
     }
 
     .cardInfo{
-        overflow: hidden; /*tirar se ultrapassar*/
-        height: 75vh;
-        flex-direction: row; /*coloca imagem depois do texto*/
-        gap: 50px;
-
+        img{
+            height: 100%;
+            object-fit: cover;
+        }
     }
 
-    .imgCard{
-        min-width: 400px;
-        max-width: 401px;
-    }
-
-    .p{
-        font-size: 1.3rem;
-    }
 
 }
-@media (max-width: 1200px){
-    .title{
-        font-size: 2.8rem;
-    }
 
-    .cardInfo{
-        overflow: hidden; /*tirar se ultrapassar*/
-        height: 125vh;
-        flex-direction: row; /*coloca imagem depois do texto*/
-        gap: 25px;
-
-    }
-
-    .imgCard{
-        min-width: 400px;
-        max-width: 401px;
-    }
-
-    .p{
-        font-size: 1.1rem;
-        margin-left: 0;
-    }
-
-      .button{
-        padding: 8px 26px;
-        border: 2px solid white;
-        border-radius: 13px;
-        margin-top: 25px;
-        font-size: 1.1rem;
-        text-transform: uppercase;
-        cursor: pointer;
-    }
-
-}
 
 @media (max-width:742px) {
     .title{
         font-size:2.5rem; /*diminui o tamanho do titulo do card*/
+        text-align: center;
+        padding-top: 4.5rem;
     }
 
-    .title{
-        text-align: center;
-    }
 
     .cardInfo{
         overflow: visible; /*tirar se ultrapassar*/
