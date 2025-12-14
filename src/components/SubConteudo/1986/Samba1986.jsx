@@ -19,7 +19,15 @@ const importImagem = (fileName) => {
 
 
 export default function SambaContent() {
-
+const getDadosCompletos = (dadosDoAno) => {
+    if (!dadosDoAno || !dadosDoAno.pessoaId) return dadosDoAno;     
+    const dadosMestres = Pessoas[dadosDoAno.pessoaId];
+    
+    if (dadosMestres) {
+      return { ...dadosMestres, ...dadosDoAno };
+    }
+    return dadosDoAno;
+};
   function scrollCarrossel(direcao) {
     const container = document.getElementById('carrossel');
     const item = container.querySelector('[data-item]');
@@ -98,11 +106,13 @@ export default function SambaContent() {
               <source src={musica} type="audio/mpeg" />
               Seu navegador não suporta o elemento de áudio.
             </audio>
+            
 
-        {Object.entries(Interpretes["1986"]).map(([key, interprete]) => (
+        {Object.entries(Interpretes["1986"]).map(([key, interprete]) => {
+          return(
           <div key={key} className={styles.profile}>
-            <span className={styles.interprete}>INTÉRPRETE</span>
-            <Link to={`/artista/interprete/1986/${key}`}>
+          <span className={styles.interprete}>INTÉRPRETE</span>
+            <Link to={`/artista/musico/1986/${key}`}>
               <img
                 className={styles.avatar}
                 src={importImagem(interprete.imgFile)}
@@ -111,7 +121,8 @@ export default function SambaContent() {
             <span className={styles.nome}>{interprete.name}</span>
             </Link>
           </div>
-      ))}
+        );
+})}
 
           </div>
 
@@ -129,7 +140,9 @@ export default function SambaContent() {
     </button>
 
     <div className={styles.carrossel} id="carrossel">
-      {Object.entries(Autores["1986"]).map(([key, autor]) => (
+      {Object.entries(Autores["1986"]).map(([key, dadosParciais]) => {
+        const autor = getDadosCompletos(dadosParciais);
+        return(
         <div key={key} className={styles.profile} data-item>
           <Link to={`/artista/samba/1986/${key}`} className={styles.autorLink}>
           <img
@@ -140,7 +153,8 @@ export default function SambaContent() {
           <span className={styles.nome}>{autor.name}</span>
           </Link>
         </div>
-      ))}
+        );
+})}
     </div>
 
     <button

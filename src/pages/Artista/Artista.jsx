@@ -34,7 +34,7 @@ function findParticipacoes(pessoaIdProcurado, dataSources) {
       for (const idNumerico in artistasDoAno) {
         const entry = artistasDoAno[idNumerico];
 
-        if (entry.name === pessoaIdProcurado && !participacoes[ano]) {
+        if (entry.pessoaId === pessoaIdProcurado && !participacoes[ano]) {
           const dadosMestre = Pessoas[entry.pessoaId];
           const foto = entry.fotoAno || (dadosMestre ? dadosMestre.imgFile : 'nenhum.png');
 
