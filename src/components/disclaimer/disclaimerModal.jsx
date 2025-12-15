@@ -33,7 +33,7 @@ export const DisclaimerModal = () => {
 
                         <p>Prometemos analisar com carinho!</p>
                         
-                        <p>Por enquanto, um ótimo 39º desfile para todos!</p>
+                        <p>Por enquanto, um ótimo 40º desfile para todos!</p>
                         <button
                             onClick={handleAccept}
                         >
