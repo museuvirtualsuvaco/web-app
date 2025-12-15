@@ -43,11 +43,14 @@ import Camiseta2012 from './components/SubConteudo/2012/Camiseta2012';
 import SuvacoMidia2012 from './components/SubConteudo/2012/SuvacoMidia2012';
 import Desfile2012 from './components/SubConteudo/2012/Desfile2012'
 
+import DisclaimerModal from './components/disclaimer/disclaimerModal';
+
 function App() {
 
   return (
     <Router>
       <div>
+        <DisclaimerModal></DisclaimerModal>
         <Nav />
         <Header/>
 
