@@ -5,6 +5,7 @@ import Artistas from '../CamisetaArtistas.json'
 import Musicos from '../Musicos.json'
 import Grupo from "../../../assets/Group 28.svg";
 import BtnVoltar from '../../VoltarBtn/BtnVoltar';
+import { Link } from 'react-router-dom';
 
 const importImagem = (fileName) => {
   return new URL(`../../../assets/artistas/${fileName}`, import.meta.url).href;
