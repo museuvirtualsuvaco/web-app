@@ -16,12 +16,21 @@ const ProjetoMuseu = () => {
   const cores = ["#FF6B6B", "#6BCB77", "#4D96FF", "#FFC75F", "#845EC2"];
 
   const gerarAvatar = (nome) => {
+    // Pega a primeira letra e garante que seja maiúscula
     const primeiraLetra = nome.charAt(0).toUpperCase();
-    const cor = cores[nome.charCodeAt(0) % cores.length];
+    
+    // Verifica se é uma letra de A-Z, caso contrário usa uma padrão
+    const eLetraValida = /^[A-Z]$/.test(primeiraLetra);
+    const letraArquivo = eLetraValida ? primeiraLetra : "P"; // 'P' de Placeholder ou qualquer outra padrão
+
+    const caminhoImagem = `/placeholders/PlaceHolder${letraArquivo}.png`;
+
     return (
-      <div className={styles.avatarPlaceholder} style={{ backgroundColor: cor }}>
-        {primeiraLetra}
-      </div>
+      <img 
+        className={styles.membroFoto} 
+        src={caminhoImagem} 
+        alt={`Placeholder ${primeiraLetra}`} 
+      />
     );
   };
 

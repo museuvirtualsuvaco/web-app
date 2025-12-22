@@ -15,7 +15,7 @@ export const cardsData = [
     },
     {
         title: 'Camiseta',
-        description: "Em construção!",
+        description: "A Camiseta de 2012, criada por Edgar Fonseca, contém uma representação da vista aérea do bloco desfilando na rua Jardim Botânico. Na frente, a multidão sem rostos distinguíveis se aglomera em meio a guarda-sóis de vendedores, bandeiras ao vento...",
         src: camisetaImg,
         firstColor: "#009DFF",
         secondColor: "#00BEB5",

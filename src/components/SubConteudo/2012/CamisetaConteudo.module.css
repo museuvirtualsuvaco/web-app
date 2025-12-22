@@ -19,14 +19,13 @@
   position: relative;
 }
 
-.group28Gradiente{
-    position: absolute;
-    z-index: 100;
-    width: 100%;
-    top: 18vw;
-    z-index: 8;
+.group28Gradiente {
+  position: absolute;
+  bottom: -1rem;
+  left: 0;
+  width: 100%;
+  z-index: 8;
 }
-
 .card {
   background: white;
   border-radius: 12px;
@@ -56,6 +55,11 @@
   flex-wrap: wrap;
   width: 100%;
 }
+
+.cabecalho{
+  position:relative;
+}
+
 
 .imgCamiseta {
   background-color: #d9d9d9;
@@ -158,6 +162,20 @@
   cursor: pointer;
   z-index: 1;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.texto {
+  flex: 1 1 300px;
+  font-family: 'Roboto Flex', sans-serif;
+  font-size: 20.16px;
+  color: #000;
+  line-height: 1.7;
+  margin-top: 1rem;
+  z-index: 150;
+  position: relative;
+  margin-left: 7vw;
+  margin-right: 7vw;
+
 }
 
 .btn:hover {
