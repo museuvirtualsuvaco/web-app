@@ -5,6 +5,7 @@ import Artistas from '../CamisetaArtistas.json'
 import Musicos from '../Musicos.json'
 import Grupo from "../../../assets/Group 28.svg";
 import BtnVoltar from '../../VoltarBtn/BtnVoltar';
+import { Link } from 'react-router-dom';
 
 const importImagem = (fileName) => {
   return new URL(`../../../assets/artistas/${fileName}`, import.meta.url).href;
@@ -15,8 +16,13 @@ export default function CamisetaContent() {
   
     <>
         <div className={styles.cabecalho}>
+          
         
             <h2 className={styles.titulo}>Desfile 2012, Ano 27 - Camiseta</h2>
+            <p className={styles.texto}>
+              A Camiseta de 2012, criada por Edgar Fonseca, contém uma representação da vista aérea do bloco desfilando na rua Jardim Botânico. Na frente, a multidão sem rostos distinguíveis se aglomera em meio a guarda-sóis de vendedores, bandeiras ao vento, e muitas cores fundindo umas com as outras. Acima, o Corcovado com sua bela estátua e um céu azul salpicado de nuvens brancas. O desenho da camiseta contém detalhes mundanos, como os semáforos da rua e os prédios do bairro. O artista acrescentou um detalhe cômico, escrevendo “você está aqui”, com uma seta para a multidão. Esse último elemento imita a função de mapas que ajudam o observador a se localizar, evocando um sentimento de se “perder na folia”. As costas da camiseta complementam a arte, com os foliões representados por pontos coloridos e alguns guarda-sóis em cima de um fundo branco
+    
+            </p>
         
             </div>
         
