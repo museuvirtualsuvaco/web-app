@@ -2,8 +2,10 @@ import React from 'react';
 import styles from './CamisetaConteudo.module.css';
 import { Link } from 'react-router-dom';
 import CamisaFoto from '../../../assets/1987/camiseta/1987 Claudio Lobato.JPG';
-import Artistas from '../CamisetaArtistas.json'
 import Grupo from "../../../assets/Group 28.svg";
+
+import pessoas from '../../../constants/pessoasArtistas.json'
+import participacoes from '../../../constants/participacoes.json'
 
 import BtnVoltar from '../../VoltarBtn/BtnVoltar';
 
@@ -13,6 +15,12 @@ const importImagem = (fileName) => {
 };
 
 export default function CamisetaContent() {
+
+  const ano = "1986"
+
+  const artistasIds =
+    participacoes[ano]?.camiseta || []
+
   return (
 
     <>
@@ -54,18 +62,26 @@ export default function CamisetaContent() {
         <h2 className={styles.sectionTitle}>ARTISTA</h2>
         <section className={styles.card}>
           <div className={styles.profileRow}>
-            {Object.entries(Artistas["1987"]).map(([key, autor]) => (
-              <div key={key} className={styles.profile}>
-                {/* <Link to={`/artista/camiseta/1986/${key}`} className={styles.autorLink}> */}
-                <img
-                  className={styles.avatar}
-                  src={importImagem(autor.imgFile)}
-                  alt={autor.name}
-                />
-                <span className={styles.nome}>{autor.name}</span>
-                {/* </Link> */}
-              </div>
-            ))}
+            {artistasIds.map(personId => {
+              const artista = pessoas[personId]
+              if (!artista) return null
+
+              return (
+                <div key={personId} className={styles.profile}>
+                  <Link
+                    to={`/artista/${personId}`}
+                    className={styles.autorLink}
+                  >
+                    <img
+                      className={styles.avatar}
+                      src={importImagem(artista.imgFile)}
+                      alt={artista.name}
+                    />
+                    <span className={styles.nome}>{artista.name}</span>
+                  </Link>
+                </div>
+              )
+            })}
           </div>
         </section>
 
