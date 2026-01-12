@@ -108,21 +108,23 @@ const getDadosCompletos = (dadosDoAno) => {
             </audio>
             
 
-        {Object.entries(Interpretes["1986"]).map(([key, interprete]) => {
-          return(
-          <div key={key} className={styles.profile}>
-          <span className={styles.interprete}>INTÉRPRETE</span>
-            <Link to={`/artista/musico/1986/${key}`}>
-              <img
-                className={styles.avatar}
-                src={importImagem(interprete.imgFile)}
-                alt={interprete.name}
-              />
-            <span className={styles.nome}>{interprete.name}</span>
-            </Link>
-          </div>
-        );
-})}
+          {Interpretes["1986"] && Object.entries(Interpretes["1986"]).map(([key, dadosParciais]) => {     
+            const interprete = getDadosCompletos(dadosParciais);     
+            return(
+              <div key={key} className={styles.profile}>
+                  <span className={styles.interprete}>INTÉRPRETE</span>
+                  {/* 2. Link corrigido para 'interprete' em vez de 'musico' */}
+                  <Link to={`/artista/interprete/1986/${key}`}>
+                    <img
+                      className={styles.avatar}
+                      src={importImagem(interprete.imgFile)}
+                      alt={interprete.name}
+                    />
+                    <span className={styles.nome}>{interprete.name}</span>
+                  </Link>
+                </div>
+              );
+            })}
 
           </div>
 

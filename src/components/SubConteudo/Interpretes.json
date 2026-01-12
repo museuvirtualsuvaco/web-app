@@ -1,33 +1,14 @@
 {
   "1986": {
     "1": {
-      "name": "Beto Brown",
-      "imgFile": "20XX - Beto Brown.png",
-      "urlSuvaco": "#",
-      "bio": "Beto Brown é um músico, ator, diretor, cantor, compositor, autor e coreógrafo carioca. Nascido e criado em Copacabana, o artista teve seu interesse pelo teatro despertado desde a infância, em razão de sua mãe o levar  para assistir peças infantis. Já na adolescência, passou a ter aulas  no Colégio Andrews com Miguel Falabella e Maria Padilha e passou a trabalhar em diversas peças em diferentes funções como diretor, ator, figurinista e produtor. Na década de 1990, investiu em uma carreira internacional e passou por países como Portugal, Espanha, França, Dinamarca e Holanda. Em 1986, primeiro desfile do Suvaco do Cristo, foi um dos puxadores do bloco. Foi compositor dos sambas de 2013 (O Suvaco é Rei)  e 2014 (Como o Suvaco no Hay). Em entrevista ao Jornal JB em Folhas ele comenta que o Suvaco é o bloco mais bonito que ele já viu e lamenta que nos anos recentes não haja mais ensaios: “Todo mundo só sabe cantar os sambas dos primeiros 15 anos, porque hoje não tem mais ensaio, só o desfile mesmo“ .",
-      "fontes": ["https://www.rj.gov.br/radioroquettepinto/node/4514", "https://jbemfolhas.com.br/encontros-teatro-e-musica-movem-beto-brown/#:~:text=Quando%20chegou%20ao%20Jardim%20Bot%C3%A2nico%2C%20aos%2034,autor%2C%20diretor%2C%20m%C3%BAsico%2C%20cantor%2C%20compositor%20e%20core%C3%B3grafo.&text=Passou%20por%20Portugal%2C%20Barcelona%2C%20Paris%2C%20Dinamarca%20%E2%80%93,onde%20ganhou%20a%20vida%20tocando%20na%20rua"],
-      "socials":{
-        "instagram": "https://www.instagram.com/beto_brown_/",
-        "youtube": null,
-        "facebook":null
+      "pessoaId": "beto_brown", 
+      "funcao": "Interprete"
     }
-  }}
-  ,
-  "1987": {
+  },
+  "2012": {
     "1": {
-      "name": "Em construção",
-      "imgFile": "nenhum.png",
-      "urlSuvaco": "#",
-      "bio": null
+      "pessoaId": "mu_chebabi", 
+      "funcao": "Interprete"
     }
   }
-,
-"2012":{
-  "1":{
-    "name": "Mu Chebabi",
-    "imgFile":"nenhum.png",
-    "urlSuvaco":"#",
-    "bio":"Nascido no Rio de Janeiro, Alfredo José Murilo Chebabi, conhecido artisticamente como Mu Chebabi, é cantor, compositor e produtor musical com trajetória marcada pela mistura de humor, lirismo e crônica social. Nos primeiros anos da década de 1980, participou do grupo Falange Canibal e foi produtor musical do programa humorístico “Casseta & Planeta Urgente”, com fortes parcerias com o grupo. Desde o início dos anos 2000, quando lançou seu primeiro álbum solo, vem construindo uma obra que busca emocionar e divertir, revelando o mundo subjetivo das pessoas comuns através da música. Ao longo da carreira, lançou os álbuns Mu Chebabi, Uma Coisa é uma Coisa, Outra Coisa é Outra Coisa, Baía de Guanabara, Música Vira-Lata Brasileira (vol. 1 e 2) e Loura Má. Sua música é marcada por um olhar de cronista, atento ao cotidiano, que trata de forma poética — e muitas vezes com humor — as questões de sua época. Como cronista, é um fotógrafo sonoro da rua, da cidade e do país. Mais do que apontar caminhos, sua arte registra o lugar e o tempo, conectando pessoas através de histórias, afetos e memórias coletivas. No Suvaco, foi autor de diversos sambas: Tá lá, 88 estendido no chão  (1988, com Lenine e Stenkan); Palmas pra bateria do Suvaco (2012, com Jovi Joviniano e Jerônimo Machado);  O Suvaco é Rei (2013, com Jerônimo Machado, Rogê, Chico Bosco, Dom Oliveira e Beto Brown); Suvaco no Uruguay - (2014, com Jerônimo Machado, Dom Oliveira e Beto Brown),  30 anos de Suvaco ou Selfie-se quem puder  (2015, com Jerônimo Machado,  Jards Macalé e Dom Oliveira), O Suvaco do Cristo Subiu na Goiabeira no Milagre do Baticum (2019, com  Jeronymo Machado e João Nabuco) e Águas de Fevereiro (2020, com Bráulio Tavares e Roberto Moreno)."
-  }
-}
 }

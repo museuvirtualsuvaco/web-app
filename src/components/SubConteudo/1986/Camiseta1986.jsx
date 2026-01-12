@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import CamisaFoto from '../../../assets/camisetas/1986 Camiseta Sonia Matos.jpg';
 import Artistas from '../CamisetaArtistas.json'
 import Grupo from "../../../assets/Group 28.svg";
+import Pessoas from '../Pessoas.json';
 
 import BtnVoltar from '../../VoltarBtn/BtnVoltar';
 
@@ -13,6 +14,17 @@ const importImagem = (fileName) => {
 };
 
 export default function CamisetaContent() {
+  const getDadosCompletos = (dadosDoAno) => {
+    if (!dadosDoAno || !dadosDoAno.pessoaId) return dadosDoAno;
+    const dadosMestres = Pessoas[dadosDoAno.pessoaId];
+
+    if (dadosMestres) {
+      return { ...dadosMestres, ...dadosDoAno };
+    }
+    return dadosDoAno;
+  };
+
+
   return (
 
     <>
@@ -53,18 +65,23 @@ export default function CamisetaContent() {
         <h2 className={styles.sectionTitle}>ARTISTA</h2>
         <section className={styles.card}>
           <div className={styles.profileRow}>
-            {Object.entries(Artistas["1986"]).map(([key, autor]) => (
-              <div key={key} className={styles.profile}>
-                <Link to={`/artista/camiseta/1986/${key}`} className={styles.autorLink}>
-                <img
-                  className={styles.avatar}
-                  src={importImagem(autor.imgFile)}
-                  alt={autor.name}
-                />
-                <span className={styles.nome}>{autor.name}</span>
-                </Link>
-              </div>
-            ))}
+            {Artistas["1986"] && Object.entries(Artistas["1986"]).map(([key, dadosParciais]) => {
+              
+              const autor = getDadosCompletos(dadosParciais);
+
+              return (
+                <div key={key} className={styles.profile}>
+                  <Link to={`/artista/camiseta/1986/${key}`} className={styles.autorLink}>
+                    <img
+                      className={styles.avatar}
+                      src={importImagem(autor.imgFile)}
+                      alt={autor.name}
+                    />
+                    <span className={styles.nome}>{autor.name}</span>
+                  </Link>
+                </div>
+              );
+            })}
           </div>
         </section>
 
