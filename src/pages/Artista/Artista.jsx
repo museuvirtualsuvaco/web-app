@@ -5,10 +5,6 @@ import FormCarrossel from "../../components/Home/FormCarrossel/FormCarrossel"
 import Foto from "../../assets/artistas/joao.png"
 import Grupo from "../../assets/Group 28.svg";
 import AnosCarrossel from '../../components/AnosCarrossel/AnosCarrossel';
-import Artistas from '../../components/SubConteudo/Artistas.json';
-import CamisetaArtistas from '../../components/SubConteudo/CamisetaArtistas.json';
-import Musicos from '../../components/SubConteudo/Musicos.json';
-import Interpretes from '../../components/SubConteudo/Interpretes.json';
 import BtnVoltar from '../../components/VoltarBtn/BtnVoltar';
 import pessoasArtistas from '../../constants/pessoasArtistas.json'
 import participacoesData from '../../constants/participacoes.json'
