@@ -1,0 +1,125 @@
+{
+  "joao-aveleira": {
+    "id": "joao-aveleira",
+    "name": "João Aveleira",
+    "imgFile": "joao.png",
+    "bio": "João Avelleira, é carioca, nascido em 1953 e desde 1983 morador do bairro do Jardim Botânico, inicialmente na Maria Angélica 741, prédio onde morava grande parte dos fundadores do Suvaco, e geograficamente localizado abaixo do braço direito do Cristo. Médico, dermatologista, viveu a época dos movimentos de resistência cultural e as transformações comportamentais que marcaram a década de 70. Defendia o carnaval como a festa libertária e popular que necessitava recuperar as ruas após anos de ditadura. Presente em todos os desfiles de 1986 a 2026.",
+    "fontes": [],
+    "socials": {
+      "instagram": "https://www.instagram.com/joaoavelleira?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+      "youtube": "https://www.youtube.com/@blocosuvacodecristorj",
+      "facebook": "https://www.facebook.com/suvaco.docristo"
+    }
+  },
+
+  "arnaldo-chaim": {
+    "id": "arnaldo-chaim",
+    "name": "Arnaldo Chaim",
+    "imgFile": "arnaldo.png",
+    "bio": "Arnaldo Chaim foi sociólogo, formado pela Universidade Federal Fluminense (UFF). Também morador do prédio da Rua Maria Angélica 741, foi um dos fundadores do Suvaco. Sua casa, como as dos outros fundadores, eram pontos ativos de reuniões quase que permanentes. Chaim participava das realizações dos ensaios do Bloco e criação de alegorias, adereços, organização de desfiles e produção geral.",
+    "fontes": [],
+    "socials": {}
+  },
+
+  "jose-lavigne": {
+    "id": "jose-lavigne",
+    "name": "José Lavigne",
+    "imgFile": "joseLavigne-doc-modified.png",
+    "bio": "Nascido no Rio de Janeiro, José Lavigne de Lemos Filho enxergou no teatro do Liceu Franco Brasileiro um escape para a rigidez de sua educação. De lá, entrou para o Tablado, escola de atuação fundada em 1951 pela atriz, escritora e diretora Maria Clara Machado. Após abandonar a universidade em que cursava direito para dedicar-se exclusivamente ao mundo das artes, Lavigne ingressou no grupo “Asdrúbal Trouxe o Trombone”. Posteriormente fundou, junto com outros artistas,  o “Manhas e Manias”, focado em apresentações circenses, onde passou a desenvolver suas primeiras experiências como diretor. Ao ingressar na Globo, em 1986, Lavigne passou a dirigir programas  humorísticos de grande sucesso da televisão brasileira, assim como programas jornalísticos. Em 1985, na época da criação do Suvaco do Cristo, era um dos moradores do prédio 741 da Rua Maria Angélica, onde nossa odisseia começou!",
+    "fontes": [
+      "https://memoriaglobo.globo.com/perfil/jose-lavigne/noticia/jose-lavigne.ghtml",
+      "https://www.otablado.com.br/texto/1/historia"
+    ],
+    "socials": {}
+  },
+
+  "roberto-pirulito": {
+    "id": "roberto-pirulito",
+    "name": "Roberto Pirulito",
+    "imgFile": "Pirulito-doc-modified.png",
+    "bio": "O bloco Força Jovem do Horto, localizado no bairro de mesmo nome próximo ao Jardim Botânico, foi um parceiro importante durante os três primeiros anos do Suvaco. Os ensaios do Suvaco aconteciam na quadra do Força Jovem e a base da bateria era composta pelo pessoal do Força Jovem. Roberto de Assis, também conhecido como Pirulito, era o  presidente do bloco Força Jovem na época, e  participou da construção do primeiro samba do Suvaco  ('Divinas Axilas'), como revela no documentário 20 anos de Suvaco o sociólogo Arnaldo Chaim: 'Em cinco minutos, ele transformou aquele monstro em samba'. A relação entre os dois blocos terminaria após três anos com a mudança do Suvaco para o Clube Condomínio.",
+    "fontes": [],
+    "socials": {}
+  },
+
+  "dom-oliveira": {
+    "id": "dom-oliveira",
+    "name": "Dom Oliveira",
+    "imgFile": "Dom.jpg",
+    "bio": "DOM iniciou sua trajetória artística no início dos anos 2000, no Rio de Janeiro, ainda durante o período escolar, ao integrar um projeto social no CIEP 241 Nação Mangueirense. Foi nesse ambiente fértil e inspirador que teve seu primeiro contato com diversas linguagens artísticas — como música, desenho, dança, construção de instrumentos e conheceu importantes nomes da cultura brasileira. O cavaquinho é seu primeiro instrumento. Com o grupo Batuque na Cozinha, gravou um disco e acompanhou artistas consagrados da música popular brasileira, como Luiz Melodia, Wilson das Neves, Martinho da Vila, Alcione, entre outros. Em 2011, lançou-se como artista solo. Em 2013, lançou o videoclipe da faixa \"Popstar\", onde expressa o desejo de transcender os gêneros tradicionais, mesclando sua arte com sonoridades e instrumentos contemporâneos. Na França desde 2016, DOM continuou expandindo suas colaborações e formou o duo afro-brasileiro Les Afrolandais e o grupo basco-brasileiro Sambastian, com os quais realizou shows e lançou novas composições. O músico relata que seu encontro com o Suvaco do Cristo aconteceu do jeito mais natural possível, como tudo que é de verdade no samba: por amizade, afinidade e aquele toque de acaso que parece destino. A porta de entrada foram dois grandes parceiros: o produtor Jerônimo Machado e o compositor Mu Chebabi e a introdução pelo conhecido de longa data, o  talentoso Jovi Joviniano, figura cheia de swing, sabedoria e generosidade. “Na época, Jerônimo estava organizando, a pedido do presidente do bloco, um coletivo de compositores para o Suvaco. Um verdadeiro caldeirão criativo: músicos, intérpretes, poetas do batuque, cada um com sua cor, seu ritmo. Jovi já fazia parte da roda e, por conta da nossa parceria musical, me indicou como cavaquinista — pra dar aquela pulsação certeira no samba.”  Iniciou-se aí um período de parcerias em sambas do bloco: “A bateria tá chegando” (2012), “O Suvaco é Rei” (2013),  “Como o Suvaco no Hay” (2014) e “Selfie-se quem puder” (2015).",
+    "fontes": [],
+    "socials": {}
+  },
+
+  "jovi-joviniano": {
+    "id": "jovi-joviniano",
+    "name": "Jovi Joviniano",
+    "imgFile": "JoviJoviano.png",
+    "bio": "Percussionista, compositor, carioca criado no bairro de Ramos, profundo conhecedor dos ritmos populares brasileiros, Jovi Joviniano aproximou-se de todos os instrumentos que compõem a orquestra de percussão popular na bateria da escola de samba Imperatriz Leopoldinense e também com o Maestro Paulo Moura. Fez também parte de rodas de samba de fundo-de-quintal no bloco carnavalesco Cacique de Ramos, ambiente propício à sua formação autodidata. Tocou com Paulo Moura, Marisa Monte, Fernanda Abreu, Roberta Sá, Lenine e Marcos Suzano, entre outros",
+    "fontes": [],
+    "socials": {
+      "instagram": "https://www.instagram.com/Jovi_Joviniano"
+    }
+  },
+
+  "jeronimo-machado": {
+    "id": "jeronimo-machado",
+    "name": "Jêronimo Machado",
+    "imgFile": "nenhum.png",
+    "bio": "Não me considero um compositor. Na verdade sou um produtor de eventos/shows e fui empresário de alguns renomados artistas. Entrei nessa história do Suvaco meio que por acaso. O ano era 2012 e encontrei com o Mu Chebabi em algum canto aqui do Rio e falei: Bicho, você não quer fazer o samba do Suvaco para esse ano? Ele topou na hora. Liguei para o Jovi Joviniano e para o Dom Oliveira e marcamos no estúdio do Mu uns dois ou três encontros e o samba saiu. ”Palmas Pra Bateria do Suvaco” é uma homenagem a nossa bateria e seus mestres. Na sequência agendei com os músicos e convidei o William Vorhees para ser nosso puxador oficial. Como eu estava em todas as sessões de gravação acabei dando uns pitacos, trocando uma vírgula de lugar e os verdadeiros autores me concederam a honra de assinar o samba. Mostramos para o João Avelleira que gostou e assim começou minha carreira de compositor de sambas enredos. Nos anos seguintes o processo foi parecido e “compus” mais quatro sambas (2013, 2014, 2015 e 2019) sempre ao lado de generosos e talentosíssimos parceiros.",
+    "fontes": [],
+    "socials": {
+      "instagram": "https://www.instagram.com/jejeronymomachado"
+    }
+  },
+
+  "mu-chebabi": {
+    "id": "mu-chebabi",
+    "name": "Mu Chebabi",
+    "imgFile": "Mu Chebabi.png",
+    "bio": "Nascido no Rio de Janeiro, Alfredo José Murilo Chebabi, conhecido artisticamente como Mu Chebabi, é cantor, compositor e produtor musical com trajetória marcada pela mistura de humor, lirismo e crônica social. Nos primeiros anos da década de 1980, participou do grupo Falange Canibal e foi produtor musical do programa humorístico “Casseta & Planeta Urgente”, com fortes parcerias com o grupo. Desde o início dos anos 2000, quando lançou seu primeiro álbum solo, vem construindo uma obra que busca emocionar e divertir, revelando o mundo subjetivo das pessoas comuns através da música. Ao longo da carreira, lançou os álbuns Mu Chebabi, Uma Coisa é uma Coisa, Outra Coisa é Outra Coisa, Baía de Guanabara, Música Vira-Lata Brasileira (vol. 1 e 2) e Loura Má. Sua música é marcada por um olhar de cronista, atento ao cotidiano, que trata de forma poética — e muitas vezes com humor — as questões de sua época. Como cronista, é um fotógrafo sonoro da rua, da cidade e do país. Mais do que apontar caminhos, sua arte registra o lugar e o tempo, conectando pessoas através de histórias, afetos e memórias coletivas. No Suvaco, foi autor de diversos sambas: Tá lá, 88 estendido no chão  (1988, com Lenine e Stenkan); Palmas pra bateria do Suvaco (2012, com Jovi Joviniano e Jerônimo Machado);  O Suvaco é Rei (2013, com Jerônimo Machado, Rogê, Chico Bosco, Dom Oliveira e Beto Brown); Suvaco no Uruguay - (2014, com Jerônimo Machado, Dom Oliveira e Beto Brown),  30 anos de Suvaco ou Selfie-se quem puder  (2015, com Jerônimo Machado,  Jards Macalé e Dom Oliveira), O Suvaco do Cristo Subiu na Goiabeira no Milagre do Baticum (2019, com  Jeronymo Machado e João Nabuco) e Águas de Fevereiro (2020, com Bráulio Tavares e Roberto Moreno).",
+    "fontes": [],
+    "socials": {}
+  },
+
+  "sonia-matos": {
+    "id": "sonia-matos",
+    "name": "Sônia Matos",
+    "imgFile": "Sonia Matos 1987-modified.png",
+    "bio": "Sônia Matos também era moradora da Maria Angélica 741, era atriz e trabalhava dando aulas de artes. Fez a arte da primeira camiseta escolhida pela galera uma tarde no Parque Lage. Foi também a primeira porta-estandarte (na época, o bloco tinha um estandarte, que anos depois passou a ser uma bandeira). Desfilou com o estandarte de 1986 a 1988, tendo como mestre-sala José Luiz do Horto.",
+    "fontes": [],
+    "socials": {}
+  },
+
+  "edgar-fonseca": {
+    "id": "edgar-fonseca",
+    "name": "Edgar Fonseca",
+    "imgFile": "nenhum.png",
+    "bio": "Nascido em 1952 e formado na EBA (UFRJ), iniciou sua carreira profissional na década de 1970 ilustrando e produzindo capas de revistas,  tendo grandes mestres como o professor Adir Botelho (UFRJ) e o litógrafo e gravador Antônio Grosso (EAV/Parque Lage). O interesse pelas artes veio de criança, influenciado por sua mãe que desenhava bem. Morador do Jardim Botânico, Fonseca acompanhou de perto a criação e a consolidação do Suvaco do Cristo no carnaval carioca, desde os primórdios nos ensaios na quadra da Força Jovem do Horto, na  rua Pacheco Leão e é até hoje frequentador regular do bloco e criador da camiseta de 2012.",
+    "fontes": [],
+    "socials": {}
+  },
+
+  "beto-brown": {
+    "id": "beto-brown",
+    "name": "Beto Brown",
+    "imgFile": "20XX - Beto Brown.png",
+    "bio": "Beto Brown é um músico, ator, diretor, cantor, compositor, autor e coreógrafo carioca. Nascido e criado em Copacabana, o artista teve seu interesse pelo teatro despertado desde a infância, em razão de sua mãe o levar  para assistir peças infantis. Já na adolescência, passou a ter aulas  no Colégio Andrews com Miguel Falabella e Maria Padilha e passou a trabalhar em diversas peças em diferentes funções como diretor, ator, figurinista e produtor. Na década de 1990, investiu em uma carreira internacional e passou por países como Portugal, Espanha, França, Dinamarca e Holanda. Em 1986, primeiro desfile do Suvaco do Cristo, foi um dos puxadores do bloco. Foi compositor dos sambas de 2013 (O Suvaco é Rei)  e 2014 (Como o Suvaco no Hay). Em entrevista ao Jornal JB em Folhas ele comenta que o Suvaco é o bloco mais bonito que ele já viu e lamenta que nos anos recentes não haja mais ensaios: “Todo mundo só sabe cantar os sambas dos primeiros 15 anos, porque hoje não tem mais ensaio, só o desfile mesmo“ .",
+    "fontes": [
+      "https://www.rj.gov.br/radioroquettepinto/node/4514",
+      "https://jbemfolhas.com.br/encontros-teatro-e-musica-movem-beto-brown/"
+    ],
+    "socials": {
+      "instagram": "https://www.instagram.com/beto_brown_/"
+    }
+  },
+
+  "forca-jovem-do-horto": {
+    "id": "forca-jovem-do-horto",
+    "name": "Força Jovem do Horto",
+    "imgFile": "nenhum.png",
+    "bio": "Em virtude do Suvaco do Cristo possuir um caráter festivo e estar ligado a uma forma voltada para o entretenimento e diversão para aqueles que desejem participar – algo que o diferencia de blocos que possuem uma identidade mais politizada como o ‘’Simpatia Quase Amor’’ -, os integrantes não possuíam uma vasta gama de conhecimento a respeito de samba, não sabendo tocar instrumentos característicos do gênero e compor canções que fariam parte do bloco. Por esta razão, um dos membros do Suvaco, o iluminador e produtor Rogério Emerson, conseguiu que o grupo se unisse ao Força Jovem do Horto, localizado no bairro de mesmo nome próximo ao Jardim Botânico, com quem passaram a ensaiar. O presidente do bloco na época, Roberto de Assis (mais conhecido como Pirulito), foi o grande responsável por unir as duas associações e a desenvolver o primeiro samba do Suvaco intitulado ‘’Divinas Axilas’’, como revela no documentário 20 anos de Suvaco o sociólogo Arnaldo Chaim: ´´Em cinco minutos, ele transformou aquele monstro em samba’’. A relação entre os dois blocos terminaria após três anos em detrimento da decisão do Suvaco de mudar-se para o Clube Condomínio.",
+    "fontes": [],
+    "socials": {}
+  }
+}

@@ -104,7 +104,7 @@ function App() {
           <Route path={routes.PAG2005} element={<Emconstrucao />} />
           <Route path={routes.PAG2006} element={<Emconstrucao />} />
 
-          <Route path="/artista/:tipo/:ano/:id" element={<Artista />} />
+          <Route path="/artista/:personId" element={<Artista />} />
 
 
           <Route path={routes.PAG2012} element={<Ano2012></Ano2012>} />
