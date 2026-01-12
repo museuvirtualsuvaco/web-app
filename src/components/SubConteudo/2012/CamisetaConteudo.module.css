@@ -20,11 +20,14 @@
 }
 
 .group28Gradiente {
-  position: absolute;
-  bottom: -1rem;
-  left: 0;
+  display: block;
   width: 100%;
-  z-index: 8;
+  position: relative;
+  z-index: 2;
+  left: 0;
+  margin-top: -3rem;
+  margin-bottom: -7rem;
+ 
 }
 .card {
   background: white;
@@ -64,7 +67,7 @@
 .imgCamiseta {
   background-color: #d9d9d9;
   width: 60%;
-  height: 600px;
+  height: 50%;
   border-radius: 8px;
 }
 
@@ -86,7 +89,7 @@
 }
 
 .avatar {
-  min-width: 150px;
+  min-width: 9rem;
   border-radius: 50%;
 }
 
@@ -113,11 +116,14 @@
 .texto {
   flex: 1 1 300px;
   font-family: 'Roboto Flex', sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.26rem;
   color: #000;
   line-height: 1.7;
   margin-top: 1rem;
-
+  z-index: 150;
+  position: relative;
+  margin-left: 7vw;
+  margin-right: 7vw;
 }
 
 .gridVisual {
@@ -164,23 +170,66 @@
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
-.texto {
-  flex: 1 1 300px;
-  font-family: 'Roboto Flex', sans-serif;
-  font-size: 20.16px;
-  color: #000;
-  line-height: 1.7;
-  margin-top: 1rem;
-  z-index: 150;
-  position: relative;
-  margin-left: 7vw;
-  margin-right: 7vw;
-
-}
 
 .btn:hover {
   background-color: #4e4e4e;
 }
+
+@media (max-width:900px) {
+   .titulo {
+    font-size: 2rem;
+    margin-left: var(--margin-left);
+    margin-right: var(--margin-left);
+    text-align: left;
+    padding-bottom: 14px;
+  }
+  .texto{
+    font-size: 15px;
+  }
+
+  .container{
+    margin-top: 3rem;;
+  }
+}
+
+
+
+@media (max-width:757px) {
+
+  .sectionTitle {
+    padding: 0;
+    font-size: 3rem;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width:550px) {
+  .texto{
+    font-size: 0.8rem;
+  }
+
+  
+}
+  
+@media (max-width:415px) {
+  .sectionTitle{font-size: 3rem;}
+}
+
+/*=== FOTO ===*/
+
+@media (max-width:515px) {
+  .imgCamiseta{
+    width: auto;
+    height: auto;
+  }
+  .avatar{
+    height: auto;
+    width: auto;
+  }
+}
+
 
 @media (max-width: 400px) {
   .profileRow {
