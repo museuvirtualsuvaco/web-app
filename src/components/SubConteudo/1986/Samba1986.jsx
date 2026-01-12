@@ -2,11 +2,12 @@ import React from 'react';
 import styles from './SambaConteudo.module.css';
 import { Link } from 'react-router-dom';
 import Filipeta from '../../../assets/FilipetaSamba1986.jpg';
-import Autores from '../Artistas.json';
-import Musicos from '../Musicos.json';
-import Interpretes from '../Interpretes.json';
+
 import musica from '../../../assets/musicas/1986musica.mp3';
 import Grupo from "../../../assets/Group 28.svg";
+
+import pessoas from '../../../constants/pessoasArtistas.json'
+import participacoes from '../../../constants/participacoes.json'
 
 import BtnVoltar from '../../VoltarBtn/BtnVoltar';
 
@@ -19,6 +20,19 @@ const importImagem = (fileName) => {
 
 
 export default function SambaContent() {
+
+
+   const ano = "1986"
+
+  const interpretesIds =
+    participacoes[ano]?.samba?.interpretes || []
+
+  const autoresIds =
+    participacoes[ano]?.samba?.autores || []
+
+
+
+
 
   function scrollCarrossel(direcao) {
     const container = document.getElementById('carrossel');
@@ -99,19 +113,25 @@ export default function SambaContent() {
               Seu navegador não suporta o elemento de áudio.
             </audio>
 
-        {Object.entries(Interpretes["1986"]).map(([key, interprete]) => (
-          <div key={key} className={styles.profile}>
-            <span className={styles.interprete}>INTÉRPRETE</span>
-            <Link to={`/artista/interprete/1986/${key}`}>
-              <img
-                className={styles.avatar}
-                src={importImagem(interprete.imgFile)}
-                alt={interprete.name}
-              />
-            <span className={styles.nome}>{interprete.name}</span>
-            </Link>
-          </div>
-      ))}
+       {interpretesIds.map(personId => {
+              const interprete = pessoas[personId]
+              if (!interprete) return null
+
+              return (
+                <div key={personId} className={styles.profile}>
+                  <span className={styles.interprete}>INTÉRPRETE</span>
+
+                  <Link to={`/artista/${personId}`}>
+                    <img
+                      className={styles.avatar}
+                      src={importImagem(interprete.imgFile)}
+                      alt={interprete.name}
+                    />
+                    <span className={styles.nome}>{interprete.name}</span>
+                  </Link>
+                </div>
+              )
+            })}
 
           </div>
 
@@ -129,18 +149,23 @@ export default function SambaContent() {
     </button>
 
     <div className={styles.carrossel} id="carrossel">
-      {Object.entries(Autores["1986"]).map(([key, autor]) => (
-        <div key={key} className={styles.profile} data-item>
-          <Link to={`/artista/samba/1986/${key}`} className={styles.autorLink}>
-          <img
-            className={styles.avatar}
-            src={importImagem(autor.imgFile)}
-            alt={autor.name}
-          />
-          <span className={styles.nome}>{autor.name}</span>
-          </Link>
-        </div>
-      ))}
+      {autoresIds.map(personId => {
+                const autor = pessoas[personId]
+                if (!autor) return null
+
+                return (
+                  <div key={personId} className={styles.profile} data-item>
+                    <Link to={`/artista/${personId}`} className={styles.autorLink}>
+                      <img
+                        className={styles.avatar}
+                        src={importImagem(autor.imgFile)}
+                        alt={autor.name}
+                      />
+                      <span className={styles.nome}>{autor.name}</span>
+                    </Link>
+                  </div>
+                )
+              })}
     </div>
 
     <button
