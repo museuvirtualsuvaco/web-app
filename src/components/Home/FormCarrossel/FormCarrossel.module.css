@@ -88,6 +88,12 @@
   color: #444;
 }
 
+
+.disabled {
+  opacity: 0.5;         /* feedback visual */
+  cursor: not-allowed;
+}
+
 .seta {
   position: absolute;
   top: 40%;

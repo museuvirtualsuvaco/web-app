@@ -53,7 +53,7 @@ export default function Ano1986() {
         
 
       </div>
-        
+       
       <div className={styles.sectionCards}>
         <img src={group28} className={styles.group28Gradiente} alt="divisor ondulado" />
         {cardsData.map((data, index) => (   

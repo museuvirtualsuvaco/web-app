@@ -37,7 +37,18 @@ export default function FormCarrossel() {
 
          <div className={styles.carrossel} id="carrossel">
            {anos.map((item) => (
-            <a key={item.nome} href={`/${item.nome}`} className={styles.item} data-item>
+             <a key={item.nome} href={`/${item.nome}`} className={`${styles.item} ${item.disabled ? styles.disabled : ""}`} data-item
+             
+             onClick={(e) => {
+              if (item.disabled) {
+                e.preventDefault();
+                return;
+              
+              }
+                
+             }}
+            
+            >
               <img src={item.src} alt={`Ano ${item.nome}`} />
             </a>
           ))}
