@@ -2,9 +2,6 @@ import React from 'react';
 import styles from './SambaConteudo.module.css';
 import { Link } from 'react-router-dom';
 import Filipeta from '../../../assets/1987/samba/1987 Suvaco e meu ninho.jpg';
-import Autores from '../Artistas.json';
-
-import Interpretes from '../Interpretes.json';
 
 import Grupo from "../../../assets/Group 28.svg";
 
