@@ -11,8 +11,7 @@ import Home from './components/Home/Home'
 import Footer from './components/Footer/Footer'
 import ProjetoMuseu from './components/ProjetoMuseu/ProjetoMuseu';
 import DivinasAxilas from './components/DivinasAxilas/DivinasAxilas';
-import Sobre from './components/Sobre/Sobre';
-import SubPagina from './pages/SubPagina/SubPagina';
+
 import Artista from './pages/Artista/Artista';
 
 import Timeline from './components/TimelinePage/TimeLine';
@@ -21,12 +20,18 @@ import Emconstrucao from './pages/EmBreve/Emconstrucao';
 import Erro from './pages/EmBreve/Erro';
 
 import FirebaseUi from './components/FirebaseUi/FirebaseUi';
+
+{/* criacao de suvacodocristo.com/{ANO} */}
+
 import Ano1986 from './components/Anos/1986/ano1986';
 import Ano1987 from './components/Anos/1987/ano1987';
+import Ano1992 from './components/Anos/1992/ano1992';
 import Ano2012 from './components/Anos/2012/ano2012';
 
 import * as ROUTES from './constants/routes';
 import routes, { subroutes } from './constants/routes';
+
+{/* criacao de suvacodocristo.com/{ANO}/{SUBROTAS} */}
 
 import Samba1986 from './components/SubConteudo/1986/Samba1986';
 import Camiseta1986 from './components/SubConteudo/1986/Camiseta1986';
@@ -37,6 +42,9 @@ import Samba1987 from './components/SubConteudo/1987/Samba1987';
 import Camiseta1987 from './components/SubConteudo/1987/Camiseta1987';
 import SuvacoMidia87 from './components/SubConteudo/1987/SuvacoMidia1987';
 import Desfile87 from './components/SubConteudo/1987/Desfile1987'
+
+import Samba1992 from './components/SubConteudo/1992/Samba1992'
+import Camiseta1992 from './components/SubConteudo/1992/Camiseta1992'
 
 import Samba2012 from './components/SubConteudo/2012/Samba2012';
 import Camiseta2012 from './components/SubConteudo/2012/Camiseta2012';
@@ -74,8 +82,6 @@ function App() {
 
 
 
-
-
           <Route path={routes.PAG1987} element={<Ano1987></Ano1987>} />
           <Route path={subroutes.PAG1987SAMBA} element={<Samba1987/>} />
           <Route path={subroutes.PAG1987MIDIA} element={<SuvacoMidia87/>} />
@@ -87,7 +93,16 @@ function App() {
           <Route path={routes.PAG1989} element={<Emconstrucao />} />
           <Route path={routes.PAG1990} element={<Emconstrucao />} />
           <Route path={routes.PAG1991} element={<Emconstrucao />} />
-          <Route path={routes.PAG1992} element={<Emconstrucao />} />
+
+
+          <Route path={routes.PAG1992} element={<Ano1992/>} />
+          <Route path={subroutes.PAG1992SAMBA} element={<Samba1992/>} />
+          <Route path={subroutes.PAG1992MIDIA} element={<Emconstrucao/>} />
+          <Route path={subroutes.PAG1992DESFILE} element={<Emconstrucao/>} />
+          <Route path={subroutes.PAG1992CAMISETA} element={<Camiseta1992/>} />
+
+
+
           <Route path={routes.PAG1993} element={<Emconstrucao />} />
           <Route path={routes.PAG1994} element={<Emconstrucao />} />
           <Route path={routes.PAG1995} element={<Emconstrucao />} />

@@ -26,21 +26,16 @@ export default function DivinasAxilas() {
 
                  <section >
 
-                    <p className={styles.sectionTexts}>Fundada em 2008, a Divinas Axilas era uma ONG criada pelos integrantes do Suvaco do Cristo com o
-                        intuito de fornecer cursos gratuitos de corte, modelagem e costura para mulheres em um ateliê no qual eram confeccionados
-                        trajes carnavalescos durante o período de desfiles cariocas. Essas vestimentas eram compradas e, posteriormente,revendidas
-                        pelos membros do bloco para outras pessoas, com os lucros arrecadados sendo utilizados para manter o funcionamento da organização.
+                    <p className={styles.sectionTexts}>Fundada em 2008, a Divinas Axilas é uma ONG criada pelos integrantes do Suvaco do Cristo com o objetivo de capacitar, gerar renda e preservar a cultura popular.
+Utilizando como atividades o fornecimento de  cursos gratuitos semestrais de corte, modelagem e costura e oficinas para mulheres e homens no qual eram confeccionados fantasias, adereços, estandartes de carnaval e customização de camisetas e de carnaval durante todo o ano.
                     </p>
 
                     <p className={styles.sectionTexts}>
-                        As integrantes- em sua maioria residentes de Santa Marta - recebiam da ONG kits grátis para confecção destes trajes
-                        e eram divididas nos cursos de Corte e costura, oficina de adereços e criação de figurinos de carnaval, aprendendo
-                        desde a operar os equipamentos necessários até modelar os futuros trajes que saiam do papel após as aulas práticas, além
-                        da separação dos materiais utilizados que eram reaproveitados de blocos carnavalescos.</p>
+                        As integrantes eram inicialmente  residentes da comunidade do Santa Marta, sendo aberto posteriormente para todas as comunidades e recebiam da ONG kits de material gratuitamente durante o curso.</p>
+                        
                     <p className={styles.sectionTexts}>
-                        A Divinas já recebeu prêmios como: o Economia Criativa (parte do programa Fomento a Iniciativas 
-                        Empreendedoras e Inovadoras do Ministério da Cultura), na categoria 
-                        “Novos Modelos de Empreendimentos e Negócios Criativos” e o Prêmio Fantasia do Serpentina de Ouro 2012.
+                    
+                        A Divinas já recebeu prêmios como: o Economia Criativa (parte do programa Fomento a Iniciativas Empreendedoras e Inovadoras do Ministério da Cultura), na categoria “Novos Modelos de Empreendimentos e Negócios Criativos” e o Prêmio Fantasia do Serpentina de Ouro 2012.
                     </p>
 
                     <img className={styles.imgDivinas} src={divinasImg} alt="" />

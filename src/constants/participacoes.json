@@ -12,12 +12,25 @@
     },
     "camiseta": ["sonia-matos"]
   },
-
+  
   "1987": {
     "samba": {
       "autores": ["arnaldo-chaim"]
     },
     "camiseta": []
+  },
+
+  "1992": {
+    "samba": {
+      "autores": [
+        "lenine",
+        "xico-chaves",
+        "claudio-lobato",
+        "braulio-tavares"
+      ],
+      "interpretes": ["beto-brown"]
+    },
+    "camiseta": ["xico-chaves"]
   },
 
   "2012": {
