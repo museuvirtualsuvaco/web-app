@@ -20,7 +20,7 @@ const equipe = [
 
   //Membros da UFRJ
   {
-    nome: "Claudia dos Santos Goes",
+    nome: "Claudia Goés",
     instituto: "Casa da Ciência/UFRJ",
     foto: null,
     section: 2
