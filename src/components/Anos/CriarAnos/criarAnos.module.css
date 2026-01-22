@@ -1,33 +1,20 @@
-.container{
-    width:100vw;
-}
-
-.cabecalho{
-    position:relative;
-}
-
 .title {
   font-family: "Roboto Flex";
   font-size: 5rem;
   font-weight: 700;
   margin-top: 15px;
-  display: flex;
-  justify-content: flex-start; /* alinhado à esquerda */
   gap: 5px;
   align-items: end;
-  margin-left: 7vw; /* mesmo recuo dos textos */
+  margin-left: 7vw; 
   margin-right: 7vw;
+  color: var(--blue-titles);
 }
 
-.line {
-  display: none;
-}
 
 
 
 .sectionTexts{
     margin-top: 2rem;
-
     position: relative;
     justify-content: space-around;
     font-size: 1.7rem;
@@ -35,6 +22,7 @@
     position: relative;
     z-index: 10002;
     background-color: white;
+    min-height: 200px;
 
     >p{
         margin-left: 7vw;
@@ -50,8 +38,8 @@
 
 
 .floatImage {
-    position: relative;
     z-index: 10003;
+    position: relative;
     float: right; 
     width: 450px; 
     height: 300px; 
@@ -80,36 +68,26 @@
 }
 
 
-
-
-
-@media (max-width:1600px) {
-
-.title{font-size: 4rem;}
-}
-
-@media (max-width:1337px) {
-
-    .title{font-size: 3rem;}
-
-}
-
-
     
 
-@media (max-width:786px) {
+@media (max-width:768px) {
     .title{
         flex-direction: column;
         align-items: center;
+        font-size: 2.5rem;
+        text-align: center;
     }
 
-    .line{display: none;}
+    .sectionTexts{
+        font-size: 1.5rem;
+    }
+
 
     .floatImage{
         float:none;
         height: auto;
         width: 75%;
-        max-width: 468px;
+        max-width: 400px;
         left: 50%;
         transform: translateX(-50%);
         margin: 0;
@@ -117,10 +95,13 @@
     }
 }
 
-@media (max-width:444px) {
-    .title{font-size: 2rem;}
-}
+
 
 @media (max-width:600px) {
     .group28Gradiente{top: -50px;}
+
+    .floatImage{
+        max-width: 300px;
+    }
+    
 }
