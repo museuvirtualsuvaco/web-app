@@ -1,173 +1,154 @@
-// Imports das fotos
-import anamaria_foto from '../assets/equipe/anamaria.jpg'
-import artur_foto from '../assets/equipe/artur_amaral.jpeg'
-import carlos_foto from '../assets/equipe/carlos_chagas.jpg'
-import vitor_foto from '../assets/equipe/vitor_vicente.jpeg'
-import julia_foto from '../assets/equipe/julia.jpg'
-import malu_foto from '../assets/equipe/malu.jpg'
-import igor_foto from '../assets/equipe/igorandrade.jpg'
+// Imports das fotos -- TROCAR QUANDO TIVER BANCO DE DADOS
+import anamaria_foto from '../../assets/equipe/anamaria.jpg'
+import artur_foto from '../../assets/equipe/artur_amaral.jpeg'
+import carlos_foto from '../../assets/equipe/carlos_chagas.jpg'
+import vitor_foto from '../../assets/equipe/vitor_vicente.jpeg'
+import julia_foto from '../../assets/equipe/julia.jpg'
+import malu_foto from '../../assets/equipe/malu.jpg'
+import igor_foto from '../../assets/equipe/igorandrade.jpg'
 
-// JSON com dados dos membros
-const equipe = [
-  {
-    //Coordenação
-
+export const membros = {
+  anamaria: {
     nome: "Anamaria Martins Moreira",
     instituto: "IC",
-    foto: anamaria_foto,
-    section: 1
+    foto: anamaria_foto
   },
 
-  //Membros da UFRJ
-  {
-    nome: "Claudia dos Santos Goes",
+  claudiaGoes: {
+    nome: "Claudia Goés",
     instituto: "Casa da Ciência/UFRJ",
-    foto: null,
-    section: 2
+    foto: null
   },
-  {
+
+  heleniseMonteiro: {
     nome: "Helenise Monteiro Guimarães",
     instituto: "EBA",
-    foto: null,
-    section: 2
+    foto: null
   },
-  {
+
+  hugoMusso: {
     nome: "Hugo Musso Gualandi",
     instituto: "IC",
-    foto: null,
-    section: 2
+    foto: null
   },
 
-
-{
+  pauloMann: {
     nome: "Paulo Roberto Mann Marques Júnior",
     instituto: "IC",
-    foto: null,
-    section: 2
-  }, 
+    foto: null
+  },
 
-  {
+  tiagoMatias: {
     nome: "Tiago Matias da Silva",
     instituto: "IC",
-    foto: null,
-    section: 2
+    foto: null
   },
-  {
+
+  vanessaDupheim: {
     nome: "Vanessa Dupheim Pinheiro",
     instituto: "EBA",
-    foto: null,
-    section: 2
+    foto: null
   },
 
-  // Parceiros do Suvaco
-  {
+  carolineDeharbe: {
     nome: "Caroline Déharbe",
     instituto: null,
-    foto: null,
-    section: 3
+    foto: null
   },
-  {
+
+  joaoAvelleira: {
     nome: "João Carlos Regazzi Avelleira",
     instituto: null,
-    foto: null,
-    section: 3
+    foto: null
   },
 
-  //Alunos da UFRJ
-  {
+  carlosChagas: {
     nome: "Carlos Chagas Oliveira Filho",
     instituto: "IC",
-    foto: carlos_foto,
-    section: 4
+    foto: carlos_foto
   },
-  {
+
+  danielNocito: {
     nome: "Daniel Nocito Falcão Lopes",
     instituto: "IC",
-    foto: null,
-    section: 4
+    foto: null
   },
-  {
+
+  daviSouza: {
     nome: "Davi de Souza Gomes Pereira",
     instituto: "IC",
-    foto: null,
-    section: 4
+    foto: null
   },
-  {
+
+  guilhermeCappeli: {
     nome: "Guilherme Cappelli Bouzon de Amorim Cruz",
     instituto: "IC",
-    foto: null,
-    section: 4
+    foto: null
   },
-  {
+
+  igorAndrade: {
     nome: "Igor de Andrade Assuncao de Almeida",
     instituto: "IC",
-    foto: igor_foto,
-    section: 4
+    foto: igor_foto
   },
-  {
+
+  juliaVilela: {
     nome: "Julia Vilela da Silva Brito",
     instituto: "IC",
-    foto: julia_foto,
-    section: 4
+    foto: julia_foto
   },
-  {
+
+  lucasTanaka: {
     nome: "Lucas Tatsuya Tanaka",
     instituto: "IC",
-    foto: null,
-    section: 4
+    foto: null
   },
-  {
+
+  maluOmena: {
     nome: "Maria Luisa Lima De Omena",
     instituto: "EBA",
-    foto: malu_foto,
-    section: 4
+    foto: malu_foto
   },
-  {
+
+  riquelmeFreitas: {
     nome: "Riquelme Freitas Gomes",
     instituto: "IC",
-    foto: null,
-    section: 4
+    foto: null
   },
-  {
+
+  vitorVicente: {
     nome: "Vitor Vicente da Motta",
     instituto: "IC",
-    foto: vitor_foto,
-    section: 4
+    foto: vitor_foto
   },
 
-  //Ex Membros
-  {
+  annaCristina: {
     nome: "Anna Cristina Ferreira Alves",
     instituto: "IC",
-    foto: null,
-    section: 5
+    foto: null
   },
-  {
+
+  arturAmaral: {
     nome: "Artur Henrique Teixeira do Amaral",
     instituto: "IC",
-    foto: artur_foto,
-    section: 5
+    foto: artur_foto
   },
-  {
+
+  gabriellyFerreira: {
     nome: "Gabrielly de Freitas Ferreira",
     instituto: "IC",
-    foto: null,
-    section: 5
+    foto: null
   },
-  {
+
+  lauraSoares: {
     nome: "Laura Luz Santos Soares",
     instituto: "EBA",
-    foto: null,
-    section: 5
+    foto: null
   },
-    {
+
+  mariaCarmo: {
     nome: "Maria do Carmo Martins Vido",
     instituto: "EBA",
-    foto: null,
-    section: 5
-  },
-  
-
-];
-
-export default equipe;
+    foto: null
+  }
+}
