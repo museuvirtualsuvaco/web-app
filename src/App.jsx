@@ -19,7 +19,6 @@ import Timeline from './components/TimelinePage/TimeLine';
 import Emconstrucao from './pages/EmBreve/Emconstrucao';
 import Erro from './pages/EmBreve/Erro';
 
-import FirebaseUi from './components/FirebaseUi/FirebaseUi';
 
 {/* criacao de suvacodocristo.com/{ANO} */}
 
@@ -57,7 +56,7 @@ function App() {
           <Route path={ROUTES.DIVINAS_AXILAS} element={<DivinasAxilas />} />
           <Route path={ROUTES.PROJETO_MUSEU} element={<ProjetoMuseu />} />
           <Route path={ROUTES.LINHA_DO_TEMPO} element={<Timeline/>} />
-          <Route path={ROUTES.FIREBASE_TESTING} element={<FirebaseUi/>} />
+
           
           {/*Rotas : suvacodocristo.com.br/{ANO}*/}
           

@@ -11,8 +11,6 @@ export const LINHA_DO_TEMPO = '/linhadotempo'
 export const EM_CONSTRUCAO = '/ec'
 
 
-export const FIREBASE_TESTING = '/firebase';
-
 
 const tipos = ["samba", "midia", "desfile", "camiseta"];
 
