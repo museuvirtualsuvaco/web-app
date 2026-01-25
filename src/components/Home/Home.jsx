@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
-import "./Home.css"
 import Footer from '../Footer/Footer'
+
+import styles from './home.module.css'
 
 import Video from "./Video/Video"
 import FormCarrossel from "./FormCarrossel/FormCarrossel"
@@ -33,7 +34,7 @@ export default function Home() {
     return (
         <div>
             <main>
-                <div className="home-texts">
+                <div className={styles.homeTexts}>
                     <p>Há muita história para contar…</p>
                     <p>
                         Então nasceu a ideia de construir um  espaço para que essa história seja contada:
@@ -48,34 +49,34 @@ export default function Home() {
                         O site está sendo construído em  torno dessa contextualização. Como resultado, extenso material estará
                         disponível na rede para consulta por pesquisadores e público em geral.</p>
                 </div>
-                <div className="home-logos">
-                    <img id="logo-ufrj" src={logoufrj} alt="" />
-                    <img id="logo-ic" src={logoic} alt="" />
-                    <img id="eba" src={logoeba} alt="Logo História da Arte" />
+                <div className={styles.homeLogos}>
+                    <img className={styles.logoUfrj} src={logoufrj} alt="" />
+                    <img className={styles.logoIc} src={logoic} alt="" />
+                    <img className={styles.logoEba} src={logoeba} alt="Logo História da Arte" />
                     
                 </div>
             </main>
 
-            <div className={`buttons ${isMobile ? "buttons-mobile" : ""}`}>
+            <div className={`${styles.buttons} ${isMobile ? styles.buttonsMobile : ""}`}>
 
 
                 {/* AREA DESKTOP  */}
                 {!isMobile && (
                     <>
-                        <img id="separador-gradiente-1" src={gradiente} alt="" />
+                        <img className={styles.separadorGradiente1} src={gradiente} alt="" />
 
-                        <div className="projetos">
-                            <div className="projeto-social">
-                                <img id="projeto-social-img" src={projetoSocial} alt="" />
-                                <a href="/divinasAxilas" className="social-link overlay">O Projeto Social</a>
+                        <div className={styles.projetos}>
+                            <div className={styles.projetoSocial}>
+                                <img className={styles.projetoSocialImg} src={projetoSocial} alt="" />
+                                <a href="/divinasAxilas" className={`${styles.socialLink} ${styles.overlay}`}>O Projeto Social</a>
                             </div>
 
-                            <div className="projeto-museu">
-                                <img id="projeto-museu-img" src={projetoMuseu} alt="" />
-                                <a href="/projetoMuseu" className="museu-link overlay">O Projeto Museu</a>
+                            <div className={styles.projetoMuseu}>
+                                <img className={styles.projetoMuseuImg} src={projetoMuseu} alt="" />
+                                <a href="/projetoMuseu" className={`${styles.museuLink} ${styles.overlay}`}>O Projeto Museu</a>
                             </div>
                         </div>
-                        <img id="separador-gradiente-2" src={gradiente} alt="" />
+                        <img className={styles.separadorGradiente2} src={gradiente} alt="" />
                     </>
                 )}
 
@@ -83,14 +84,12 @@ export default function Home() {
                 {/* AREA MOBILE */}
                 {isMobile && (
                     <>
-                        <div className="projetos-mobile">
+                        <div className={styles.projetoMobile}>
 
-                            <img id="botoes-mobile" src={projetosMobile} alt="" />
-                            <a href="/divinasAxilas" className="social-link-mobile overlay">O Projeto Social</a>
+                            <img className={styles.botoesMobile} src={projetosMobile} alt="" />
+                            <a href="/divinasAxilas" className={`${styles.socialLinkMobile} ${styles.overlay}`}>O Projeto Social</a>
 
-                            <a href="/projetoMuseu" className="museu-link-mobile overlay">O Projeto Museu</a>
-
-
+                            <a href="/projetoMuseu" className={`${styles.museuLinkMobile} ${styles.overlay}`}>O Projeto Museu</a>
 
                         </div>
 
@@ -101,7 +100,7 @@ export default function Home() {
 
             </div>
 
-            <div className="form-area">
+            <div className={styles.formArea}>
 
                 <FormCarrossel></FormCarrossel>
                 <Video></Video>

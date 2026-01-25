@@ -5,16 +5,7 @@ html{
     letter-spacing: var(--letter-spacing);
 }
 
-.overlay{
-    background: rgba(0, 0, 0, 0.6);
-    color: white;
-    text-align: center;
-    z-index: 3;
-}
 
-.overlay:hover{
-    background: rgba(0, 0, 0, 0.9); 
-}
 
 .clearFix::after {
     content: "";

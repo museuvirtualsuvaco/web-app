@@ -1,4 +1,4 @@
-.home-texts {
+.homeTexts {
     justify-content: space-around;
     font-size: 1.2rem;
     line-height: 28px;
@@ -6,14 +6,14 @@
     z-index: 100;
     background-color: white;
 }
-.home-texts p {
+.homeTexts p {
     margin-top: 2rem;
     margin-left: 7vw;
     margin-right: 7vw;
     z-index: 100;
 }
 
-.home-logos {
+.homeLogos {
     display: flex;
     gap: 15px;
     z-index: 100;
@@ -26,11 +26,12 @@
 
 }
 
-.home-logos img {
+
+.homeLogos img {
     height: 200px;
 }
 
-#eba{
+.logoEba{
     position: relative;
     top:-30px
 }
@@ -43,20 +44,31 @@
 }
 
 /* Gradientes */
-#separador-gradiente-1, #separador-gradiente-2 {
+.separadorGradiente1, .separadorGradiente2 {
     position: absolute;
     width: 100vw;
 }
-#separador-gradiente-1 {
+.separadorGradiente1 {
     top: -30vw;
 }
-#separador-gradiente-2 {
+.separadorGradiente2 {
     top: 24vw;
     rotate: 180deg;
     z-index: 2;
 }
 
-/* Gradientes Mobile*/
+.overlay{
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: center;
+    z-index: 3;
+}
+
+.overlay:hover{
+    background: rgba(0, 0, 0, 0.9); 
+}
+
+/* Gradientes Mobile
 #separador-gradiente-11-mobile, #separador-gradiente-12-mobile{
     position: absolute;
     width: 100vw;
@@ -77,10 +89,10 @@
     
 }
 
-
+*/
 
 /* Imagens */
-#projeto-social-img {
+.projetoSocialImg {
     position: absolute;
     width: 60%;
     z-index: 0;
@@ -89,7 +101,7 @@
     margin-top: 3%;}
 
 
-#projeto-museu-img {
+.projetoMuseuImg {
     position: absolute;
     width: 60%;
     object-fit: fill;
@@ -98,7 +110,7 @@
     z-index: -11;
 }
 
-#projeto-museu-img-mobile{
+.projetoMuseuImgMobile{
     position: absolute;
     z-index: 0;
     top: 50vw
@@ -111,7 +123,7 @@
     width: 50%;
 }
 
-.museu-link {
+.museuLink {
     position: absolute;
     top: 27.5vw;
     left: 50%;
@@ -125,7 +137,7 @@
 
 
 
-.social-link {
+.socialLink {
     position: absolute;
     top: 27.5vw;
     margin-left: 25%;
@@ -136,12 +148,12 @@
 
 }
 
-.projetos-mobile{
+.projetosMobile{
     position: relative;
     top: -10vw;
 }
 
-.social-link-mobile{
+.socialLinkMobile{
     position: absolute;
     top: 47vw;
     margin-left: 0%;
@@ -149,7 +161,7 @@
     padding: 15px 30px;
     font-size: 2em;
 }
-.museu-link-mobile{
+.museuLinkMobile{
     position: absolute;
     top: 107vw;
     margin-left: 0%;
@@ -158,6 +170,10 @@
     font-size: 2em;
 }
 
+
+.formArea{
+    position: relative;
+}
 
 
 
@@ -338,7 +354,7 @@
 
 @media (max-width:520px) {
 
-    .home-logos img{
+    .homeLogos img{
         width: 125px;
         width: 125px;
         
@@ -347,7 +363,7 @@
 }
 @media (max-width:420px) {
 
-    .home-logos img{
+    .homeLogos img{
         width: 100px;
         height: 100px;
         margin-top: 20px;
@@ -363,5 +379,6 @@
     }
 
 }
+
 
 
