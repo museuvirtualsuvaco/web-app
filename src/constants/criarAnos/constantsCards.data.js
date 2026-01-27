@@ -55,7 +55,7 @@ export const constantsCardsData = [
                 src: null,
                 firstColor: "#00BE1D",
                 secondColor: "#00DE21",
-                link: '/1986/samba'
+                link: '/1987/samba'
             },
 
             {
@@ -64,7 +64,7 @@ export const constantsCardsData = [
                 src: null,
                 firstColor: "#009DFF",
                 secondColor: "#00BEB5",
-                link: '/1986/camiseta'
+                link: '/1987/camiseta'
             },
 
             {
@@ -73,7 +73,7 @@ export const constantsCardsData = [
                 src: null,
                 firstColor: "#E300C5",
                 secondColor: "#A700C8",
-                link: '/1986/desfile'
+                link: '/1987/desfile'
             },
             {
                 title: 'Suvaco na mídia',
@@ -81,7 +81,7 @@ export const constantsCardsData = [
                 src: null,
                 firstColor: "#DBBB00",
                 secondColor: "#FF9A27",
-                link: '/1986/midia'
+                link: '/1987/midia'
             },
 
         ]
@@ -95,7 +95,7 @@ export const constantsCardsData = [
                 src: null,
                 firstColor: "#00BE1D",
                 secondColor: "#00DE21",
-                link: '/1986/samba'
+                link: '/1992/samba'
             },
 
             {
@@ -104,7 +104,7 @@ export const constantsCardsData = [
                 src: null,
                 firstColor: "#009DFF",
                 secondColor: "#00BEB5",
-                link: '/1986/camiseta'
+                link: '/1992/camiseta'
             },
 
             {
@@ -113,7 +113,7 @@ export const constantsCardsData = [
                 src: null,
                 firstColor: "#E300C5",
                 secondColor: "#A700C8",
-                link: '/1986/desfile'
+                link: '/1992/desfile'
             },
             {
                 title: 'Suvaco na mídia',
@@ -121,7 +121,7 @@ export const constantsCardsData = [
                 src: null,
                 firstColor: "#DBBB00",
                 secondColor: "#FF9A27",
-                link: '/1986/midia'
+                link: '/1992/midia'
             },
 
         ]
@@ -135,7 +135,7 @@ export const constantsCardsData = [
                 src: null,
                 firstColor: "#00BE1D",
                 secondColor: "#00DE21",
-                link: '/1986/samba'
+                link: '/2012/samba'
             },
 
             {
@@ -144,7 +144,7 @@ export const constantsCardsData = [
                 src: null,
                 firstColor: "#009DFF",
                 secondColor: "#00BEB5",
-                link: '/1986/camiseta'
+                link: '/2012/camiseta'
             },
 
             {
@@ -153,7 +153,7 @@ export const constantsCardsData = [
                 src: null,
                 firstColor: "#E300C5",
                 secondColor: "#A700C8",
-                link: '/1986/desfile'
+                link: '/2012/desfile'
             },
             {
                 title: 'Suvaco na mídia',
@@ -161,7 +161,7 @@ export const constantsCardsData = [
                 src: null,
                 firstColor: "#DBBB00",
                 secondColor: "#FF9A27",
-                link: '/1986/midia'
+                link: '/2012/midia'
             },
 
         ]
