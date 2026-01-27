@@ -21,24 +21,31 @@ function getParticipacoesDoArtista(personId) {
 
   for (const ano in participacoesData) {
     const dadosAno = participacoesData[ano]
+    let encontrouNoAno = false
 
     for (const categoria in dadosAno) {
+      if (encontrouNoAno) break
+
       const bloco = dadosAno[categoria]
 
       if (Array.isArray(bloco)) {
         if (bloco.includes(personId)) {
-          resultado.push({ ano })
+          encontrouNoAno = true
         }
       } else {
         for (const papel in bloco) {
           if (bloco[papel].includes(personId)) {
-            resultado.push({ ano })
+            encontrouNoAno = true
+            break
           }
         }
       }
     }
+    if (encontrouNoAno) {
+      resultado.push({ ano })
+    }
   }
-
+  
   return resultado
 }
 
@@ -80,8 +87,8 @@ export default function Artista() {
                 <p>Fontes:</p>
                 {artista.fontes.map((fonte, i) => (
                   <p className={styles.nowrap} key={i}>
-                    <a href={fonte} target="_blank" rel="noopener noreferrer">
-                      {fonte}
+                    <a href={fonte.url} target="_blank" rel="noopener noreferrer">
+                      {fonte.texto}
                     </a>
                   </p>
                 ))}
