@@ -31,8 +31,8 @@ import routes, { subroutes } from './constants/routes';
 
 import SambaBase from './components/SubRotasAnos/SambaContent/SambaBase';
 import CamisetaBase from './components/SubRotasAnos/CamisetaContent/CamisetaBase';
-import SuvacoMidia86 from './components/SubConteudo/1986/SuvacoMidia1986';
-import Desfile86 from './components/SubConteudo/1986/Desfile1986'
+import DesfileBase from './components/SubRotasAnos/DesfileContent/DesfileBase';
+import MidiaBase from './components/SubRotasAnos/MidiaContent/MidiaBase';
 
 import DisclaimerModal from './components/disclaimer/disclaimerModal';
 
@@ -74,12 +74,25 @@ function App() {
           
           {/*Rotas : suvacodocristo.com.br/{ANO}/CAMISETA*/}
           <Route path={subroutes.PAG1986CAMISETA} element={<CamisetaBase ano="1986"/>} />
-          <Route path={subroutes.PAG1986CAMISETA} element={<CamisetaBase ano="1987"/>} />
-          <Route path={subroutes.PAG1986CAMISETA} element={<CamisetaBase ano="1992"/>} />
-          <Route path={subroutes.PAG1986CAMISETA} element={<CamisetaBase ano="2012"/>} />
+          <Route path={subroutes.PAG1987CAMISETA} element={<CamisetaBase ano="1987"/>} />
+          <Route path={subroutes.PAG1992CAMISETA} element={<CamisetaBase ano="1992"/>} />
+          <Route path={subroutes.PAG2012CAMISETA} element={<CamisetaBase ano="2012"/>} />
+
+
+          {/*Rotas : suvacodocristo.com.br/{ANO}/DESFILE  */}
+          <Route path={subroutes.PAG1986DESFILE} element={<DesfileBase ano="1986"/>} />
+          <Route path={subroutes.PAG1987DESFILE} element={<DesfileBase ano="1987"/>} />
+          <Route path={subroutes.PAG1992DESFILE} element={<DesfileBase ano="1992"/>} />
+          <Route path={subroutes.PAG2012DESFILE} element={<DesfileBase ano="2012"/>} />
+
+
+
+          {/*Rotas : suvacodocristo.com.br/{ANO}/MIDIA*/}
+          <Route path={subroutes.PAG1986MIDIA} element={<MidiaBase ano="1986"/>} />
+          <Route path={subroutes.PAG1987MIDIA} element={<MidiaBase ano="1987"/>} />
+          <Route path={subroutes.PAG1992MIDIA} element={<MidiaBase ano="1992"/>} />
+          <Route path={subroutes.PAG2012MIDIA} element={<MidiaBase ano="2012"/>} />
           
-          <Route path={subroutes.PAG1986MIDIA} element={<SuvacoMidia86/>} />
-          <Route path={subroutes.PAG1986DESFILE} element={<Desfile86/>} />
 
 
 
