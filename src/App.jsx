@@ -29,7 +29,7 @@ import routes, { subroutes } from './constants/routes';
 
 {/* criacao de suvacodocristo.com/{ANO}/{SUBROTAS} */}
 
-import Samba1986 from './components/SubConteudo/1986/Samba1986';
+import SambaBase from './components/SubRotasAnos/SambaContent/SambaBase';
 import Camiseta1986 from './components/SubConteudo/1986/Camiseta1986';
 import SuvacoMidia86 from './components/SubConteudo/1986/SuvacoMidia1986';
 import Desfile86 from './components/SubConteudo/1986/Desfile1986'
@@ -65,7 +65,10 @@ function App() {
           <Route path={routes.PAG1992} element={<CriarAnos ano="1992" />} />
           <Route path={routes.PAG2012} element={<CriarAnos ano="2012" />} />
 
-          <Route path={subroutes.PAG1986SAMBA} element={<Samba1986/>} />
+          <Route path={subroutes.PAG1986SAMBA} element={<SambaBase ano="1986"/>} />
+          <Route path={subroutes.PAG1987AMBA} element={<SambaBase ano="1987"/>} />
+          <Route path={subroutes.PAG1992SAMBA} element={<SambaBase ano="1992"/>} />
+          <Route path={subroutes.PAG2012SAMBA} element={<SambaBase ano="2012"/>} />
           <Route path={subroutes.PAG1986MIDIA} element={<SuvacoMidia86/>} />
           <Route path={subroutes.PAG1986DESFILE} element={<Desfile86/>} />
           <Route path={subroutes.PAG1986CAMISETA} element={<Camiseta1986/>} />
