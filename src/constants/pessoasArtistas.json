@@ -27,8 +27,14 @@
     "imgFile": "joseLavigne-doc-modified.png",
     "bio": "Nascido no Rio de Janeiro, José Lavigne de Lemos Filho enxergou no teatro do Liceu Franco Brasileiro um escape para a rigidez de sua educação. De lá, entrou para o Tablado, escola de atuação fundada em 1951 pela atriz, escritora e diretora Maria Clara Machado. Após abandonar a universidade em que cursava direito para dedicar-se exclusivamente ao mundo das artes, Lavigne ingressou no grupo “Asdrúbal Trouxe o Trombone”. Posteriormente fundou, junto com outros artistas,  o “Manhas e Manias”, focado em apresentações circenses, onde passou a desenvolver suas primeiras experiências como diretor. Ao ingressar na Globo, em 1986, Lavigne passou a dirigir programas  humorísticos de grande sucesso da televisão brasileira, assim como programas jornalísticos. Em 1985, na época da criação do Suvaco do Cristo, era um dos moradores do prédio 741 da Rua Maria Angélica, onde nossa odisseia começou!",
     "fontes": [
-      "https://memoriaglobo.globo.com/perfil/jose-lavigne/noticia/jose-lavigne.ghtml",
-      "https://www.otablado.com.br/texto/1/historia"
+       {
+        "texto": "Memória Globo",
+        "url":  "https://memoriaglobo.globo.com/perfil/jose-lavigne/noticia/jose-lavigne.ghtml"
+      },
+      {
+        "texto": "O Tablado",
+        "url": "https://www.otablado.com.br/texto/1/historia"
+      }
     ],
     "socials": {}
   },
@@ -106,8 +112,14 @@
     "imgFile": "20XX - Beto Brown.png",
     "bio": "Beto Brown é um músico, ator, diretor, cantor, compositor, autor e coreógrafo carioca. Nascido e criado em Copacabana, o artista teve seu interesse pelo teatro despertado desde a infância, em razão de sua mãe o levar  para assistir peças infantis. Já na adolescência, passou a ter aulas  no Colégio Andrews com Miguel Falabella e Maria Padilha e passou a trabalhar em diversas peças em diferentes funções como diretor, ator, figurinista e produtor. Na década de 1990, investiu em uma carreira internacional e passou por países como Portugal, Espanha, França, Dinamarca e Holanda. Em 1986, primeiro desfile do Suvaco do Cristo, foi um dos puxadores do bloco. Foi compositor dos sambas de 2013 (O Suvaco é Rei)  e 2014 (Como o Suvaco no Hay). Em entrevista ao Jornal JB em Folhas ele comenta que o Suvaco é o bloco mais bonito que ele já viu e lamenta que nos anos recentes não haja mais ensaios: “Todo mundo só sabe cantar os sambas dos primeiros 15 anos, porque hoje não tem mais ensaio, só o desfile mesmo“ .",
     "fontes": [
-      "https://www.rj.gov.br/radioroquettepinto/node/4514",
-      "https://jbemfolhas.com.br/encontros-teatro-e-musica-movem-beto-brown/"
+      {
+        "texto": "Rádio Roquette Pinto",
+        "url":  "https://www.rj.gov.br/radioroquettepinto/node/4514"
+      },
+      {
+        "texto": "Jornal JB em Folhas",
+        "url": "https://jbemfolhas.com.br/encontros-teatro-e-musica-movem-beto-brown/"
+      }
     ],
     "socials": {
       "instagram": "https://www.instagram.com/beto_brown_/"
