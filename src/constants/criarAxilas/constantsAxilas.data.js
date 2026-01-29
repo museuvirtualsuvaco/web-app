@@ -1,6 +1,6 @@
-import imprensa from '../../../assets/2012/serpentina_de_ouro/2012 Serpentina de Ouro- Trofeu.jpg'
-import cursos from '../../../assets/divinas/divinas3.jpg'
-import book from '../../../assets/divinas/bookdivinasfoto.png'
+import imprensa from '../../assets/2012/serpentina_de_ouro/2012 Serpentina de Ouro- Trofeu.jpg'
+import cursos from '../../assets/divinas/divinas3.jpg'
+import book from '../../assets/divinas/bookdivinasfoto.png'
 
 export const cardsData = [
     {
