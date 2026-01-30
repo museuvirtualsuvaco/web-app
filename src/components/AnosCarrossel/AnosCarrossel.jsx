@@ -22,7 +22,7 @@ function scrollCarrossel(direcao) {
 export default function AnosCarrossel({ participacoes }) {
   
   if (!participacoes || participacoes.length === 0) {
-    return null; 
+    return null;
   }
 
   return (
