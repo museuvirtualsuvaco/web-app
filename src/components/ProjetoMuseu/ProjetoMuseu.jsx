@@ -139,6 +139,14 @@ const ProjetoMuseu = () => {
           <span>Suvaco do Cristo se despede do carnaval após 40 anos e faz último desfile em fevereiro - Diário do Rio, 12/01/2026 </span>      
           </a>
 
+          <a href="https://oglobo.globo.com/blogs/ancelmo-gois/post/2025/12/veja-a-camisa-do-ultimo-desfile-do-suvaco-de-cristo-chegou-a-hora-da-nave-aterrizar.ghtml" target="_blank" rel="noopener noreferrer">  
+          <span>Veja a camisa do último desfile do 'Suvaco de Cristo' - O Globo, 27/12/2025 </span>      
+          </a>
+          
+          <a href="https://extra.globo.com/rio/carnaval/noticia/2025/02/prepare-o-folego-rio-tem-mais-de-110-blocos-de-carnaval-neste-fim-de-semana-confira-a-programacao.ghtml?utm_source=Whatsapp&utm_medium=Social&utm_campaign=compartilhar" target="_blank" rel="noopener noreferrer">  
+          <span>Prepare o fôlego: Rio tem mais de 110 blocos de carnaval neste fim de semana; confira a programação - Extra, 22/02/2025 </span>      
+          </a>
+
           </div>
         </div>
 
