@@ -105,7 +105,7 @@ const equipe = [
     section: 4
   },
   {
-    nome: "Julia Vilela da Silva Brito",
+    nome: "Júlia Vilela da Silva Brito",
     instituto: "IC",
     foto: julia_foto,
     section: 4
@@ -167,6 +167,13 @@ const equipe = [
     section: 5
   },
   
+  //Agradecimentos
+  {
+    nome: "Isabel Martins Moreira",
+    instituto: "Consultoria em design",
+    foto: null,
+    section: 6
+  }
 
 ];
 

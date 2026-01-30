@@ -156,7 +156,12 @@
     width: 100%;
 }
 
-
+.links{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    text-decoration: underline;
+}
 
 @media (max-width:500px) {
     .titleSection{
