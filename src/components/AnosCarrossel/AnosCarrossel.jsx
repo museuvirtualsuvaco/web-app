@@ -27,7 +27,7 @@ export default function AnosCarrossel({ participacoes }) {
 
   return (
     <div className={styles.anosParticipacaoContainer}> 
-      <h2 className={styles.sectionTitle}>ANOS DE PARTICIPAÇÃO</h2> 
+      <h2 className={styles.sectionTitle}>ANOS EM DESTAQUE</h2> 
       
       <div className={styles.carrosselWrapper}>
         <button 
