@@ -22,12 +22,12 @@ function scrollCarrossel(direcao) {
 export default function AnosCarrossel({ participacoes }) {
   
   if (!participacoes || participacoes.length === 0) {
-    return null; 
+    return null;
   }
 
   return (
     <div className={styles.anosParticipacaoContainer}> 
-      <h2 className={styles.sectionTitle}>ANOS DE PARTICIPAÇÃO</h2> 
+      <h2 className={styles.sectionTitle}>ANOS EM DESTAQUE</h2> 
       
       <div className={styles.carrosselWrapper}>
         <button 

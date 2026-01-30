@@ -131,6 +131,25 @@ const ProjetoMuseu = () => {
           </p>
         </div>
 
+        <h2 className={styles.titleSectionNoPadding}>NOSSO PROJETO NA MÍDIA</h2>
+
+        <div className={styles.box}>
+          <div className={styles.links}>
+          <a href="https://diariodorio.com/suvaco-do-cristo-se-despede-do-carnaval-apos-40-anos-e-faz-ultimo-desfile-em-fevereiro/" target="_blank" rel="noopener noreferrer">  
+          <span>Suvaco do Cristo se despede do carnaval após 40 anos e faz último desfile em fevereiro - Diário do Rio, 12/01/2026 </span>      
+          </a>
+
+          <a href="https://oglobo.globo.com/blogs/ancelmo-gois/post/2025/12/veja-a-camisa-do-ultimo-desfile-do-suvaco-de-cristo-chegou-a-hora-da-nave-aterrizar.ghtml" target="_blank" rel="noopener noreferrer">  
+          <span>Veja a camisa do último desfile do 'Suvaco de Cristo' - O Globo, 27/12/2025 </span>      
+          </a>
+          
+          <a href="https://extra.globo.com/rio/carnaval/noticia/2025/02/prepare-o-folego-rio-tem-mais-de-110-blocos-de-carnaval-neste-fim-de-semana-confira-a-programacao.ghtml?utm_source=Whatsapp&utm_medium=Social&utm_campaign=compartilhar" target="_blank" rel="noopener noreferrer">  
+          <span>Prepare o fôlego: Rio tem mais de 110 blocos de carnaval neste fim de semana; confira a programação - Extra, 22/02/2025 </span>      
+          </a>
+
+          </div>
+        </div>
+
         <h2 className={styles.titleSectionNoPadding}>OBJETIVOS</h2>
 
         <div className={styles.box}>
@@ -179,6 +198,7 @@ const ProjetoMuseu = () => {
             Bloco Suvaco do Cristo.
           </p>
         </div>
+
 
         <h2 className={styles.titleSectionEquipe}>COORDENAÇÃO</h2>
 
@@ -276,6 +296,28 @@ const ProjetoMuseu = () => {
                 </div>
               ))}
           </div>
+        </div>
+
+        <h2 className={styles.titleSectionNoPadding}>AGRADECIMENTOS</h2>
+
+        <div className={styles.box}>
+          
+          <div className={styles.box}>
+          <div className={styles.divFotos}>
+            {equipe
+              .filter((p) => p.section === 6)
+              .map((p) => (
+                <div key={p.nome} className={styles.membro}>
+                  {p.foto ? (
+                    <img className={styles.membroFoto} src={p.foto} alt={p.nome} />
+                  ) : (
+                    gerarAvatar(p.nome)
+                  )}
+                  <p>{p.nome} {p.instituto && `(${p.instituto})`}</p>
+                </div>
+              ))}
+          </div>
+        </div>
         </div>
 
         <BtnVoltar />
