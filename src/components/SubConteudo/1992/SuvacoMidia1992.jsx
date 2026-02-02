@@ -1,10 +1,6 @@
 import React from 'react';
-import styles from './SuvacoMidia2012.module.css';
+import styles from './SuvacoMidia1992.module.css';
 
-import namidia1 from '../../../assets/2012/na_midia/2012 Globo Anselmo gente Boa(1).jpg'
-import namidia2 from '../../../assets/2012/na_midia/2012 Serpentina de Ouro 2012(1).jpg'
-import namidia3 from '../../../assets/2012/na_midia/2012 Suvaco Cynthia PB Caras.jpg'
-import namidia4 from '../../../assets/2012/na_midia/2012 Valor economico(1).jpg'
 
 import Grupo from "../../../assets/Group 28.svg";
 export default function SambaContent() {
@@ -12,7 +8,7 @@ export default function SambaContent() {
     <>
     <div className={styles.cabecalho}>
     
-        <h2 className={styles.titulo}>Desfile 2012, Ano 27 - Mídia</h2>
+        <h2 className={styles.titulo}>Desfile 1992, Ano 06 - Mídia</h2>
         <p className={styles.texto}>Em construção!</p>
         <img
                   src={Grupo}

@@ -43,8 +43,10 @@ import Camiseta1987 from './components/SubConteudo/1987/Camiseta1987';
 import SuvacoMidia87 from './components/SubConteudo/1987/SuvacoMidia1987';
 import Desfile87 from './components/SubConteudo/1987/Desfile1987'
 
-import Samba1992 from './components/SubConteudo/1992/Samba1992'
-import Camiseta1992 from './components/SubConteudo/1992/Camiseta1992'
+import Samba1992 from './components/SubConteudo/1992/Samba1992';
+import Camiseta1992 from './components/SubConteudo/1992/Camiseta1992';
+import SuvacoMidia1992 from './components/SubConteudo/1992/SuvacoMidia1992';
+import Desfile1992 from './components/SubConteudo/1992/Desfile1992';
 
 import Samba2012 from './components/SubConteudo/2012/Samba2012';
 import Camiseta2012 from './components/SubConteudo/2012/Camiseta2012';
@@ -97,8 +99,8 @@ function App() {
 
           <Route path={routes.PAG1992} element={<Ano1992/>} />
           <Route path={subroutes.PAG1992SAMBA} element={<Samba1992/>} />
-          <Route path={subroutes.PAG1992MIDIA} element={<Emconstrucao/>} />
-          <Route path={subroutes.PAG1992DESFILE} element={<Emconstrucao/>} />
+          <Route path={subroutes.PAG1992MIDIA} element={<SuvacoMidia1992 />} />
+          <Route path={subroutes.PAG1992DESFILE} element={<Desfile1992/>} />
           <Route path={subroutes.PAG1992CAMISETA} element={<Camiseta1992/>} />
 
 

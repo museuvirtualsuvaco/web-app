@@ -36,14 +36,15 @@ import foto19 from '../assets/imgCarrossel/rect19.png'
 
 const anos = [
   { nome: "1986", src: foto86, disabled: false },
+  { nome: "1992", src: foto92, disabled: false },
   { nome: "2012", src: foto12, disabled: false },
+  
 
   { nome: "1987", src: foto87, disabled: true },
   { nome: "1988", src: foto88, disabled: true },
   { nome: "1989", src: foto89, disabled: true },
   { nome: "1990", src: foto90, disabled: true },
   { nome: "1991", src: foto91, disabled: true },
-  { nome: "1992", src: foto92, disabled: true },
   { nome: "1993", src: foto93, disabled: true },
   { nome: "1994", src: foto94, disabled: true },
   { nome: "1995", src: foto95, disabled: true },

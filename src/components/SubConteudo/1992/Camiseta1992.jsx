@@ -20,7 +20,7 @@ const importImagem = (fileName) => {
 
 export default function CamisetaContent() {
 
-  const ano = "2012"
+  const ano = "1992"
 
   const artistasIds =
     participacoes[ano]?.camiseta || []
@@ -36,7 +36,7 @@ export default function CamisetaContent() {
         
         {/*Texto da camiseta*/}
         <p className={styles.texto}>
-          Texto camiseta 2012.
+           Xico Chaves, um dos fundadores do bloco, fez nessa arte uma referência ao momento da criação do bloco. Segundo o próprio, a camiseta de 92 é o Cristo Redentor surfando de túnica nas ondas do posto 9, onde surgiu a ideia de fazermos um bloco de carnaval na Rua Maria Angélica, no Jardim Botânico, sob o suvaco do  Redentor.
 
         </p>
 

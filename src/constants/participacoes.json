@@ -44,5 +44,116 @@
       "interpretes": ["mu-chebabi"]
     },
     "camiseta": ["edgar-fonseca"]
+  },
+
+  "1989": {
+    "samba": {
+      "autores": [
+        "braulio-tavares",
+        "lenine"
+      ]
+    },
+    "camiseta": ["Pojucan"]
+  },
+
+  "1993": {
+    "samba": {
+      "autores": [
+        "alexandre-magrelo", 
+        "braulio-tavares", 
+        "lenine"
+      ], 
+      "interpretes": ["beto-brown"]
+    }
+  },
+
+  "1996": {
+    "samba": {
+      "autores": [
+        "alexandre-magrelo"  
+      ], 
+      "interpretes": ["beto-brown"]
+    }, 
+    "camiseta": ["marcos-wagner"]
+  },
+
+  "1997": {
+    "samba": {
+      "autores": [
+        "alexandre-magrelo",
+        "braulio-tavares", 
+        "lenine"  
+      ], 
+      "interpretes": ["beto-brown"]
+    }, 
+    "camiseta": ["marcos-wagner"]
+  },
+
+  "2007":{
+    "samba": {
+      "autores": [
+        "alexandre-magrelo", 
+        "braulio-tavares",
+        "claudio-lobato"
+      ],
+      "interpretes": ["beto-brown"]
+    }
+  },
+
+  "2013": {
+    "samba": {
+      "autores": [
+        "alexandre-magrelo", 
+        "dom-oliveira",
+        "jeronimo-machado",
+        "mu-chebabi"
+      ],
+      "interpretes": ["beto-brown"]
+    },
+    "camiseta": ["marcos-wagner"]
+  },
+
+  "2014": {
+    "samba": {
+      "autores": [
+        "alexandre-magrelo", 
+        "dom-oliveira",
+        "jeronimo-machado",
+        "mu-chebabi",
+        "xico-chaves"
+      ],
+      "interpretes": ["beto-brown"]
+    },
+    "camiseta": ["marcos-wagner"]
+  },
+
+  "2015": {
+    "samba": {
+      "autores":[
+        "alexandre-magrelo", 
+        "dom-oliveira",
+        "jeronimo-machado",
+        "mu-chebabi",
+        "xico-chaves"
+      ],
+      "interpretes": ["beto-brown"]
+    }, 
+    "camiseta": ["marcos-wagner"]
+  },
+
+  "2019": {
+    "samba": {
+      "autores": [
+        "alexandre-magrelo",
+        "jeronimo-machado", 
+        "joao-nabuco", 
+        "mu-chebabi"
+      ], 
+      "interpretes": ["beto-brown"]
+    }, 
+    "camiseta": ["marcos-wagner"]
   }
+
 }
+
+

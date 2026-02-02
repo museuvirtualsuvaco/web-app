@@ -40,7 +40,7 @@ export default function Home() {
                         a história do Suvaco do Cristo e da revitalização do carnaval de rua do Rio de Janeiro.
                         Foi iniciada uma parceria entre a presidência do bloco e a UFRJ, através de  seu Instituto de Computação,
                         e dessas conversas nasceu o projeto de extensão "Museu virtual do carnaval de rua do Rio de Janeiro: Bloco Suvaco do Cristo”
-                        que conta com a participação de professores, técnicos e estudantes da UFRJ, em especial, das áreas da Computação e da História da Arte.</p>
+                        que conta com a participação de professores, técnicos e estudantes da UFRJ, em especial, das áreas da Computação e da História da Arte. O projeto conta também, desde maio de 2025, com o apoio do programa PROFAEX da Pró-reitoria de Extensão da UFRJ. </p>
 
                     <p>O projeto atua na preservação da memória do bloco e da revitalização do carnaval de rua carioca,
                         através de um repositório e um portal (museu virtual) com a história do bloco. Uma organização por ano de
