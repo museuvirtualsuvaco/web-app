@@ -1,5 +1,11 @@
 import React from 'react';
 import styles from './SuvacoMidia1992.module.css';
+import namidia1 from '../../../assets/1992/naMidia/1992 Eco no Ar OKOK.JPG';
+import namidia2 from '../../../assets/1992/naMidia/1992 Eco no Ar Trajeto e samba.JPG';
+import namidia3 from '../../../assets/1992/naMidia/1992 eu recomerndo Evandro e Aldir.JPG';
+import namidia4 from '../../../assets/1992/naMidia/1992 foto.JPG';
+import namidia5 from '../../../assets/1992/naMidia/1992 JB (1).JPG';
+
 
 
 import Grupo from "../../../assets/Group 28.svg";
@@ -8,7 +14,7 @@ export default function SambaContent() {
     <>
     <div className={styles.cabecalho}>
     
-        <h2 className={styles.titulo}>Desfile 1992, Ano 06 - Mídia</h2>
+        <h2 className={styles.titulo}>Desfile 1992, Ano 07 - Mídia</h2>
         <p className={styles.texto}>Em construção!</p>
         <img
                   src={Grupo}
