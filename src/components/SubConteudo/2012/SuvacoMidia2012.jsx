@@ -13,7 +13,8 @@ export default function SambaContent() {
     <div className={styles.cabecalho}>
     
         <h2 className={styles.titulo}>Desfile 2012, Ano 27 - Mídia</h2>
-        <p className={styles.texto}>Em construção!</p>
+        <p className={styles.texto}> 
+          Em 2012 o bloco foi assunto com frequência. E dessa vez, sempre de maneira positiva! As fantasias do bloco chamaram a atenção da imprensa… levando inclusive à obtenção do prêmio Serpentina de Ouro no quesito fantasias. E a revista Valor Econômico deu destaque em suas páginas à uma característica frequentemente esquecida, do carnaval: os blocos carnavalescos contribuem significativamente para a circulação da economia durante este período de festividades pelo país, impactando diversos setores como turismo, hotelaria e transporte, com milhares de turistas (nacionais e internacionais) tornando-se potenciais consumidores de bares, restaurantes e hotéis,além de pequenos comércios com vendedores ambulantes fortalecerem e desenvolverem a economia criativa da cidade.</p>
         <img
                   src={Grupo}
                   className={styles.group28Gradiente}
