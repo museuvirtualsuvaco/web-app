@@ -165,5 +165,42 @@
     "bio": "Em virtude do Suvaco do Cristo possuir um caráter festivo e estar ligado a uma forma voltada para o entretenimento e diversão para aqueles que desejem participar – algo que o diferencia de blocos que possuem uma identidade mais politizada como o ‘’Simpatia Quase Amor’’ -, os integrantes não possuíam uma vasta gama de conhecimento a respeito de samba, não sabendo tocar instrumentos característicos do gênero e compor canções que fariam parte do bloco. Por esta razão, um dos membros do Suvaco, o iluminador e produtor Rogério Emerson, conseguiu que o grupo se unisse ao Força Jovem do Horto, localizado no bairro de mesmo nome próximo ao Jardim Botânico, com quem passaram a ensaiar. O presidente do bloco na época, Roberto de Assis (mais conhecido como Pirulito), foi o grande responsável por unir as duas associações e a desenvolver o primeiro samba do Suvaco intitulado ‘’Divinas Axilas’’, como revela no documentário 20 anos de Suvaco o sociólogo Arnaldo Chaim: ´´Em cinco minutos, ele transformou aquele monstro em samba’’. A relação entre os dois blocos terminaria após três anos em detrimento da decisão do Suvaco de mudar-se para o Clube Condomínio.",
     "fontes": [],
     "socials": {}
+  }, 
+
+  "alexandre-magrelo": {
+    "id": "alexandre-magrelo",
+    "name": "Alexandre Magrelo",
+    "imgFile": "nenhum.png",
+    "bio": "sem bio no momento",
+    "fontes": [],
+    "socials": {}
+  },
+
+  "marcos-wagner": {
+    "id": "marcos-wagner",
+    "name": "Marcos Wagner",
+    "imgFile": "nenhum.png",
+    "bio": "sem bio no momento",
+    "fontes": [],
+    "socials": {}
+  }, 
+
+  "joao-nabuco": {
+    "id": "joao-nabuco",
+    "name": "João Nabuco",
+    "imgFile": "nenhum.png",
+    "bio": "sem bio no momento",
+    "fontes": [],
+    "socials": {}
+  },
+
+  "pojucan": {
+    "id": "pojucan",
+    "name": "Pojucan",
+    "imgFile": "nenhum.png",
+    "bio": "sem bio no momento",
+    "fontes": [],
+    "socials": {}
   }
+
 }

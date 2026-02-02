@@ -50,11 +50,9 @@ export default function SambaContent() {
 
       <div className={styles.cabecalho}>
 
-        <h2 className={styles.titulo}>Desfile 1992, Ano 27 - Samba</h2>
+        <h2 className={styles.titulo}>Desfile 1992, Ano 07 - Samba</h2>
         <p className={styles.texto}>
-          Texto samba.
-
-
+          “Eco no ar”, samba de 1992 do Suvaco de Cristo, teve uma forte influência de seu contexto mundial: era ano de ECO-92 e o Rio de Janeiro se preparava para ser a sede da conferência em busca de um novo caminho para a humanidade em nome do meio ambiente. O samba havia começado numa feijoada no 741 da Maria Angélica, sendo escrito por Lenine, Xico Chaves, Bráulio Tavares e Claudio Lobato, e logo se transformou em trilha sonora de um carnaval que dialogava diretamente com o momento vivido pela cidade. O carnaval funciona como uma linguagem popular, acessível e bem-humorada, a letra do samba mistura referências ambientais e sociais, no contexto de vida carioca que falam diretamente da experiência de viver a cidade. Trechos como “... sou lixo, sou lixo sim, tenho que me reciclar em cada botequim ...”, tem a ideia de a reciclagem aparecer de forma simbólica, ligada tanto ao meio ambiente quanto ao próprio corpo urbano e à vida boêmia. E os trocadilhos e duplos sentidos abundam em toda a letra desse samba. O “eco” citado no título se espalha ganhando voz no canto dos foliões. “Eco no ar” mostra como o Suvaco de Cristo, assim como outros blocos cariocas, utilizam o samba-enredo como forma de diálogo com seu tempo. Mais do que apenas animar o desfile, a música registra um momento histórico específico e revela como o carnaval absorve debates contemporâneos e os devolve em forma de folia.
         </p>
       </div>
 

@@ -227,6 +227,8 @@
   background-color: #000000ef;
 }
 
+
+
 @media (max-width:900px) {
    .titulo {
     font-size: 2rem;

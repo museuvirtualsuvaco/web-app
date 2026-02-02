@@ -93,6 +93,10 @@ span{
 
 }
 
+.sectionTexts a{
+  text-decoration: underline;
+}
+
 .conteudo{
     display: flex;
     flex-direction: row;
