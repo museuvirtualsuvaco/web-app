@@ -1,23 +1,24 @@
 .container {
+  position: relative;
+  z-index: 20;
   padding: 6rem 2rem;
   width: 100%;
   margin: 0 auto;
   background: transparent;
   max-width: 100%;
-  background: linear-gradient(to bottom, #03C01F, #22BFEA);
+  background: linear-gradient(to bottom, #03c01f, #22bfea);
   position: relative;
-  z-index: -5;
   margin-top: -120px;
 }
 
-.cabecalho{
+.cabecalho {
   position: relative;
   z-index: 20;
   background: transparent;
 }
 
 .titulo {
-  font-family: 'PT Mono', monospace;
+  font-family: "PT Mono", monospace;
   font-size: 2.5rem;
   padding-bottom: 28px;
   margin-top: 2rem;
@@ -28,9 +29,9 @@
   position: relative;
 }
 
-
 .group28Gradiente {
-  position: relative;
+  pointer-events: none;
+  position: absolute;
   display: block;
   width: 100%;
   margin-top: -220px;
@@ -46,11 +47,10 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   max-width: 90%;
   position: relative;
-
 }
 
 .sectionTitle {
-  font-family: 'Roboto Flex', sans-serif;
+  font-family: "Roboto Flex", sans-serif;
   font-weight: bold;
   font-size: 50px;
   margin: 2rem auto 1.5rem auto;
@@ -58,11 +58,10 @@
   text-decoration: underline;
   padding-bottom: 0.8rem;
   margin-left: var(--margin-left);
-
 }
 
 .letra {
-  font-family: 'Roboto flex', sans-serif;
+  font-family: "Roboto flex", sans-serif;
   font-weight: 500;
   flex: 1;
   min-width: 300px;
@@ -74,11 +73,10 @@
 }
 
 .lyricsImageWrapper {
-  display:flex;
+  display: flex;
   flex-direction: row;
   overflow: auto;
   align-items: center;
-  
 }
 
 .imageContainer {
@@ -89,12 +87,11 @@
   align-items: center;
   text-align: center;
 
-  max-width: 490px ;
+  max-width: 490px;
   max-height: 690px;
 }
 
 .filipetaImage {
-  
   width: 75%;
   height: auto;
   border-radius: 4px;
@@ -123,7 +120,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
 }
 
 .profile {
@@ -131,17 +127,15 @@
   flex-direction: column;
   align-items: center;
   width: 150px;
-  max-width: 150px; 
+  max-width: 150px;
   scroll-snap-align: start;
   text-align: center;
 }
-
 
 .avatar {
   max-width: 150px;
   width: 150px;
   border-radius: 50%;
-
 }
 
 /*carrossel*/
@@ -167,14 +161,9 @@
   gap: 3rem;
 }
 
-
-
 .carrossel::-webkit-scrollbar {
   display: none;
 }
-
-
-
 
 .seta {
   position: absolute;
@@ -185,7 +174,7 @@
   padding: 0.5rem;
   border-radius: 50%;
   z-index: 26;
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   transition: background-color 0.3s ease;
   width: 48px;
   height: 48px;
@@ -204,30 +193,26 @@
   right: 5px;
 }
 
-
-
-.flexSong{
+.flexSong {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.interprete{
+.interprete {
   font-size: 1.5rem;
   font-weight: 500;
-
 }
 
-.funcao{
+.funcao {
   margin-top: 20px;
   font-weight: 600;
-
 }
 .nome {
   margin-top: 0.9rem;
   font-size: 1.07rem;
   text-align: center;
-  color: #0054A2;
+  color: #0054a2;
   text-decoration: underline;
   line-height: 1.2;
   font-weight: 600;
@@ -245,19 +230,17 @@
 
 .texto {
   flex: 1 1 300px;
-  font-family: 'Roboto Flex', sans-serif;
+  font-family: "Roboto Flex", sans-serif;
   font-size: 20.16px;
   color: #000;
   line-height: 1.7;
   margin-top: 1rem;
-  z-index: 150;
+  z-index: 1;
   position: relative;
   margin-left: 7vw;
   margin-right: 7vw;
   margin-bottom: 50px;
-
 }
-
 
 .gridVisual {
   display: grid;
@@ -283,7 +266,6 @@
   min-height: 220px;
   background-color: #d9d9d9;
   position: relative;
-
 }
 
 .btn {
@@ -307,28 +289,29 @@
   background-color: #4e4e4e;
 }
 
-
-
 /* === DESKTOP MAIOR PARA MÉDIO === */
 
-@media (max-width: 1123px){
-   .filipetaImage {
+@media (max-width: 1123px) {
+  .filipetaImage {
     width: 100%;
     min-height: 492px;
     min-width: 376px;
-
   }
 
-    .caption {
+  .caption {
     width: 100%;
     max-width: 376px;
   }
 }
 
-@media (max-width: 1024px) {.seta { display: initial; }}
+@media (max-width: 1024px) {
+  .seta {
+    display: initial;
+  }
+}
 
-@media (max-width: 1025px){
-    .filipetaImage {
+@media (max-width: 1025px) {
+  .filipetaImage {
     width: 100%;
     max-height: 492px;
     max-width: 376px;
@@ -338,20 +321,19 @@
     width: 100%;
     max-width: 376px;
   }
-   .lyricsImageWrapper {
+  .lyricsImageWrapper {
     flex-direction: column-reverse;
     gap: 10px;
   }
 
-    .letra { min-width: auto; text-align: center; }
+  .letra {
+    min-width: auto;
+    text-align: center;
+  }
 }
-
-
 
 /* === TABLET E INTERMEDIÁRIO === */
 @media (max-width: 800px) {
-  
-
   .sectionTitle {
     padding: 0.5rem 0 1rem 0;
     font-size: 3rem;
@@ -359,25 +341,24 @@
     text-align: left;
   }
 
-
-
- 
-
-
-
-  .imageContainer { align-items: center; }
-  .card { max-width: 100%; }
+  .imageContainer {
+    align-items: center;
+  }
+  .card {
+    max-width: 100%;
+  }
 
   .flexSong {
     flex-direction: column;
     gap: 25px;
   }
 
-  .audio { width: 100%; }
+  .audio {
+    width: 100%;
+  }
 }
 
 @media (max-width: 773px) {
-
   .sectionTitle {
     padding: 0;
     font-size: 3rem;
@@ -386,8 +367,6 @@
     margin-right: 0;
   }
 }
-
-
 
 /* === MOBILE MÉDIO === */
 @media (max-width: 700px) {
@@ -399,18 +378,20 @@
     padding-bottom: 14px;
   }
 
-   .profile { width: 110px; padding-left: 0px;}
-  .avatar{width: 110px;}
+  .profile {
+    width: 110px;
+    padding-left: 0px;
+  }
+  .avatar {
+    width: 110px;
+  }
 
   .seta {
     width: 32px;
     height: 32px;
     font-size: 1rem;
   }
-
 }
-
-    
 
 @media (max-width: 600px) {
   .titulo {
@@ -422,47 +403,46 @@
   }
 }
 
-
-
 /* === MOBILE PEQUENO === */
-@media(max-width: 564px){
-  .filipetaImage{
+@media (max-width: 564px) {
+  .filipetaImage {
     min-width: 0;
     min-height: 0;
   }
 }
 
-
-
-
-@media (max-width: 542px) { 
-
-  .carrossel{gap: 0rem} 
-  .profile{width: 140px;
+@media (max-width: 542px) {
+  .carrossel {
+    gap: 0rem;
+  }
+  .profile {
+    width: 140px;
     max-width: 140px;
   }
 }
 
 /* === PERFIS NO CARROSSEL === */
 
-
 @media (max-width: 1066px) {
-  .carrossel{
+  .carrossel {
     gap: 2rem;
   }
 }
 
 @media (max-width: 1024px) {
-  .profile { flex: 0 0 calc(33.33% - 2rem); } /* 3 itens */
+  .profile {
+    flex: 0 0 calc(33.33% - 2rem);
+  } /* 3 itens */
 }
 
 @media (max-width: 768px) {
-  .profile { flex: 0 0 calc(50% - 2rem); } /* 2 itens */
+  .profile {
+    flex: 0 0 calc(50% - 2rem);
+  } /* 2 itens */
 }
 
 @media (max-width: 550px) {
-  .profile { flex: 0 0 100%; } /* 1 item */
+  .profile {
+    flex: 0 0 100%;
+  } /* 1 item */
 }
-
-
-
