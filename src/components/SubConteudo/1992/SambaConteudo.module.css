@@ -13,7 +13,7 @@
 
 .cabecalho {
   position: relative;
-  z-index: 20;
+  z-index: 22;
   background: transparent;
 }
 
@@ -30,14 +30,13 @@
 }
 
 .group28Gradiente {
-  pointer-events: none;
   position: absolute;
-  display: block;
-  width: 100%;
-  margin-top: -220px;
+  bottom: -20rem;
   left: 0;
-  z-index: 1;
+  width: 100%;
+  z-index: 21;
 }
+
 
 .card {
   background: white;
