@@ -31,8 +31,7 @@ export const cardsData = [
     },
     {
         title: 'Suvaco na mídia',
-        description: "Em construção!",
-        src: midiaImg,
+        description: " Em 2012 o bloco foi assunto com frequência. E dessa vez, sempre de maneira positiva! As fantasias do bloco chamaram a atenção da imprensa… levando inclusive à obtenção do prêmio Serpentina de Ouro no quesito fantasias...",
         firstColor: "#DBBB00",
         secondColor: "#FF9A27",
         link: '/2012/midia'
