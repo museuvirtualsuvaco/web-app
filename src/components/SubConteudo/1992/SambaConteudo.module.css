@@ -1,20 +1,20 @@
 .container {
   position: relative;
-  z-index: 20;
+  z-index: 4;
   padding: 6rem 2rem;
   width: 100%;
   margin: 0 auto;
-  background: transparent;
   max-width: 100%;
   background: linear-gradient(to bottom, #03c01f, #22bfea);
-  position: relative;
-  margin-top: -120px;
+  margin-top: -15vw;
+  padding-top: 18vw;
 }
 
 .cabecalho {
   position: relative;
-  z-index: 22;
-  background: transparent;
+  background-color: white;
+  z-index: 10;
+  padding-bottom: 0;
 }
 
 .titulo {
@@ -30,11 +30,13 @@
 }
 
 .group28Gradiente {
-  position: absolute;
-  bottom: -20rem;
+  position: relative;
+  display: block;
+  height: auto;
   left: 0;
   width: 100%;
-  z-index: 21;
+  margin-bottom: -1px;
+  z-index: 5;
 }
 
 
