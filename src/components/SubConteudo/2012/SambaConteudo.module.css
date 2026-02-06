@@ -2,13 +2,19 @@
   padding: 6rem 2rem;
   width: 100%;
   margin: 0 auto;
-  background: transparent;
   max-width: 100%;
   background: linear-gradient(to bottom, #03C01F, #22BFEA);
+  position: relative;
+  z-index: 4;
+  margin-top: -15vw;
+  padding-top: 18vw;
 }
 
 .cabecalho{
   position: relative;
+  background-color: white;
+  z-index: 10;
+  padding-bottom: 5vw;
 }
 
 .titulo {
@@ -25,11 +31,14 @@
 
 
 .group28Gradiente {
-  position: absolute;
-  bottom: 3rem;
+  position: relative;
+  display: block;
+  height: auto;
   left: 0;
   width: 100%;
-  z-index: 8;
+  z-index: 5;
+  margin-bottom: -1px;
+  margin-top: -6vw;
 }
 
 .card {
@@ -246,9 +255,9 @@
   margin-top: 1rem;
   z-index: 150;
   position: relative;
-  margin-left: 7vw;
-  margin-right: 7vw;
-  margin-bottom: 25px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-bottom: 0;
 
 }
 
