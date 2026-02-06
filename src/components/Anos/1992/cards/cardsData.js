@@ -30,7 +30,7 @@ export const cardsData = [
     },
     {
         title: 'Suvaco na mídia',
-        description: "Texto Suvaco na Mídia 1992 ",
+        description: "O desfile foi noticiado por portais jornalísticos de grande expressão da mídia carioca, no qual foram publicadas fotografias com os suvaquences desfrutando a folia das ruas do Jardim Botânico...",
         src: midiaImg,
         firstColor: "#DBBB00",
         secondColor: "#FF9A27",

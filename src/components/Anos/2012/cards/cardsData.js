@@ -23,7 +23,7 @@ export const cardsData = [
     },
     {
         title: 'Desfile',
-        description: "Em construção!",
+        description: "O desfile realizado em 2012 destaca-se por sua reverência às tradições carnavalescas iniciadas pelo bloco, por presenças ilustres e por sua contribuição para a economia carioca - fatores esses que colaboraram para a vitória do Suvaco do Cristo no prêmio Serpentina de Ouro na categoria de figurinos.",
         src: desfileImg,
         firstColor: "#E300C5",
         secondColor: "#A700C8",
