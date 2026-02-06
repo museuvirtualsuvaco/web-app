@@ -39,7 +39,16 @@ export default function SambaContent() {
         <div className={styles.cabecalho}>
     
         <h2 className={styles.titulo}>Desfile 2012, Ano 27 - Desfile</h2>
-        <p className={styles.texto}>Em construção!</p>
+        <p className={styles.texto}>
+           O desfile realizado em 2012 destaca-se por sua reverência às tradições carnavalescas iniciadas pelo bloco, por presenças ilustres e por sua contribuição para a economia carioca - fatores esses que colaboraram para a vitória do Suvaco do Cristo no prêmio Serpentina de Ouro na categoria de figurinos. 
+        </p>
+        <p className={styles.texto}>
+          A partir da Rua Diamantina os integrantes, com a bateria e as baianas, percorreram a Rua Faro, se juntaram ao caminhão de som na esquina com a Rua Jardim Botânico, onde ocorre o desfile, seguindo até a sua dispersão na Praça do Jockey. 
+        </p>
+        <p className={styles.texto}>
+          Entre os pontos altos deste ano menção honrosa para as participantes das “Linhas Aéreas Suvaquentes”, trajadas como aeromoças da companhia aérea Panair e a porta bandeira Cynthia Howlett (então grávida de sete meses) e de sua filha Manuela, ambas vestidas de indianas e aproveitando as alegrias da folia. 
+        </p>
+
          <img
                           src={Grupo}
                           className={styles.group28Gradiente}

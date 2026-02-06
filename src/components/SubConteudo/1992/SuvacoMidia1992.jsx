@@ -15,7 +15,8 @@ export default function SambaContent() {
     <div className={styles.cabecalho}>
     
         <h2 className={styles.titulo}>Desfile 1992, Ano 07 - Mídia</h2>
-        <p className={styles.texto}>Em construção!</p>
+        <p className={styles.texto}>O desfile foi noticiado por portais jornalísticos de grande expressão da mídia carioca, no qual foram publicadas fotografias com os suvaquences desfrutando a folia das ruas do Jardim Botânico fantasiados com elementos que referenciavam o samba “Eco no Ar” ( composto especialmente para a ocasião e que satirizava a Conferência das Nações Unidas sobre Meio Ambiente e Desenvolvimento), informações sobre o bloco como seus integrantes e horário de circulação e depoimentos de artistas que tiveram algum tipo de contato com o Suvaco como os músicos Evandro Mesquita e João Bosco. 
+        </p>
         <img
                   src={Grupo}
                   className={styles.group28Gradiente}

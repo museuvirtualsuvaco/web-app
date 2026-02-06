@@ -5,6 +5,7 @@ import namidia1 from '../../../assets/2012/na_midia/2012 Globo Anselmo gente Boa
 import namidia2 from '../../../assets/2012/na_midia/2012 Serpentina de Ouro 2012(1).jpg'
 import namidia3 from '../../../assets/2012/na_midia/2012 Suvaco Cynthia PB Caras.jpg'
 import namidia4 from '../../../assets/2012/na_midia/2012 Valor economico(1).jpg'
+import BtnVoltar from '../../VoltarBtn/BtnVoltar'
 
 import Grupo from "../../../assets/Group 28.svg";
 export default function SambaContent() {
@@ -46,8 +47,9 @@ export default function SambaContent() {
 
                 <button className={styles.btn}>VER MAIS</button>
       </section>
+    <BtnVoltar></BtnVoltar>
     </div>
-
+    
     </>
   );
 }
