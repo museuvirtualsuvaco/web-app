@@ -1,5 +1,5 @@
 .container {
-  padding: 3rem 2rem;
+  padding: 6rem 2rem;
   width: 100%;
   margin: 0 auto;
   background: transparent;
@@ -20,12 +20,15 @@
 }
 
 .group28Gradiente {
-  position: absolute;
-  bottom: -1rem;
+  position: relative;
+  display: block;
+  height: auto;
   left: 0;
   width: 100%;
-  z-index: 8;
+  margin-bottom: -6rem;
+  z-index: 5;
 }
+
 .card {
   background: white;
   border-radius: 12px;
@@ -180,6 +183,12 @@
 
 .btn:hover {
   background-color: #4e4e4e;
+}
+
+@media (max-width: 460px) {
+  .group28Gradiente{
+    margin-bottom: -4rem;
+  }
 }
 
 @media (max-width: 400px) {
