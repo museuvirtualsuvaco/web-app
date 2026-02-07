@@ -55,6 +55,7 @@ export default function Artista() {
   const { personId } = useParams()
   const artista = pessoasArtistas[personId]
 
+
   if (!artista) {
     return <p>Artista não encontrado.</p>
   }
@@ -95,9 +96,13 @@ export default function Artista() {
               </>
             )}
           </section>
+
+
         </div>
       </div>
 
+
+      
       <div className={styles.container}>
         <img src={Grupo} className={styles.group28Gradiente} alt="" />
 
@@ -105,6 +110,18 @@ export default function Artista() {
           <section className={styles.carrosselContainer}>
             <AnosCarrossel participacoes={participacoes} />
           </section>
+        )}
+
+        {artista.depoimento && (
+          <>
+            <h2 className={styles.sectionTitle}>DEPOIMENTO</h2>
+            
+            <section className={styles.card}>
+              <div className={styles.depoimentoContent}>
+                <p>{artista.depoimento}</p>
+              </div>
+            </section>
+          </>
         )}
 
         <h2 className={styles.sectionTitle}>LINKS</h2>

@@ -32,6 +32,48 @@
 
 }
 
+.depoimentoBox {
+  padding: 10px 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.depoimentoContent {
+  font-size: 1.7rem;
+  line-height: 28px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  color: #000;
+}
+
+.depoimentoContent::before,
+.depoimentoContent::after {
+  font-size: 4rem; 
+  color: #0066AF; 
+  font-family: serif; 
+  line-height: 0; 
+  vertical-align: -20px; 
+  opacity: 0.6; 
+}
+
+
+.depoimentoContent::before {
+  content: "“";
+  margin-right: 10px;
+}
+
+
+.depoimentoContent::after {
+  content: "”";
+  margin-left: 10px;
+  vertical-align: -40px; 
+}
+
 span{
   font-size: 1.5rem;
 }
@@ -92,6 +134,8 @@ span{
     background-color: white;
 
 }
+
+
 
 .sectionTexts a{
   text-decoration: underline;
@@ -402,6 +446,10 @@ span{
     font-size: 1.4rem;
     margin-left: 5vw;
     margin-right: 5vw;
+    }
+
+    .depoimentoContent{
+        font-size: 1.4rem;
     }
 
    
