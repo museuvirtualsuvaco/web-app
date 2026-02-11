@@ -1,12 +1,12 @@
-import imprensa from '../../../assets/2012/serpentina_de_ouro/2012 Serpentina de Ouro- Trofeu.jpg'
+/*import imprensa from '../../../assets/2012/serpentina_de_ouro/2012 Serpentina de Ouro- Trofeu.jpg'
+'*/
 import cursos from '../../../assets/divinas/divinas3.jpg'
 import book from '../../../assets/divinas/bookdivinasfoto.png'
-
 export const cardsData = [
     {
         title: 'Imprensa e Prêmios',
         description: "A Divinas já recebeu prêmios como: o Economia Criativa (parte do programa Fomento a Iniciativas Empreendedoras e Inovadoras do Ministério da Cultura), na categoria “Novos Modelos de Empreendimentos e Negócios Criativos” e o Prêmio Fantasia do Serpentina de Ouro 2012.",
-        src: imprensa,
+        src: "2012 Serpentina de Ouro- Trofeu.jpg",
         firstColor: "#00BE1D",
         secondColor: "#00DE21",
         link: '/ec'
