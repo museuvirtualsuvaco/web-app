@@ -56,7 +56,7 @@
 }
 
 
-@media (max-width:768px) {
+@media (max-width:863px) {
     .cardInfo{
         flex-direction: column;
         font-size: 1.7rem;
