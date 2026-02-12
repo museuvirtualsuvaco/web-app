@@ -155,7 +155,7 @@ export const membros = {
 
     mariaLuisaCostaMata: {
         nome: "Maria Luisa Costa Mata",
-        instituto: "null",
+        instituto: "EBA",
         foto: null
     },
 
@@ -173,49 +173,49 @@ export const membros = {
 
     igorQueiroz: {
         nome: "Igor Queiroz de Oliveira",
-        instituto: "null",
+        instituto: "IC",
         foto: null
     },
 
     josephMeir: {
         nome: "Joseph Meir Benyosef",
-        instituto: "null",
+        instituto: "IH",
         foto: null
     },
 
     juliaLopes: {
         nome: "Julia Lopes da Rocha",
-        instituto: "null",
+        instituto: "IC",
         foto: null
     },
 
     leonardoFastovsky: {
         nome: "Leonardo Fastovsky Terres",
-        instituto: "null",
+        instituto: "IC",
         foto: null
     },
 
     leonardoFonseca: {
         nome: "Leonardo Fonseca dos Santos",
-        instituto: "null",
+        instituto: "IC",
         foto: null
     },
 
     lucasDotto: {
         nome: "Lucas Dotto de Oliveira",
-        instituto: "null",
+        instituto: "IC",
         foto: null
     },
 
     lucasPinheiro: {
         nome: "Lucas Pinheiro Araujo Silva",
-        instituto: "null",
+        instituto: "IC",
         foto: null
     },
 
     anaLuiza: {
         nome: "Ana Luiza Gonçalves Teles da Cunha",
-        instituto: "null",
+        instituto: "EBA",
         foto: null
     },
 
@@ -233,7 +233,7 @@ export const membros = {
 
     fernandoJose: {
         nome: "Fernando José Pereira Filho",
-        instituto: "null",
+        instituto: "IC",
         foto: null
     },
 
