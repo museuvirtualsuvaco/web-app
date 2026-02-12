@@ -221,13 +221,13 @@ export const membros = {
 
     bernardoAfonso: {
         nome: "Bernardo Afonso Nunes",
-        instituto: "null",
+        instituto: "IC",
         foto: null
     },
 
     brunoCarvalho: {
         nome: "Bruno Carvalho dos Santos",
-        instituto: "null",
+        instituto: "IPPUR",
         foto: null
     },
 
