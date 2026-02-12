@@ -247,6 +247,11 @@ export const membros = {
         nome: "Isabel Martins Moreira",
         instituto: "Consultoria em design",
         foto: null
+    },
+    editalProfaex:{
+        nome: "PROFAEX-PR5-UFRJ",
+        instituto:"",
+        foto:null
     }
 
     

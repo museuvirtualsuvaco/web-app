@@ -66,7 +66,8 @@ export const equipeData = {
     agradecimentos: {
         title: "Agradecimentos",
         membros: [
-          "isabelMartins"
+          "isabelMartins",
+          "editalProfaex"
         ]
     }
 }
