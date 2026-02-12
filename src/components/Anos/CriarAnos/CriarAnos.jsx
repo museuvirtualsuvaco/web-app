@@ -4,7 +4,7 @@ import styles from "./CriarAnos.module.css"
 import CriarCabecalhoAnos from "./CriarCabeçalhoAnos/CriarCabecalhoAnos"
 import CriarCardsAnos from './CriarCardAnos/CriarCardAnos'
 
-import group28 from "../../../assets/group 28.svg"
+import group28 from "../../../assets/Group 28.svg"
 
 
 import { constantsAnosData } from "../../../constants/criarAnos/constantsAnos.data"
