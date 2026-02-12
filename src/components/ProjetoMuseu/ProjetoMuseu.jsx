@@ -7,7 +7,7 @@ import logoEBA from "../../assets/307093807_543650020901618_4682476023594602429_
 import divisor from "../../assets/Group 28.svg";
 
 import { textsMuseu } from "../../constants/ProjetoMuseu/texts.data.js";
-import TextBox from "./TextBox/Textbox.jsx";
+import TextBox from "./TextBox/TextBox.jsx";
 import Equipe from "./Equipe/Equipe.jsx";
 
 const ProjetoMuseu = () => {
