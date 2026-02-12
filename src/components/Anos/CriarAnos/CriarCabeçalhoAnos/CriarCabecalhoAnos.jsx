@@ -1,5 +1,5 @@
 import { getPhoto } from '../../../../hooks/getPhoto'
-import styles from '../criarAnos.module.css'
+import styles from '../CriarAnos.module.css'
 
 export default function CriarCabecalhoAnos({ data }) {
   return (

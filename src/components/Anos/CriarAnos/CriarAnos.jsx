@@ -1,4 +1,4 @@
-import styles from "./criarAnos.module.css"
+import styles from "./CriarAnos.module.css"
 
 
 import CriarCabecalhoAnos from "./CriarCabeçalhoAnos/CriarCabecalhoAnos"
