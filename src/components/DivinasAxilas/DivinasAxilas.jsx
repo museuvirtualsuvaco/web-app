@@ -4,7 +4,7 @@ import Card from "./cards/cards";
 import BtnVoltar from "../VoltarBtn/BtnVoltar"
 import { constantsCardsData } from "../../constants/criarAnos/constantsCards.data";
 import CriarCardsAnos from "../Anos/CriarAnos/CriarCardAnos/CriarCardAnos";
-import vector from "../../assets/Vector(1).svg";
+
 import group28 from "../../assets/Group 28.svg";
 import divinasImg from "/divinas/divinas.svg"
 import divinas1 from "/divinas/divinas1.jpg"
@@ -28,6 +28,7 @@ export default function DivinasAxilas() {
 
                     <section >
 
+                        <img className={styles.imgDivinas} src={divinasImg} alt="" />
                         <p className={styles.sectionTexts}>Fundada em 2008, a Divinas Axilas é uma ONG criada pelos integrantes do Suvaco do Cristo com o objetivo de capacitar, gerar renda e preservar a cultura popular.
                             Utilizando como atividades o fornecimento de  cursos gratuitos semestrais de corte, modelagem e costura e oficinas para mulheres e homens no qual eram confeccionados fantasias, adereços, estandartes de carnaval e customização de camisetas e de carnaval durante todo o ano.
                         </p>
@@ -40,11 +41,10 @@ export default function DivinasAxilas() {
                             A Divinas já recebeu prêmios como: o Economia Criativa (parte do programa Fomento a Iniciativas Empreendedoras e Inovadoras do Ministério da Cultura), na categoria “Novos Modelos de Empreendimentos e Negócios Criativos” e o Prêmio Fantasia do Serpentina de Ouro 2012.
                         </p>
 
-                        <img className={styles.imgDivinas} src={divinasImg} alt="" />
 
                     </section>
 
-                    <img src={vector} className={styles.divisorGradiente} alt="divisor ondulado" />
+                   
                     <img src={group28} className={styles.group28Gradiente} alt="divisor ondulado" />
 
                 </div>

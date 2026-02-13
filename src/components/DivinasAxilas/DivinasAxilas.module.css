@@ -13,6 +13,8 @@
 
 .cabecalho{
     position: relative;
+    min-height: 500px;
+    
 }
 
 .areaVerde{
@@ -21,11 +23,10 @@
 
 .imgDivinas{
     position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-bottom: 50px;
-    position: relative;
-    z-index: 10002;
+    float: right;
+    z-index: 10010;
+    margin-right: 7vw;
+    bottom: 3.5rem;
 }
 
 .sectionTexts{
@@ -39,24 +40,125 @@
     z-index: 10002;
     background-color: white;
 
+
 }
 
 
 
-.divisorGradiente{
-    position: absolute;
-    top: 45.3rem;
-    width: 100%;
-    z-index: 100010;
-}
+
 
 .group28Gradiente{
     position: absolute;
     z-index: 100;
     width: 100%;
-    top: 28.5rem;
+    top: 20.5rem;
     z-index: 10001;
 }
+
+@media (max-width:1161px) {
+    .group28Gradiente{top: 25rem;}
+}
+
+@media (max-width:1039px) {
+    .group28Gradiente{top: 28rem;}
+}
+
+@media (max-width:999px) {
+    .group28Gradiente{top: 32rem;}
+       
+}
+
+@media (max-width:835px) {
+    .group28Gradiente{top: 36rem;}
+       
+}
+
+@media (max-width:778px) {
+    .group28Gradiente{top: 39rem;}
+       
+}
+@media (max-width:757px) {
+    .group28Gradiente{top: 50rem;}
+       
+}
+
+@media (max-width:696px) {
+    .group28Gradiente{top: 52rem;}
+       
+}
+
+@media (max-width:625px) {
+    .group28Gradiente{top: 54rem;}
+       
+}
+
+@media (max-width:555px) {
+    .group28Gradiente{top: 56rem;}
+       
+}
+
+@media (max-width:500px) {
+    .group28Gradiente{top: 58rem;}
+       
+}
+
+@media (max-width:473px) {
+    .group28Gradiente{top: 57rem;}
+       
+}
+
+@media (max-width:462px) {
+    .group28Gradiente{top: 59rem;}
+       
+}
+
+@media (max-width:446px) {
+    .group28Gradiente{top: 58rem;}
+       
+}
+
+@media (max-width:444px) {
+    .group28Gradiente{top: 57rem;}
+       
+}
+
+@media (max-width:437px) {
+    .group28Gradiente{top: 59rem;}
+       
+}
+
+@media (max-width:427px) {
+    .group28Gradiente{top: 60rem;}
+       
+}
+
+@media (max-width:414px) {
+    .group28Gradiente{top: 62rem;}
+       
+}
+
+@media (max-width:407px) {
+    .group28Gradiente{top: 61rem;}
+       
+}
+
+@media (max-width:406px) {
+    .group28Gradiente{top: 63rem;}
+       
+}
+
+@media (max-width:390px) {
+    .group28Gradiente{top: 64.5rem;}
+       
+}
+
+@media (max-width:376px) {
+    .group28Gradiente{top: 64rem;}
+       
+}
+
+
+
 
 .blueTitles{
     color: var(--blue-titles);
@@ -158,11 +260,6 @@
     }    
 }
 
-@media (max-width:5000px) {
-    .divisorGradiente{display: none;}
-    
-}
-
 @media (max-width:1600px) {
 
 .title{font-size: 4rem;}
@@ -208,51 +305,7 @@
 
 }
 
-@media (max-width:1900px) {.group28Gradiente{top: 470px}}
-@media (max-width:1800px) {.group28Gradiente{top: 480px}}
-@media (max-width:1720px) {.group28Gradiente{top: 490px}}
-@media (max-width:1662px) {.group28Gradiente{top: 517px}}
-@media (max-width:1658px) {.group28Gradiente{top: 525px}}
-@media (max-width:1600px) {.group28Gradiente{top: 515px}}
-@media (max-width:1560px) {.group28Gradiente{top: 520px}}
-@media (max-width:1527px) {.group28Gradiente{top: 550px}}
-@media (max-width:1516px) {.group28Gradiente{top: 555px}}
-@media (max-width:1500px) {.group28Gradiente{top: 565px}}
-@media (max-width:1434px) {.group28Gradiente{top: 610px}}
-@media (max-width:1337px) {.group28Gradiente{top: 600px}}
-@media (max-width:1276px) {.group28Gradiente{top: 629px}}
-@media (max-width:1275px) {.group28Gradiente{top: 640px}}
-@media (max-width:1246px) {.group28Gradiente{top: 650px}}
-@media (max-width:1133px) {.group28Gradiente{top: 680px}}
-@media (max-width:1105px) {.group28Gradiente{top: 700px}}
-@media (max-width:1009px) {.group28Gradiente{top: 725px}}
-@media (max-width:1006px) {.group28Gradiente{top: 740px}}
-@media (max-width:975px) {.group28Gradiente{top: 766px}}
-@media (max-width:959px) {.group28Gradiente{top: 790px}}
-@media (max-width:908px) {.group28Gradiente{top: 840px}}
-@media (max-width:849px) {.group28Gradiente{top: 870px}}
-@media (max-width:768px) {.group28Gradiente{top: 900px}}
-@media (max-width:761px) {.group28Gradiente{top: 930px}}
-@media (max-width:746px) {.group28Gradiente{top: 950px}}
-@media (max-width:673px) {.group28Gradiente{top: 980px}}
-@media (max-width:643px) {.group28Gradiente{top: 1000px}}
-@media (max-width:595px) {.group28Gradiente{top: 1020px}}
-@media (max-width:587px) {.group28Gradiente{top: 1040px}}
-@media (max-width:574px) {.group28Gradiente{top: 1060px}}
-@media (max-width:559px) {.group28Gradiente{top: 1077px}}
-@media (max-width:541px) {.group28Gradiente{top: 1070px}}
-@media (max-width:522px) {.group28Gradiente{top: 1090px}}
-@media (max-width:496px) {.group28Gradiente{top: 1110px}}
-@media (max-width:481px) {.group28Gradiente{top: 1140px}}
-@media (max-width:466px) {.group28Gradiente{top: 1170px}}
-@media (max-width:456px) {.group28Gradiente{top: 1190px}}
-@media (max-width:436px) {.group28Gradiente{top: 1200px}}
-@media (max-width:426px) {.group28Gradiente{top: 1230px}}
-@media (max-width:424px) {.group28Gradiente{top: 1260px}}
-@media (max-width:419px) {.group28Gradiente{top: 1280px}}
-@media (max-width:390px) {.group28Gradiente{top: 1300px}}
-@media (max-width:386px) {.group28Gradiente{top: 1320px}}
-@media (max-width:377px) {.group28Gradiente{top: 1350px}}
+
 
 
 @media (max-width: 757px){
@@ -278,6 +331,15 @@
         margin-left: 0;
         font-size: 2.5rem ;
         text-transform: uppercase;
+    }
+    .imgDivinas{
+        float: none;
+        margin-right: 0;
+        position: relative;
+        left:50%;
+        top: 25px;
+        transform: translateX(-50%);
+
     }
 
     .title{
