@@ -17,6 +17,23 @@ export const desfilePorAno = {
             }
         ],
     },
+    "1987": {
+        titulo: "Desfile 1987, Ano 02 - Desfile",
+        texto: `
+      Em 22 de fevereiro de 1987, o desfile percorreu o mesmo trajeto do ano anterior, contando com a participação de Sonia Mattos, como porta-estandarte, em meio a alegria característica do bloco e ao som do samba composto especialmente para a ocasião, “Suvaco é meu Ninho”, de Arnaldo Chaim. Começando a ser reconhecido pelos moradores do Jardim Botânico e seus arredores, houve um aumento de seguidores em comparação a 1986 - se um ano antes cerca de 150 pessoas aproveitaram o carnaval ao lado do Suvaco do Cristo, em 1987 já eram  aproximadamente 200 foliões a transitar trechos das ruas Lopes Quintas e Pacheco Leão ao lado de seus integrantes, prejudicando o fluxo de veículos, com impedimentos  e/ou dificuldades de transitar pelas redondezas do desfile. 
+
+    `,
+        secoes: [
+            {
+                titulo: "O DESFILE",
+                imagens: [
+                    "1987 desfile estandarte(1).JPG",
+                    "1987 joao sonia.jpeg",
+                    "1987 SyAnCris.jpg",
+                ],
+            }
+        ],
+    },
     "1992": {
         titulo: "Desfile 1992, Ano 07 - Desfile",
         texto: [

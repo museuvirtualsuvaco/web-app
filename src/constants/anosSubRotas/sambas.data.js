@@ -29,7 +29,7 @@ export const sambasPorAno = {
         titulo: "Desfile 1987, Ano 02 - Samba",
         nomeSamba: "Suvaco é meu ninho",
         textoIntro: "Em construção",
-        filipeta: "",
+        filipeta: "1987 Suvaco e meu ninho.jpg",
         audio: "",
         legenda:
             "",
