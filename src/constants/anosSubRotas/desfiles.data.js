@@ -58,46 +58,46 @@ export const desfilePorAno = {
 
     "2012": {
         titulo: "Desfile 2012, Ano 27 - Desfile",
-        texto: "Em construção!",
+        texto: "O desfile realizado em 2012 destaca-se por sua reverência às tradições carnavalescas iniciadas pelo bloco, por presenças ilustres e por sua contribuição para a economia carioca - fatores esses que colaboraram para a vitória do Suvaco do Cristo no prêmio Serpentina de Ouro na categoria de figurinos. A partir da Rua Diamantina os integrantes, com a bateria e as baianas, percorreram a Rua Faro, se juntaram ao caminhão de som na esquina com a Rua Jardim Botânico, onde ocorre o desfile, seguindo até a sua dispersão na Praça do Jockey. Entre os pontos altos deste ano menção honrosa para as participantes das “Linhas Aéreas Suvaquentes”, trajadas como aeromoças da companhia aérea Panair e a porta bandeira Cynthia Howlett (então grávida de sete meses) e de sua filha Manuela, ambas vestidas de indianas e aproveitando as alegrias da folia.",
         secoes: [
             {
                 titulo: "O DESFILE",
                 imagens: [
-                    "",
-                    "",
-                    "",
+                    "cnvlsuvaco12domfev12photogarzon 307.jpg",
+                    "cnvlsuvaco12domfev12photogarzon 316.jpg",
+                    "cnvlsuvaco12domfev12photogarzon 381.jpg",
                 ],
             },
             {
                 titulo: "BATERIA",
                 imagens: [
-                    "",
-                    "",
-                    "",
+                    "325923_2616266082270_1743560731_o.jpg",
+                    "331896_2642993830447_302959483_o.jpg",
+                    "337787_2616226281275_1351676215_o.jpg",
                 ],
             },
             {
                 titulo: "BAIANAS",
                 imagens: [
-                    "",
-                    "",
-                    "",
+                    "419459_371092412919090_796356068_n.jpg",
+                    "426364_371090059585992_500618185_n.jpg",
+                    "baianas por Patricia.jpg",
                 ],
             },
             {
                 titulo: "MESTRE-SALA E PORTA-BANDEIRA",
                 imagens: [
-                    "",
-                    "",
-                    "",
+                    "429678_371094099585588_1177974823_n.jpg",
+                    "330969_2616015796013_1745110318_o(1).jpg",
+                    "Suvaco 2012 Rui Zilnet.jpg",
                 ],
             },
             {
                 titulo: "PRÊMIO SERPENTINA DE OURO",
                 imagens: [
-                    "",
-                    "",
-                    "",
+                    "2012 Serpentina de Ouro Suvaco.jpg",
+                    "DSC_3400.jpg",
+                    "Serpentina de Ouro- Davi e as meninas.jpg",
                 ],
             },
         ],

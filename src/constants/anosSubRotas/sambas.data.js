@@ -27,10 +27,25 @@ export const sambasPorAno = {
     },
     "1987": {
         titulo: "Desfile 1987, Ano 02 - Samba",
-        nomeSamba: "Suvaco é meu ninho",
-        textoIntro: "Em construção",
+        nomeSamba: "SUVACO É MEU NINHO",
+        textoIntro: `
+        O samba “Suvaco é meu ninho” serve como um documento cultural de sua época, mostrando as transformações que o Brasil passava após o fim da Ditadura Militar e como o carnaval pode ser um espaço de comemoração, união e contestação. Em trechos da canção são mencionados o trajeto percorrido pelos integrantes do Suvaco (seu início subindo a rua Lopes Quintas, a rota pela Pacheco Leão e sua chegada na quadra da Força Jovem do Horto): </br><br />
+ <i>“O Suvaco do Cristo subiu a ladeira <br />
+Da primeira vez que o bloco saiu <br />
+Todo mundo no passo da porta-bandeira <br />
+E na brincadeira o Cristo sorriu” <br /><br /></i>
+Outro trecho que merece ser destacado é a estrofe que menciona as divergências com a Igreja Católica e outros setores mais conservadores da sociedade com a escolha do nome do bloco (considerado desrespeitoso com a figura religiosa, havendo reclamações em jornais): <br /><br />
+<i>“Não é milagre <br />
+Nem maldição <br />
+Quem fala mal <br />
+Não tem vez <br />
+Revoa cardeal meu passarinho <br />
+Que o Suvaco é meu ninho <br />
+Joga o bispo no xadrez”</i> 
+
+        `,
         filipeta: "1987 Suvaco e meu ninho.jpg",
-        audio: "",
+        audio: "1987 Regravação - Suvaco é meu ninho.mp3",
         legenda:
             "",
         letra: `

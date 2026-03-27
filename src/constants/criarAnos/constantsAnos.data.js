@@ -10,8 +10,8 @@ export const constantsAnosData = [
     },
     {
         ano: "1987",
-        textoCabecalho: ["Em construção"],
-        fotoCabecalho: ""
+        textoCabecalho: ["Como pano de fundo de grande contribuição para o desfile de 1987 do Suvaco do Cristo, é essencial entender o Brasil do início da década de 1980. Após 21 anos sob regime de Ditadura Militar, o país respirava novos ares que enchiam a população brasileira de esperanças que poderiam ocorrer mudanças positivas de grande avanço para a sociedade, com uma sucessão de eventos que seriam importantes nos anos seguintes: entre 1983 e 1984 ocorreu o movimento das Diretas Já no qual era solicitado a retomada do direito constitucional por parte dos cidadãos de escolherem seus próprios governantes - ação esta que culminaria indiretamente com as eleições que elegeram Tancredo Neves como futuro presidente do Brasil (nunca empossado devido seu falecimento antes da posse) ; a primeira edição do Rock in Rio em 1985 simbolizou a retomada das festividades culturais após um período de opressão militar ; uma nova Constituição Brasileira entraria em vigor em 1988 conhecida como “Constituição Cidadã”. Estes episódios podem ser percebidos na letra de “Suvaco é meu ninho” com o samba trazendo uma mescla de cultura popular, sátira religiosa e exaltação dos blocos carnavalescos, mostrando que neste período as festas populares, a religião e o profano podem misturar-se."],
+        fotoCabecalho: "1987 desfile estandarte(1).JPG"
     },
     {
         ano: "1992",
