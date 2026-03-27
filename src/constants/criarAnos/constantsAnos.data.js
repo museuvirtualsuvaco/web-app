@@ -11,7 +11,7 @@ export const constantsAnosData = [
     {
         ano: "1987",
         textoCabecalho: ["Em construção"],
-        fotoCabecalho: "1987 desfile estandarte(1).JPG"
+        fotoCabecalho: ""
     },
     {
         ano: "1992",

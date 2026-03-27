@@ -87,7 +87,7 @@ export const constantsCardsData = [
 
             {
                 title: 'Camiseta',
-                description: "Em construção!",
+                description: "A camiseta do segundo ano do bloco foi desenhada por Cláudio Lobato. Uma serpentina faz o “S” e representa a rua, espaço de desfile do bloco. E o Cristo se encontra envolto em confetes e serpentinas… afinal, é carnaval!",
                 src: "1987 Claudio Lobato.JPG",
                 firstColor: "#009DFF",
                 secondColor: "#00BEB5",
@@ -96,8 +96,8 @@ export const constantsCardsData = [
 
             {
                 title: 'Desfile',
-                description: "Em construção!",
-                src: "1987 Suvaco 3.jpg",
+                description: "Em 22 de fevereiro de 1987, o desfile percorreu o mesmo trajeto do ano anterior, contando com a participação de Sonia Mattos, como porta-estandarte, em meio a alegria característica do bloco e ao som do samba composto especialmente para a ocasião, “Suvaco é meu Ninho”, de Arnaldo Chaim.",
+                src: "1987 desfile estandarte(1).JPG",
                 firstColor: "#E300C5",
                 secondColor: "#A700C8",
                 link: '/1987/desfile'

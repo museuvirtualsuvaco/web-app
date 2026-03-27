@@ -9,7 +9,7 @@ export const camisetasPorAno = {
     "1987": {
         titulo: "Desfile 1987, Ano 02 - Camiseta",
         texto:
-            "Em construção.",
+            "A camiseta do segundo ano do bloco foi desenhada por Cláudio Lobato. Uma serpentina faz o “S” e representa a rua, espaço de desfile do bloco. E o Cristo se encontra envolto em confetes e serpentinas… afinal, é carnaval!  Um detalhe interessante é que na época não era possível estampar a camiseta inteira, a imagem só podia ir até a costura. As estampas eram então todas centralizadas. Em depoimento recente, o artista contou: “Salvo engano, eu fiz a segunda camiseta do bloco. Na verdade foi com a camiseta que entrei pro Suvaco. A curiosidade é que usei um desenho do J Carlos na estampa, um sambista tocando pandeiro. Observaram que o sambista negro não era representativo do bloco, uma figura muito folclórica.  Tá certo! Foi substituído por mim pelo moleque de bermuda e camiseta descendo na serpentina.”",
         imagem:
             "1987 Claudio Lobato.JPG",
     },
