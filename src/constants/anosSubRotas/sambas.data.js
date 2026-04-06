@@ -28,8 +28,7 @@ export const sambasPorAno = {
     "1987": {
         titulo: "Desfile 1987, Ano 02 - Samba",
         nomeSamba: "SUVACO É MEU NINHO",
-        textoIntro: `
-        O samba “Suvaco é meu ninho” serve como um documento cultural de sua época, mostrando as transformações que o Brasil passava após o fim da Ditadura Militar e como o carnaval pode ser um espaço de comemoração, união e contestação. Em trechos da canção são mencionados o trajeto percorrido pelos integrantes do Suvaco (seu início subindo a rua Lopes Quintas, a rota pela Pacheco Leão e sua chegada na quadra da Força Jovem do Horto): </br><br />
+        textoIntro: `O samba “Suvaco é meu ninho” serve como um documento cultural de sua época, mostrando as transformações que o Brasil passava após o fim da Ditadura Militar e como o carnaval pode ser um espaço de comemoração, união e contestação. Em trechos da canção são mencionados o trajeto percorrido pelos integrantes do Suvaco (seu início subindo a rua Lopes Quintas, a rota pela Pacheco Leão e sua chegada na quadra da Força Jovem do Horto): </br><br />
  <i>“O Suvaco do Cristo subiu a ladeira <br />
 Da primeira vez que o bloco saiu <br />
 Todo mundo no passo da porta-bandeira <br />
