@@ -15,7 +15,8 @@
   
   "1987": {
     "samba": {
-      "autores": ["arnaldo-chaim"]
+      "autores": ["arnaldo-chaim"],
+      "interpretes": ["maninho"]
     },
     "camiseta": ["claudio-lobato"]
   },

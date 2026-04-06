@@ -207,6 +207,15 @@
     "bio": "sem bio no momento",
     "fontes": [],
     "socials": {}
+  },
+
+  "maninho": {
+    "id" : "maninho",
+    "name": "Maninho",
+    "imgFile": "Maninho.png",
+    "bio": "sem bio no momento",
+    "fontes": [],
+    "socials": {}
   }
 
 }
