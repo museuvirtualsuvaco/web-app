@@ -78,7 +78,7 @@ export const constantsCardsData = [
         cards: [
             {
                 title: 'Samba',
-                description: "Em construção!",
+                description: "O samba “Suvaco é meu ninho” serve como um documento cultural de sua época, mostrando as transformações que o Brasil passava após o fim da Ditadura Militar e como o carnaval pode ser um espaço de comemoração...",
                 src: "1987 Suvaco e meu ninho.jpg",
                 firstColor: "#00BE1D",
                 secondColor: "#00DE21",
