@@ -68,6 +68,49 @@ Joga o bispo no xadrez”</i>
                 Joga o bispo no xadrez<br />
     `,
     },
+
+    "1988": {
+        titulo: "Desfile 1988, Ano 03 - Samba",
+        nomeSamba: "PIRAMIDE",
+        textoIntro: `O samba 'Pirâmide' composto por Lenine e Bráulio Tavares exala a atmosfera do ano de 1988. Ele é uma sátira social que faz referências a acontecimentos curiosos da realidade brasileira (especialmente a carioca) e possui elementos do carnaval consciente dos escândalos e dificuldades sociais e políticas do final dos anos 1980 e início da década de 1990, retratando a realidade com um tom mordaz e irônico. Mas, apesar das críticas, é possível notar um tom de esperança, muito associado ao período de redemocratização que estava sendo vivenciado. 
+Entre os anos de 1987 e 1988, sucedeu-se um incidente curioso que seria referenciado posteriormente em documentários, novelas e mostra bem as peculiaridades do Brasil: mais de 10 mil latas que continham maconha foram encontradas em praias do litoral brasileiro após serem descartadas pelo navio japonês Tunamar (na época, chamado Solana Star). A embarcação, que transportava drogas com destino aos Estados Unidos, sofreu danificações após ataques de narcotraficantes e ao passar pelo Brasil (com receio de serem fiscalizados e descobertos pela Marinha Brasileira), atirou as latas ao mar que foram parar em praias de localidades entre Cabo Frio e Rio Grande, sendo encontradas por moradores e pescadores que alertaram a polícia sobre suas descobertas. Entretanto, essas “mercadorias’’ atraíram a atenção não somente da Polícia Federal mas também de curiosos que passaram a ir até pontos específicos da costa brasileira para buscarem  essas latas com cannabis (uma verdadeira caça ao tesouro…). Outro acontecimento marcante foi a ascensão dos esquemas de pirâmides financeiras, esquemas que ganhariam destaque na mídia anos depois em meio a escândalos que movimentaram bilhões por todo país.  Mas o bloco estava lá para quem não tinha “se dado bem” como piloto de pirâmides, acolhendo a todos como um “bloco do sujo". Bate a lata! Tá tá tá!`,
+        filipeta: "1988 Piramide.jpg",
+        audio: "1988  Regravação - Tá lá 88 estendido.mp3",
+        legenda:
+            "",
+        letra: `
+                Vai decolar </br>
+                Cristo Redentor abençoou </br>
+                Esse ano que entrou e entrou bonito </br>
+                Que 88 aconteça </br>
+                Veio o bigodão cagou na constituição </br>
+                E nego ainda quer que a gente esqueça </br>
+                Que aqui no Brasil </br>
+                Tem marajá e faraó </br>
+                Cada um atrás de seu pedaço </br>
+                Me descolei e não decolei </br>
+                Mas hoje sou piloto do Suvaco </br>
+
+                Tá lá, tá lá </br>
+                88 tá lá pra decolar </br>
+                Quando chegar o dia </br>
+                Tá lá, tá lá </br>
+                A lata que vem do mar </br>
+                É presente de Iemanjá </br>
+                Pra esse ano que inicia </br>
+
+                Copacabana, Ipanema, Arpoador (bis) </br>
+                Gente que ajoelha e reza </br>
+                No Suvaco do Senhor </br>
+
+                Bate a lata tá, tá, tá (bis) </br>
+                Bate a lata tá, tá, tá </br>
+                Ajoelha e reza </br>
+                No Suvaco do Senhor </br>
+
+    `,
+
+    },
     "1992": {
         titulo: "Desfile 1992, Ano 07 - Samba",
         nomeSamba: "PALMAS PARA BATERIA DO SUVACO",
