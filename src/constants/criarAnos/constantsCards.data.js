@@ -113,6 +113,47 @@ export const constantsCardsData = [
 
         ]
     },
+
+    {
+        ano: "1988",
+        cards: [
+            {
+                title: 'Samba',
+                description: "O samba 'Pirâmide' composto por Lenine e Bráulio Tavares exala a atmosfera do ano de 1988. Ele é uma sátira social que faz referências a acontecimentos curiosos da realidade brasileira (especialmente a carioca) e possui elementos do carnaval consciente dos escândalos...",
+                src: "1988 Piramide.jpg",
+                firstColor: "#00BE1D",
+                secondColor: "#00DE21",
+                link: '/1988/samba'
+            },
+
+            {
+                title: 'Camiseta',
+                description: "Em construção!",
+                src: "1988 Pojucan.jpg",
+                firstColor: "#009DFF",
+                secondColor: "#00BEB5",
+                link: '/1988/camiseta'
+            },
+
+            {
+                title: 'Desfile',
+                description: "Em construção!",
+                src: "1988 Suvaco.jpg",
+                firstColor: "#E300C5",
+                secondColor: "#A700C8",
+                link: '/1988/desfile'
+            },
+            {
+                title: 'Suvaco na mídia',
+                description: "Em construção!",
+                src: "1988 ex-suvaco do cristo.jpg",
+                firstColor: "#DBBB00",
+                secondColor: "#FF9A27",
+                link: '/1988/midia'
+            },
+
+        ]
+    },
     {
         ano: "1992",
         cards: [

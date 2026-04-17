@@ -61,13 +61,16 @@ function App() {
 
           <Route path={routes.PAG1986} element={<CriarAnos ano = "1986"/>} />
           <Route path={routes.PAG1987} element={<CriarAnos ano = "1987"/>} />
+          <Route path={routes.PAG1988} element={<CriarAnos ano = "1988"/>} />
           <Route path={routes.PAG1992} element={<CriarAnos ano = "1992"/>} />
           <Route path={routes.PAG2012} element={<CriarAnos ano = "2012"/>} />
+          
 
     
 
          <Route path={subroutes.PAG1986CAMISETA} element ={<CamisetaBase ano = "1986"/>} />
          <Route path={subroutes.PAG1987CAMISETA} element ={<CamisetaBase ano = "1987"/>} />
+          <Route path={subroutes.PAG1988CAMISETA} element ={<CamisetaBase ano = "1988"/>} />
          <Route path={subroutes.PAG1992CAMISETA} element ={<CamisetaBase ano = "1992"/>} />
          <Route path={subroutes.PAG2012CAMISETA} element ={<CamisetaBase ano = "2012"/>} />
          
@@ -76,6 +79,7 @@ function App() {
 
          <Route path={subroutes.PAG1986SAMBA} element ={<SambaBase ano = "1986"/>} />
          <Route path={subroutes.PAG1987SAMBA} element ={<SambaBase ano = "1987"/>} />
+          <Route path={subroutes.PAG1988SAMBA} element ={<SambaBase ano = "1988"/>} />
          <Route path={subroutes.PAG1992SAMBA} element ={<SambaBase ano = "1992"/>} />
          <Route path={subroutes.PAG2012SAMBA} element ={<SambaBase ano = "2012"/>} />
 
@@ -83,6 +87,7 @@ function App() {
 
          <Route path={subroutes.PAG1986MIDIA} element ={<MidiaBase ano = "1986"/>} />
          <Route path={subroutes.PAG1987MIDIA} element ={<MidiaBase ano = "1987"/>} />
+         <Route path={subroutes.PAG1988MIDIA} element ={<MidiaBase ano = "1988"/>} />
          <Route path={subroutes.PAG1992MIDIA} element ={<MidiaBase ano = "1992"/>} />
          <Route path={subroutes.PAG2012MIDIA} element ={<MidiaBase ano = "2012"/>} />
 
@@ -90,13 +95,14 @@ function App() {
 
          <Route path={subroutes.PAG1986DESFILE} element ={<DesfileBase ano = "1986"/>} />
          <Route path={subroutes.PAG1987DESFILE} element ={<DesfileBase ano = "1987"/>} />
+         <Route path={subroutes.PAG1988DESFILE} element ={<DesfileBase ano = "1988"/>} />
          <Route path={subroutes.PAG1992DESFILE} element ={<DesfileBase ano = "1992"/>} />
          <Route path={subroutes.PAG2012DESFILE} element ={<DesfileBase ano = "2012"/>} />
 
 
           
         
-          <Route path={routes.PAG1988} element={<Emconstrucao />} />
+         
           <Route path={routes.PAG1989} element={<Emconstrucao />} />
           <Route path={routes.PAG1990} element={<Emconstrucao />} />
           <Route path={routes.PAG1991} element={<Emconstrucao />} />

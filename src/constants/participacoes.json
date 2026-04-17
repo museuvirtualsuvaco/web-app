@@ -21,6 +21,15 @@
     "camiseta": ["claudio-lobato"]
   },
 
+   "1988": {
+    "samba": {
+      "autores": ["braulio-tavares",
+                  "lenine"],
+      "interpretes": ["wilian-voorhees"]
+    },
+    "camiseta": ["pojucan"]
+  },
+
   "1992": {
     "samba": {
       "autores": [
