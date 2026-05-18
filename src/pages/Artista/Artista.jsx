@@ -130,19 +130,20 @@ export default function Artista() {
           <div className={styles.links}>
             {artista.socials?.instagram && (
               <a href={artista.socials.instagram} target="_blank">
-                Instagram
+                <i className="ri-instagram-line"></i><span>Instagram</span>
               </a>
             )}
             {artista.socials?.youtube && (
               <a href={artista.socials.youtube} target="_blank">
-                YouTube
+                <i className="ri-youtube-line"></i><span>YouTube</span>
               </a>
             )}
             {artista.socials?.facebook && (
               <a href={artista.socials.facebook} target="_blank">
-                Facebook
+                <i className="ri-facebook-box-line"></i><span> Facebook</span>
               </a>
             )}
+              
 
             {!artista.socials && (
               <p className={styles.noLinksText}>Sem links disponíveis</p>
