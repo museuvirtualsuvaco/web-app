@@ -33,6 +33,12 @@ import foto16 from '../assets/imgCarrossel/rect16.png'
 import foto17 from '../assets/imgCarrossel/rect17.png'
 import foto18 from '../assets/imgCarrossel/rect18.png'
 import foto19 from '../assets/imgCarrossel/rect19.png'
+import foto20 from '../assets/imgCarrossel/rect20.png'
+import foto23 from '../assets/imgCarrossel/rect23.png'
+import foto24 from '../assets/imgCarrossel/rect24.png'
+import foto25 from '../assets/imgCarrossel/rect25.png'
+
+
 
 const anos = [
   { nome: "1986", src: foto86, disabled: false },
@@ -71,7 +77,11 @@ const anos = [
   { nome: "2016", src: foto16, disabled: true },
   { nome: "2017", src: foto17, disabled: true },
   { nome: "2018", src: foto18, disabled: true },
-  { nome: "2019", src: foto19, disabled: true }
+  { nome: "2019", src: foto19, disabled: true }, 
+  { nome: "2020", src: foto20, disabled: true }, 
+  { nome: "2023", src: foto23, disabled: true }, 
+  { nome: "2024", src: foto24, disabled: true }, 
+  { nome: "2025", src: foto25, disabled: true }, 
 ];
 
 
