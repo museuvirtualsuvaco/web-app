@@ -37,6 +37,8 @@ import foto20 from '../assets/imgCarrossel/rect20.png'
 import foto23 from '../assets/imgCarrossel/rect23.png'
 import foto24 from '../assets/imgCarrossel/rect24.png'
 import foto25 from '../assets/imgCarrossel/rect25.png'
+import foto26 from '../assets/imgCarrossel/rect26.png'
+
 
 
 
@@ -82,6 +84,8 @@ const anos = [
   { nome: "2023", src: foto23, disabled: true }, 
   { nome: "2024", src: foto24, disabled: true }, 
   { nome: "2025", src: foto25, disabled: true }, 
+  { nome: "2026", src: foto26, disabled: true }, 
+
 ];
 
 
