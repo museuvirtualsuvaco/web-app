@@ -92,7 +92,7 @@
     "id": "sonia-matos",
     "name": "Sônia Matos",
     "imgFile": "Sonia Matos 1987-modified.png",
-    "bio": "Sônia Matos também era moradora da Maria Angélica 741, era atriz e trabalhava dando aulas de artes. Fez a arte da primeira camiseta escolhida pela galera uma tarde no Parque Lage. Foi também a primeira porta-estandarte (na época, o bloco tinha um estandarte, que anos depois passou a ser uma bandeira). Desfilou com o estandarte de 1986 a 1988, tendo como mestre-sala José Luiz do Horto.",
+    "bio": "Sônia Matos também era moradora da Maria Angélica 741, era atriz e trabalhava dando aulas de artes. Fez a arte da primeira camiseta escolhida pela galera uma tarde no Parque Lage. Foi também a primeira porta-estandarte (na época, o bloco tinha um estandarte, que anos depois passou a ser uma bandeira). Desfilou com o estandarte de 1986 a 1988, tendo como mestre-sala José Luiz do Horto.", 
     "fontes": [],
     "socials": {}
   },
@@ -203,8 +203,8 @@
   "pojucan": {
     "id": "pojucan",
     "name": "Pojucan",
-    "imgFile": "nenhum.png",
-    "bio": "sem bio no momento",
+    "imgFile": "Pojucan.png",
+    "bio": "Pojucan é um artista visual brasileiro, o qual atua na área de cenografia, pesquisa, ilustração, design gráfico e vídeo design. Trabalhou nos jornais O Globo e Jornal do Brasil como ilustrador e articulista visual, recebendo o Prêmio Abril de Jornalismo na categoria ilustração editorial para revista. Pojucan também lecionou PUC-Rio e na Escola Superior de Design Digital. Teve seu portfólio publicado na revista alemã Novum Gebrauchsgraphik e nas revistas Gráfica e Design Gráfico, além de ter a retrospectiva do seu trabalho realizada pelo Museu de Arte Moderna (MAM). Também já esteve presente em vários salões de humor e participa constantemente de diversos simpósios, workshops e palestras em universidades brasileiras. Com o livro ‘‘365’’ participou da VII Bienal de Design Gráfico, tendo seu trabalho selecionado como um dos cinco melhores projetos editoriais do ano. Com o mesmo projeto, que incluía uma mostra e um vídeo, participou do Festival Internacional de Animação do Brasil, Anima Mundi. O conteúdo desta mostra faz parte do acervo permanente do MOCA (Museum of Computer Art), sediado em Nova York. O trabalho de Pojucan dentro do Suvaco do Cristo se estendeu também ao design e a ilustração, visto que o artista produziu camisetas para algumas edições do bloco: 1988, 1989 e 1999.",
     "fontes": [],
     "socials": {}
   },
@@ -219,5 +219,16 @@
     "socials": {
     "instagram": "https://www.instagram.com/mmaninholeo/"
     }
-  }
+  },
+
+  "william-vorhees": {
+    "id" : "william-vorhees",
+    "name": "Willian Vorhees",
+    "imgFile": "Willian Vorhees.png",
+    "bio": "sem bio no momento",
+    "depoimento" : "",
+    "fontes": [],
+    "socials": {}
+  } 
 }
+

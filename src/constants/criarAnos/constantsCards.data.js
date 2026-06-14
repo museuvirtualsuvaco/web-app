@@ -128,7 +128,7 @@ export const constantsCardsData = [
 
             {
                 title: 'Camiseta',
-                description: "Em construção!",
+                description: " A camiseta deste ano foi produzida pelo artista visual Pojucan, apresentando um design sóbrio realizado em 2 pinceladas em forma de cruz e um símbolo preto ao centro, rodeado de uma espécie de “moldura” e o nome do bloco.",
                 src: "1988 Pojucan.jpg",
                 firstColor: "#009DFF",
                 secondColor: "#00BEB5",
@@ -137,7 +137,7 @@ export const constantsCardsData = [
 
             {
                 title: 'Desfile',
-                description: "Em construção!",
+                description: "A saída do bloco ocorreu às 17 horas na Rua Jardim Botânico, próximo ao Bar Jóia - como relatado em reportagem que anunciava o desfile do Suvaco do Cristo uma semana antes do evento.",
                 src: "1988 Suvaco.jpg",
                 firstColor: "#E300C5",
                 secondColor: "#A700C8",
@@ -146,7 +146,7 @@ export const constantsCardsData = [
             {
                 title: 'Suvaco na mídia',
                 description: "Em construção!",
-                src: "1988 ex-suvaco do cristo.jpg",
+                src: "1988 ex-suvaco do cristo.JPG",
                 firstColor: "#DBBB00",
                 secondColor: "#FF9A27",
                 link: '/1988/midia'
