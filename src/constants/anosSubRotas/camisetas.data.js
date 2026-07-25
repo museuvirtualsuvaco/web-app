@@ -13,6 +13,13 @@ export const camisetasPorAno = {
         imagem:
             "1987 Claudio Lobato.JPG",
     },
+        "1988": {
+        titulo: "Desfile 1988, Ano 03 - Camiseta",
+        texto:
+            "A camiseta deste ano foi produzida pelo artista visual Pojucan, apresentando um design sóbrio realizado em 2 pinceladas em forma de cruz e um símbolo preto ao centro, rodeado de uma espécie de “moldura” e o nome do bloco.",
+        imagem:
+            "1988 camiseta.JPG",
+    },
     "1992": {
         titulo: "Desfile 1992, Ano 07 - Camiseta",
         texto:

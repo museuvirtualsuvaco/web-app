@@ -34,6 +34,24 @@ export const desfilePorAno = {
             }
         ],
     },
+
+    "1988": {
+        titulo: "Desfile 1988, Ano 03 - Desfile",
+        texto: `A saída do bloco ocorreu às 17 horas na Rua Jardim Botânico, próximo ao Bar Jóia - como relatado em reportagem que anunciava o desfile do Suvaco do Cristo uma semana antes do evento. 
+        `,
+        secoes: [
+            {
+                titulo: "O DESFILE",
+                imagens: [
+                    "1988 Suvaco.jpg",
+                    "1988 Suvaco 2.jpg",
+                    "1988 Suvaco 3.jpg",
+                ],
+            }
+        ],
+    },
+
+
     "1992": {
         titulo: "Desfile 1992, Ano 07 - Desfile",
         texto: [
@@ -52,7 +70,8 @@ export const desfilePorAno = {
                     "1992 Desfile PB Bel Martins Silvinha Angela.jpg",
                     "1992 Desfile 1.jpg",
                 ],
-            }
+            }, 
+            
         ],
     },
 

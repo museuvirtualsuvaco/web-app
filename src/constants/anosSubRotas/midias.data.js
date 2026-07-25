@@ -29,6 +29,21 @@ export const midiaPorAno = {
             },
         ],
     },
+
+    "1988": {
+        titulo: "Desfile 1988, Ano 03 - Mídia",
+        texto: "Em construção!",
+        secoes: [
+            {
+                titulo: "NA MÍDIA",
+                imagens: [
+                    "1988 imprensa festa Vasco.JPG",
+                    "1988 ex-suvaco do cristo.JPG",
+                ],
+            },
+        ],
+    },
+    
     "1992": {
         titulo: "Desfile 1992, Ano 07 - Mídia",
         texto: ["O desfile foi noticiado por portais jornalísticos de grande expressão da mídia carioca, no qual foram publicadas fotografias com os suvaquences desfrutando a folia das ruas do Jardim Botânico fantasiados com elementos que referenciavam o samba “Eco no Ar” ( composto especialmente para a ocasião e que satirizava a Conferência das Nações Unidas sobre Meio Ambiente e Desenvolvimento), informações sobre o bloco como seus integrantes e horário de circulação e depoimentos de artistas que tiveram algum tipo de contato com o Suvaco como os músicos Evandro Mesquita e João Bosco."],
