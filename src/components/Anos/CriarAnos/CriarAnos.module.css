@@ -55,9 +55,10 @@
 
 .group28Gradiente{
     position: absolute;
-    width: 100vw;    
+    width: 100%;   
     z-index: 10001;
-    top: -100px;
+    object-fit: cover;
+    top: -20vh;
 }
 
 .blueTitles{
