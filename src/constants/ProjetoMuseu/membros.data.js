@@ -7,6 +7,9 @@ import vitor_foto from '../../assets/equipe/vitor_vicente.jpeg'
 import julia_foto from '../../assets/equipe/julia.jpg'
 import malu_foto from '../../assets/equipe/malu.jpg'
 import igor_foto from '../../assets/equipe/igorandrade.jpg'
+import fellipeTambasco_foto from '../../assets/equipe/fellipe_tambasco.jpg'
+import gabrielAquino_foto from '../../assets/equipe/gabriel_aquino.jpg'
+import emanuellaVitoria_foto from '../../assets/equipe/emanuella_vitoria.jpg'
 
 export const membros = {
     anamaria: {
@@ -37,6 +40,12 @@ export const membros = {
         nome: "Paulo Roberto Mann Marques Júnior",
         instituto: "IC",
         foto: null
+    },
+
+    gabrielAquino: {
+        nome: "Gabriel Rodrigues Caldas de Aquino",
+        instituto: "IC",
+        foto: gabrielAquino_foto
     },
 
     tiagoMatias: {
@@ -239,7 +248,7 @@ export const membros = {
 
     gabrielSantos: {
         nome: "Gabriel Santos Schuina",
-        instituto: "null",
+        instituto: "IC",
         foto: null
     },
 
@@ -248,6 +257,103 @@ export const membros = {
         instituto: "Consultoria em design",
         foto: null
     },
+
+    annaBeatrizWaldheim:{
+        nome: "Anna Beatriz Waldheim da Silva",
+        instituto: "IC",
+        foto: null 
+    },
+
+    eduardaSilva:{
+        nome: "Eduarda Silva Santos Barreto de Amorim",
+        instituto: "IC",
+        foto: null
+    },
+
+    emanuellaVitoria:{
+        nome: "Emanuella Vitoria dos Santos Carneiro",
+        instituto: "IC",
+        foto: emanuellaVitoria_foto
+    },
+
+    felipeMarques:{
+        nome: "Felipe Marques Brandão",
+        instituto: null ,
+        foto: null
+    },
+
+    fellipeTambasco:{
+        nome: "Felipe Tambasco Bezerra",
+        instituto: "IC",
+        foto: fellipeTambasco_foto
+    },
+
+    fernandoGuerra: {
+        nome: "Fernando Blanco Guerra",
+        instituto: "IC",
+        foto: null
+    },
+
+    mauricioDelvizio: {
+        nome: "Mauricio De Souza Delvizio",
+        instituto: null,
+        foto: null
+    },
+
+    gabrielBuchner:{
+        nome: "Gabriel Buchner Alves Estrela",
+        instituto: "IC",
+        foto: null
+    },
+
+    hugoQuintela:{
+        nome: "Hugo Quintela De Almeida",
+        instituto: "IC",
+        foto: null
+    },
+
+    igorAleixo: {
+        nome: "Igor Aleixo Primo",
+        instituto: "EEFD",
+        foto: null
+    },
+
+    joaoPedroBatista: {
+        nome: "Joao Pedro Batista Da Silva",
+        instituto: "IC",
+        foto: null
+    },
+
+    joaoVitorQuintanilha: {
+        nome: "Joao Vitor Costa Danielli Quintanilha",
+        instituto: null,
+        foto: null
+    },
+
+    matheusAraujo:{
+        nome: "Matheus Araujo Ramalho Rodrigues",
+        instituto: "IC",
+        foto: null
+    },
+
+    matheusMousinho: {
+        nome: "Matheus Ivan Mousinho Lima",
+        instituto: "IC",
+        foto: null
+    },
+
+    patrickCarvalho: {
+        nome: "Patrick Jose Madruga Teixeira De Carvalho",
+        instituto: "IC",
+        foto: null
+    },
+
+    rayssaAlves: {
+        nome: "Rayssa Gabryelle Gomes Alves",
+        instituto: "IC",
+        foto: null
+    },
+
     editalProfaex:{
         nome: "PROFAEX-PR5-UFRJ",
         instituto:"",
