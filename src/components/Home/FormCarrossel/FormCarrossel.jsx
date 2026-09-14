@@ -45,6 +45,7 @@ export default function FormCarrossel() {
           onSubmit={handleSubmit}
         />
 
+        {anosFiltrados.length > 0 ? (
         <AnoCarrossel
           anos={anosFiltrados}
           carrosselRef={carrosselRef}
@@ -52,6 +53,11 @@ export default function FormCarrossel() {
           onScrollLeft={() => scroll(-1)}
           onScrollRight={() => scroll(1)}
         />
+        ) : (
+          <div className={styles.mensagemErro}>
+            <p>Ano não encontrado no acervo.</p>
+          </div>
+        )}
       </div>
 
     </>
