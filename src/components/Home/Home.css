@@ -18,16 +18,16 @@
     gap: 15px;
     z-index: 100;
     position: absolute;
-    left: 53vw;
+    right: 6vw;
     justify-content: space-around;
     align-items: center;
-    transform: scale(0.9);
-    top: 780px;
+    /*transform: scale(0.9);*/
+    top: clamp(720px, 510px + 14vw + 2rem,900px);
 
 }
 
 .home-logos img {
-    height: 200px;
+    height: clamp(100px, 9vw + 1rem, 200px);
 }
 
 #eba{
@@ -158,143 +158,6 @@
     font-size: 2em;
 }
 
-
-
-
-@media (max-width:1876px){
- 
-    .home-logos {
-        top: 770px;
-    
-    }
-
-}
-@media (max-width:1850px){
- 
-    .home-logos {
-        top: 740px;
-        transform: scale(0.8);
-        left: 53vw;
-    }
-
-}
-@media (max-width:1760px){
- 
-    .home-logos {
-        top: 730px;
-        transform: scale(0.73);
-        left: 48vw;
-    }
-
-}
-@media (max-width:1648px){
- 
-    .home-logos {
-        top: 730px;
-        transform: scale(0.73);
-        left: 48vw;
-    }
-
-}
-@media (max-width:1570px){
- 
-    .home-logos {
-        top: 720px;
-        transform: scale(0.68);
-        left: 45vw;
-    }}
-@media (max-width:1540px){
- 
-    .home-logos {
-        top: 700px;
-        transform: scale(0.68);
-        left: 45vw;
-    }
-
-}
-@media (max-width:1460px){
- 
-    .home-logos {
-        top: 690px;
-        transform: scale(0.65);
-        left: 45vw;
-    }
-
-}
-@media (max-width:1443px){
- 
-    .home-logos {
-        top: 690px;
-        transform: scale(0.65);
-        left: 45vw;
-    }
-
-}
-@media (max-width:1350px){
- 
-    .home-logos {
-        top: 680px;
-        transform: scale(0.65);
-        left: 45vw;
-    }
-
-}
-@media (max-width:1280px){
- 
-    .home-logos {
-        top: 680px;
-        transform: scale(0.63);
-        left: 44vw;
-    }
-
-}
-@media (max-width:1253px){
- 
-    .home-logos {
-        top: 670px;
-        transform: scale(0.55);
-        left: 42vw;
-    }
-
-}
-@media (max-width:1210px){
- 
-    .home-logos {
-        top: 670px;
-        transform: scale(0.55);
-        left: 42vw;
-    }
-
-}
-@media (max-width:1195px){
- 
-    .home-logos {
-        top: 670px;
-        transform: scale(0.50);
-        left: 42vw;
-    }
-
-}
-
-@media (max-width:1165px){
- 
-    .home-logos {
-        top: 670px;
-        transform: scale(0.50);
-        left: 42vw;
-    }
-
-}
-@media (max-width:1090px){
- 
-    .home-logos {
-        top: 650px;
-        transform: scale(0.46);
-        left: 42vw;
-    }
-
-}
-
 @media (max-width:1030px) {
     .home-logos{
         position: relative;
@@ -302,7 +165,6 @@
         justify-content: center;
         align-items: center;
         gap: 15px;
-        transform: scale(1);
         top:0;  
         left: 50%;
         transform: translateX(-50%) ;
