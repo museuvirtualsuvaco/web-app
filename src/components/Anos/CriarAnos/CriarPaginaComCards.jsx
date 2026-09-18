@@ -22,7 +22,7 @@ export default function CriarPaginaComCards({identificador}) {
 
   return (
 
-    <>
+    <div style={{backgroundColor: "white"}}>
 
       {/*como estamos sem banco de dados, falta criar a requisicao pra
       pegar as fotos respectivas de cada ano e passar pro <CriarCabecalhosAnos>
@@ -43,7 +43,7 @@ export default function CriarPaginaComCards({identificador}) {
 
       </div>
     
-    </>
+    </div>
 
 
 

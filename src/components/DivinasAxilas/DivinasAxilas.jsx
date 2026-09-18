@@ -12,12 +12,20 @@ import divinas2 from "/divinas/divinas5.jpg"
 import divinas3 from "/divinas/divinas6.jpg"
 import divinas4 from "/divinas/divinas7.jpg"
 import CriarPaginaComCards from "../Anos/CriarAnos/CriarPaginaComCards";
+import GridVisual from "../GridVisual/GridVisual";
 
 export default function DivinasAxilas() {
     
     // const cardData = constantsCardsData.find(item => item.ano === "divinas")
     return (
-        <CriarPaginaComCards identificador={"divinas"}/>
+        <div className={styles.areaVerde}>
+            <CriarPaginaComCards identificador={"divinas"}/>
+            <GridVisual titulo={"Fotos"} imagens={[divinas1, divinas2, divinas3, divinas4]}/>
+            
+            {/* Esse BtnVoltar provavelmente precisa ser removido. O div padding é necessário por algum motivo, se remover ele o padding do styles é ignorado???? n sei pq*/}
+            <BtnVoltar/>
+            <div className={styles.padding}></div>
+        </div>
     );
     //
     // return (

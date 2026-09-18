@@ -1,0 +1,41 @@
+
+/* Código adquirido do arquivo "DivinasAxilas.module.css */
+.fotosSection{
+    margin: 20px;
+}
+
+.sectionTitle{
+    font-size: 3rem;
+    color: white;
+    margin-left: 7vw;
+    text-decoration: underline;
+    font-weight: 600;
+    /* margin-top: 65px; */
+}
+
+.gridVisual {
+  
+    display: grid;
+  grid-template-columns: 1fr 1fr; /* duas colunas iguais */
+  grid-template-rows: 1fr 1fr;  /* duas linhas */
+  gap: 0.5rem;
+  justify-content: center; /* centraliza horizontalmente */
+  align-items: center;     /* centraliza verticalmente */
+  margin: 0 auto;          /* garante centralização no meio da tela */
+  width: fit-content;
+}
+
+
+.imgBox {
+  width: 100%;
+  max-width: 350px;
+  min-width: 350px;
+
+  height: 300px;
+  
+  object-fit: cover;
+}
+
+.areaVerde{
+        background: linear-gradient(#00CC65, #0053A1);
+}
