@@ -1,4 +1,15 @@
 export const constantsAnosData = [
+
+    // Quero deixar claro que eu não concordo com essa gambiarra aqui. Mas atualmente essa é a única forma de padronizar
+    {
+        ano: "divinas",
+        textoCabecalho: [
+           "Fundada em 2008, a Divinas Axilas é uma ONG criada pelos integrantes do Suvaco do Cristo com o objetivo de capacitar, gerar renda e preservar a cultura popular. Utilizando como atividades o fornecimento de  cursos gratuitos semestrais de corte, modelagem e costura e oficinas para mulheres e homens no qual eram confeccionados fantasias, adereços, estandartes de carnaval e customização de camisetas e de carnaval durante todo o ano.",
+           "As integrantes eram inicialmente  residentes da comunidade do Santa Marta, sendo aberto posteriormente para todas as comunidades e recebiam da ONG kits de material gratuitamente durante o curso.",
+           "A Divinas já recebeu prêmios como: o Economia Criativa (parte do programa Fomento a Iniciativas Empreendedoras e Inovadoras do Ministério da Cultura), na categoria “Novos Modelos de Empreendimentos e Negócios Criativos” e o Prêmio Fantasia do Serpentina de Ouro 2012."
+        ],
+        fotoCabecalho: "divinas.svg"
+    },
     {
         ano: "1986",
         textoCabecalho: [
