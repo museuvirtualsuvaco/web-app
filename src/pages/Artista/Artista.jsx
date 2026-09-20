@@ -50,7 +50,7 @@ function getParticipacoesDoArtista(personId) {
 }
 
 export default function Artista() {
-  useEffect(() => window.scrollTo(0, 0), [])
+  useEffect(() => {window.scrollTo(0, 0)}, []);
 
   const { personId } = useParams()
   const artista = pessoasArtistas[personId]
