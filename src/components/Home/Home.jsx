@@ -48,14 +48,17 @@ export default function Home() {
                         O site está sendo construído em  torno dessa contextualização. Como resultado, extenso material estará
                         disponível na rede para consulta por pesquisadores e público em geral.</p>
                 </div>
-                <div className="home-logos">
-                    <img id="logo-ufrj" src={logoufrj} alt="" />
-                    <img id="logo-ic" src={logoic} alt="" />
-                    <img id="eba" src={logoeba} alt="Logo História da Arte" />
-                    
+                <div className="logos-spacer" >
+                    <div id="spacer"></div>
+                    <div className="home-logos">
+                        <img id="logo-ufrj" src={logoufrj} alt="" />
+                        <img id="logo-ic" src={logoic} alt="" />
+                        <img id="eba" src={logoeba} alt="Logo História da Arte" />
+                        
+                    </div>
                 </div>
             </main>
-
+            <div style={{marginTop: "-15vh"}}>
             <div className={`buttons ${isMobile ? "buttons-mobile" : ""}`}>
 
 
@@ -106,6 +109,7 @@ export default function Home() {
                 <FormCarrossel></FormCarrossel>
                 <Video></Video>
                 
+            </div>
             </div>
         </div>
     )
