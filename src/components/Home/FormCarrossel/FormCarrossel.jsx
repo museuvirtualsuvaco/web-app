@@ -45,7 +45,12 @@ export default function FormCarrossel() {
           onSubmit={handleSubmit}
         />
 
-        {anosFiltrados.length > 0 ? (
+        {busca === "2021" || busca === "2022" ? (
+          <div className={styles.mensagemErro}>
+            <p>Em {busca}, não houve desfile do Suvaco de Cristo devido à pandemia de COVID-19.</p>
+          </div>
+          
+        ) : anosFiltrados.length > 0 ? (
         <AnoCarrossel
           anos={anosFiltrados}
           carrosselRef={carrosselRef}
