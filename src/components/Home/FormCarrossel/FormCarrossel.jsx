@@ -45,6 +45,12 @@ export default function FormCarrossel() {
           onSubmit={handleSubmit}
         />
 
+        {busca === "2021" || busca === "2022" ? (
+          <div className={styles.mensagemErro}>
+            <p>Em {busca}, não houve desfile do Suvaco de Cristo devido à pandemia de COVID-19.</p>
+          </div>
+          
+        ) : anosFiltrados.length > 0 ? (
         <AnoCarrossel
           anos={anosFiltrados}
           carrosselRef={carrosselRef}
@@ -52,6 +58,11 @@ export default function FormCarrossel() {
           onScrollLeft={() => scroll(-1)}
           onScrollRight={() => scroll(1)}
         />
+        ) : (
+          <div className={styles.mensagemErro}>
+            <p>Ano não encontrado no acervo.</p>
+          </div>
+        )}
       </div>
 
     </>
