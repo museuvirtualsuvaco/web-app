@@ -51,24 +51,36 @@
     top:-30px
 }
 
-
 .buttons{
-    height: 880px;
+    /* height: 880px; */
     /* margin-top: -15vh; */
-    position: relative;
+    /* position: relative; */
     overflow: hidden;
 }
 
+
+.buttonsPC{
+    /* display: flex; */
+    position:relative;
+    top: -50vh; 
+    /* max-height: 1700px; */
+    margin-bottom: -100vh;
+}
+.projetos{
+    position: relative;
+    top: -50vh;
+}
 /* Gradientes */
 #separador-gradiente-1, #separador-gradiente-2 {
-    position: absolute;
+    position: relative;
     width: 100vw;
+    
 }
 #separador-gradiente-1 {
-    top: -30vw;
+    top: -4vh;
 }
 #separador-gradiente-2 {
-    top: 24vw;
+    top: 4vw;
     rotate: 180deg;
     z-index: 2;
 }
@@ -93,6 +105,7 @@
     top: -5vw;
     
 }
+
 
 
 
@@ -123,7 +136,7 @@
 
 
 .projeto-museu .projeto-social{
-    position: relative;
+    /* position: relative; */
     display: flex;
     width: 50%;
 }
