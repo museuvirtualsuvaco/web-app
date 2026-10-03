@@ -85,7 +85,7 @@ export default function Home() {
 
                 {/* AREA MOBILE */}
                 {isMobile && (
-                    <>
+                    
                         <div className="projetos-mobile">
 
                             <img id="botoes-mobile" src={projetosMobile} alt="" />
@@ -98,7 +98,7 @@ export default function Home() {
                         </div>
 
 
-                    </>
+                    
                 )}
 
 
