@@ -155,7 +155,7 @@
   }
 }
 
-@media (max-width: 1770px){
+/* @media (max-width: 1770px){
  .container{
   margin-top: -100px;
   
@@ -224,7 +224,7 @@
     position: relative;
     z-index: 25;
   }
-}
+} */
 @media (max-width: 879px){
  .container{
   margin-top: -450px;

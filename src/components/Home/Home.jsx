@@ -59,12 +59,12 @@ export default function Home() {
                 </div>
             </main>
             <div style={{marginTop: "-15vh"}}>
-            <div className={`buttons ${isMobile ? "buttons-mobile" : ""}`}>
+            <div className={`buttons ${isMobile ? "buttons-mobile" : ""}`} style={{flex:1}}>
 
 
                 {/* AREA DESKTOP  */}
                 {!isMobile && (
-                    <>
+                    <div className="buttonsPC">
                         <img id="separador-gradiente-1" src={gradiente} alt="" />
 
                         <div className="projetos">
@@ -79,13 +79,13 @@ export default function Home() {
                             </div>
                         </div>
                         <img id="separador-gradiente-2" src={gradiente} alt="" />
-                    </>
+                    </div>
                 )}
 
 
                 {/* AREA MOBILE */}
                 {isMobile && (
-                    <>
+                    
                         <div className="projetos-mobile">
 
                             <img id="botoes-mobile" src={projetosMobile} alt="" />
@@ -98,7 +98,7 @@ export default function Home() {
                         </div>
 
 
-                    </>
+                    
                 )}
 
 
