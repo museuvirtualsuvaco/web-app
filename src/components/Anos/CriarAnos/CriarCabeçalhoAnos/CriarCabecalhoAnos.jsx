@@ -5,7 +5,9 @@ export default function CriarCabecalhoAnos({ data }) {
   return (
     <>
       <div className={styles.cabecalho}>
-        <h2 className={styles.title}> Desfile {data.ano}</h2>
+        <h2 className={styles.title}> 
+          {data.ano == "divinas"? "Divinas Axilas": "desfile" + data.ano}
+        </h2>
       </div>
 
       {/*Atualizar com banco de dados
