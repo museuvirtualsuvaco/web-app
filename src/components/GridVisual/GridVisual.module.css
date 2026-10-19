@@ -40,3 +40,48 @@
 .areaVerde{
         background: linear-gradient(#00CC65, #0053A1);
 }
+
+@media (min-width: 1476px){
+  .gridVisual{
+      padding-top: 35px;
+  }
+
+}
+
+@media (max-width: 757px){
+  .gridVisual{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 70%;
+  }
+
+  .imgBox{
+      min-width: 400px;
+      max-width: 400px;
+  }
+  .sectionTitle{
+      margin-bottom: 35px;
+      text-align: center;
+      margin-left: 0;
+      font-size: 2.5rem ;
+      text-transform: uppercase;
+  }
+}
+
+@media (max-width: 450px){
+    .gridVisual{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 70%;
+    }
+
+    .imgBox{
+        min-width: 350px;
+        max-width: 350px;
+    }
+
+
+
+}
