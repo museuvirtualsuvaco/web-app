@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite --open",
     "build": "vite build",
+    "prod": "npm run build && npm start", 
     "lint": "eslint .",
     "preview": "vite preview",
     "start": "node server.js"
