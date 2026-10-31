@@ -5,11 +5,13 @@ import { midiaPorAno } from "../../../../constants/anosSubRotas/midias.data";
 import CabecalhoConteudo from "../Geral/CabecalhoConteudo";
 import GridGaleria from "../Geral/GridGaleria";
 import BtnVoltar from "../../../VoltarBtn/BtnVoltar";
-
+import { useNavigate } from "react-router-dom";
+import { EM_CONSTRUCAO } from "../../../../constants/routes";
 export default function MidiaBase({ ano }) {
   const dados = midiaPorAno[ano];
   if (!dados) return null;
-
+  const navigate = useNavigate();
+  
   return (
     <>
       <CabecalhoConteudo
@@ -26,7 +28,7 @@ export default function MidiaBase({ ano }) {
 
             <section className={styles.card}>
               <GridGaleria ano = {ano} imagens={secao.imagens} />
-              <button className={styles.btn}>
+              <button className={styles.btn} onClick={() => {navigate(EM_CONSTRUCAO)}}>
                 VER MAIS
               </button>
             </section>
