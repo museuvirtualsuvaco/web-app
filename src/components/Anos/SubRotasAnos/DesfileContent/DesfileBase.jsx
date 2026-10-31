@@ -11,7 +11,7 @@ export default function DesfileBase({ ano }) {
     if (!dados) return null;
 
     return (
-        <>
+        <div style={{flex:1}}>
             <CabecalhoConteudo
                 titulo={dados.titulo}
                 texto={dados.texto}
@@ -19,11 +19,12 @@ export default function DesfileBase({ ano }) {
 
             <div className={styles.container}>
                 {dados.secoes.map((secao, index) => (
-                    <React.Fragment key={index}>
+                    <React.Fragment  key={index}>
+                        <div className={styles.cardsection}>
                         <h2 className={styles.sectionTitle}>
                             {secao.titulo}
                         </h2>
-
+                        
                         <section className={styles.card}>
                             {secao.texto && (
                                 <p className={styles.texto}>
@@ -39,11 +40,12 @@ export default function DesfileBase({ ano }) {
                                 </button>
                             )}
                         </section>
+                        </div>
                     </React.Fragment>
                 ))}
 
-                <BtnVoltar />
+            <BtnVoltar />
             </div>
-        </>
+        </div>
     );
 }

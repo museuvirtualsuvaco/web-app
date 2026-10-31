@@ -1,7 +1,29 @@
 .btn{
-    margin-left: 7vw;
+    
+    /* margin-left: 7vw; */
     color: white;
     font-size: 3rem;
-    margin-top: 50px;
-    font-weight: 500;
+    margin: 30px;
+    /* font-weight: 500; */
+    border-color: white;
+    border-radius: 20px;
+    padding: 10px 20px;   
+    margin: 10;
+    border-width: 1px;
+    align-self: flex-start;  
+    margin-top: auto;
+}
+
+.btn:hover{
+
+    color: white;
+    transform: scale(1.02);
+    font-size: 3rem;
+    margin: 30px;
+    border-color: white;
+    border-radius: 20px;
+    padding: 10px 20px;   
+    border-width: 1px;
+    align-self: flex-start;  
+    margin-top: auto;
 }
