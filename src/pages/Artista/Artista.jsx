@@ -8,6 +8,7 @@ import AnosCarrossel from '../../components/AnosCarrossel/AnosCarrossel';
 import BtnVoltar from '../../components/VoltarBtn/BtnVoltar';
 import pessoasArtistas from '../../constants/pessoasArtistas.json'
 import participacoesData from '../../constants/participacoes.json'
+import anos from "../../constants/anos";
 
 
 
@@ -60,10 +61,21 @@ export default function Artista() {
     return <p>Artista não encontrado.</p>
   }
 
-  const participacoes = getParticipacoesDoArtista(personId).map(p => ({
-    ano: p.ano,
-    fotoURL: importImagem(artista.imgFile)
-  }))
+const participacoes = getParticipacoesDoArtista(personId)
+    .map(p => {
+      const anoInfo = anos.find(a => a.nome === p.ano);
+      return {
+        ano: p.ano,
+        fotoURL: importImagem(artista.imgFile),
+        disabled: anoInfo ? anoInfo.disabled : true 
+      };
+    })
+    .sort((a, b) => {
+      if (a.disabled !== b.disabled) {
+        return a.disabled ? 1 : -1;
+      }
+      return Number(a.ano) - Number(b.ano);
+    });
 
   return (
     <>

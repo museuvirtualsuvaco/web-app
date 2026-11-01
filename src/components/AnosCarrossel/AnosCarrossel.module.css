@@ -104,6 +104,11 @@
   right: 5px; 
 }
 
+.itemDisabled {
+  opacity: 0.5;         /* feedback visual */
+  cursor: not-allowed;
+}
+
 
 @media (max-width: 768px) {
   .item {
