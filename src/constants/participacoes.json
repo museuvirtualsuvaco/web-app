@@ -18,16 +18,53 @@
       "autores": ["arnaldo-chaim"],
       "interpretes": ["maninho"]
     },
-    "camiseta": ["claudio-lobato"]
+    "camiseta": ["claudio-lobato"], 
+    "porta-bandeira":["sonia-matos"]
   },
 
    "1988": {
     "samba": {
       "autores": ["braulio-tavares",
-                  "lenine"],
+                  "lenine", 
+                  "mu-chebabi" 
+       ],
       "interpretes": ["william-vorhees"]
     },
-    "camiseta": ["pojucan"]
+    "camiseta": ["pojucan"],
+    "porta-bandeira":["sonia-matos"]
+  },
+
+   
+"1989": {
+    "samba": {
+      "autores": [
+        "braulio-tavares",
+        "lenine"
+      ]
+    },
+    "camiseta": ["Pojucan"], 
+    "mestre-sala": ["claudio-lobato"],
+    "porta-bandeira": []
+  },
+
+  "1990": {
+      "samba": {
+      "autores": [], 
+      "interpretes": []
+    }, 
+      "camiseta": [], 
+      "mestre-sala": [], 
+      "porta-bandeira": []
+  }, 
+
+  "1991": {
+      "samba": {
+      "autores": [], 
+      "interpretes": []
+    }, 
+      "camiseta": [], 
+      "mestre-sala": [], 
+      "porta-bandeira": []
   },
 
   "1992": {
@@ -41,32 +78,9 @@
       "interpretes": ["beto-brown"]
     },
     "camiseta": ["xico-chaves"]
-  },
+  }, 
 
-  "2012": {
-    "samba": {
-      "autores": [
-        "dom-oliveira",
-        "jovi-joviniano",
-        "jeronimo-machado",
-        "mu-chebabi"
-      ],
-      "interpretes": ["mu-chebabi"]
-    },
-    "camiseta": ["edgar-fonseca"]
-  },
-
-  "1989": {
-    "samba": {
-      "autores": [
-        "braulio-tavares",
-        "lenine"
-      ]
-    },
-    "camiseta": ["Pojucan"]
-  },
-
-  "1993": {
+    "1993": {
     "samba": {
       "autores": [
         "alexandre-magrelo", 
@@ -77,6 +91,26 @@
     }
   },
 
+  "1994": {
+      "samba": {
+      "autores": [], 
+      "interpretes": []
+    }, 
+      "camiseta": [], 
+      "mestre-sala": [], 
+      "porta-bandeira": []
+  },
+
+  "1995": {
+      "samba": {
+      "autores": [], 
+      "interpretes": []
+    }, 
+      "camiseta": [], 
+      "mestre-sala": [], 
+      "porta-bandeira": []
+  },
+
   "1996": {
     "samba": {
       "autores": [
@@ -84,7 +118,10 @@
       ], 
       "interpretes": ["beto-brown"]
     }, 
-    "camiseta": ["marcos-wagner"]
+    "camiseta": [
+      "marcos-wagner", 
+      "claudio-lobato"
+      ]
   },
 
   "1997": {
@@ -99,6 +136,96 @@
     "camiseta": ["marcos-wagner"]
   },
 
+  "1998": {
+      "samba": {
+      "autores": [], 
+      "interpretes": []
+    }, 
+      "camiseta": [], 
+      "mestre-sala": [], 
+      "porta-bandeira": []
+  }, 
+
+  "1999": {
+      "samba": {
+      "autores": [], 
+      "interpretes": []
+    }, 
+      "camiseta": [], 
+      "mestre-sala": [], 
+      "porta-bandeira": []
+  }, 
+
+  "2000": {
+      "samba": {
+      "autores": [], 
+      "interpretes": []
+    }, 
+      "camiseta": [], 
+      "mestre-sala": [], 
+      "porta-bandeira": []
+  },
+
+  "2001": {
+      "samba": {
+      "autores": [], 
+      "interpretes": []
+    }, 
+      "camiseta": [], 
+      "mestre-sala": [], 
+      "porta-bandeira": []
+  },  
+
+  "2002": {
+      "samba": {
+      "autores": [], 
+      "interpretes": []
+    }, 
+      "camiseta": [], 
+      "mestre-sala": [], 
+      "porta-bandeira": []
+  },
+
+  "2003": {
+      "samba": {
+      "autores": [], 
+      "interpretes": []
+    }, 
+      "camiseta": [], 
+      "mestre-sala": [], 
+      "porta-bandeira": []
+  },
+
+  "2004": {
+      "samba": {
+      "autores": [], 
+      "interpretes": []
+    }, 
+      "camiseta": [], 
+      "mestre-sala": [], 
+      "porta-bandeira": []
+  },
+
+  "2005": {
+      "samba": {
+      "autores": [], 
+      "interpretes": []
+    }, 
+      "camiseta": [], 
+      "mestre-sala": [], 
+      "porta-bandeira": []
+  },
+
+  "2006": {
+      "samba": {
+      "autores": [], 
+      "interpretes": []
+    }, 
+      "camiseta": [], 
+      "mestre-sala": [], 
+      "porta-bandeira": []
+  },
+
   "2007":{
     "samba": {
       "autores": [
@@ -108,6 +235,59 @@
       ],
       "interpretes": ["beto-brown"]
     }
+  },
+
+  "2008": {
+      "samba": {
+      "autores": [], 
+      "interpretes": []
+    }, 
+      "camiseta": [], 
+      "mestre-sala": [], 
+      "porta-bandeira": []
+  },
+
+  "2009": {
+      "samba": {
+      "autores": [], 
+      "interpretes": []
+    }, 
+      "camiseta": [], 
+      "mestre-sala": [], 
+      "porta-bandeira": []
+  },
+
+  "2010": {
+      "samba": {
+      "autores": [], 
+      "interpretes": []
+    }, 
+      "camiseta": [], 
+      "mestre-sala": [], 
+      "porta-bandeira": []
+  },
+
+  "2011": {
+      "samba": {
+      "autores": [], 
+      "interpretes": []
+    }, 
+      "camiseta": [], 
+      "mestre-sala": [], 
+      "porta-bandeira": []
+  },
+
+  "2012": {
+    "samba": {
+      "autores": [
+        "dom-oliveira",
+        "jovi-joviniano",
+        "jeronimo-machado",
+        "mu-chebabi"
+      ],
+      "interpretes": ["mu-chebabi"]
+    },
+    "camiseta": ["edgar-fonseca"]
   },
 
   "2013": {
@@ -151,6 +331,37 @@
     "camiseta": ["marcos-wagner"]
   },
 
+  "2016": {
+      "samba": {
+      "autores": [], 
+      "interpretes": []
+    }, 
+      "camiseta": [], 
+      "mestre-sala": ["william-vorhees"], 
+      "porta-bandeira": []  
+  },
+
+  "2017": {
+      "samba": {
+      "autores": [], 
+      "interpretes": []
+    }, 
+      "camiseta": [], 
+      "mestre-sala": [], 
+      "porta-bandeira": []
+  },
+
+  "2018": {
+      "samba": {
+      "autores": [], 
+      "interpretes": []
+    }, 
+      "camiseta": [], 
+      "mestre-sala": [], 
+      "porta-bandeira": []
+  },
+
+
   "2019": {
     "samba": {
       "autores": [
@@ -162,6 +373,54 @@
       "interpretes": ["beto-brown"]
     }, 
     "camiseta": ["marcos-wagner"]
+  },
+
+  "2020": {
+    "samba": {
+      "autores": [
+        "mu-chebabi"
+      ]
+      }
+  },
+
+  "2023": {
+      "samba": {
+      "autores": [], 
+      "interpretes": []
+    }, 
+      "camiseta": [], 
+      "mestre-sala": [], 
+      "porta-bandeira": []
+  },
+
+  "2024": {
+      "samba": {
+      "autores": [], 
+      "interpretes": []
+    }, 
+      "camiseta": [], 
+      "mestre-sala": [], 
+      "porta-bandeira": []
+  },
+
+  "2025": {
+      "samba": {
+      "autores": [], 
+      "interpretes": []
+    }, 
+      "camiseta": [], 
+      "mestre-sala": [], 
+      "porta-bandeira": []
+  },
+
+  "2026": {
+      "samba": {
+      "autores": [], 
+      "interpretes": []
+    }, 
+      "camiseta": [], 
+      "mestre-sala": [], 
+      "porta-bandeira": []
   }
 
 }
