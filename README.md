@@ -167,7 +167,7 @@ heroku pipelines:add meu-pipeline -a meu-app-staging --stage staging
 ## 7. Deploy para Staging
 
 ```
-heroku git:remote -a meu-app-staging --remote staging
+heroku git:remote -a museu-virtual-suvaco-staging -r staging
 ```
 ```
 git add .
