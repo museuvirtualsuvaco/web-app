@@ -9,6 +9,10 @@
     padding: 0 7vw;
     position: relative;
     z-index: 1000;
+    max-width: 100%;
+    overflow-x: hidden;
+    justify-content: center;
+    
 }
 
 .navIcon {
@@ -17,16 +21,25 @@
 
 
 .liItens {
+    align-items: center; 
     display: none; /* Por padrão, oculto em telas pequenas */
+    height: 100%;
+    align-content: center;
+    text-align: center;
     list-style: none; /* Remove bullet points */
     padding: 0;
     margin: 0;
     position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    /* left: 50%;
+    transform: translateX(-50%); */
+    /* justify-content: right; */
+    /* justify-self: center; */
 }
 
 .liItens li {
+    /* min-width: none; */
+    
+    display: flex;
     cursor: pointer;
     margin: 0 30px;
     padding: 0;
