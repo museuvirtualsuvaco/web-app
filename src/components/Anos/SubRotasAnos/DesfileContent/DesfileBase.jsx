@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "./Desfile.module.css";
 
+import { Navigate, useNavigate } from "react-router-dom";
+import { EM_CONSTRUCAO } from "../../../../constants/routes";
 import { desfilePorAno } from "../../../../constants/anosSubRotas/desfiles.data";
 import CabecalhoConteudo from "../Geral/CabecalhoConteudo";
 import GridGaleria from "../Geral/GridGaleria";
@@ -9,9 +11,9 @@ import BtnVoltar from "../../../VoltarBtn/BtnVoltar";
 export default function DesfileBase({ ano }) {
     const dados = desfilePorAno[ano];
     if (!dados) return null;
-
+    const navigate = useNavigate();
     return (
-        <>
+        <div style={{flex:1}}>
             <CabecalhoConteudo
                 titulo={dados.titulo}
                 texto={dados.texto}
@@ -19,11 +21,12 @@ export default function DesfileBase({ ano }) {
 
             <div className={styles.container}>
                 {dados.secoes.map((secao, index) => (
-                    <React.Fragment key={index}>
+                    <React.Fragment  key={index}>
+                        <div className={styles.cardsection}>
                         <h2 className={styles.sectionTitle}>
                             {secao.titulo}
                         </h2>
-
+                        
                         <section className={styles.card}>
                             {secao.texto && (
                                 <p className={styles.texto}>
@@ -34,16 +37,17 @@ export default function DesfileBase({ ano }) {
                             <GridGaleria ano = {ano} imagens={secao.imagens} />
 
                             {secao.imagens && (
-                                <button className={styles.btn}>
+                                <button className={styles.btn} onClick={() => {navigate(EM_CONSTRUCAO)}}>
                                     VER MAIS
                                 </button>
                             )}
                         </section>
+                        </div>
                     </React.Fragment>
                 ))}
 
-                <BtnVoltar />
+            <BtnVoltar />
             </div>
-        </>
+        </div>
     );
 }
