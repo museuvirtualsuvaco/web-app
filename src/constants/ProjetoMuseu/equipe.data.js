@@ -27,9 +27,7 @@ export const equipeData = {
         membros: [
             "guilhermeCappeli",
             "juliaVilela",
-            "lucasTanaka",
             "maluOmena",
-            "mariaLuisaCostaMata",
             "rafaelOrioli",
             "yuriAltomare",
             "igorQueiroz",
@@ -77,7 +75,8 @@ export const equipeData = {
             "brunoCarvalho",
             "fernandoJose",
             "mauricioDelvizio",
-
+            "lucasTanaka",
+            "mariaLuisaCostaMata",
         ]
     },
     agradecimentos: {
