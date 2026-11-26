@@ -24,7 +24,7 @@
 .imgDivinas{
     position: relative;
     float: right;
-    z-index: 10010;
+    z-index: 4;
     margin-right: 7vw;
     bottom: 3.5rem;
 }
@@ -37,7 +37,7 @@
     font-size: 20.16px;
     line-height: 28px;
     position: relative;
-    z-index: 10002;
+    z-index: 3;
     background-color: white;
 
 
@@ -49,10 +49,9 @@
 
 .group28Gradiente{
     position: absolute;
-    z-index: 100;
     width: 100%;
     top: 20.5rem;
-    z-index: 10001;
+    z-index: 2;
 }
 
 @media (max-width:1161px) {
