@@ -32,7 +32,7 @@ export const midiaPorAno = {
 
     "1988": {
         titulo: "Desfile 1988, Ano 03 - Mídia",
-        texto: "Em construção!",
+        texto: "O desfile do ano de 1988 foi bastante anunciado na mídia, sempre mostrando o aspecto alternativo e anárquico do bloco. Reportagens anunciavam os eventos do Suvaco semanas antes do desfile do bloco para estimular a participação popular da comunidade tanto na escolha do samba quanto na exaltação do festejo. A tensão entre o grupo e a Igreja continuava, e nesse ano também ocorreu a polêmica mudança temporária do nome do bloco de Suvaco do Cristo para Bloco do Suvaco. Esse evento foi bastante peculiar, pois os organizadores do cortejo tiveram que ir à delegacia para responder à solicitação de troca de nome, além do que essa ocorrência foi uma verdadeira algazarra marcada pela presença de foliões, organizadores e padres.As notícias também citam a grande esperança trazida pelo Suvaco do Cristo em seus sambas, tendo em vista que era um ano de bastante expectativa já que estava em elaboração uma nova constituição e os ares eram mais estimulantes, como é possível ver na letra do samba vencedor para o desfile de 88, que fala que  88 vai decolar.",
         secoes: [
             {
                 titulo: "NA MÍDIA",
