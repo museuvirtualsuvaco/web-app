@@ -130,7 +130,7 @@ span{
     font-size: 1.7rem;
     line-height: 28px;
     position: relative;
-    z-index: 10002;
+    z-index: 2;
     background-color: white;
 
 }
@@ -152,7 +152,7 @@ span{
 
 .foto {
   position: relative;
-  z-index: 10003;
+  z-index: 3;
   flex: 1;
   max-width: 300px;
   border-radius: 50%;
