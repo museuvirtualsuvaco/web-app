@@ -28,8 +28,9 @@ export const desfilePorAno = {
                 titulo: "O DESFILE",
                 imagens: [
                     "1987 desfile estandarte(1).JPG",
-                    "1987 joao sonia.jpeg",
+                    "1987 Suvaco Sonia e Robertinho.jpg",
                     "1987 SyAnCris.jpg",
+                    /*"1987 joao sonia.jpeg",*/
                 ],
             }
         ],

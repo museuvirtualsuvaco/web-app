@@ -17,14 +17,14 @@ export const midiaPorAno = {
     },
     "1987": {
         titulo: "Desfile 1987, Ano 02 - Mídia",
-        texto: "Em construção!",
+        texto: "O Bloco Suvaco do Cristo é assunto nos jornais em 1987, como na reportagem que mostra o lado família do bloco, com a jogadora de volei Isabel empurrando um carrinho de bebê e em reportagem de Claudio Figueiredo, onde o autor retrata muito bem como eram os anos iniciais do bloco, as represálias que muitas pessoas tinham com relação a eles, que inclusive eram chamados de \¨hereges\¨ devido às brincadeiras com o Cristo Redentor. Porém, Claudio também destaca a importância do bloco para a comunidade do Jardim Botânico, que estava começando a fortalecer sua gama de blocos e o abraço das pessoas locais ao \"Sovaco\" foi percebido de maneira bastante estrondosa, apesar das fontes não serem precisas com relação ao número de pessoas presentes no bloco. Além disso, vale destacar que os problemas de organização do bloco eram frequentes desde aquela época, fato esse que é ressaltado pelo próprio fundador do bloco, João Avelleira, que cita que o bloco poderia ser chamado de ¨Os Discípulos de Bakunin¨, o que Claudio Figueiredo resgatou em sua reportagem. Essa chamada a Bakunin se refere justamente ao filósofo russo anarquista.",
         secoes: [
             {
                 titulo: "NA MÍDIA",
                 imagens: [
+                    "1987 Reportagem1987.jpeg",
                     "1987 Soninha e Robertinho.jpg",
                     "1987 Suvaco Isabel.jpg",
-                    "1987 Suvaco Sonia e Robertinho.jpg",
                 ],
             },
         ],

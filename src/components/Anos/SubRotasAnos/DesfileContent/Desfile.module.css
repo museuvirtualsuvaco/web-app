@@ -208,6 +208,7 @@
   height: 100%;
   background-color: #d9d9d9;
   grid-row: span 2;
+  object-fit: cover;
 }
 
 .imgBox {
@@ -215,7 +216,7 @@
  width: 100%;
   background-color: #d9d9d9;
   position: relative;
-
+  object-fit: cover;
 }
 
 .btn {
@@ -291,9 +292,6 @@
 
 
 @media(max-width:1230px){
-  .imgBoxGrande{
-    height: auto;
-  }
 
   .btn{position: relative;
     bottom: auto;

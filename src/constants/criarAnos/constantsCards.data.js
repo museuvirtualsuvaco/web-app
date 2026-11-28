@@ -104,7 +104,7 @@ export const constantsCardsData = [
             },
             {
                 title: 'Suvaco na mídia',
-                description: "Em construção!",
+                description: "O Bloco Suvaco do Cristo é assunto nos jornais em 1987, como na reportagem que mostra o lado família do bloco, com a jogadora de volei Isabel empurrando um carrinho de bebê e em reportagem de Claudio Figueiredo, onde o autor retrata muito bem como eram os anos iniciais do bloco, as represálias que muitas pessoas tinham com relação a eles, que inclusive eram chamados de \¨hereges\¨ devido às brincadeiras com o Cristo Redentor.",
                 src: "1987 Soninha e Robertinho.jpg",
                 firstColor: "#DBBB00",
                 secondColor: "#FF9A27",
